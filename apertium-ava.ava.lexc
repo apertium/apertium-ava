@@ -92,28 +92,28 @@ LEXICON CLIT
 LEXICON LOC-CASES 
 
 ! 1 серия
-%+д%<post%>%<loc%>:%>да # ;
-%+д%<post%>%<all%>:%>де # ;
-%+д%<post%>%<abl%>:%>даса # ;
-%+д%<post%>%<tra%>:%>дасан # ; 
+%+д%<post%>%<loc%>:%>да  #  ;
+%+д%<post%>%<all%>:%>де  #  ;
+%+д%<post%>%<abl%>:%>даса  #  ;
+%+д%<post%>%<tra%>:%>дасан  #  ; 
 
 ! 2 серия
-%+хъ%<post%>%<loc%>:%>%{u%}хъ # ;
-%+хъ%<post%>%<all%>:%>%{u%}хъе # ;
-%+хъ%<post%>%<abl%>:%>%{u%}хъан # ;
-%+хъ%<post%>%<tra%>:%>%{u%}хъан # ; 
+%+хъ%<post%>%<loc%>:%>%{u%}хъ  #  ;
+%+хъ%<post%>%<all%>:%>%{u%}хъе  #  ;
+%+хъ%<post%>%<abl%>:%>%{u%}хъан  #  ;
+%+хъ%<post%>%<tra%>:%>%{u%}хъан  #  ; 
 
 ! 3 серия
-%+лъ%<post%>%<loc%>:%>%{u%}лъ # ;
-%+лъ%<post%>%<all%>:%>%{u%}лъе # ;
-%+лъ%<post%>%<abl%>:%>%{u%}лъа # ;
-%+лъ%<post%>%<tra%>:%>%{u%}лъан # ; 
+%+лъ%<post%>%<loc%>:%>%{u%}лъ  #  ;
+%+лъ%<post%>%<all%>:%>%{u%}лъе  #  ;
+%+лъ%<post%>%<abl%>:%>%{u%}лъа  #  ;
+%+лъ%<post%>%<tra%>:%>%{u%}лъан  #  ; 
 
 ! 4 серия
-%+къ%<post%>%<loc%>:%>%{u%}къ # ;
-%+къ%<post%>%<all%>:%>%{u%}къе # ;
-%+къ%<post%>%<abl%>:%>%{u%}къа # ;
-%+къ%<post%>%<tra%>:%>%{u%}къан # ; 
+%+къ%<post%>%<loc%>:%>%{u%}къ  #  ;
+%+къ%<post%>%<all%>:%>%{u%}къе  #  ;
+%+къ%<post%>%<abl%>:%>%{u%}къа  #  ;
+%+къ%<post%>%<tra%>:%>%{u%}къан  #  ; 
 
 ! 5 серия
 
@@ -192,6 +192,20 @@ LEXICON N-STOL
 %<n%>%<nt%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
 %<n%>%<nt%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
 
+LEXICON N-BAQ
+
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>уца CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>ул CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>уле CLIT ; 
+%<n%>%<nt%>%<sg%>%<obl%>:%>ул LOC-CASES ; 
+!%<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT ; 
+!%<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}ца CLIT ; 
+!%<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
+!%<n%>%<nt%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
+!%<n%>%<nt%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
+
+
 LEXICON N-XIZAN
 
 %<n%>%<nt%>%<sg%>%<nom%>:н CLIT ; 
@@ -205,6 +219,28 @@ LEXICON N-XIZAN
 %<n%>%<nt%>%<pl%>%<dat%>:м%>%{a%}зе CLIT ; 
 %<n%>%<nt%>%<pl%>%<obl%>:м%>%{a%}з LOC-CASES ; 
 
+LEXICON N-RALAD
+
+%<n%>%<nt%>%<sg%>%<nom%>:ад CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:ад%>%{a%}лъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:д%>%{a%}ца CLIT ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<gen%>:ад%>%{a%}лъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:д%>%{a%}лъул CLIT ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<dat%>:ад%>%{a%}лъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:д%>%{a%}лъе CLIT ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<obl%>:ад%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:ад%>%{a%}л CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:ад%>%{a%}ца CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:ад%>%{a%}зул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:ад%>%{a%}зе CLIT ; 
+%<n%>%<nt%>%<pl%>%<obl%>:ад%>%{a%}з LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:д%>%{a%}л CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<erg%>:д%>%{a%}ца CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<gen%>:д%>%{a%}зул CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<dat%>:д%>%{a%}зе CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<obl%>:д%>%{a%}з LOC-CASES ; ! Dir/LR
+
+
 LEXICON N-ZHO
 
 %<n%>%<nt%>%<sg%>%<nom%>:о CLIT ; 
@@ -217,6 +253,20 @@ LEXICON N-ZHO
 %<n%>%<nt%>%<pl%>%<gen%>:а%>зул CLIT ; 
 %<n%>%<nt%>%<pl%>%<dat%>:а%>зе CLIT ; 
 %<n%>%<nt%>%<pl%>%<obl%>:а%>з LOC-CASES ; 
+
+LEXICON N-CHINKILLI
+
+%<n%>%<nt%>%<sg%>%<nom%>:и CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:и%>ялъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<obl%>:и%>ял LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баца CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:%>%{a²%}базул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:%>%{a²%}базе CLIT ; 
+%<n%>%<nt%>%<pl%>%<obl%>:%>%{a²%}баз LOC-CASES ; 
+
 
 LEXICON N-MARHA
 
@@ -497,9 +547,13 @@ LEXICON Nouns
 вас:вас N-VAS ; ! "мальчик"
 чи:ч N-CHI ; ! "человек"
 мацӀ:мацӀ N-STOL ; ! "язык"
+гъветӀ:гъветӀ N-STOL ; ! "дерево"
+дунял:дунял N-STOL ; ! "мир, свет"
+ракь:ракь N-STOL ; ! "земля"
 жамагӀат:жамагӀат N-STOL ; ! "общество"
 миллат:миллат N-STOL ; ! "народ"
 центр:центр N-STOL ; ! "центр"
+чӀинкӀиллъи:чӀинкӀиллъ N-CHINKILLI ; ! "остров"
 черх:черх N-STOL ; ! "тело"
 квер:квер N-STOL ; ! "рука"
 жо:ж N-ZHO ; ! "вещь, предмет"
@@ -575,7 +629,9 @@ N-CHIUZHU ; ! "жена"
 
 январь:январь N-JANVAR ; ! "январь"
 
+ралъад:ралъ N-RALAD ; ! "море"
 
+бакъ:бакъ N-BAQ ; ! "солнце"
 
 !мех:мех N-STOL ; ! "время"
 
