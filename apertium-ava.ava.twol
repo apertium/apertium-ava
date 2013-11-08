@@ -3,9 +3,13 @@ Alphabet
   а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
   А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
 
+  %{u%}:у
   %{a%}:а 
   %{a²%}:а
+  %{a³%}:а
 
+  %+
+  % 
   %>:0 ;
 
 Sets
@@ -16,9 +20,18 @@ VowRight = е ё ю я ;
 
 Rules
 
-"Delete {a} after vowel"
+"Yotise {a} after vowel"
 %{a%}:я <=> :Vow %>: _ ;
+
+"Delete {u} after stem final vowel"
+%{u%}:0 <=> :Vow %>: _ ; 
+
+
+"Delete {a³} after stem final vowel"
+%{a³%}:0 <=> :Vx %>: _ ; 
+     where Vx in ( а и у ) ;
 
 "Delete stem final vowel before {a²}"
 Vx:0 <=> _ %>: %{a²%}: ; 
      where Vx in ( а и у ) ;
+

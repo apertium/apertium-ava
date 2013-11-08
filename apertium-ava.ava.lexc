@@ -4,6 +4,7 @@ Multichar_Symbols
 
 %<n%>                   !
 %<adj%>                 ! 
+%<adv%>                 ! 
 %<prn%>                 ! 
 %<num%>                 ! 
 %<np%>                  ! 
@@ -14,12 +15,20 @@ Multichar_Symbols
 
 %<m%>                   !
 %<f%>                   !
+%<mf%>                  !
 %<nt%>                  !
 
 %<nom%>                 ! 
+%<obl%>                 ! 
+
 %<gen%>                 ! 
 %<erg%>                 ! 
 %<dat%>                 ! 
+
+%<loc%>                 !
+%<all%>                 !
+%<abl%>                 !
+%<tra%>                 !
 
 %<sg%>                  !
 %<pl%>                  !
@@ -31,7 +40,10 @@ Multichar_Symbols
 %<p3%>                  !
 
 %<pers%>                !
+%<dem%>                 !
 
+%<top%>                 ! 
+%<ant%>                 ! 
 %<al%>                  !
 
 %<tv%>                  ! 
@@ -39,9 +51,23 @@ Multichar_Symbols
 
 %<GD%>
 
+%<sent%>                !
+%<guio%>                !
+%<lpar%>                !
+%<rpar%>                !
+%<cm%>                  !
 
+%{u%}                   ! 
 %{a%}                   ! 
 %{a²%}                  ! 
+%{a³%}                  ! 
+
+%>
+%-
+%+
+% 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
 
@@ -51,153 +77,356 @@ Pronouns ;
 Numerals ; 
 Nouns ; 
 ProperNouns ; 
+Adjectives ;
+Adverbs ;
+Verbs ; 
 Punctuation ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON N-VAS
+LEXICON CLIT 
 
-%<n%>%<m%>%<sg%>%<nom%>: # ; 
-%<n%>%<m%>%<sg%>%<erg%>:%>%{a%}с # ; 
-%<n%>%<m%>%<sg%>%<gen%>:%>%{a%}сул # ; 
-%<n%>%<m%>%<sg%>%<dat%>:%>%{a%}се # ; 
-%<n%>%<m%>%<pl%>%<nom%>:%>%{a%}л # ; 
-%<n%>%<m%>%<pl%>%<erg%>:%>%{a%}з # ; 
-%<n%>%<m%>%<pl%>%<gen%>:%>%{a%}зул # ; 
-%<n%>%<m%>%<pl%>%<dat%>:%>%{a%}зе # ; 
+%+ги%<cnjcoo%>:%>ги # ; 
+# ;
 
-LEXICON N-CHI
+LEXICON LOC-CASES 
 
-%<n%>%<m%>%<sg%>%<nom%>:и # ; 
-%<n%>%<m%>%<sg%>%<erg%>:и%>%{a%}с # ; 
-%<n%>%<m%>%<sg%>%<gen%>:и%>%{a%}сул # ; 
-%<n%>%<m%>%<sg%>%<dat%>:и%>%{a%}се # ; 
-%<n%>%<m%>%<pl%>%<nom%>:%>агӀи # ; 
-!%<n%>%<m%>%<pl%>%<erg%>:%>%{a%}з # ; 
-!%<n%>%<m%>%<pl%>%<gen%>:%>%{a%}зул # ; 
-!%<n%>%<m%>%<pl%>%<dat%>:%>%{a%}зе # ; 
+! 1 серия
+%+д%<post%>%<loc%>:%>да # ;
+%+д%<post%>%<all%>:%>де # ;
+%+д%<post%>%<abl%>:%>даса # ;
+%+д%<post%>%<tra%>:%>дасан # ; 
 
-LEXICON N-JAS
+! 2 серия
+%+хъ%<post%>%<loc%>:%>%{u%}хъ # ;
+%+хъ%<post%>%<all%>:%>%{u%}хъе # ;
+%+хъ%<post%>%<abl%>:%>%{u%}хъан # ;
+%+хъ%<post%>%<tra%>:%>%{u%}хъан # ; 
 
-%<n%>%<f%>%<sg%>%<nom%>: # ; 
-%<n%>%<f%>%<sg%>%<erg%>:%>%{a%}лъ # ; 
-%<n%>%<f%>%<sg%>%<gen%>:%>%{a%}лъул # ; 
-%<n%>%<f%>%<sg%>%<dat%>:%>%{a%}лъе # ; 
-%<n%>%<f%>%<pl%>%<nom%>:%>%{a%}л # ; 
-%<n%>%<f%>%<pl%>%<erg%>:%>%{a%}з # ; 
-%<n%>%<f%>%<pl%>%<gen%>:%>%{a%}зул # ; 
-%<n%>%<f%>%<pl%>%<dat%>:%>%{a%}зе # ; 
+! 3 серия
+%+лъ%<post%>%<loc%>:%>%{u%}лъ # ;
+%+лъ%<post%>%<all%>:%>%{u%}лъе # ;
+%+лъ%<post%>%<abl%>:%>%{u%}лъа # ;
+%+лъ%<post%>%<tra%>:%>%{u%}лъан # ; 
 
-LEXICON N-EBEL
+! 4 серия
+%+къ%<post%>%<loc%>:%>%{u%}къ # ;
+%+къ%<post%>%<all%>:%>%{u%}къе # ;
+%+къ%<post%>%<abl%>:%>%{u%}къа # ;
+%+къ%<post%>%<tra%>:%>%{u%}къан # ; 
 
-эбел%<n%>%<f%>%<sg%>%<nom%>:эбел # ; 
-эбел%<n%>%<f%>%<sg%>%<erg%>:эбел%>%{a%}лъ # ; 
-эбел%<n%>%<f%>%<sg%>%<gen%>:эбел%>%{a%}лъул # ; 
-эбел%<n%>%<f%>%<sg%>%<dat%>:эбел%>%{a%}лъе # ; 
-эбел%<n%>%<f%>%<pl%>%<nom%>:улбул # ; 
-!%<n%>%<f%>%<pl%>%<erg%>:руччаби # ; 
-!%<n%>%<f%>%<pl%>%<gen%>:руччаби # ; 
-!%<n%>%<f%>%<pl%>%<dat%>:руччаби # ; 
+! 5 серия
+
+LEXICON N-VAS-SG
+
+%<n%>%<m%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<m%>%<sg%>%<erg%>:%>%{a%}с CLIT ; 
+%<n%>%<m%>%<sg%>%<gen%>:%>%{a%}сул CLIT ; 
+%<n%>%<m%>%<sg%>%<dat%>:%>%{a%}се CLIT ; 
+%<n%>%<m%>%<sg%>%<obl%>:%>%{a%}с LOC-CASES ; 
+
+LEXICON N-VAS 
+
+N-VAS-SG ; 
+
+%<n%>%<m%>%<pl%>%<nom%>:%>%{a%}л CLIT ; 
+%<n%>%<m%>%<pl%>%<erg%>:%>%{a%}з CLIT ; 
+%<n%>%<m%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
+%<n%>%<m%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
+%<n%>%<m%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
+
+LEXICON N-TIEH
+
+ехь%<n%>%<m%>%<sg%>%<nom%>:ехь CLIT ; 
+ехь%<n%>%<m%>%<sg%>%<erg%>:охь%>оца CLIT ; 
+ехь%<n%>%<m%>%<sg%>%<gen%>:охь%>ол CLIT ; 
+ехь%<n%>%<m%>%<sg%>%<dat%>:охь%>ое CLIT ; 
+ехь%<n%>%<m%>%<sg%>%<obl%>:охь%>о LOC-CASES ; 
+ехь%<n%>%<m%>%<pl%>%<nom%>:охь%>ол CLIT ; 
+ехь%<n%>%<m%>%<pl%>%<erg%>:охь%>оз CLIT ; 
+ехь%<n%>%<m%>%<pl%>%<gen%>:охь%>озул CLIT ; 
+ехь%<n%>%<m%>%<pl%>%<dat%>:охь%>озе CLIT ; 
+ехь%<n%>%<m%>%<pl%>%<obl%>:охь%>оз LOC-CASES ; 
 
 LEXICON N-CHIUZHU
 
-чӀужу%<n%>%<f%>%<sg%>%<nom%>:чӀужу # ; 
-чӀужу%<n%>%<f%>%<sg%>%<erg%>:чӀужу%>%{a%}лъ # ; 
-чӀужу%<n%>%<f%>%<sg%>%<gen%>:чӀужу%>%{a%}лъул # ; 
-чӀужу%<n%>%<f%>%<sg%>%<dat%>:чӀужу%>%{a%}лъе # ; 
-чӀужу%<n%>%<f%>%<pl%>%<nom%>:руччаби # ; 
-чӀужу%<n%>%<f%>%<pl%>%<erg%>:руччабаз # ; 
-чӀужу%<n%>%<f%>%<pl%>%<gen%>:руччабаз%>ул # ; 
-чӀужу%<n%>%<f%>%<pl%>%<dat%>:руччабаз%>е # ; 
+чӀужу%<n%>%<f%>%<sg%>%<nom%>:чӀужу CLIT ; 
+чӀужу%<n%>%<f%>%<sg%>%<erg%>:чӀужу%>%{a%}лъ CLIT ; 
+чӀужу%<n%>%<f%>%<sg%>%<gen%>:чӀужу%>%{a%}лъул CLIT ; 
+чӀужу%<n%>%<f%>%<sg%>%<dat%>:чӀужу%>%{a%}лъе CLIT ; 
+чӀужу%<n%>%<f%>%<sg%>%<obl%>:чӀужу%>%{a%}л LOC-CASES ; 
+чӀужу%<n%>%<f%>%<pl%>%<nom%>:руччаби CLIT ; 
+чӀужу%<n%>%<f%>%<pl%>%<erg%>:руччабаз CLIT ; 
+чӀужу%<n%>%<f%>%<pl%>%<gen%>:руччабаз%>ул CLIT ; 
+чӀужу%<n%>%<f%>%<pl%>%<dat%>:руччабаз%>е CLIT ; 
+чӀужу%<n%>%<f%>%<pl%>%<obl%>:руччабаз%> LOC-CASES ; 
 
-LEXICON N-AX
+LEXICON N-JAS-SG
 
-%<n%>%<nt%>%<sg%>%<nom%>: # ; 
-%<n%>%<nt%>%<sg%>%<erg%>:%>ица # ; 
-%<n%>%<nt%>%<sg%>%<gen%>:%>ил # ; 
-%<n%>%<nt%>%<sg%>%<dat%>:%>ие # ; 
-%<n%>%<nt%>%<pl%>%<nom%>:%>ил # ; 
-%<n%>%<nt%>%<pl%>%<erg%>:%>ица # ; 
+%<n%>%<f%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<f%>%<sg%>%<erg%>:%>%{a%}лъ CLIT ; 
+%<n%>%<f%>%<sg%>%<gen%>:%>%{a%}лъул CLIT ; 
+%<n%>%<f%>%<sg%>%<dat%>:%>%{a%}лъе CLIT ; 
+%<n%>%<f%>%<sg%>%<obl%>:%>%{a%}л LOC-CASES ; 
+
+LEXICON N-JAS
+
+N-JAS-SG ; 
+
+%<n%>%<f%>%<pl%>%<nom%>:%>%{a%}л CLIT ; 
+%<n%>%<f%>%<pl%>%<erg%>:%>%{a%}з CLIT ; 
+%<n%>%<f%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
+%<n%>%<f%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
+%<n%>%<f%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
 
 LEXICON N-STOL
 
-%<n%>%<nt%>%<sg%>%<nom%>: # ; 
-%<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ # ; 
-%<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л # ; 
-%<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}ца # ; 
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<obl%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}ца CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
+%<n%>%<nt%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
 
-LEXICON N-RUQ
+LEXICON N-XIZAN
 
-%<n%>%<nt%>%<sg%>%<nom%>: # ; 
-%<n%>%<nt%>%<pl%>%<nom%>:%>зал # ; 
+%<n%>%<nt%>%<sg%>%<nom%>:н CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:м%>%{a%}лъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:м%>%{a%}лъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:м%>%{a%}лъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<obl%>:м%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:м%>%{a%}л CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:м%>%{a%}ца CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:м%>%{a%}зул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:м%>%{a%}зе CLIT ; 
+%<n%>%<nt%>%<pl%>%<obl%>:м%>%{a%}з LOC-CASES ; 
+
+LEXICON N-ZHO
+
+%<n%>%<nt%>%<sg%>%<nom%>:о CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:о%>%{a%}лъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:о%>%{a%}лъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:о%>%{a%}лъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<obl%>:о%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:ал CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:а%>ца CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:а%>зул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:а%>зе CLIT ; 
+%<n%>%<nt%>%<pl%>%<obl%>:а%>з LOC-CASES ; 
 
 LEXICON N-MARHA
 
-%<n%>%<nt%>%<sg%>%<nom%>: # ; 
-%<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ # ; 
-%<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би # ; 
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>%{a³%}лъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>%{a³%}лъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>%{a³%}лъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<obl%>:%>%{a³%}л LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баца CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:%>%{a²%}базул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:%>%{a²%}базе CLIT ; 
+%<n%>%<nt%>%<pl%>%<obl%>:%>%{a²%}баз LOC-CASES ; 
+
+LEXICON N-AVTOR
+
+N-VAS-SG ; 
+N-JAS-SG ; 
+
+%<n%>%<mf%>%<pl%>%<nom%>:%>%{a%}л CLIT ; 
+%<n%>%<mf%>%<pl%>%<erg%>:%>%{a%}з CLIT ; 
+%<n%>%<mf%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
+%<n%>%<mf%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
+%<n%>%<mf%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
+
+LEXICON N-CHI
+
+%<n%>%<m%>%<sg%>%<nom%>:и CLIT ; 
+%<n%>%<m%>%<sg%>%<erg%>:и%>%{a%}с CLIT ; 
+%<n%>%<m%>%<sg%>%<gen%>:и%>%{a%}сул CLIT ; 
+%<n%>%<m%>%<sg%>%<dat%>:и%>%{a%}се CLIT ; 
+%<n%>%<m%>%<sg%>%<obl%>:и%>%{a%}с LOC-CASES ; 
+%<n%>%<m%>%<pl%>%<nom%>:%>агӀи CLIT ; 
+!%<n%>%<m%>%<pl%>%<erg%>:%>%{a%}з CLIT ; 
+!%<n%>%<m%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
+!%<n%>%<m%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
+!%<n%>%<m%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
+
+LEXICON N-EBEL
+
+эбел%<n%>%<f%>%<sg%>%<nom%>:эбел CLIT ; 
+эбел%<n%>%<f%>%<sg%>%<erg%>:эбел%>%{a%}лъ CLIT ; 
+эбел%<n%>%<f%>%<sg%>%<gen%>:эбел%>%{a%}лъул CLIT ; 
+эбел%<n%>%<f%>%<sg%>%<dat%>:эбел%>%{a%}лъе CLIT ; 
+эбел%<n%>%<f%>%<pl%>%<nom%>:улбул CLIT ; 
+!%<n%>%<f%>%<pl%>%<erg%>:руччаби CLIT ; 
+!%<n%>%<f%>%<pl%>%<gen%>:руччаби CLIT ; 
+!%<n%>%<f%>%<pl%>%<dat%>:руччаби CLIT ; 
+
+LEXICON N-AX
+
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>ица CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>ил CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>ие CLIT ; 
+%<n%>%<nt%>%<sg%>%<obl%>:%>и LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>ил CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>ица CLIT ; 
+
+LEXICON N-RUQ
+
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<obl%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>зал CLIT ; 
 
 LEXICON N-BOSEN
 
-%<n%>%<nt%>%<sg%>%<nom%>:ен # ; 
-%<n%>%<nt%>%<pl%>%<nom%>:%>аби # ; 
+%<n%>%<nt%>%<sg%>%<nom%>:ен CLIT ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>аби CLIT ; 
 
 LEXICON N-UCHITEL
 
-%<n%>%<GD%>%<sg%>%<nom%>: # ; 
-%<n%>%<GD%>%<pl%>%<nom%>:%>заби # ; 
+%<n%>%<GD%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<GD%>%<pl%>%<nom%>:%>заби CLIT ; 
 
 LEXICON N-MEGHER
 
-%<n%>%<nt%>%<sg%>%<nom%>:ер # ; 
-%<n%>%<nt%>%<pl%>%<nom%>:%>рул # ; 
+%<n%>%<nt%>%<sg%>%<nom%>:ер CLIT ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>рул CLIT ; 
 
 LEXICON N-JANVAR
 
-%<n%>%<nt%>%<sg%>%<nom%>: # ; 
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
+
+LEXICON NP-TOP-ROSSIJA
+
+%<np%>%<top%>%<sg%>%<nom%>: CLIT ; 
+!%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
+%<np%>%<top%>%<sg%>%<gen%>:%>лъул CLIT ; 
+%<np%>%<top%>%<sg%>%<dat%>:%>лъе CLIT ; 
+
+
+LEXICON NP-TOP-DAGHISTAN
+
+%<np%>%<top%>%<sg%>%<nom%>: CLIT ; 
+!%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
+%<np%>%<top%>%<sg%>%<gen%>:%>%{a%}лъул CLIT ; 
+%<np%>%<top%>%<sg%>%<dat%>:%>%{a%}лъе CLIT ; 
+%<np%>%<top%>%<sg%>%<obl%>:%>%{a%}л LOC-CASES ;
+
+LEXICON NP-TOP
+
+%<np%>%<top%>%<nom%>: CLIT ; 
 
 LEXICON NP-AL 
 
-%<np%>%<al%>%<nom%>: # ; 
+%<np%>%<al%>%<nom%>: CLIT ; 
 
-LEXICON PRON-DUN
+LEXICON NP-ANT-M
+
+%<np%>%<ant%>%<m%>%<nom%>: CLIT ; 
+%<np%>%<ant%>%<m%>%<erg%>:%>ица CLIT ; 
+%<np%>%<ant%>%<m%>%<gen%>:%>ил CLIT ; 
+%<np%>%<ant%>%<m%>%<dat%>:%>ие CLIT ; 
+
+LEXICON NP-ANT-F
+
+%<np%>%<ant%>%<f%>%<nom%>: CLIT ; 
+
+LEXICON A-GHARAB
+
+%<adj%>: # ; 
+
+
+LEXICON A-KUDIJA
+
+%<adj%>%<nt%>%<sg%>:%>б # ; 
+%<adj%>%<m%>%<sg%>:%>в # ; 
+%<adj%>%<f%>%<sg%>:%>й # ; 
+%<adj%>%<pl%>:%>л # ; 
+
+LEXICON PRON-PERS-DUN
 
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ун # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<erg%>:ица # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:ир # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ие # ;
 
-LEXICON PRON-MUN
+LEXICON PRON-PERS-MUN
 
 %<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:мун # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<erg%>:дуца # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:дур # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:дуе # ;
 
-LEXICON PRON-NIZH
+LEXICON PRON-PERS-NIZH
 
 %<prn%>%<pers%>%<p1x%>%<pl%>%<nom%>:иж # ;
 %<prn%>%<pers%>%<p1x%>%<pl%>%<erg%>:ижеца # ;
 %<prn%>%<pers%>%<p1x%>%<pl%>%<gen%>:ижер # ;
 %<prn%>%<pers%>%<p1x%>%<pl%>%<dat%>:ижее # ;
 
-LEXICON PRON-NILW
+LEXICON PRON-PERS-NILW
 
 %<prn%>%<pers%>%<p1i%>%<pl%>%<nom%>:илъ # ;
 %<prn%>%<pers%>%<p1i%>%<pl%>%<erg%>:илъеца # ;
 %<prn%>%<pers%>%<p1i%>%<pl%>%<gen%>:илъер # ;
 %<prn%>%<pers%>%<p1i%>%<pl%>%<dat%>:илъее # ;
 
-LEXICON PRON-NUZH
+LEXICON PRON-PERS-NUZH
 
 %<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:уж # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<erg%>:ужеца # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:ужер # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ужее # ;
 
+LEXICON PRON-DEM-HEB
+
+%<prn%>%<dem%>%<nt%>%<sg%>%<nom%>:%>б # ;
+%<prn%>%<dem%>%<nt%>%<sg%>%<erg%>:%>лъ # ;
+%<prn%>%<dem%>%<nt%>%<sg%>%<gen%>:%>лъул # ;
+%<prn%>%<dem%>%<nt%>%<sg%>%<dat%>:%>лъие # ;
+%<prn%>%<dem%>%<nt%>%<sg%>%<obl%>:%>л LOC-CASES ;
+
+%<prn%>%<dem%>%<m%>%<sg%>%<nom%>:%>в # ;
+%<prn%>%<dem%>%<m%>%<sg%>%<erg%>:%>с # ;
+%<prn%>%<dem%>%<m%>%<sg%>%<gen%>:%>сул # ;
+%<prn%>%<dem%>%<m%>%<sg%>%<dat%>:%>сие # ;
+%<prn%>%<dem%>%<m%>%<sg%>%<obl%>:%>с LOC-CASES ;
+
+%<prn%>%<dem%>%<f%>%<sg%>%<nom%>:%>й # ;
+%<prn%>%<dem%>%<f%>%<sg%>%<erg%>:%>лъ # ;
+%<prn%>%<dem%>%<f%>%<sg%>%<gen%>:%>лъул # ;
+%<prn%>%<dem%>%<f%>%<sg%>%<dat%>:%>лъие # ;
+%<prn%>%<dem%>%<f%>%<sg%>%<obl%>:%>л LOC-CASES ;
+
+%<prn%>%<dem%>%<pl%>%<nom%>:%>л # ;
+%<prn%>%<dem%>%<pl%>%<erg%>:%>з # ;
+%<prn%>%<dem%>%<pl%>%<gen%>:%>зул # ;
+%<prn%>%<dem%>%<pl%>%<dat%>:%>зие # ;
+%<prn%>%<dem%>%<pl%>%<obl%>:%>з LOC-CASES ;
+
+
+
+
 LEXICON NUM
 
 %<num%>: # ;
+
+LEXICON ADV1 
+
+%<adv%>: # ;
+
+LEXICON ADV2
+
+%<adv%>%<dat%>:е # ;
+
 
 LEXICON POST
 
@@ -239,11 +468,14 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
-дун:д PRON-DUN ; 
-мун:м PRON-MUN ; 
-ниж:н PRON-NIZH ; 
-нилъ:н PRON-NILW ;
-нуж:н PRON-NUZH ;
+дун:д PRON-PERS-DUN ; 
+мун:м PRON-PERS-MUN ; 
+ниж:н PRON-PERS-NIZH ; 
+нилъ:н PRON-PERS-NILW ;
+нуж:н PRON-PERS-NUZH ;
+
+гьаб:гьа PRON-DEM-HEB ; ! "это"
+гьеб:гье PRON-DEM-HEB ; ! "то"
 
 LEXICON Numerals 
 
@@ -265,7 +497,12 @@ LEXICON Nouns
 вас:вас N-VAS ; ! "мальчик"
 чи:ч N-CHI ; ! "человек"
 мацӀ:мацӀ N-STOL ; ! "язык"
+жамагӀат:жамагӀат N-STOL ; ! "общество"
+миллат:миллат N-STOL ; ! "народ"
+центр:центр N-STOL ; ! "центр"
+черх:черх N-STOL ; ! "тело"
 квер:квер N-STOL ; ! "рука"
+жо:ж N-ZHO ; ! "вещь, предмет"
 яс:яс N-JAS ; ! "девочка"
 клуб:клуб N-JAS ; ! "клуб"
 N-EBEL ; ! "мать"
@@ -284,7 +521,37 @@ N-CHIUZHU ; ! "жена"
 кьо:кьо N-STOL ; ! "мост"
 ци:ци N-STOL ; ! "медвед"
 район:район N-STOL ; ! "район"
+алфавит:алфавит N-STOL ; ! "алфавит"
 бахӀарчи:бахӀарчи N-VAS ; ! "смельчак"
+хъизан:хъиза N-XIZAN ; ! "семья"
+
+автор:автор N-AVTOR ; ! "автор"
+агент:агент N-AVTOR ; ! "агент"
+академик:академик N-AVTOR ; ! ""
+астроном:астроном N-AVTOR ; ! ""
+гьалмагъ:гьалмагъ N-AVTOR ; ! "товарищ, друг"
+депутат:депутат N-AVTOR ; ! ""
+директор:директор N-AVTOR ; ! ""
+доктор:доктор N-AVTOR ; ! ""
+кандидат:кандидат N-AVTOR ; ! ""
+классик:классик N-AVTOR ; ! ""
+комиссар:комиссар N-AVTOR ; ! ""
+конструктор:конструктор N-AVTOR ; ! ""
+начальник:начальник N-AVTOR ; ! ""
+организатор:организатор N-AVTOR ; ! ""
+полковник:полковник N-AVTOR ; ! ""
+президент:президент N-AVTOR ; ! ""
+премьер:премьер N-AVTOR ; ! ""
+профессор:профессор N-AVTOR ; ! ""
+редактор:редактор N-AVTOR ; ! ""
+технолог:технолог N-AVTOR ; ! ""
+тушман:тушман N-AVTOR ; ! ""
+устар:устар N-AVTOR ; ! ""
+философ:философ N-AVTOR ; ! ""
+фольклорист:фольклорист N-AVTOR ; ! ""
+премьер%-министр:премьер%-министр N-AVTOR ; ! ""
+
+
 
 маргьа:маргьа N-MARHA ; ! "сказка"
 школа:школа N-MARHA ; ! "сказка"
@@ -294,7 +561,8 @@ N-CHIUZHU ; ! "жена"
 итаркӀо:итаркӀо N-MARHA ; ! "сокол"
 цӀва:цӀва N-MARHA ; ! "звезда"
 машина:машина N-MARHA ; ! "машина"
-
+тӀехь:тӀ N-TIEH ; ! "книга"
+росу:росу N-MARHA ; ! "аул"
 
 босен:бос N-BOSEN ; ! "постель"
 курхьен:курх N-BOSEN ; ! "браслет"
@@ -307,11 +575,75 @@ N-CHIUZHU ; ! "жена"
 
 январь:январь N-JANVAR ; ! "январь"
 
+
+
 !мех:мех N-STOL ; ! "время"
 
 LEXICON ProperNouns 
 
+Афгъанистан:Афгъанистан NP-TOP-DAGHISTAN ; ! ""
+Дагъистан:Дагъистан NP-TOP-DAGHISTAN ; ! ""
+ГӀарабистан:ГӀарабистан NP-TOP-DAGHISTAN ; ! ""
+МахӀачхъала:МахӀачхъала NP-TOP-DAGHISTAN ; ! ""
+Тажикистан:Тажикистан  NP-TOP-DAGHISTAN ; ! ""
+Туркменистан:Туркменистан   NP-TOP-DAGHISTAN ; ! ""
+Узбекистан:Узбекистан  NP-TOP-DAGHISTAN ; ! ""
+Хиндистан:Хиндистан  NP-TOP-DAGHISTAN ; ! ""
+Хъазахъистан:Хъазахъистан  NP-TOP-DAGHISTAN ; ! ""
+Татаристан:Татаристан NP-TOP-DAGHISTAN ; ! ""
+
+Кавказ:Кавказ NP-TOP-DAGHISTAN ; ! ""
+
+
+Европа:Европа NP-TOP-DAGHISTAN ; ! ""
+Америка:Америка NP-TOP-DAGHISTAN ; ! ""
+Канада:Канада NP-TOP-DAGHISTAN ; ! ""
+
+
+Буртия:Буртия NP-TOP-ROSSIJA ; ! ""
+Бутан:Бутан NP-TOP-DAGHISTAN ; ! ""
+Гренландия:Гренландия NP-TOP-ROSSIJA ; ! ""
+Индия:Индия NP-TOP-ROSSIJA ; ! ""
+Испания:Испания NP-TOP-ROSSIJA ; ! ""
+Италия:Италия NP-TOP-ROSSIJA ; ! ""
+Киргизия:Киргизия NP-TOP-ROSSIJA ; ! ""
+Монголия:Монголия NP-TOP-ROSSIJA ; ! ""
+Россия:Россия NP-TOP-ROSSIJA ; ! ""
+Сирия:Сирия NP-TOP-ROSSIJA ; ! ""
+Туркия:Туркия NP-TOP-ROSSIJA ; ! ""
+Финляндия:Финляндия NP-TOP-ROSSIJA ; ! ""
+Черкесия:Черкесия NP-TOP-ROSSIJA ; ! ""
+
+
+
+МухӀамад:МухӀамад NP-ANT-M ; ! ""
+МухӀаммад:МухӀаммад NP-ANT-M ; ! ""
+
 Википедия:Википедия NP-AL ; ! ""
+
+LEXICON Adjectives 
+
+
+кӀудияб:кӀудия A-KUDIJA ; ! "большой, великий"
+лъикӀаб:лъикӀа A-KUDIJA ; ! "хороший"
+берцинаб:берцина A-KUDIJA ; ! "красный"
+
+гӀараб:гӀараб A-GHARAB ; ! "арабский"
+
+LEXICON Adverbs 
+
+бищун:бищун ADV1 ; ! ""
+цӀакъ:цӀакъ ADV1 ; ! ""
+гӀемер:гӀемер ADV1 ; ! ""
+гъорлъ:гъорлъ ADV2 ; ! ""
+
+LEXICON Verbs 
+
+букӀин%<vblex%>%<pres%>%<nt%>%<sg%>:буго #; 
+букӀин%<vblex%>%<pres%>%<m%>%<sg%>:вуго #; 
+букӀин%<vblex%>%<pres%>%<pl%>:руго #; 
+букӀин%<vblex%>%<pres%>%<f%>%<sg%>:йиго #; 
+букӀин%<vblex%>%<neg%>:гьечӀо # ;
 
 LEXICON Punctuation
 
@@ -339,4 +671,5 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
+
 
