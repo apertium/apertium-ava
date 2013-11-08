@@ -51,6 +51,7 @@ Multichar_Symbols
 
 %<GD%>
 
+%<percent%>             !
 %<sent%>                !
 %<guio%>                !
 %<lpar%>                !
@@ -360,7 +361,7 @@ LEXICON NP-TOP-ROSSIJA
 !%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
 %<np%>%<top%>%<sg%>%<gen%>:%>лъул CLIT ; 
 %<np%>%<top%>%<sg%>%<dat%>:%>лъе CLIT ; 
-
+%<np%>%<top%>%<sg%>%<obl%>:%>л LOC-CASES ;
 
 LEXICON NP-TOP-DAGHISTAN
 
@@ -370,9 +371,13 @@ LEXICON NP-TOP-DAGHISTAN
 %<np%>%<top%>%<sg%>%<dat%>:%>%{a%}лъе CLIT ; 
 %<np%>%<top%>%<sg%>%<obl%>:%>%{a%}л LOC-CASES ;
 
-LEXICON NP-TOP
+LEXICON NP-TOP-ACSH
 
-%<np%>%<top%>%<nom%>: CLIT ; 
+%<np%>%<top%>%<sg%>%<nom%>: CLIT ; 
+!%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
+%<np%>%<top%>%<sg%>%<gen%>:%-%>ялъул CLIT ; 
+%<np%>%<top%>%<sg%>%<dat%>:%-%>ялъе CLIT ; 
+%<np%>%<top%>%<sg%>%<obl%>:%-%>ял LOC-CASES ;
 
 LEXICON NP-AL 
 
@@ -500,6 +505,7 @@ LEXICON Conjunctions
 ва:ва CC ; ! "и"
 ялъуни:ялъуни CC ; ! "или"
 я:я CC ; ! "или"
+яги:яги CC ; ! "или"
 
 амма:амма CS ; ! "но"
 ва% амма:ва% амма CS ; ! "но"
@@ -647,6 +653,9 @@ LEXICON ProperNouns
 Хиндистан:Хиндистан  NP-TOP-DAGHISTAN ; ! ""
 Хъазахъистан:Хъазахъистан  NP-TOP-DAGHISTAN ; ! ""
 Татаристан:Татаристан NP-TOP-DAGHISTAN ; ! ""
+Хабашистан:Хабашистан NP-TOP-DAGHISTAN ; ! ""
+Чеэраб% Меэр:Чеэраб% Меэр NP-TOP-DAGHISTAN ; ! ""
+
 
 Кавказ:Кавказ NP-TOP-DAGHISTAN ; ! ""
 
@@ -654,7 +663,10 @@ LEXICON ProperNouns
 Европа:Европа NP-TOP-DAGHISTAN ; ! ""
 Америка:Америка NP-TOP-DAGHISTAN ; ! ""
 Канада:Канада NP-TOP-DAGHISTAN ; ! ""
+Шри%-Ланка:Шри%-Ланка NP-TOP-DAGHISTAN ; ! ""
+Закатала:Закатала NP-TOP-DAGHISTAN ; ! ""
 
+Азия:Азия NP-TOP-ROSSIJA ; ! ""
 
 Буртия:Буртия NP-TOP-ROSSIJA ; ! ""
 Бутан:Бутан NP-TOP-DAGHISTAN ; ! ""
@@ -669,6 +681,16 @@ LEXICON ProperNouns
 Туркия:Туркия NP-TOP-ROSSIJA ; ! ""
 Финляндия:Финляндия NP-TOP-ROSSIJA ; ! ""
 Черкесия:Черкесия NP-TOP-ROSSIJA ; ! ""
+Норвегия:Норвегия NP-TOP-ROSSIJA ; ! ""
+Эфиопия:Эфиопия  NP-TOP-ROSSIJA ; ! ""
+Турция:Турция NP-TOP-ROSSIJA ; ! ""
+Япония:Япония NP-TOP-ROSSIJA ; ! ""
+Алмания:Алмания NP-TOP-ROSSIJA ; ! ""
+
+
+
+
+АЦШ:АЦШ NP-TOP-ACSH ; ! ""
 
 
 
@@ -685,6 +707,7 @@ LEXICON Adjectives
 берцинаб:берцина A-KUDIJA ; ! "красный"
 
 гӀараб:гӀараб A-GHARAB ; ! "арабский"
+гӀурус:гӀурус  A-GHARAB ; ! "русский"
 
 LEXICON Adverbs 
 
@@ -727,5 +750,13 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
+
+! Temporary numeral lexicon
+<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+
+LEXICON DIGITLEX
+
+%<num%>: # ; 
+%<num%>%<percent%>:%% # ;  
 
 

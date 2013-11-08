@@ -9,6 +9,8 @@ all:
 	hfst-fst2txt ava.automorf.hfst -o ava.automorf.att
 	lt-comp lr ava.autogen.att ava.autogen.bin
 	lt-comp lr ava.automorf.att ava.automorf.bin
+	cg-comp apertium-ava.ava.rlx ava.rlx.bin
+	apertium-gen-modes modes.xml 
 
 clean:
 	rm *.bin *.hfst *.att
