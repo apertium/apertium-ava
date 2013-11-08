@@ -1,0 +1,7 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+
+SECTION
+
+SELECT (x);

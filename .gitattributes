@@ -1,4 +1,6 @@
 * text=auto !eol
 /Makefile -text
 /apertium-ava.ava.lexc -text
+/apertium-ava.ava.rlx -text
 /apertium-ava.ava.twol -text
+/modes.xml -text
