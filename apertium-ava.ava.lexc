@@ -11,6 +11,7 @@ Multichar_Symbols
 %<vblex%>               ! 
 %<cnjcoo%>              ! 
 %<cnjsub%>              ! 
+%<cnjadv%>              ! 
 %<post%>                ! 
 %<abbr%>                ! 
 
@@ -254,6 +255,15 @@ LEXICON N-GIUMRU
 N-STOL ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>дул CLIT ;  ! Dir/LR
 
+LEXICON N-RAKI
+
+:акӀ N-STOL ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>екӀеца CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>%<gen%>:%>екӀел CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>%<dat%>:%>екӀеле CLIT ;  ! Dir/LR
+
+
+
 LEXICON N-SHAHAR
 
 N-STOL ; 
@@ -278,6 +288,16 @@ LEXICON N-MESED
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
 %<n%>%<nt%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
 %<n%>%<nt%>%<pl%>:%>%{a%}з LOC-CASES ; 
+
+LEXICON N-SON
+
+:он N-MESED ;
+
+%<n%>%<nt%>%<pl%>%<nom%>:ан%>%{a%}л CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<pl%>%<erg%>:ан%>%{a%}ца CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<gen%>:ан%>%{a%}зул CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<dat%>:ан%>%{a%}зе CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>:ан%>%{a%}з LOC-CASES ; ! Dir/LR
 
 
 LEXICON N-BAQ
@@ -392,6 +412,19 @@ N-JAS-SG ;
 %<n%>%<mf%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
 %<n%>%<mf%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
 %<n%>%<mf%>%<pl%>:%>%{a%}з LOC-CASES ; 
+
+LEXICON N-SHAGIIR
+
+N-VAS-SG ; 
+N-JAS-SG ; 
+
+%<n%>%<mf%>%<pl%>%<nom%>:%>заби CLIT ; 
+%<n%>%<mf%>%<pl%>%<erg%>:%>з CLIT ; 
+%<n%>%<mf%>%<pl%>%<gen%>:%>зул CLIT ; 
+%<n%>%<mf%>%<pl%>%<dat%>:%>зе CLIT ; 
+%<n%>%<mf%>%<pl%>:%>з LOC-CASES ; 
+
+
 
 LEXICON N-CHI
 
@@ -516,18 +549,20 @@ LEXICON NP-COG-OV
 %<np%>%<cog%>%<f%>%<sg%>%<dat%>:а%>лъе CLIT ; 
 %<np%>%<cog%>%<f%>%<sg%>:а%>л LOC-CASES ; 
 
+LEXICON A-DECL 
+
+%<nt%>%<sg%>:%>б # ; 
+%<m%>%<sg%>:%>в # ; 
+%<f%>%<sg%>:%>й # ; 
+%<pl%>:%>л # ; 
 
 LEXICON A-GHARAB
 
 %<adj%>: # ; 
 
-
 LEXICON A-KUDIJA
 
-%<adj%>%<nt%>%<sg%>:%>б # ; 
-%<adj%>%<m%>%<sg%>:%>в # ; 
-%<adj%>%<f%>%<sg%>:%>й # ; 
-%<adj%>%<pl%>:%>л # ; 
+%<adj%>: A-DECL ; 
 
 LEXICON PRON-PERS-DUN
 
@@ -590,12 +625,51 @@ LEXICON PRON-DEM-HEB
 %<prn%>%<dem%>%<pl%>%<dat%>:%>зие # ;
 %<prn%>%<dem%>%<pl%>:%>з LOC-CASES ;
 
+LEXICON PRON-REL-BUGEB-NT
+
+%<prn%>%<nt%>%<rel%>:уге A-DECL ; 
+
+LEXICON PRON-REL-BUGEB-M
+
+%<prn%>%<m%>%<rel%>:уге A-DECL ; 
+
+LEXICON PRON-REL-BUGEB-F
+
+%<prn%>%<f%>%<rel%>:иге A-DECL ; 
+
+LEXICON PRON-REL-BUGEB-PL
+
+%<prn%>%<pl%>%<rel%>:уге A-DECL ; 
+
 LEXICON V-GPR-DECL
 
 %<nt%>%<sg%>:%>б # ; 
 %<m%>%<sg%>:%>в # ; 
 %<f%>%<sg%>:%>й # ; 
 %<pl%>:%>л # ; 
+
+LEXICON V-TIUBA-COMMON
+
+%<inf%>:%>а # ;
+%<ger%>:а%>зе # ;
+
+%<aor%>:а%>ла # ;
+%<neg%>%<aor%>:и%>ларо # ;
+%<fut%>:а%>ла # ;
+%<neg%>%<fut%>:у%>ларо # ;
+%<past%>:а%>на # ;
+%<neg%>%<past%>:и%>чӀо # ;
+
+%<gpr1%>:а%>ле V-GPR-DECL ;
+%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
+%<gpr2%>:а%>ра V-GPR-DECL ;
+%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
+
+%<gna1%>:а%>зелъун #  ;
+%<neg%>%<gna1%>:а%>лареблъун # ;
+%<gna2%>:а%>н  #  ;
+%<neg%>%<gna2%>:а%>чӀого  #  ;
+
 
 LEXICON V-CAL-COMMON
 
@@ -619,6 +693,45 @@ LEXICON V-CAL-COMMON
 %<gna2%>:у%>н  #  ;
 %<neg%>%<gna2%>:и%>чӀого  #  ;
 
+LEXICON V-BUKIIN-COMMON
+
+%<inf%>:кӀине # ;
+%<ger%>:кӀин N-STOL-DECL ;
+
+%<pres%>:го # ;
+%<fut%>:кӀина # ;
+%<neg%>%<fut%>:кӀинаро # ;
+%<aor%>:кӀуна # ;
+%<neg%>%<aor%>:кӀунаро # ;
+%<past%>:кӀана # ;
+%<neg%>%<past%>:кӀинчӀо # ;
+
+%<gpr1%>:кӀи%>не V-GPR-DECL ;
+%<neg%>%<gpr1%>:и%>наре V-GPR-DECL ;
+%<gpr2%>:кӀа%>ра V-GPR-DECL ;
+%<neg%>%<gpr2%>:кӀин%>чӀе V-GPR-DECL ;
+%<gpr3%>:кӀу%>не V-GPR-DECL ;
+%<neg%>%<gpr3%>:кӀу%>наре V-GPR-DECL ;
+
+%<gna2%>:кӀу%>н  #  ;
+%<neg%>%<gna2%>:кӀин%>чӀого  #  ;
+
+LEXICON V-BUKIIN-M
+
+%<vblex%>%<m%>:у V-BUKIIN-COMMON ;
+
+LEXICON V-BUKIIN-NT
+
+%<vblex%>%<nt%>:у V-BUKIIN-COMMON ;
+
+LEXICON V-BUKIIN-F
+
+%<vblex%>%<f%>:и V-BUKIIN-COMMON ;
+
+LEXICON V-BUKIIN-PL
+
+%<vblex%>%<pl%>:у V-BUKIIN-COMMON ;
+
 LEXICON V-CAL
 
 %<vblex%>%<tv%>%<mfn%>:  V-CAL-COMMON  ;
@@ -629,6 +742,14 @@ LEXICON V-HABI
 %<vblex%>%<tv%>%<m%>:в  V-CAL-COMMON  ;
 %<vblex%>%<tv%>%<f%>:й  V-CAL-COMMON  ;
 %<vblex%>%<tv%>%<pl%>:р  V-CAL-COMMON  ;
+
+LEXICON V-TIUBA
+
+%<vblex%>%<iv%>%<nt%>:б  V-TIUBA-COMMON  ;
+%<vblex%>%<iv%>%<m%>:в  V-CAL-COMMON  ;
+%<vblex%>%<iv%>%<f%>:й  V-CAL-COMMON  ;
+%<vblex%>%<iv%>%<pl%>:р  V-CAL-COMMON  ;
+
 
 LEXICON V-LUH
 
@@ -730,13 +851,22 @@ LEXICON ADV1
 
 LEXICON ADV2
 
+%<adv%>: # ; 
 %<adv%>%<dat%>:е # ;
+
+LEXICON ADV3
+
+%<adv%>: # ;
+го%<adv%>:го # ;
 
 
 LEXICON POST
 
 %<post%>: # ;
 
+LEXICON CA
+
+%<cnjadv%>: # ;
 
 LEXICON CC
 
@@ -762,6 +892,8 @@ LEXICON Conjunctions
 амма:амма CS ; ! "но"
 ва% амма:ва% амма CS ; ! "но"
 
+ай:ай CA ; ! "то есть"
+
 LEXICON Postpositions
 
 гӀоло:гӀоло POST ; ! "ради, за"
@@ -772,6 +904,8 @@ LEXICON Postpositions
 аскӀоб:аскӀоб POST ; ! ""
 нахъа:нахъа POST ; ! ""
 хадуб:хадуб  POST ; ! ""
+
+рекъон:рекъон POST ; ! "согласно"
 
 
 LEXICON Pronouns
@@ -784,6 +918,12 @@ PRON-PERS-MUN ;
 
 гьаб:гьа PRON-DEM-HEB ; ! "это"
 гьеб:гье PRON-DEM-HEB ; ! "то"
+доб:до PRON-DEM-HEB ; ! "то"
+
+бугеб:б PRON-REL-BUGEB-NT ; ! "то, что есть"
+бугеб:в PRON-REL-BUGEB-M ; 
+бугеб:й PRON-REL-BUGEB-F ; 
+бугеб:р PRON-REL-BUGEB-PL ; 
 
 LEXICON Numerals 
 
@@ -871,6 +1011,7 @@ N-CHIUZHU ; ! "жена"
 премьер%-министр:премьер%-министр N-AVTOR ; ! ""
 
 маргьа:маргьа N-MARHA ; ! "сказка"
+шигӀру:шигӀру N-MARHA ; ! "стихотворение"
 ца:ца N-MARHA ; ! "зуб"
 бару:бару N-MARHA ; ! "лекарство"
 рагӀи:рагӀи N-MARHA ; ! "слово"
@@ -881,6 +1022,8 @@ N-CHIUZHU ; ! "жена"
 росу:росу N-SHKOLA ; ! "аул"
 макъала:макъала N-MARHA ; ! "макъала"
 поэма:поэма N-MARHA ; ! "поэма"
+заман:заман N-MARHA ; ! "время"
+замана:замана N-MARHA ; ! "время"
 
 школа:школа N-SHKOLA ; ! "школа"
 
@@ -889,6 +1032,7 @@ N-CHIUZHU ; ! "жена"
 рехъен:рехъ N-BOSEN ; ! "стадо"
 
 учитель:учитель N-UCHITEL ; ! "учитель"
+шагӀир:шагӀир N-SHAGIIR ; ! "поэт"
 
 мегӀер:мегӀ N-MEGHER ; ! "гора"
 бетӀер:бетӀ N-MEGHER ; ! "голова"
@@ -901,7 +1045,9 @@ N-CHIUZHU ; ! "жена"
 
 бакъ:бакъ N-BAQ ; ! "солнце"
 
-!мех:мех N-STOL ; ! "время"
+ракӀ:р N-RAKI ; ! "сердце"
+
+мех:мех N-STOL ; ! "время"
 
 кӀал:кӀал N-STOL ; ! "рот"
 
@@ -911,12 +1057,24 @@ N-CHIUZHU ; ! "жена"
 
 география:география N-GEOGRAFIJA ; ! "география"
 археография:археография N-GEOGRAFIJA ; ! "археография"
+операция:операция N-GEOGRAFIJA ; ! ""
+копия:копия N-GEOGRAFIJA ; ! ""
+история:история N-GEOGRAFIJA ; ! ""
+поэзия:поэзия N-GEOGRAFIJA ; ! ""
+партия:партия N-GEOGRAFIJA ; ! ""
+
 газета:газета N-GEOGRAFIJA ; ! ""
 журнал:журнал N-STOL ; ! ""
 тарих:тарих N-STOL ; ! "история"
 адабият:адабият N-STOL ; ! "литература"
+халкъ:халкъ N-STOL ; ! "народ, публика"
+рес:рес N-STOL ; ! "возможность"
+конгресс:конгресс N-STOL ; ! "конгресс"
 
 туркав:турка N-TURKAV ; ! "турок" ! FIXME:adj?
+адыгеяв:адыгея N-TURKAV ; ! ""
+
+сон:с N-SON ; ! "год"
 
 LEXICON ProperNouns 
 
@@ -935,6 +1093,8 @@ LEXICON ProperNouns
 
 
 Кавказ:Кавказ NP-TOP-DAGHISTAN ; ! ""
+ЦIамухъ:ЦIамухъ NP-TOP-DAGHISTAN ; ! "Армения"
+Эрменистан:Эрменистан NP-TOP-DAGHISTAN ; ! "Армения"
 
 
 Европа:Европа NP-TOP-DAGHISTAN ; ! ""
@@ -942,6 +1102,7 @@ LEXICON ProperNouns
 Канада:Канада NP-TOP-DAGHISTAN ; ! ""
 Шри%-Ланка:Шри%-Ланка NP-TOP-DAGHISTAN ; ! ""
 Закатала:Закатала NP-TOP-DAGHISTAN ; ! ""
+Билкан:Билкан NP-TOP-DAGHISTAN ; ! ""
 
 Азия:Азия NP-TOP-ROSSIJA ; ! ""
 
@@ -963,6 +1124,9 @@ LEXICON ProperNouns
 Турция:Турция NP-TOP-ROSSIJA ; ! ""
 Япония:Япония NP-TOP-ROSSIJA ; ! ""
 Алмания:Алмания NP-TOP-ROSSIJA ; ! ""
+ГIарабия:ГIарабия NP-TOP-ROSSIJA ; ! ""
+Эстония:Эстония NP-TOP-ROSSIJA ; ! ""
+
 
 
 
@@ -987,29 +1151,37 @@ LEXICON Adjectives
 берцинаб:берцина A-KUDIJA ; ! "красный"
 гьадинаб:гьадина A-KUDIJA ; ! "такой"
 хирияб:хирия A-KUDIJA ; ! "дорогой"
+гӀагараб:гӀагара A-KUDIJA ; ! "близкий, ближний, родственный"
+халкъияб:халкъия A-KUDIJA ; ! "народный"
 
 гӀараб:гӀараб A-GHARAB ; ! "арабский"
 гӀурус:гӀурус  A-GHARAB ; ! "русский"
 
 LEXICON Adverbs 
 
-бищун:бищун ADV1 ; ! ""
 цӀакъ:цӀакъ ADV1 ; ! ""
 гӀемер:гӀемер ADV1 ; ! ""
 хекко:хекко ADV1 ; ! "быстро"
 жеги:жеги ADV1 ; ! "ещё"
 гъорлъ:гъорлъ ADV2 ; ! ""
+сверухъ:сверухъ ADV2 ; ! ""
 
 зама%-заманалда:зама%-заманалда ADV1 ; ! "временами"
 
+мехалда:мехалда ADV1 ; ! "в то время, когда"
+мехалъ:мехалъ ADV1 ; ! "в то время, когда"
+
+бищун:бищун ADV3 ; ! ""
+чан:чан ADV3 ; ! "несколько" ! FIXME: pos
+хас:хас ADV3 ; ! "особенно"
+
 LEXICON Verbs 
 
-букӀин%<vblex%>%<aor%>%<nt%>%<sg%>:буго #; 
-букӀин%<vblex%>%<aor%>%<m%>%<sg%>:вуго #; 
-букӀин%<vblex%>%<aor%>%<pl%>:руго #; 
-букӀин%<vblex%>%<aor%>%<f%>%<sg%>:йиго #; 
-букӀин%<vblex%>%<neg%>:гьечӀо # ;
-букӀин%<vblex%>%<ger%>:букӀин N-STOL-DECL ;
+букӀин:б V-BUKIIN-NT ; ! "быть"
+букӀин:в V-BUKIIN-M ; ! "быть"
+букӀин:й V-BUKIIN-F ; ! "быть"
+букӀин:р V-BUKIIN-PL ; ! "быть"
+букӀин%<vblex%>%<mfn%>%<neg%>:гьечӀо # ; ! "нет"
 
 лъа:лъа V-LA ; ! "читать"
 хъва:хъва V-LA ; ! "писать"
@@ -1019,9 +1191,12 @@ LEXICON Verbs
 гаргади:гаргад V-CAL ; ! "сказать"
 аби:аб V-CAL ; ! "сказать"
 гьикъи:гьикъ V-CAL ; ! ""
+гвангъи:гвангъ V-CAL ; ! ""
 гьаби:гьа V-HABI ; ! "делать"
 кӀодолъ:кӀодолъ V-KIODOL ; ! "увеличиваться"
 лъугьи:лъугь V-LUH ; ! "входить"
+
+тӀуба:тӀу V-TIUBA ; ! "кончаться"
 
 LEXICON Abbreviations
 
