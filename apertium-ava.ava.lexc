@@ -451,6 +451,17 @@ N-JAS-SG ;
 %<n%>%<mf%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
 %<n%>%<mf%>%<pl%>:%>%{a%}з LOC-CASES ; 
 
+LEXICON N-IMAM
+
+N-VAS-SG ; 
+
+%<n%>%<m%>%<pl%>%<nom%>:%>заби CLIT ; 
+%<n%>%<m%>%<pl%>%<erg%>:%>з CLIT ; 
+%<n%>%<m%>%<pl%>%<gen%>:%>зул CLIT ; 
+%<n%>%<m%>%<pl%>%<dat%>:%>зе CLIT ; 
+%<n%>%<m%>%<pl%>:%>з LOC-CASES ; 
+
+
 LEXICON N-SHAGIIR
 
 N-VAS-SG ; 
@@ -574,6 +585,25 @@ LEXICON NP-TOP-ACSH
 %<np%>%<top%>%<sg%>%<gen%>:%-%>ялъул CLIT ; 
 %<np%>%<top%>%<sg%>%<dat%>:%-%>ялъе CLIT ; 
 %<np%>%<top%>%<sg%>:%-%>ял LOC-CASES ;
+
+%<np%>%<top%>%<sg%>%<gen%>:%>ялъул CLIT ; ! Dir/LR
+%<np%>%<top%>%<sg%>%<dat%>:%>ялъе CLIT ; ! Dir/LR
+%<np%>%<top%>%<sg%>:%>ял LOC-CASES ;! Dir/LR
+
+
+LEXICON NP-TOP-SSSR
+
+%<np%>%<top%>%<sg%>%<nom%>: CLIT ; 
+!%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
+%<np%>%<top%>%<sg%>%<gen%>:%-%>алъул CLIT ; 
+%<np%>%<top%>%<sg%>%<dat%>:%-%>алъе CLIT ; 
+%<np%>%<top%>%<sg%>:%-%>ал LOC-CASES ;
+%<np%>%<top%>%<sg%>%<gen%>:%>алъул CLIT ;  ! Dir/LR
+%<np%>%<top%>%<sg%>%<dat%>:%>алъе CLIT ;  ! Dir/LR
+%<np%>%<top%>%<sg%>:%>ал LOC-CASES ; ! Dir/LR
+
+
+
 
 LEXICON NP-AL 
 
@@ -721,6 +751,30 @@ LEXICON V-TIUBA-COMMON
 %<gna2%>:а%>н  #  ;
 %<neg%>%<gna2%>:а%>чӀого  #  ;
 
+LEXICON V-ABI-COMMON
+
+%<inf%>:%>и # ;
+%<ger%>:и%>зе # ;
+
+%<aor%>:и%>ла # ;
+%<neg%>%<aor%>:и%>ларо # ;
+%<fut%>:у%>ла # ;
+%<neg%>%<fut%>:у%>ларо # ;
+%<past%>:у%>на # ;
+%<neg%>%<past%>:и%>чӀо # ;
+
+%<gpr1%>:и%>ле V-GPR-DECL ; ! Dir/LR
+%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ; ! Dir/LR
+%<gpr1%>:у%>ле V-GPR-DECL ;
+%<neg%>%<gpr1%>:у%>ларе V-GPR-DECL ;
+%<gpr2%>:а%>ра V-GPR-DECL ;
+%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
+
+%<gna1%>:и%>зелъун #  ;
+%<neg%>%<gna1%>:и%>лареблъун # ;
+%<gna2%>:у%>н  #  ;
+%<neg%>%<gna2%>:и%>чӀого  #  ;
+
 
 LEXICON V-CAL-COMMON
 
@@ -786,6 +840,11 @@ LEXICON V-BUKIIN-PL
 LEXICON V-CAL
 
 %<vblex%>%<tv%>%<mfn%>:  V-CAL-COMMON  ;
+
+LEXICON V-ABI
+
+%<vblex%>%<tv%>%<mfn%>:  V-ABI-COMMON  ;
+
 
 LEXICON V-HABI
 
@@ -1006,6 +1065,8 @@ LEXICON Numerals
 
 азарго:азарго NUM ; ! "тысяча"
 
+миллион%<num%>:миллион N-STOL-DECL ; ! ""
+
 LEXICON Nouns 
 
 вас:вас N-VAS ; ! "мальчик"
@@ -1077,6 +1138,7 @@ N-CHIUZHU ; ! "жена"
 премьер%-министр:премьер%-министр N-AVTOR ; ! ""
 
 маргьа:маргьа N-MARHA ; ! "сказка"
+библиотека:библиотека N-MARHA ; ! "библиотека"
 шигӀру:шигӀру N-MARHA ; ! "стихотворение"
 ца:ца N-MARHA ; ! "зуб"
 бару:бару N-MARHA ; ! "лекарство"
@@ -1099,6 +1161,8 @@ N-CHIUZHU ; ! "жена"
 
 учитель:учитель N-UCHITEL ; ! "учитель"
 шагӀир:шагӀир N-SHAGIIR ; ! "поэт"
+имам:имам N-IMAM ; ! "имам"
+авараг:авараг N-IMAM ; ! "пророк"
 
 мегӀер:мегӀ N-MEGHER ; ! "гора"
 бетӀер:бетӀ N-MEGHER ; ! "голова"
@@ -1122,6 +1186,7 @@ N-CHIUZHU ; ! "жена"
 шагьар:шагьар N-SHAHAR ; ! "город"
 тахшагьар:тахшагьар N-SHAHAR ; ! "столица"
 
+тарбия:тарбия N-GEOGRAFIJA ; ! "воспитание"
 география:география N-GEOGRAFIJA ; ! "география"
 археография:археография N-GEOGRAFIJA ; ! "археография"
 операция:операция N-GEOGRAFIJA ; ! ""
@@ -1129,6 +1194,24 @@ N-CHIUZHU ; ! "жена"
 история:история N-GEOGRAFIJA ; ! ""
 поэзия:поэзия N-GEOGRAFIJA ; ! ""
 партия:партия N-GEOGRAFIJA ; ! ""
+администрация:администрация N-GEOGRAFIJA ; ! ""
+федерация:федерация N-GEOGRAFIJA ; ! ""
+канализация:канализация N-GEOGRAFIJA ; ! ""
+делегация:делегация N-GEOGRAFIJA ; ! ""
+
+астрономия:астрономия N-GEOGRAFIJA ; ! ""
+биография:биография N-GEOGRAFIJA ; ! ""
+идеология:идеология N-GEOGRAFIJA ; ! ""
+империя:империя N-GEOGRAFIJA ; ! ""
+комментария:комментария N-GEOGRAFIJA ; ! ""
+конституция:конституция N-GEOGRAFIJA ; ! ""
+материя:материя N-GEOGRAFIJA ; ! ""
+наркомания:наркомания N-GEOGRAFIJA ; ! ""
+пенсия:пенсия N-GEOGRAFIJA ; ! ""
+теория:теория N-GEOGRAFIJA ; ! ""
+фамилия:фамилия N-GEOGRAFIJA ; ! ""
+философия:философия N-GEOGRAFIJA ; ! ""
+фотография:фотография N-GEOGRAFIJA ; ! ""
 
 газета:газета N-GEOGRAFIJA ; ! ""
 журнал:журнал N-STOL ; ! ""
@@ -1139,6 +1222,10 @@ N-CHIUZHU ; ! "жена"
 конгресс:конгресс N-STOL ; ! "конгресс"
 бакӀ:бакӀ N-STOL ; ! "место"
 рахъ:рахъ N-STOL ; ! "сторона"
+къадар:къадар N-STOL ; ! "судьба, рок; количество"
+космос:космос N-STOL ; ! "космос"
+дин:дин N-STOL ; ! "религия"
+баян:баян N-STOL ; ! "сведение"
 
 туркав:турка N-TURKAV ; ! "турок" ! FIXME:adj?
 адыгеяв:адыгея N-TURKAV ; ! ""
@@ -1148,6 +1235,9 @@ N-CHIUZHU ; ! "жена"
 лага:л N-LAGA ; ! "орган"
 
 гӀалах:гӀал N-GIALAX ; ! "глушь"
+
+ислам:ислам N-STOL ; ! "ислам"
+даптар:даптар N-STOL ; ! "тетрадь"
 
 LEXICON ProperNouns 
 
@@ -1163,11 +1253,19 @@ LEXICON ProperNouns
 Татаристан:Татаристан NP-TOP-DAGHISTAN ; ! ""
 Хабашистан:Хабашистан NP-TOP-DAGHISTAN ; ! ""
 Чеэраб% Меэр:Чеэраб% Меэр NP-TOP-DAGHISTAN ; ! ""
+Нью%-Мексико:Нью%-Мексико NP-TOP-DAGHISTAN ; ! ""
+Аризона:Аризона  NP-TOP-DAGHISTAN ; ! ""
+Юта:Юта NP-TOP-DAGHISTAN ; ! ""
+Колорадо:Колорадо NP-TOP-DAGHISTAN ; ! ""
+Манитоба:Манитоба NP-TOP-DAGHISTAN ; ! ""
+Аваристан:Аваристан NP-TOP-DAGHISTAN ; ! ""
+
 
 
 Кавказ:Кавказ NP-TOP-DAGHISTAN ; ! ""
 ЦIамухъ:ЦIамухъ NP-TOP-DAGHISTAN ; ! "Армения"
 Эрменистан:Эрменистан NP-TOP-DAGHISTAN ; ! "Армения"
+Аляска:Аляска NP-TOP-DAGHISTAN ; ! "" 
 
 
 Европа:Европа NP-TOP-DAGHISTAN ; ! ""
@@ -1179,6 +1277,8 @@ LEXICON ProperNouns
 
 Азия:Азия NP-TOP-ROSSIJA ; ! ""
 
+Авария:Авария NP-TOP-ROSSIJA ; ! ""
+Латвия:Латвия NP-TOP-ROSSIJA ; ! ""
 Буртия:Буртия NP-TOP-ROSSIJA ; ! ""
 Бутан:Бутан NP-TOP-DAGHISTAN ; ! ""
 Гренландия:Гренландия NP-TOP-ROSSIJA ; ! ""
@@ -1205,6 +1305,12 @@ LEXICON ProperNouns
 
 
 АЦШ:АЦШ NP-TOP-ACSH ; ! ""
+СССР:СССР NP-TOP-SSSR ; ! ""
+ССР:ССР NP-TOP-SSSR ; ! ""
+ДАССР:ДАССР NP-TOP-SSSR ; ! ""
+Казах% ССР:Казах% ССР NP-TOP-SSSR ; ! ""
+Киргиз% ССР:Киргиз% ССР NP-TOP-SSSR ; ! ""
+ЧИАССР:ЧИАССР NP-TOP-SSSR ; ! ""
 
 
 Зарема:Зарема NP-ANT-F ; ! ""
@@ -1218,18 +1324,22 @@ LEXICON ProperNouns
 
 LEXICON Adjectives 
 
+щибаб:щиба A-KUDIJA ; ! "каждый"
+гьадинаб:гьадина A-KUDIJA ; ! "такой"
+
 батӀияб:батӀия A-KUDIJA ; ! "другой"
 
 кӀудияб:кӀудия A-KUDIJA ; ! "большой, великий"
 лъикӀаб:лъикӀа A-KUDIJA ; ! "хороший"
 берцинаб:берцина A-KUDIJA ; ! "красный"
-гьадинаб:гьадина A-KUDIJA ; ! "такой"
 хирияб:хирия A-KUDIJA ; ! "дорогой"
 гӀагараб:гӀагара A-KUDIJA ; ! "близкий, ближний, родственный"
 халкъияб:халкъия A-KUDIJA ; ! "народный"
 гӀемераб:гӀемера A-KUDIJA ; ! "многочисленный"
 къанагӀатаб:къанагӀата A-KUDIJA ; ! "редкий"
 вахӀшияб:вахӀшия A-KUDIJA ; ! "дикий, звериный"
+административияб:административия A-KUDIJA ; ! ""
+динияб:диния A-KUDIJA ; ! "религиозный"
 
 
 гӀараб:гӀараб A-GHARAB ; ! "арабский"
@@ -1261,6 +1371,8 @@ LEXICON Adverbs
 
 данде:данде ADV1 ; ! "навстречу"
 
+гьанже:гьанже ADV1 ; ! "теперь, сейчас"
+
 LEXICON Verbs 
 
 букӀин:б V-BUKIIN-NT ; ! "быть"
@@ -1275,7 +1387,7 @@ LEXICON Verbs
 кке:кк V-KKE ; ! "оказываться"
 цӀали:цӀал V-CAL ; ! ""
 гаргади:гаргад V-CAL ; ! "сказать"
-аби:аб V-CAL ; ! "сказать"
+аби:аб V-ABI ; ! "сказать"
 гьикъи:гьикъ V-CAL ; ! ""
 гвангъи:гвангъ V-CAL ; ! ""
 гьаби:гьа V-HABI ; ! "делать"
