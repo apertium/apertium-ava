@@ -49,6 +49,15 @@ Multichar_Symbols
 %<tv%>                  ! 
 %<iv%>                  ! 
 
+%<pres%>                !
+%<ger%>                 !
+%<inf%>                 !
+%<past%>                !
+%<gpr1%>                !
+%<gpr2%>                !
+%<gna1%>                !
+%<gna2%>                !
+
 %<GD%>
 
 %<percent%>             !
@@ -136,18 +145,27 @@ N-VAS-SG ;
 %<n%>%<m%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
 %<n%>%<m%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
 
+LEXICON N-UMUMUL
+
+%<n%>%<m%>%<pl%>%<nom%>:%>л CLIT ; 
+%<n%>%<m%>%<pl%>%<erg%>:%>з CLIT ; 
+%<n%>%<m%>%<pl%>%<gen%>:%>зул CLIT ; 
+%<n%>%<m%>%<pl%>%<dat%>:%>зе CLIT ; 
+%<n%>%<m%>%<pl%>%<obl%>:%>з LOC-CASES ; 
+
+
 LEXICON N-TIEH
 
-ехь%<n%>%<m%>%<sg%>%<nom%>:ехь CLIT ; 
-ехь%<n%>%<m%>%<sg%>%<erg%>:охь%>оца CLIT ; 
-ехь%<n%>%<m%>%<sg%>%<gen%>:охь%>ол CLIT ; 
-ехь%<n%>%<m%>%<sg%>%<dat%>:охь%>ое CLIT ; 
-ехь%<n%>%<m%>%<sg%>%<obl%>:охь%>о LOC-CASES ; 
-ехь%<n%>%<m%>%<pl%>%<nom%>:охь%>ол CLIT ; 
-ехь%<n%>%<m%>%<pl%>%<erg%>:охь%>оз CLIT ; 
-ехь%<n%>%<m%>%<pl%>%<gen%>:охь%>озул CLIT ; 
-ехь%<n%>%<m%>%<pl%>%<dat%>:охь%>озе CLIT ; 
-ехь%<n%>%<m%>%<pl%>%<obl%>:охь%>оз LOC-CASES ; 
+%<n%>%<m%>%<sg%>%<nom%>:ехь CLIT ; 
+%<n%>%<m%>%<sg%>%<erg%>:охь%>оца CLIT ; 
+%<n%>%<m%>%<sg%>%<gen%>:охь%>ол CLIT ; 
+%<n%>%<m%>%<sg%>%<dat%>:охь%>ое CLIT ; 
+%<n%>%<m%>%<sg%>%<obl%>:охь%>о LOC-CASES ; 
+%<n%>%<m%>%<pl%>%<nom%>:охь%>ол CLIT ; 
+%<n%>%<m%>%<pl%>%<erg%>:охь%>оз CLIT ; 
+%<n%>%<m%>%<pl%>%<gen%>:охь%>озул CLIT ; 
+%<n%>%<m%>%<pl%>%<dat%>:охь%>озе CLIT ; 
+%<n%>%<m%>%<pl%>%<obl%>:охь%>оз LOC-CASES ; 
 
 LEXICON N-CHIUZHU
 
@@ -192,6 +210,22 @@ LEXICON N-STOL
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
 %<n%>%<nt%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
 %<n%>%<nt%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
+
+LEXICON N-MESED
+
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>ил CLIT ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>иле CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>%<obl%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}ца CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
+%<n%>%<nt%>%<pl%>%<obl%>:%>%{a%}з LOC-CASES ; 
+
 
 LEXICON N-BAQ
 
@@ -336,6 +370,18 @@ LEXICON N-RUQ
 %<n%>%<nt%>%<sg%>%<obl%>:%>%{a%}л LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>зал CLIT ; 
 
+LEXICON N-HUMER
+
+%<n%>%<nt%>%<sg%>%<nom%>:мер CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:мер%>алъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:мер%>алъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:рм%>ал CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>%<dat%>:мер%>алъе CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:рм%>але CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>%<obl%>:мер%>ал LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:рм%>ал CLIT ; 
+!%<n%>%<nt%>%<pl%>%<erg%>:%>ица CLIT ; 
+
 LEXICON N-BOSEN
 
 %<n%>%<nt%>%<sg%>%<nom%>:ен CLIT ; 
@@ -415,10 +461,10 @@ LEXICON PRON-PERS-DUN
 
 LEXICON PRON-PERS-MUN
 
-%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:мун # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<erg%>:дуца # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:дур # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:дуе # ;
+мун%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:мун # ;
+мун%<prn%>%<pers%>%<p2%>%<sg%>%<erg%>:дуца # ;
+мун%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:дур # ;
+мун%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:дуе # ;
 
 LEXICON PRON-PERS-NIZH
 
@@ -467,8 +513,75 @@ LEXICON PRON-DEM-HEB
 %<prn%>%<dem%>%<pl%>%<dat%>:%>зие # ;
 %<prn%>%<dem%>%<pl%>%<obl%>:%>з LOC-CASES ;
 
+LEXICON V-GPR-DECL
 
+%<nt%>%<sg%>:%>б # ; 
+%<m%>%<sg%>:%>в # ; 
+%<f%>%<sg%>:%>й # ; 
+%<pl%>:%>л # ; 
 
+LEXICON V-LA
+
+%<vblex%>%<tv%>%<inf%>:%>й # ;
+%<vblex%>%<tv%>%<ger%>:%>зе # ;
+%<vblex%>%<tv%>%<pres%>:%>ла # ;
+%<vblex%>%<tv%>%<neg%>%<pres%>:%>ларо # ;
+%<vblex%>%<tv%>%<fut%>:%>ла # ;
+%<vblex%>%<tv%>%<neg%>%<fut%>:%>ларо # ;
+%<vblex%>%<tv%>%<past%>:%>на # ;
+%<vblex%>%<tv%>%<neg%>%<past%>:%>чӀо # ;
+
+%<vblex%>%<tv%>%<gpr1%>:%>ле V-GPR-DECL ;
+%<vblex%>%<tv%>%<neg%>%<gpr1%>:%>ларе V-GPR-DECL ;
+%<vblex%>%<tv%>%<gpr2%>:%>ра V-GPR-DECL ;
+%<vblex%>%<tv%>%<neg%>%<gpr2%>:%>чӀе V-GPR-DECL ;
+
+%<vblex%>%<tv%>%<gna1%>:%>зелъун #  ;
+%<vblex%>%<tv%>%<neg%>%<gna1%>:%>лареблъун # ;
+%<vblex%>%<tv%>%<gna2%>:%>н  #  ;
+%<vblex%>%<tv%>%<neg%>%<gna2%>:%>чӀого  #  ;
+
+LEXICON V-CAL
+
+%<vblex%>%<tv%>%<inf%>:%>и # ;
+%<vblex%>%<tv%>%<ger%>:и%>зе # ;
+%<vblex%>%<tv%>%<pres%>:и%>ла # ;
+%<vblex%>%<tv%>%<neg%>%<pres%>:и%>ларо # ;
+%<vblex%>%<tv%>%<fut%>:и%>ла # ;
+%<vblex%>%<tv%>%<neg%>%<fut%>:и%>ларо # ;
+%<vblex%>%<tv%>%<past%>:а%>на # ;
+%<vblex%>%<tv%>%<neg%>%<past%>:и%>чӀо # ;
+
+%<vblex%>%<tv%>%<gpr1%>:и%>ле V-GPR-DECL ;
+%<vblex%>%<tv%>%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
+%<vblex%>%<tv%>%<gpr2%>:а%>ра V-GPR-DECL ;
+%<vblex%>%<tv%>%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
+
+%<vblex%>%<tv%>%<gna1%>:и%>зелъун #  ;
+%<vblex%>%<tv%>%<neg%>%<gna1%>:и%>лареблъун # ;
+%<vblex%>%<tv%>%<gna2%>:у%>н  #  ;
+%<vblex%>%<tv%>%<neg%>%<gna2%>:и%>чӀого  #  ;
+
+LEXICON V-KKE
+
+%<vblex%>%<iv%>%<inf%>:е%>й # ;
+%<vblex%>%<iv%>%<ger%>:е%>зе # ;
+%<vblex%>%<iv%>%<pres%>:о%>ла # ;
+%<vblex%>%<iv%>%<neg%>%<pres%>:о%>ларо # ;
+%<vblex%>%<iv%>%<fut%>:о%>ла # ;
+%<vblex%>%<iv%>%<neg%>%<fut%>:о%>ларо # ;
+%<vblex%>%<iv%>%<past%>:а%>на # ;
+%<vblex%>%<iv%>%<neg%>%<past%>:е%>чӀо # ;
+
+%<vblex%>%<iv%>%<gpr1%>:о%>ле V-GPR-DECL ;
+%<vblex%>%<iv%>%<neg%>%<gpr1%>:о%>ларе V-GPR-DECL ;
+%<vblex%>%<iv%>%<gpr2%>:а%>ра V-GPR-DECL ;
+%<vblex%>%<iv%>%<neg%>%<gpr2%>:е%>чӀе V-GPR-DECL ;
+
+!%<vblex%>%<iv%>%<gna1%>:%>зелъун #  ;
+!%<vblex%>%<iv%>%<neg%>%<gna1%>:%>лареблъун # ;
+%<vblex%>%<iv%>%<gna2%>:а%>н  #  ;
+%<vblex%>%<iv%>%<neg%>%<gna2%>:е%>чӀого  #  ;
 
 LEXICON NUM
 
@@ -525,7 +638,7 @@ LEXICON Postpositions
 LEXICON Pronouns
 
 дун:д PRON-PERS-DUN ; 
-мун:м PRON-PERS-MUN ; 
+PRON-PERS-MUN ; 
 ниж:н PRON-PERS-NIZH ; 
 нилъ:н PRON-PERS-NILW ;
 нуж:н PRON-PERS-NUZH ;
@@ -551,14 +664,18 @@ LEXICON Numerals
 LEXICON Nouns 
 
 вас:вас N-VAS ; ! "мальчик"
+умумул:умуму N-UMUMUL ; ! "отцы"
+инсан:инсан N-VAS ; ! "человек"
 чи:ч N-CHI ; ! "человек"
 мацӀ:мацӀ N-STOL ; ! "язык"
 гъветӀ:гъветӀ N-STOL ; ! "дерево"
 дунял:дунял N-STOL ; ! "мир, свет"
 ракь:ракь N-STOL ; ! "земля"
+зоб:зоб N-STOL ; ! "небо"
 жамагӀат:жамагӀат N-STOL ; ! "общество"
 миллат:миллат N-STOL ; ! "народ"
 центр:центр N-STOL ; ! "центр"
+хӀикмат:хӀикмат N-STOL ; ! "диво, чудо"
 чӀинкӀиллъи:чӀинкӀиллъ N-CHINKILLI ; ! "остров"
 черх:черх N-STOL ; ! "тело"
 квер:квер N-STOL ; ! "рука"
@@ -582,6 +699,7 @@ N-CHIUZHU ; ! "жена"
 ци:ци N-STOL ; ! "медвед"
 район:район N-STOL ; ! "район"
 алфавит:алфавит N-STOL ; ! "алфавит"
+гьава%-бакъ:гьава%-бакъ N-STOL ; ! "погода"
 бахӀарчи:бахӀарчи N-VAS ; ! "смельчак"
 хъизан:хъиза N-XIZAN ; ! "семья"
 
@@ -633,6 +751,8 @@ N-CHIUZHU ; ! "жена"
 мегӀер:мегӀ N-MEGHER ; ! "гора"
 бетӀер:бетӀ N-MEGHER ; ! "голова"
 
+гьумер:гьу N-HUMER ; ! "лицо"
+
 январь:январь N-JANVAR ; ! "январь"
 
 ралъад:ралъ N-RALAD ; ! "море"
@@ -640,6 +760,10 @@ N-CHIUZHU ; ! "жена"
 бакъ:бакъ N-BAQ ; ! "солнце"
 
 !мех:мех N-STOL ; ! "время"
+
+кӀал:кӀал N-STOL ; ! "рот"
+
+месед:месед N-MESED ; ! "золото"
 
 LEXICON ProperNouns 
 
@@ -705,6 +829,8 @@ LEXICON Adjectives
 кӀудияб:кӀудия A-KUDIJA ; ! "большой, великий"
 лъикӀаб:лъикӀа A-KUDIJA ; ! "хороший"
 берцинаб:берцина A-KUDIJA ; ! "красный"
+гьадинаб:гьадина A-KUDIJA ; ! "такой"
+хирияб:хирия A-KUDIJA ; ! "дорогой"
 
 гӀараб:гӀараб A-GHARAB ; ! "арабский"
 гӀурус:гӀурус  A-GHARAB ; ! "русский"
@@ -714,6 +840,7 @@ LEXICON Adverbs
 бищун:бищун ADV1 ; ! ""
 цӀакъ:цӀакъ ADV1 ; ! ""
 гӀемер:гӀемер ADV1 ; ! ""
+жеги:жеги ADV1 ; ! "ещё"
 гъорлъ:гъорлъ ADV2 ; ! ""
 
 LEXICON Verbs 
@@ -723,6 +850,13 @@ LEXICON Verbs
 букӀин%<vblex%>%<pres%>%<pl%>:руго #; 
 букӀин%<vblex%>%<pres%>%<f%>%<sg%>:йиго #; 
 букӀин%<vblex%>%<neg%>:гьечӀо # ;
+букӀин%<vblex%>%<ger%>:букӀин # ;
+
+лъа:лъа V-LA ; ! ""
+хъва:хъва V-LA ; ! ""
+кке:кк V-KKE ; ! ""
+цӀали:цӀал V-CAL ; ! ""
+
 
 LEXICON Punctuation
 
