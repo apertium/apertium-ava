@@ -29,9 +29,9 @@ Rules
 
 "Delete {a³} after stem final vowel"
 %{a³%}:0 <=> :Vx %>: _ ; 
-     where Vx in ( а и у ) ;
+     where Vx in ( а и у о е ) ;
 
 "Delete stem final vowel before {a²}"
 Vx:0 <=> _ %>: %{a²%}: ; 
-     where Vx in ( а и у ) ;
+     where Vx in ( а и у о е ) ;
 
