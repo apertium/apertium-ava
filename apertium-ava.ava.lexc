@@ -243,7 +243,6 @@ LEXICON N-KALENDAR
 %<n%>%<nt%>%<pl%>%<dat%>:%>зе CLIT ; 
 %<n%>%<nt%>%<pl%>:%>з LOC-CASES ; 
 
-
 LEXICON N-STOL-DECL
 
 %<nt%>%<sg%>%<nom%>: CLIT ; 
@@ -663,6 +662,13 @@ LEXICON A-KUDIJA
 
 %<adj%>: A-DECL ; 
 
+LEXICON A-KINABGO
+
+%<adj%>%<nt%>%<sg%>:бго # ; 
+%<adj%>%<m%>%<sg%>:вго # ; 
+%<adj%>%<f%>%<sg%>:йго # ; 
+%<adj%>%<pl%>:лго # ; 
+
 LEXICON PRON-PERS-DUN
 
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ун # ;
@@ -740,6 +746,22 @@ LEXICON PRON-REL-BUGEB-PL
 
 %<prn%>%<pl%>%<rel%>:уге A-DECL ; 
 
+LEXICON V-INF-DECL-JA
+
+%<sg%>%<nom%>: CLIT ; 
+%<sg%>%<erg%>:%>ялъ CLIT ; 
+%<sg%>%<gen%>:%>ялъул CLIT ; 
+%<sg%>%<dat%>:%>ялъе CLIT ; 
+%<sg%>:%>ял LOC-CASES ; 
+
+LEXICON V-INF-DECL-A
+
+%<sg%>%<nom%>: CLIT ; 
+%<sg%>%<erg%>:%>алъ CLIT ; 
+%<sg%>%<gen%>:%>алъул CLIT ; 
+%<sg%>%<dat%>:%>алъе CLIT ; 
+%<sg%>:%>ал LOC-CASES ; 
+
 LEXICON V-GPR-DECL
 
 %<nt%>%<sg%>:%>б # ; 
@@ -749,7 +771,7 @@ LEXICON V-GPR-DECL
 
 LEXICON V-TIUBA-COMMON
 
-%<inf%>:%>а # ;
+%<inf%>:%>а # ; ! FIXME:nodecl
 %<ger%>:а%>зе # ;
 
 %<aor%>:а%>ла # ;
@@ -769,9 +791,59 @@ LEXICON V-TIUBA-COMMON
 %<gna2%>:а%>н  #  ;
 %<neg%>%<gna2%>:а%>чӀого  #  ;
 
+LEXICON V-BOS-COMMON
+
+%<inf%>:%>и V-INF-DECL-JA ;
+%<ger%>:и%>зе # ;
+
+%<aor%>:и%>ла # ;
+%<neg%>%<aor%>:и%>ларо # ;
+%<fut%>:у%>ла # ;
+%<neg%>%<fut%>:у%>ларо # ;
+%<past%>:а%>на # ;
+%<neg%>%<past%>:и%>чӀо # ;
+
+%<gpr1%>:и%>ле V-GPR-DECL ; ! Dir/LR
+%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ; ! Dir/LR
+%<gpr1%>:у%>ле V-GPR-DECL ;
+%<neg%>%<gpr1%>:у%>ларе V-GPR-DECL ;
+%<gpr2%>:у%>ра V-GPR-DECL ; ! Dir/LR
+%<gpr2%>:а%>ра V-GPR-DECL ;
+%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
+
+%<gna1%>:и%>зелъун #  ;
+%<neg%>%<gna1%>:и%>лареблъун # ;
+%<gna2%>:у%>н  #  ;
+%<neg%>%<gna2%>:и%>чӀого  #  ;
+
+LEXICON V-BACH-COMMON
+
+%<inf%>:%>ин V-INF-DECL-JA ;
+%<ger%>:и%>не # ;
+
+%<aor%>:и%>на # ;
+%<neg%>%<aor%>:и%>ларо # ;
+%<fut%>:у%>на # ;
+%<neg%>%<fut%>:у%>ларо # ;
+%<past%>:а%>на # ;
+%<neg%>%<past%>:и%>чӀо # ;
+
+%<gpr1%>:и%>не V-GPR-DECL ; ! Dir/LR
+%<neg%>%<gpr1%>:и%>наре V-GPR-DECL ; ! Dir/LR
+%<gpr1%>:у%>не V-GPR-DECL ;
+%<neg%>%<gpr1%>:у%>наре V-GPR-DECL ;
+%<gpr2%>:у%>ра V-GPR-DECL ; ! Dir/LR
+%<gpr2%>:а%>ра V-GPR-DECL ;
+%<neg%>%<gpr2%>:и%>нчӀе V-GPR-DECL ;
+
+%<gna1%>:и%>зелъун #  ;
+%<neg%>%<gna1%>:и%>лареблъун # ;
+%<gna2%>:у%>н  #  ;
+%<neg%>%<gna2%>:и%>нчӀого  #  ;
+
 LEXICON V-ABI-COMMON
 
-%<inf%>:%>и # ;
+%<inf%>:%>и V-INF-DECL-JA ;
 %<ger%>:и%>зе # ;
 
 %<aor%>:и%>ла # ;
@@ -794,10 +866,9 @@ LEXICON V-ABI-COMMON
 %<gna2%>:у%>н  #  ;
 %<neg%>%<gna2%>:и%>чӀого  #  ;
 
-
 LEXICON V-CAL-COMMON
 
-%<inf%>:%>и # ;
+%<inf%>:%>и V-INF-DECL-JA ;
 %<ger%>:и%>зе # ;
 
 %<aor%>:и%>ла # ;
@@ -819,8 +890,8 @@ LEXICON V-CAL-COMMON
 
 LEXICON V-BUKIIN-COMMON
 
-%<inf%>:кӀине # ;
-%<ger%>:кӀин N-STOL-DECL ;
+%<inf%>:кӀин N-STOL-DECL ;
+%<ger%>:кӀине # ; ! FIXME:nodecl
 
 %<pres%>:го # ;
 %<fut%>:кӀина # ;
@@ -856,6 +927,73 @@ LEXICON V-BUKIIN-PL
 
 %<vblex%>%<pl%>:у V-BUKIIN-COMMON ;
 
+LEXICON V-BOS-M
+
+%<vblex%>%<tv%>%<m%>: V-BOS-COMMON ;
+
+LEXICON V-BOS-NT
+
+%<vblex%>%<tv%>%<nt%>: V-BOS-COMMON ;
+
+LEXICON V-BOS-F
+
+%<vblex%>%<tv%>%<f%>: V-BOS-COMMON ;
+
+LEXICON V-BOS-PL
+
+%<vblex%>%<tv%>%<pl%>: V-BOS-COMMON ;
+
+LEXICON V-BAQ-M
+
+%<vblex%>%<iv%>%<m%>: V-BOS-COMMON ;
+
+LEXICON V-BAQ-NT
+
+%<vblex%>%<iv%>%<nt%>: V-BOS-COMMON ;
+
+LEXICON V-BAQ-F
+
+%<vblex%>%<iv%>%<f%>: V-BOS-COMMON ;
+
+LEXICON V-BAQ-PL
+
+%<vblex%>%<iv%>%<pl%>: V-BOS-COMMON ;
+
+LEXICON V-BACH-M
+
+%<vblex%>%<iv%>%<m%>: V-BACH-COMMON ;
+
+LEXICON V-BACH-NT
+
+%<vblex%>%<iv%>%<nt%>: V-BACH-COMMON ;
+
+LEXICON V-BACH-F
+
+%<vblex%>%<iv%>%<f%>: V-BACH-COMMON ;
+
+LEXICON V-BACH-PL
+
+%<vblex%>%<iv%>%<pl%>: V-BACH-COMMON ;
+
+
+LEXICON V-BIC-M
+
+%<vblex%>%<tv%>%<m%>: V-BACH-COMMON ;
+
+LEXICON V-BIC-NT
+
+%<vblex%>%<tv%>%<nt%>: V-BACH-COMMON ;
+
+LEXICON V-BIC-F
+
+%<vblex%>%<tv%>%<f%>: V-BACH-COMMON ;
+
+LEXICON V-BIC-PL
+
+%<vblex%>%<tv%>%<pl%>: V-BACH-COMMON ;
+
+
+
 LEXICON V-CAL
 
 %<vblex%>%<tv%>%<mfn%>:  V-CAL-COMMON  ;
@@ -864,30 +1002,29 @@ LEXICON V-ABI
 
 %<vblex%>%<tv%>%<mfn%>:  V-ABI-COMMON  ;
 
-
 LEXICON V-HABI
 
-%<vblex%>%<tv%>%<nt%>:б  V-CAL-COMMON  ;
-%<vblex%>%<tv%>%<m%>:в  V-CAL-COMMON  ;
-%<vblex%>%<tv%>%<f%>:й  V-CAL-COMMON  ;
-%<vblex%>%<tv%>%<pl%>:р  V-CAL-COMMON  ;
+%<vblex%>%<tv%>%<nt%>:б  V-ABI-COMMON  ;
+%<vblex%>%<tv%>%<m%>:в  V-ABI-COMMON  ;
+%<vblex%>%<tv%>%<f%>:й  V-ABI-COMMON  ;
+%<vblex%>%<tv%>%<pl%>:р  V-ABI-COMMON  ;
 
 LEXICON V-TIUBA
 
 %<vblex%>%<iv%>%<nt%>:б  V-TIUBA-COMMON  ;
-%<vblex%>%<iv%>%<m%>:в  V-CAL-COMMON  ;
-%<vblex%>%<iv%>%<f%>:й  V-CAL-COMMON  ;
-%<vblex%>%<iv%>%<pl%>:р  V-CAL-COMMON  ;
+%<vblex%>%<iv%>%<m%>:в  V-TIUBA-COMMON  ;
+%<vblex%>%<iv%>%<f%>:й  V-TIUBA-COMMON  ;
+%<vblex%>%<iv%>%<pl%>:р  V-TIUBA-COMMON  ;
 
 
 LEXICON V-LUH
 
-%<vblex%>%<iv%>%<mfn%>%<inf%>:%>и # ;
+%<vblex%>%<iv%>%<mfn%>%<inf%>:%>ин V-INF-DECL-A ; 
 %<vblex%>%<iv%>%<mfn%>%<ger%>:и%>не # ;
 
 %<vblex%>%<iv%>%<mfn%>%<aor%>:у%>на # ;
 %<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:и%>наро # ;
-%<vblex%>%<iv%>%<mfn%>%<fut%>:у%>на # ;
+%<vblex%>%<iv%>%<mfn%>%<fut%>:и%>на # ;
 %<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:у%>наро # ;
 %<vblex%>%<iv%>%<mfn%>%<past%>:а%>на # ;
 %<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:и%>чӀо # ;
@@ -904,7 +1041,7 @@ LEXICON V-LUH
 
 LEXICON V-KIODOL
 
-%<vblex%>%<iv%>%<mfn%>%<inf%>:%>и # ;
+%<vblex%>%<iv%>%<mfn%>%<inf%>:%>и V-INF-DECL-JA ;
 %<vblex%>%<iv%>%<mfn%>%<ger%>:и%>зе # ;
 
 %<vblex%>%<iv%>%<mfn%>%<aor%>:и%>ла # ;
@@ -928,7 +1065,7 @@ LEXICON V-KIODOL
 
 LEXICON V-LA
 
-%<vblex%>%<tv%>%<mfn%>%<inf%>:%>й # ;
+%<vblex%>%<tv%>%<mfn%>%<inf%>:%>й # ; ! FIXME:nodecl
 %<vblex%>%<tv%>%<mfn%>%<ger%>:%>зе # ;
 
 %<vblex%>%<tv%>%<mfn%>%<aor%>:%>ла # ;
@@ -950,7 +1087,7 @@ LEXICON V-LA
 
 LEXICON V-KKE
 
-%<vblex%>%<iv%>%<mfn%>%<inf%>:е%>й # ;
+%<vblex%>%<iv%>%<mfn%>%<inf%>:е%>й # ; ! FIXME:nodecl
 %<vblex%>%<iv%>%<mfn%>%<ger%>:е%>зе # ;
 
 %<vblex%>%<iv%>%<mfn%>%<aor%>:о%>ла # ;
@@ -969,6 +1106,28 @@ LEXICON V-KKE
 !%<vblex%>%<iv%>%<mfn%>%<neg%>%<gna1%>:%>лареблъун # ;
 %<vblex%>%<iv%>%<mfn%>%<gna2%>:а%>н  #  ;
 %<vblex%>%<iv%>%<mfn%>%<neg%>%<gna2%>:е%>чӀого  #  ;
+
+LEXICON V-KJE
+
+%<vblex%>%<tv%>%<mfn%>%<inf%>:е%>й # ; ! FIXME:nodecl
+%<vblex%>%<tv%>%<mfn%>%<ger%>:е%>зе # ;
+
+%<vblex%>%<tv%>%<mfn%>%<aor%>:о%>ла # ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<aor%>:о%>ларо # ;
+%<vblex%>%<tv%>%<mfn%>%<fut%>:е%>ла # ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<fut%>:о%>ларо # ;
+%<vblex%>%<tv%>%<mfn%>%<past%>:у%>на # ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<past%>:е%>чӀо # ;
+
+%<vblex%>%<tv%>%<mfn%>%<gpr1%>:о%>ле V-GPR-DECL ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<gpr1%>:о%>ларе V-GPR-DECL ;
+%<vblex%>%<tv%>%<mfn%>%<gpr2%>:у%>ра V-GPR-DECL ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<gpr2%>:е%>чӀе V-GPR-DECL ;
+
+!%<vblex%>%<tv%>%<mfn%>%<gna1%>:%>зелъун #  ;
+!%<vblex%>%<tv%>%<mfn%>%<neg%>%<gna1%>:%>лареблъун # ;
+%<vblex%>%<tv%>%<mfn%>%<gna2%>:у%>н  #  ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<gna2%>:е%>чӀого  #  ;
 
 LEXICON NUM-CO
 
@@ -1307,6 +1466,10 @@ N-CHIUZHU ; ! "жена"
 маданият:маданият N-STOL ; ! "культура"
 захӀмат:захӀмат N-STOL ; ! "трудность"
 гъазават:гъазават N-STOL ; ! "газават"
+балагь:балагь N-STOL ; ! "беда, несчастье, горе, невзгода"
+калам:калам N-STOL ; ! "слово;  речь; разговор"
+къимат:къимат N-STOL ; ! "цена; ценность"
+инкар:инкар N-STOL ; ! "отказ; отрицание; ослушание; возражение"
 
 
 LEXICON ProperNouns 
@@ -1423,6 +1586,8 @@ LEXICON Adjectives
 
 щибаб:щиба A-KUDIJA ; ! "каждый" ! FIXME: щинаб диал. см. щибаб, щивав, щияй
 
+кинабго:кина A-KINABGO ; ! "всё"
+
 гьадинаб:гьадина A-KUDIJA ; ! "такой"
 гьединаб:гьедина A-KUDIJA ; ! "такой"
 гуреб:гуре A-KUDIJA ; ! "не, ничтожный" 
@@ -1486,6 +1651,7 @@ LEXICON Adjectives
 хасаб:хаса A-KUDIJA ; ! "особый"
 хъахӀаб:хъахӀа A-KUDIJA ; ! "белый"
 цӀуяб:цӀуя A-KUDIJA ; ! ""
+кьучӀаб:кьучӀа A-KUDIJA ; ! "достоверный, основательный"
 
 
 гӀараб:гӀараб A-GHARAB ; ! "арабский"
@@ -1529,11 +1695,11 @@ LEXICON Verbs
 букӀин:р V-BUKIIN-PL ; ! "быть"
 букӀин%<vblex%>%<mfn%>%<neg%>:гьечӀо # ; ! "нет"
 
-лъа:лъа V-LA ; ! "читать"
+лъа:лъа V-LA ; ! "знать"
 хъва:хъва V-LA ; ! "писать"
 кӀалъа:кӀалъа V-LA ; ! ""
 кке:кк V-KKE ; ! "оказываться"
-цӀали:цӀал V-CAL ; ! ""
+цӀали:цӀал V-CAL ; ! "читать"
 гаргади:гаргад V-CAL ; ! "сказать"
 аби:аб V-ABI ; ! "сказать"
 гьикъи:гьикъ V-CAL ; ! ""
@@ -1542,8 +1708,99 @@ LEXICON Verbs
 кӀодолъ:кӀодолъ V-KIODOL ; ! "увеличиваться"
 лъугьи:лъугь V-LUH ; ! "входить"
 хутӀи:хутӀ V-KIODOL ; ! "оставаться"
+цӀуни:цӀун V-CAL ; ! "беречь, берегать; хранить, сохранять"
+
+!бах²:бах XX ; ! "мазать"
 
 тӀуба:тӀу V-TIUBA ; ! "кончаться"
+
+квача:квача V-LA ; ! "охлаждаться, остужатьтся" FIXME:iv
+къа:къа V-LA ; ! "закрываться, закрыться" FIXME:iv
+хага:хага V-LA ; ! "быть, стать бесчувственным" FIXME:iv
+
+дандба:дандба V-LA ; ! "собирать, собрать"
+квана:квана V-LA ; ! "есть, кушать"
+куца:куца V-LA ; ! "приучать, приучить"
+раха:раха V-LA ; ! " "
+су:су V-LA ; ! "срезать, срезать"
+ха:ха V-LA ; ! "чесать, расчёсывать, причёсывать"
+хӀа:хӀа V-LA ; ! "играть"
+чӀва:чӀва V-LA ; ! "убивать, убить"
+цу:цу V-LA ; ! "примыкать"
+цӀа:цӀа V-LA ; ! "тянуть, тащить, вытащить"
+цӀоро:цӀоро V-LA ; ! "холодеть, мёрзнуть, замёрзнуть"
+цӀу:цӀу V-LA ; ! "цедить, процеживать, сцеживать"
+чӀара:чӀара V-LA ; ! "полоть"
+
+ками:кам V-ABI ; ! "не хватать, не хватить"
+кьаби:кьаб V-ABI ; ! "(по)бить, избить, (по)колотить кого-л."
+сверизаби:сверизаб V-ABI ; ! "(за)вертеть, (за)крутить"
+хъами:хъам V-ABI ; ! "уносить, унести"
+чӀами:чӀам V-ABI ; ! "(раз)жевать, разжёвывать"
+
+кье:кь V-KJE ; ! "давать, дать"
+лъе:лъ V-KJE ; ! "складывть, класть, (по)ложить, уложить"
+тІе:тІ V-KJE ; ! "(со)рвать, отрывать"
+ххе:хх V-KJE ; ! "вдевать, вдеть"
+цӀе:цӀ V-KJE ; ! "заполняться, заполниться" ! FIXME:iv
+
+боси:бос V-BOS-NT ; ! "брать, взять; получать, получить; принимать, принять"
+боси:вос V-BOS-M ; ! "брать, взять; получать, получить; принимать, принять"
+боси:йос V-BOS-F ; ! "брать, взять; получать, получить; принимать, принять"
+боси:рос V-BOS-PL ; ! "брать, взять; получать, получить; принимать, принять"
+
+бахъи:бахъ V-BAQ-NT ; ! "получаться, получиться; выходить, выйти"
+бахъи:вахъ V-BAQ-M ; ! "получаться, получиться; выходить, выйти"
+бахъи:яхъ V-BAQ-F ; ! "получаться, получиться; выходить, выйти"
+бахъи:рахъ V-BAQ-PL ; ! "получаться, получиться; выходить, выйти"
+
+багъи:багъ V-BAQ-NT ; ! "драться"
+багъи:вагъ V-BAQ-M ; ! "драться"
+багъи:ягъ V-BAQ-F ; ! "драться"
+багъи:рагъ V-BAQ-PL ; ! "драться"
+
+балагьи:балагь V-BOS-NT ; ! "смотреть, глядеть"
+балагьи:валагь V-BOS-M ; ! "смотреть, глядеть"
+балагьи:ялагь V-BOS-F ; ! "смотреть, глядеть"
+балагьи:ралагь V-BOS-PL ; ! "смотреть, глядеть"
+
+борхи:борх V-BAQ-NT ; ! "подниматься, подняться"
+борхи:ворх V-BAQ-M ; ! "подниматься, подняться"
+борхи:йорх V-BAQ-F ; ! "подниматься, подняться"
+борхи:рорх V-BAQ-PL ; ! "подниматься, подняться"
+
+биххи:бихх V-BAQ-NT ; ! "рушиться, разрушаться, разрушиться"
+биххи:вихх V-BAQ-M ; ! "рушиться, разрушаться, разрушиться"
+биххи:йихх V-BAQ-F ; ! "рушиться, разрушаться, разрушиться"
+биххи:рихх V-BAQ-PL ; ! "рушиться, разрушаться, разрушиться"
+
+баччи:бачч V-BOS-NT ; ! "вести"
+баччи:вачч V-BOS-M ; ! "вести"
+баччи:ячч V-BOS-F ; ! "вести"
+баччи:рачч V-BOS-PL ; ! "вести"
+
+!бачи:бач V- ; ! "вести, водить"
+
+бищи:бищ V-BOS-NT ; ! "выбирать, выбрать"
+бищи:вищ V-BOS-M ; ! "выбирать, выбрать"
+бищи:йищ V-BOS-F ; ! "выбирать, выбрать"
+бищи:рищ V-BOS-PL ; ! "выбирать, выбрать"
+
+бати:бат V-BAQ-NT ; ! "находиться,  найтись"
+бати:ват V-BAQ-M ; ! "находиться,  найтись"
+бати:ят V-BAQ-F ; ! "находиться,  найтись"
+бати:рат V-BAQ-PL ; ! "находиться,  найтись"
+
+бачӀи:бачӀ V-BACH-NT ; ! "приходить"
+бачӀи:вачӀ V-BACH-M ; ! "приходить"
+бачӀи:ячӀ V-BACH-F ; ! "приходить"
+бачӀи:рачӀ V-BACH-PL ; ! "приходить"
+
+бици:биц V-BIC-NT ; ! "говорить, сказать"
+бици:виц V-BIC-M ; ! "говорить, сказать"
+бици:йиц V-BIC-F ; ! "говорить, сказать"
+бици:риц V-BIC-PL ; ! "говорить, сказать"
+
 
 LEXICON Abbreviations
 
