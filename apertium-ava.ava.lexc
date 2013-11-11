@@ -52,6 +52,8 @@ Multichar_Symbols
 %<tv%>                  ! 
 %<iv%>                  ! 
 
+%<attr%>                !
+
 %<aor%>                 !
 %<ger%>                 !
 %<inf%>                 !
@@ -171,21 +173,21 @@ LEXICON N-TURKAV
 
 LEXICON N-TIEH
 
-%<n%>%<m%>%<sg%>%<nom%>:ехь CLIT ; 
-%<n%>%<m%>%<sg%>%<erg%>:охь%>оца CLIT ; 
-%<n%>%<m%>%<sg%>%<gen%>:охь%>ол CLIT ; 
-%<n%>%<m%>%<sg%>%<dat%>:охь%>ое CLIT ; 
-%<n%>%<m%>%<sg%>:охь%>о LOC-CASES ; 
-%<n%>%<m%>%<pl%>%<nom%>:охь%>ол CLIT ; 
-%<n%>%<m%>%<pl%>%<nom%>:ахь%>ал CLIT ; ! Dir/LR
-%<n%>%<m%>%<pl%>%<erg%>:охь%>оз CLIT ; 
-%<n%>%<m%>%<pl%>%<erg%>:ахь%>аз CLIT ; ! Dir/LR
-%<n%>%<m%>%<pl%>%<gen%>:охь%>озул CLIT ; 
-%<n%>%<m%>%<pl%>%<gen%>:ахь%>азул CLIT ; ! Dir/LR
-%<n%>%<m%>%<pl%>%<dat%>:охь%>озе CLIT ; 
-%<n%>%<m%>%<pl%>%<dat%>:ахь%>азе CLIT ; ! Dir/LR
-%<n%>%<m%>%<pl%>:охь%>оз LOC-CASES ; 
-%<n%>%<m%>%<pl%>:ахь%>аз LOC-CASES ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<nom%>:ехь CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:охь%>оца CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:охь%>ол CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:охь%>ое CLIT ; 
+%<n%>%<nt%>%<sg%>:охь%>о LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:охь%>ол CLIT ; 
+%<n%>%<nt%>%<pl%>%<nom%>:ахь%>ал CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<erg%>:охь%>оз CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:ахь%>аз CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<gen%>:охь%>озул CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:ахь%>азул CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<dat%>:охь%>озе CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:ахь%>азе CLIT ; ! Dir/LR
+%<n%>%<nt%>%<pl%>:охь%>оз LOC-CASES ; 
+%<n%>%<nt%>%<pl%>:ахь%>аз LOC-CASES ; ! Dir/LR
 
 LEXICON N-CHIUZHU
 
@@ -592,6 +594,7 @@ LEXICON N-JANVAR
 
 LEXICON NP-TOP-ROSSIJA
 
+%<np%>%<top%>%<sg%>%<attr%>: # ; 
 %<np%>%<top%>%<sg%>%<nom%>: CLIT ; 
 !%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
 %<np%>%<top%>%<sg%>%<gen%>:%>лъул CLIT ; 
@@ -600,6 +603,7 @@ LEXICON NP-TOP-ROSSIJA
 
 LEXICON NP-TOP-DAGHISTAN
 
+%<np%>%<top%>%<sg%>%<attr%>: # ; 
 %<np%>%<top%>%<sg%>%<nom%>: CLIT ; 
 !%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
 %<np%>%<top%>%<sg%>%<gen%>:%>%{a%}лъул CLIT ; 
@@ -643,6 +647,7 @@ LEXICON NP-AL
 
 LEXICON NP-ANT-M
 
+%<np%>%<ant%>%<m%>%<attr%>: # ; 
 %<np%>%<ant%>%<m%>%<nom%>: CLIT ; 
 %<np%>%<ant%>%<m%>%<erg%>:%>ица CLIT ; 
 %<np%>%<ant%>%<m%>%<gen%>:%>ил CLIT ; 
@@ -650,6 +655,7 @@ LEXICON NP-ANT-M
 
 LEXICON NP-ANT-F
 
+%<np%>%<ant%>%<f%>%<attr%>: # ; 
 %<np%>%<ant%>%<f%>%<nom%>: CLIT ; 
 
 LEXICON NP-COG-OV
@@ -1517,7 +1523,7 @@ N-CHIUZHU ; ! "жена"
 
 гӀелму:гӀелм N-GIELMU ; ! "наук; знание"
 хӀайван:хӀайван N-STOL ; ! "скотина; животное"
-антилопа:антилопа MARHA ; ! ""
+антилопа:антилопа N-MARHA ; ! ""
 
 LEXICON ProperNouns 
 
@@ -1757,12 +1763,13 @@ LEXICON Verbs
 гаргади:гаргад V-CAL ; ! "сказать"
 аби:аб V-ABI ; ! "сказать"
 гьикъи:гьикъ V-CAL ; ! ""
-гвангъи:гвангъ V-CAL ; ! ""
+гвангъи:гвангъ V-CAL ; ! "сиять"
 гьаби:гьа V-HABI ; ! "делать"
 кӀодолъ:кӀодолъ V-KIODOL ; ! "увеличиваться"
 лъугьи:лъугь V-LUH ; ! "входить"
 хутӀи:хутӀ V-KIODOL ; ! "оставаться"
 цӀуни:цӀун V-CAL ; ! "беречь, берегать; хранить, сохранять"
+
 
 !бах²:бах XX ; ! "мазать"
 
@@ -1834,6 +1841,11 @@ LEXICON Verbs
 баччи:рачч V-BOS-PL ; ! "вести"
 
 !бачи:бач V- ; ! "вести, водить"
+
+бакки:бакк V-BOS-NT ; ! "часто появляться, показываться"
+бакки:вакк V-BOS-M ; ! "часто появляться, показываться"
+бакки:якк V-BOS-F ; ! "часто появляться, показываться"
+бакки:ракк V-BOS-PL ; ! "часто появляться, показываться"
 
 бищи:бищ V-BOS-NT ; ! "выбирать, выбрать"
 бищи:вищ V-BOS-M ; ! "выбирать, выбрать"

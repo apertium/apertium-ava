@@ -1,7 +1,15 @@
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 
+LIST Top = top ; 
+LIST Cog = cog ; 
+LIST Ant = ant ; 
+LIST Place = "шагьар" ; 
+
+LIST Attr = attr ;
 
 SECTION
 
-SELECT (x);
+SELECT Attr IF (0 Top) (1 Place) ; 
+
+SELECT Attr IF (0 Ant) (1 Cog) ; 
