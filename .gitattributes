@@ -12,4 +12,10 @@
 /autogen.sh -text
 /ava.prob -text svneol=unset#unset
 /configure.ac -text
+dev/countstems.sh -text
+dev/nouns.txt -text
+dev/paradigms.txt -text
+dev/test-sentences.txt -text svneol=unset#application/octet-stream
+dev/verbs.derived -text
+dev/verbs.underived -text
 /modes.xml -text
