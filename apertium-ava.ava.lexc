@@ -42,6 +42,7 @@ Multichar_Symbols
 %<p3%>                  !
 
 %<pers%>                !
+%<rel%>                 !
 %<ref%>                 !
 %<dem%>                 !
 
@@ -1532,6 +1533,7 @@ N-CHIUZHU ; ! "жена"
 гӀелму:гӀелм N-GIELMU ; ! "наук; знание"
 хӀайван:хӀайван N-STOL ; ! "скотина; животное"
 антилопа:антилопа N-MARHA ; ! ""
+мажлис:мажлис N-STOL ; ! "собеседование"
 
 LEXICON ProperNouns 
 
@@ -1560,6 +1562,9 @@ LEXICON ProperNouns
 Стамбул:Стамбул NP-TOP-DAGHISTAN ; ! ""
 
 Азарбижан:Азарбижан NP-TOP-DAGHISTAN ; ! ""
+Азарбижан:Азербайжан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
+Азарбижан:Азербейджан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
+
 Къазан:Къазан NP-TOP-DAGHISTAN ; ! ""
 Къазан:Казань NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
 
