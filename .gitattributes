@@ -10,5 +10,6 @@
 /apertium-ava.ava.twol -text
 /apertium-ava.pc.in -text
 /autogen.sh -text
+/ava.prob -text svneol=unset#unset
 /configure.ac -text
 /modes.xml -text
