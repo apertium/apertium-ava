@@ -1,6 +1,14 @@
 * text=auto !eol
-/Makefile -text
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-ava.ava.lexc -text
 /apertium-ava.ava.rlx -text
 /apertium-ava.ava.twol -text
+/apertium-ava.pc.in -text
+/autogen.sh -text
+/configure.ac -text
 /modes.xml -text
