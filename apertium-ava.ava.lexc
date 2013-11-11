@@ -47,6 +47,7 @@ Multichar_Symbols
 
 %<top%>                 ! 
 %<ant%>                 ! 
+%<cog%>                 ! 
 %<al%>                  !
 
 %<tv%>                  ! 
@@ -661,6 +662,8 @@ LEXICON NP-ANT-F
 LEXICON NP-COG-OV
 
 %<np%>%<cog%>%<m%>%<sg%>%<nom%>: CLIT ; 
+%<np%>%<cog%>%<m%>%<sg%>%<erg%>:%>ас CLIT ; 
+%<np%>%<cog%>%<m%>%<sg%>%<gen%>:%>асул CLIT ; 
 
 %<np%>%<cog%>%<f%>%<sg%>%<nom%>:а CLIT ; 
 %<np%>%<cog%>%<f%>%<sg%>%<erg%>:а%>лъ CLIT ; 
@@ -1558,6 +1561,7 @@ LEXICON ProperNouns
 
 Азарбижан:Азарбижан NP-TOP-DAGHISTAN ; ! ""
 Къазан:Къазан NP-TOP-DAGHISTAN ; ! ""
+Къазан:Казань NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
 
 
 Кавказ:Кавказ NP-TOP-DAGHISTAN ; ! ""
@@ -1578,6 +1582,17 @@ LEXICON ProperNouns
 
 !Дербент:Дербент NP-TOP-DAGHISTAN ; ! ""
 !Дербендалъул
+
+Москва:Москва NP-TOP-DAGHISTAN ; ! ""
+Санкт%-Петербург:Санкт%-Петербург NP-TOP-DAGHISTAN ; ! ""
+Новосибирск:Новосибирск NP-TOP-DAGHISTAN ; ! ""
+Екатеринбург:Екатеринбург NP-TOP-DAGHISTAN ; ! ""
+Нижний% Новгород:Нижний% Новгород NP-TOP-DAGHISTAN ; ! ""
+Самара:Самара NP-TOP-DAGHISTAN ; ! ""
+Омск:Омск NP-TOP-DAGHISTAN ; ! ""
+Челябинск:Челябинск NP-TOP-DAGHISTAN ; ! ""
+Доналда% Ростов:Доналда% Ростов NP-TOP-DAGHISTAN ; ! ""
+Уфа:Уфа NP-TOP-DAGHISTAN ; ! ""
 
 
 Азия:Азия NP-TOP-ROSSIJA ; ! ""
@@ -1607,6 +1622,8 @@ LEXICON ProperNouns
 ГIарабия:ГIарабия NP-TOP-ROSSIJA ; ! ""
 Эстония:Эстония NP-TOP-ROSSIJA ; ! ""
 Германия:Германия NP-TOP-ROSSIJA ; ! "" ! Use/Sub
+Ялова:Ялова NP-TOP-ROSSIJA ; ! ""
+Ялова:Ялова NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
 
 
 
@@ -1630,6 +1647,9 @@ LEXICON ProperNouns
 Мусаев:Мусаев NP-COG-OV ; ! ""
 МухӀамадов:МухӀамадов NP-COG-OV ; ! ""
 ХIасанов:ХIасанов NP-COG-OV ; ! ""
+Каримов:Каримов NP-COG-OV ; ! ""
+ГъалбацӀов:ГъалбацӀов NP-COG-OV ; ! ""
+ХӀамзатов:ХӀамзатов NP-COG-OV ; ! ""
 
 МухӀамад:МухӀамад NP-ANT-M ; ! ""
 МухӀаммад:МухӀаммад NP-ANT-M ; ! ""
