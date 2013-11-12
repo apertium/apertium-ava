@@ -1,0 +1,13 @@
+
+Alphabet
+
+Ӏ:Ӏ        ! U+04C0:U+04C0
+I:I Ӏ:I    ! U+04C0:U+0049
+І:І Ӏ:І    ! U+04C0:U+0406
+ӏ:ӏ Ӏ:ӏ ;  ! U+04C0:U+04CF
+
+Rules
+
+"Unify paločka styles"
+a => _ ;
+
