@@ -107,6 +107,11 @@ Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON V-FIN-CLIT
+
+%+ни%<adv%>:%>ни # ; 
+# ;
+
 LEXICON CLIT 
 
 %+ги%<cnjcoo%>:%>ги # ; 
@@ -697,6 +702,23 @@ LEXICON N-CHI
 !%<n%>%<m%>%<pl%>%<dat%>:%>%{a%}зе CLIT ; 
 !%<n%>%<m%>%<pl%>:%>%{a%}з LOC-CASES ; 
 
+LEXICON N-LIMER
+
+лъимер%<n%>%<m%>%<sg%>%<nom%>:лъимер CLIT ; 
+лъимер%<n%>%<m%>%<sg%>%<erg%>:лъимералъ CLIT ; 
+лъимер%<n%>%<m%>%<sg%>%<erg%>:лъимераца CLIT ; ! Dir/LR
+лъимер%<n%>%<m%>%<sg%>%<gen%>:лъимералъул CLIT ; 
+лъимер%<n%>%<m%>%<sg%>%<gen%>:лъимадул CLIT ; ! Dir/LR
+лъимер%<n%>%<m%>%<sg%>%<dat%>:лъимералъуле CLIT ; 
+лъимер%<n%>%<m%>%<sg%>%<dat%>:лъимадуле CLIT ; ! Dir/LR
+лъимер%<n%>%<m%>%<pl%>%<nom%>:лъимал CLIT ; 
+лъимер%<n%>%<m%>%<pl%>%<erg%>:лъимал%>аз CLIT ; 
+лъимер%<n%>%<m%>%<pl%>%<gen%>:лъимал%>азул CLIT ; 
+лъимер%<n%>%<m%>%<pl%>%<dat%>:лъимал%>азе CLIT ; 
+лъимер%<n%>%<m%>%<pl%>:лъимал%>аз LOC-CASES ; 
+
+
+
 LEXICON N-EMEN
 
 эмен%<n%>%<m%>%<sg%>%<nom%>:эмен CLIT ; 
@@ -1126,12 +1148,12 @@ LEXICON V-INE
 ине%<vblex%>%<mfn%>%<iv%>%<inf%>:ин # ;
 ине%<vblex%>%<mfn%>%<iv%>%<ger%>:ине # ;
 
-ине%<vblex%>%<mfn%>%<iv%>%<aor%>:уна # ;
-ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<aor%>:унаро # ;
-ине%<vblex%>%<mfn%>%<iv%>%<fut%>:ина # ;
-ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<fut%>:инаро # ;
-ине%<vblex%>%<mfn%>%<iv%>%<past%>:ана # ;
-ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<fut%>:инчӀо # ;
+ине%<vblex%>%<mfn%>%<iv%>%<aor%>:уна V-FIN-CLIT ;
+ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<aor%>:унаро V-FIN-CLIT ;
+ине%<vblex%>%<mfn%>%<iv%>%<fut%>:ина V-FIN-CLIT ;
+ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<fut%>:инаро V-FIN-CLIT ;
+ине%<vblex%>%<mfn%>%<iv%>%<past%>:ана V-FIN-CLIT ;
+ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<fut%>:инчӀо V-FIN-CLIT ;
 
 ине%<vblex%>%<mfn%>%<iv%>%<gpr1%>:у%>не V-GPR-DECL ;
 ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<gpr1%>:у%>наре V-GPR-DECL ;
@@ -1143,12 +1165,12 @@ LEXICON V-TIUBA-COMMON
 %<inf%>:%>а # ; ! FIXME:nodecl
 %<ger%>:а%>зе # ;
 
-%<aor%>:а%>ла # ;
-%<neg%>%<aor%>:и%>ларо # ;
-%<fut%>:а%>ла # ;
-%<neg%>%<fut%>:у%>ларо # ;
-%<past%>:а%>на # ;
-%<neg%>%<past%>:и%>чӀо # ;
+%<aor%>:а%>ла V-FIN-CLIT ;
+%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
+%<fut%>:а%>ла V-FIN-CLIT ;
+%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
+%<past%>:а%>на V-FIN-CLIT ;
+%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
 
 %<gpr1%>:а%>ле V-GPR-DECL ;
 %<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
@@ -1165,12 +1187,12 @@ LEXICON V-BOS-COMMON
 %<inf%>:%>и V-INF-DECL-JA ;
 %<ger%>:и%>зе # ;
 
-%<aor%>:и%>ла # ;
-%<neg%>%<aor%>:и%>ларо # ;
-%<fut%>:у%>ла # ;
-%<neg%>%<fut%>:у%>ларо # ;
-%<past%>:а%>на # ;
-%<neg%>%<past%>:и%>чӀо # ;
+%<aor%>:и%>ла V-FIN-CLIT ;
+%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
+%<fut%>:у%>ла V-FIN-CLIT ;
+%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
+%<past%>:а%>на V-FIN-CLIT ;
+%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
 
 %<gpr1%>:и%>ле V-GPR-DECL ; ! Dir/LR
 %<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ; ! Dir/LR
@@ -1190,12 +1212,12 @@ LEXICON V-BACH-COMMON
 %<inf%>:%>ин V-INF-DECL-JA ;
 %<ger%>:и%>не # ;
 
-%<aor%>:и%>на # ;
-%<neg%>%<aor%>:и%>ларо # ;
-%<fut%>:у%>на # ;
-%<neg%>%<fut%>:у%>ларо # ;
-%<past%>:а%>на # ;
-%<neg%>%<past%>:и%>чӀо # ;
+%<aor%>:и%>на V-FIN-CLIT ;
+%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
+%<fut%>:у%>на V-FIN-CLIT ;
+%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
+%<past%>:а%>на V-FIN-CLIT ;
+%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
 
 %<gpr1%>:и%>не V-GPR-DECL ; ! Dir/LR
 %<neg%>%<gpr1%>:и%>наре V-GPR-DECL ; ! Dir/LR
@@ -1215,12 +1237,12 @@ LEXICON V-ABI-COMMON
 %<inf%>:%>и V-INF-DECL-JA ;
 %<ger%>:и%>зе # ;
 
-%<aor%>:и%>ла # ;
-%<neg%>%<aor%>:и%>ларо # ;
-%<fut%>:у%>ла # ;
-%<neg%>%<fut%>:у%>ларо # ;
-%<past%>:у%>на # ;
-%<neg%>%<past%>:и%>чӀо # ;
+%<aor%>:и%>ла V-FIN-CLIT ;
+%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
+%<fut%>:у%>ла V-FIN-CLIT ;
+%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
+%<past%>:у%>на V-FIN-CLIT ;
+%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
 
 %<gpr1%>:и%>ле V-GPR-DECL ; ! Dir/LR
 %<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ; ! Dir/LR
@@ -1240,12 +1262,12 @@ LEXICON V-CAL-COMMON
 %<inf%>:%>и V-INF-DECL-JA ;
 %<ger%>:и%>зе # ;
 
-%<aor%>:и%>ла # ;
-%<neg%>%<aor%>:и%>ларо # ;
-%<fut%>:у%>ла # ;
-%<neg%>%<fut%>:у%>ларо # ;
-%<past%>:а%>на # ;
-%<neg%>%<past%>:и%>чӀо # ;
+%<aor%>:и%>ла V-FIN-CLIT ;
+%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
+%<fut%>:у%>ла V-FIN-CLIT ;
+%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
+%<past%>:а%>на V-FIN-CLIT ;
+%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
 
 %<gpr1%>:и%>ле V-GPR-DECL ;
 %<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
@@ -1262,13 +1284,13 @@ LEXICON V-BUKIIN-COMMON
 %<inf%>:кӀин N-STOL-DECL ;
 %<ger%>:кӀине # ; ! FIXME:nodecl
 
-%<pres%>:го # ;
-%<fut%>:кӀина # ;
-%<neg%>%<fut%>:кӀинаро # ;
-%<aor%>:кӀуна # ;
-%<neg%>%<aor%>:кӀунаро # ;
-%<past%>:кӀана # ;
-%<neg%>%<past%>:кӀинчӀо # ;
+%<pres%>:го V-FIN-CLIT ;
+%<fut%>:кӀина V-FIN-CLIT ;
+%<neg%>%<fut%>:кӀинаро V-FIN-CLIT ;
+%<aor%>:кӀуна V-FIN-CLIT ;
+%<neg%>%<aor%>:кӀунаро V-FIN-CLIT ;
+%<past%>:кӀана V-FIN-CLIT ;
+%<neg%>%<past%>:кӀинчӀо V-FIN-CLIT ;
 
 %<gpr1%>:кӀи%>не V-GPR-DECL ;
 %<neg%>%<gpr1%>:и%>наре V-GPR-DECL ;
@@ -1396,12 +1418,12 @@ LEXICON V-LUH
 %<vblex%>%<iv%>%<mfn%>%<inf%>:%>ин V-INF-DECL-A ; 
 %<vblex%>%<iv%>%<mfn%>%<ger%>:и%>не # ;
 
-%<vblex%>%<iv%>%<mfn%>%<aor%>:у%>на # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:и%>наро # ;
-%<vblex%>%<iv%>%<mfn%>%<fut%>:и%>на # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:у%>наро # ;
-%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:и%>чӀо # ;
+%<vblex%>%<iv%>%<mfn%>%<aor%>:у%>на V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:и%>наро V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<fut%>:и%>на V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:у%>наро V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
 
 %<vblex%>%<iv%>%<mfn%>%<gpr1%>:у%>ле V-GPR-DECL ;
 %<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
@@ -1418,12 +1440,12 @@ LEXICON V-KIODOL
 %<vblex%>%<iv%>%<mfn%>%<inf%>:%>и V-INF-DECL-JA ;
 %<vblex%>%<iv%>%<mfn%>%<ger%>:и%>зе # ;
 
-%<vblex%>%<iv%>%<mfn%>%<aor%>:и%>ла # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:и%>ларо # ;
-%<vblex%>%<iv%>%<mfn%>%<fut%>:у%>ла # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:у%>ларо # ;
-%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:и%>чӀо # ;
+%<vblex%>%<iv%>%<mfn%>%<aor%>:и%>ла V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<fut%>:у%>ла V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
 
 %<vblex%>%<iv%>%<mfn%>%<gpr1%>:у%>ле V-GPR-DECL ;
 %<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
@@ -1442,12 +1464,12 @@ LEXICON V-LA
 %<vblex%>%<tv%>%<mfn%>%<inf%>:%>й # ; ! FIXME:nodecl
 %<vblex%>%<tv%>%<mfn%>%<ger%>:%>зе # ;
 
-%<vblex%>%<tv%>%<mfn%>%<aor%>:%>ла # ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<aor%>:%>ларо # ;
-%<vblex%>%<tv%>%<mfn%>%<fut%>:%>ла # ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<fut%>:%>ларо # ;
-%<vblex%>%<tv%>%<mfn%>%<past%>:%>на # ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<past%>:%>чӀо # ;
+%<vblex%>%<tv%>%<mfn%>%<aor%>:%>ла V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<aor%>:%>ларо V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<fut%>:%>ла V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<fut%>:%>ларо V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<past%>:%>на V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<past%>:%>чӀо V-FIN-CLIT ;
 
 %<vblex%>%<tv%>%<mfn%>%<gpr1%>:%>ле V-GPR-DECL ;
 %<vblex%>%<tv%>%<mfn%>%<neg%>%<gpr1%>:%>ларе V-GPR-DECL ;
@@ -1464,12 +1486,12 @@ LEXICON V-KKE
 %<vblex%>%<iv%>%<mfn%>%<inf%>:е%>й # ; ! FIXME:nodecl
 %<vblex%>%<iv%>%<mfn%>%<ger%>:е%>зе # ;
 
-%<vblex%>%<iv%>%<mfn%>%<aor%>:о%>ла # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:о%>ларо # ;
-%<vblex%>%<iv%>%<mfn%>%<fut%>:о%>ла # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:о%>ларо # ;
-%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на # ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:е%>чӀо # ;
+%<vblex%>%<iv%>%<mfn%>%<aor%>:о%>ла V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:о%>ларо V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<fut%>:о%>ла V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:о%>ларо V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на V-FIN-CLIT ;
+%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:е%>чӀо V-FIN-CLIT ;
 
 %<vblex%>%<iv%>%<mfn%>%<gpr1%>:о%>ле V-GPR-DECL ;
 %<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr1%>:о%>ларе V-GPR-DECL ;
@@ -1486,12 +1508,12 @@ LEXICON V-KJE
 %<vblex%>%<tv%>%<mfn%>%<inf%>:е%>й # ; ! FIXME:nodecl
 %<vblex%>%<tv%>%<mfn%>%<ger%>:е%>зе # ;
 
-%<vblex%>%<tv%>%<mfn%>%<aor%>:о%>ла # ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<aor%>:о%>ларо # ;
-%<vblex%>%<tv%>%<mfn%>%<fut%>:е%>ла # ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<fut%>:о%>ларо # ;
-%<vblex%>%<tv%>%<mfn%>%<past%>:у%>на # ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<past%>:е%>чӀо # ;
+%<vblex%>%<tv%>%<mfn%>%<aor%>:о%>ла V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<aor%>:о%>ларо V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<fut%>:е%>ла V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<fut%>:о%>ларо V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<past%>:у%>на V-FIN-CLIT ;
+%<vblex%>%<tv%>%<mfn%>%<neg%>%<past%>:е%>чӀо V-FIN-CLIT ;
 
 %<vblex%>%<tv%>%<mfn%>%<gpr1%>:о%>ле V-GPR-DECL ;
 %<vblex%>%<tv%>%<mfn%>%<neg%>%<gpr1%>:о%>ларе V-GPR-DECL ;
@@ -1672,6 +1694,7 @@ N-EMEN ; ! "отец"
 N-EBEL ; ! "мать"
 N-CHIUZHU ; ! "жена"
 N-CHIUZHUGIADAN ; ! "женщина"
+N-LIMER ; ! "ребёнок"
 гӀалим:гӀалим N-CHIUZHU ; ! "академик"
 чу:чу N-STOL ; ! "лошадь"
 ах:ах N-AX ; ! "сад"
@@ -2107,6 +2130,7 @@ LEXICON Adjectives
 гӀагараб:гӀагара A-KUDIJA ; ! "близкий, ближний, родственный"
 халкъияб:халкъия A-KUDIJA ; ! "народный"
 гӀемераб:гӀемера A-KUDIJA ; ! "многочисленный"
+гӀемермиллатазулаб:гӀемермиллатазула A-KUDIJA ; ! "многонациональный"
 къанагӀатаб:къанагӀата A-KUDIJA ; ! "редкий"
 вахӀшияб:вахӀшия A-KUDIJA ; ! "дикий, звериный"
 административияб:административия A-KUDIJA ; ! ""
@@ -2244,6 +2268,7 @@ V-INE ; ! "идти, ходить"
 цӀали:цӀал V-CAL ; ! "читать"
 гаргади:гаргад V-CAL ; ! "сказать"
 аби:аб V-ABI ; ! "сказать"
+лъазаби:лъазаб V-ABI ; ! "учить"
 гьикъи:гьикъ V-CAL ; ! ""
 гвангъи:гвангъ V-CAL ; ! "сиять"
 гьаби:гьа V-HABI ; ! "делать"
@@ -2286,6 +2311,7 @@ V-INE ; ! "идти, ходить"
 хъами:хъам V-ABI ; ! "уносить, унести"
 чӀами:чӀам V-ABI ; ! "(раз)жевать, разжёвывать"
 
+кӀвар% кье:кӀвар% кь V-KJE ; ! "придавать значение" ! Use/MT
 кье:кь V-KJE ; ! "давать, дать"
 лъе:лъ V-KJE ; ! "складывть, класть, (по)ложить, уложить"
 тІе:тІ V-KJE ; ! "(со)рвать, отрывать"
