@@ -25,6 +25,10 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 ## Avar transducer
 ###############################################################################
 
+.deps/spellrelax.hfst: dev/spellrelax.twol
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	hfst-twolc $< -o $@
+
 .deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol .deps/.d
 	hfst-twolc $< -o $@
 
@@ -49,8 +53,8 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
 	hfst-fst2fst -O $< -o $@
 
-$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst
-	hfst-invert $< | hfst-fst2fst -O -o $@
+$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/spellrelax.hfst
+	hfst-compose-intersect -1 $< -2 .deps/spellrelax.hfst | hfst-invert | hfst-fst2fst -O -o $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
 	hfst-fst2txt $< | gzip -9 -c > $@
@@ -93,7 +97,7 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 
 $(LANG1).zhfst: .deps/acceptor.default.hfst .deps/errmodel.default.hfst
 	rm -f $@
-	zip -j $@ .deps/acceptor.default.hfst .deps/errmodel.default.hfst speller/index.xml
+	zip -Z store -j $@ .deps/acceptor.default.hfst .deps/errmodel.default.hfst speller/index.xml
 
 .deps/errmodel.default.hfst: .deps/words.default.hfst .deps/strings.default.hfst
 	python dev/editdist.py -v -s -d 1 -e '@0@' -i speller/editdist.default.txt -a .deps/acceptor.default.hfst \
