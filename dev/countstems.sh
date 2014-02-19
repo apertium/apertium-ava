@@ -2,8 +2,7 @@
 
 LEXC=../apertium-ava.ava.lexc
 
-echo -e "read lexc $LEXC\nquit" > /tmp/fomatmp1
-allcounts=`foma -f /tmp/fomatmp1 | grep Root | sed 's/,/\n/g'`
+allcounts=`foma -e "read lexc $LEXC" -e "quit" | grep Root | sed 's/,/\n/g'`
 
 for line in $allcounts; do
 	thing=`echo $line | sed -r 's/(.*)\.\.\.([0-9]*),?/\1/'`;
