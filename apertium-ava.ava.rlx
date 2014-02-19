@@ -1,6 +1,8 @@
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 
+LIST N = n ; 
+LIST A = adj ; 
 LIST Top = top ; 
 LIST Cog = cog ; 
 LIST Ant = ant ; 
@@ -13,3 +15,5 @@ SECTION
 SELECT Attr IF (0 Top) (1 Place) ; 
 
 SELECT Attr IF (0 Ant) (1 Cog) ; 
+
+SELECT A IF (0C A OR N) (1C N) ;
