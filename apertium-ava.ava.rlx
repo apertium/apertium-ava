@@ -1,7 +1,9 @@
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
+SUBREADINGS = LTR ; 
 
 LIST N = n ; 
+LIST V = vblex ; 
 LIST A = adj ; 
 LIST Top = top ; 
 LIST Cog = cog ; 
@@ -17,3 +19,5 @@ SELECT Attr IF (0 Top) (1 Place) ;
 SELECT Attr IF (0 Ant) (1 Cog) ; 
 
 SELECT A IF (0C A OR N) (1C N) ;
+
+SELECT N IF (0C V OR N) (1C V) ;
