@@ -84,6 +84,7 @@ Multichar_Symbols
 %{a%}                   ! 
 %{a²%}                  ! 
 %{a³%}                  ! 
+%{и%}                   !
 
 %>
 %-
@@ -111,7 +112,7 @@ Punctuation ;
 LEXICON V-FIN-CLIT
 
 %+ни%<adv%>:%>ни # ; 
-%+ищ%<qst%>:%>ищ # ; 
+%+ищ%<qst%>:%>%{и%}щ # ; 
 # ;
 
 LEXICON CLIT 
@@ -337,6 +338,19 @@ LEXICON N-STOL-DECL
 LEXICON N-STOL
 
 %<n%>: N-STOL-DECL ; 
+
+LEXICON N-NAJIXAN
+
+%<n%>%<nt%>%<sg%>%<nom%>:н CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:н%>%{a%}с CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:н%>%{a%}сул CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:н%>%{a%}се CLIT ; 
+%<n%>%<nt%>%<sg%>:н%>%{a%}с LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>би CLIT ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>баз CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:%>базул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:%>базе CLIT ; 
+%<n%>%<nt%>%<pl%>:%>ба LOC-CASES ; 
 
 LEXICON N-GIUMRU
 
@@ -1811,7 +1825,7 @@ N-LIMER ; ! "ребёнок"
 ноябрь:ноябр N-JANVAR ; ! ""
 декабрь:декабр N-JANVAR ; ! ""
 
-
+найихъан:найихъа N-NAJIXAN ; ! "пчеловод; пасечник"
 
 ралъад:ралъ N-RALAD ; ! "море"
 

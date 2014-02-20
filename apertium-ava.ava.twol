@@ -7,6 +7,7 @@ Alphabet
   %{a%}:а 
   %{a²%}:а
   %{a³%}:а
+  %{и%}:и
 
   %+
   % 
@@ -26,7 +27,6 @@ Rules
 "Delete {u} after stem final vowel"
 %{u%}:0 <=> :Vow %>: _ ; 
 
-
 "Delete {a³} after stem final vowel"
 %{a³%}:0 <=> :Vx %>: _ ; 
      where Vx in ( а и у о е ) ;
@@ -34,4 +34,9 @@ Rules
 "Delete stem final vowel before {a²}"
 Vx:0 <=> _ %>: %{a²%}: ; 
      where Vx in ( а и у о е ) ;
+
+"Final vowel"
+Vx:0 <=> _ %>: %{и%}: ; 
+     where Vx in ( а и у о е ) ;
+
 
