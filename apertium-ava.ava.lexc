@@ -745,6 +745,19 @@ LEXICON N-EBEL
 !%<n%>%<f%>%<pl%>%<gen%>:руччаби CLIT ; 
 !%<n%>%<f%>%<pl%>%<dat%>:руччаби CLIT ; 
 
+LEXICON N-DARS 
+! дарс (-алъ//-ица, -алъул//ил, -ал)
+
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>алъ CLIT ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>ица CLIT ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<gen%>:%>алъул CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>ил CLIT ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<dat%>:%>алъе CLIT ; 
+%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>ал CLIT ; 
+
+
 LEXICON N-AX
 
 %<n%>%<nt%>%<sg%>%<nom%>: CLIT ; 
@@ -1700,6 +1713,7 @@ N-LIMER ; ! "ребёнок"
 гӀалим:гӀалим N-CHIUZHU ; ! "академик"
 чу:чу N-STOL ; ! "лошадь"
 ах:ах N-AX ; ! "сад"
+дарс:дарс N-DARS ; ! "урок"
 цӀар:цӀар N-STOL ; ! "имя"
 яц:яц N-JAS ; ! "сестра"
 рукъ:рукъ N-RUQ ; ! "дом"
