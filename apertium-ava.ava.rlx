@@ -11,6 +11,8 @@ LIST Post = post ;
 LIST Pron = prn ; 
 LIST Det = det ;
 
+LIST Pers = pers ; 
+
 LIST Nom = nom ; 
 LIST Erg = erg ; 
 LIST Gen = gen ; 
@@ -68,12 +70,18 @@ SECTION
 LIST @SUBJ→ = @SUBJ→ ; 
 LIST @←SUBJ = @←SUBJ ; 
 
+MAP @SUBJ→ TARGET Nom IF (1C IV) (0C Pers) ;
 MAP @SUBJ→ TARGET Nom IF (1C IV) (0 $$Class) (1 $$Class) ;
 MAP @SUBJ→ TARGET Nom IF (1C IV) (0 Masc OR Fem OR Neut) (1 Mfn);
-MAP @SUBJ→ TARGET Erg IF (1C TV)  (0 $$Class) (1 $$Class);
+
+MAP @SUBJ→ TARGET Erg IF (1C TV) (0C Pers) ;
+MAP @SUBJ→ TARGET Erg IF (1C TV) (0 $$Class) (1 $$Class);
 MAP @SUBJ→ TARGET Erg IF (1C TV) (0 Masc OR Fem OR Neut) (1 Mfn);
 
+MAP @←SUBJ TARGET Nom IF (-1C IV) (0C Pers) ;
 MAP @←SUBJ TARGET Nom IF (-1C IV)  (0 $$Class) (-1 $$Class);
 MAP @←SUBJ TARGET Nom IF (-1C IV)  (0 Masc OR Fem OR Neut) (-1 Mfn);
+
+MAP @←SUBJ TARGET Nom IF (-1C TV) (0C Pers) ;
 MAP @←SUBJ TARGET Erg IF (-1C TV)  (0 $$Class) (-1 $$Class);
 MAP @←SUBJ TARGET Erg IF (-1C TV)  (0 Masc OR Fem OR Neut) (-1 Mfn);
