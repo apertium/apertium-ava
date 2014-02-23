@@ -1795,6 +1795,14 @@ LEXICON V-HIALTI
 
 %<vblex%>%<iv%>%<mfn%>:  V-CAL-COMMON  ;
 
+LEXICON V-TIOBITI
+!тІо(б)итІ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<m%>:витӀ  V-CAL-COMMON  ;
+%<vblex%>%<iv%>%<f%>:йитӀ  V-CAL-COMMON  ;
+%<vblex%>%<iv%>%<nt%>:битӀ  V-CAL-COMMON  ;
+%<vblex%>%<iv%>%<pl%>:ритӀ  V-CAL-COMMON  ;
+
 LEXICON V-ABI
 
 %<vblex%>%<tv%>%<mfn%>:  V-ABI-COMMON  ;
@@ -3175,7 +3183,7 @@ V-INE ; ! "идти, ходить"
 
 хӀалтӀизе:хӀалтӀ V-HIALTI ; ! "работать, трудиться"
 
-тӀоритӀизе:тӀоритӀ V-HIALTI ; ! "проводиться" FIXME:(b)
+тӀобитӀизе:тӀо V-TIOBITI ; ! "проводиться" FIXME:(b)
 
 
 !бах²:бах XX ; ! "мазать"
