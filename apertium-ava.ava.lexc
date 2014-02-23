@@ -101,6 +101,7 @@ LEXICON Root
 Conjunctions ; 
 Postpositions ; 
 Pronouns ;
+Determiners ;
 Numerals ; 
 Nouns ; 
 ProperNouns ; 
@@ -382,18 +383,38 @@ LEXICON N-STOL
 
 %<n%>: N-STOL-DECL ; 
 
+LEXICON N-NAJIXAN-DECL-SG
+
+%<sg%>%<nom%>:н CLIT-NOM ; 
+%<sg%>%<erg%>:н%>%{a%}с CLIT ; 
+%<sg%>%<gen%>:н%>%{a%}сул CLIT ; 
+%<sg%>%<dat%>:н%>%{a%}се CLIT ; 
+%<sg%>:н%>%{a%}с LOC-CASES ; 
+
+LEXICON N-NAJIXAN-DECL-PL
+
+%<pl%>%<nom%>:%>би CLIT-NOM ; 
+%<pl%>%<erg%>:%>баз CLIT ; 
+%<pl%>%<gen%>:%>базул CLIT ; 
+%<pl%>%<dat%>:%>базе CLIT ; 
+%<pl%>:%>ба LOC-CASES ; 
+
 LEXICON N-NAJIXAN
 
-%<n%>%<nt%>%<sg%>%<nom%>:н CLIT-NOM ; 
-%<n%>%<nt%>%<sg%>%<erg%>:н%>%{a%}с CLIT ; 
-%<n%>%<nt%>%<sg%>%<gen%>:н%>%{a%}сул CLIT ; 
-%<n%>%<nt%>%<sg%>%<dat%>:н%>%{a%}се CLIT ; 
-%<n%>%<nt%>%<sg%>:н%>%{a%}с LOC-CASES ; 
-%<n%>%<nt%>%<pl%>%<nom%>:%>би CLIT-NOM ; 
-%<n%>%<nt%>%<pl%>%<erg%>:%>баз CLIT ; 
-%<n%>%<nt%>%<pl%>%<gen%>:%>базул CLIT ; 
-%<n%>%<nt%>%<pl%>%<dat%>:%>базе CLIT ; 
-%<n%>%<nt%>%<pl%>:%>ба LOC-CASES ; 
+%<n%>%<nt%>: N-NAJIXAN-DECL-SG ;
+%<n%>%<nt%>: N-NAJIXAN-DECL-PL ;
+
+LEXICON N-AHIHAN
+
+%<n%>%<m%>: N-NAJIXAN-DECL-SG ;
+
+%<n%>%<f%>%<sg%>%<nom%>:н CLIT-NOM ; 
+%<n%>%<f%>%<sg%>%<erg%>:н%>%{a%}лъ CLIT ; 
+%<n%>%<f%>%<sg%>%<gen%>:н%>%{a%}лъу CLIT ;  ! check
+%<n%>%<f%>%<sg%>%<dat%>:н%>%{a%}лъе CLIT ; 
+%<n%>%<f%>%<sg%>:н%>%{a%}л LOC-CASES ; 
+
+%<n%>%<mf%>: N-NAJIXAN-DECL-PL ;
 
 LEXICON N-OBSHCHESTVO
 
@@ -570,6 +591,15 @@ LEXICON N-XIZAN
 %<n%>%<nt%>%<pl%>%<gen%>:м%>%{a%}зул CLIT ; 
 %<n%>%<nt%>%<pl%>%<dat%>:м%>%{a%}зе CLIT ; 
 %<n%>%<nt%>%<pl%>:м%>%{a%}з LOC-CASES ; 
+
+LEXICON N-RETIEL
+! ретІел (ратІлица, ратІлил)
+
+%<n%>%<nt%>%<sg%>%<nom%>:ел CLIT-NOM ; 
+%<n%>%<nt%>%<sg%>%<erg%>:л%>ица CLIT ; 
+%<n%>%<nt%>%<sg%>%<gen%>:л%>ил CLIT ; 
+%<n%>%<nt%>%<sg%>%<dat%>:л%>иле CLIT ; 
+%<n%>%<nt%>%<sg%>:л%>ил LOC-CASES ; 
 
 LEXICON N-LAGHEL
 ! лъагІел (-алъ//лъагІалица, -алъул//лъагІалил, -ал)
@@ -962,8 +992,43 @@ LEXICON N-BOSEN
 
 LEXICON N-UCHITEL
 
-%<n%>%<GD%>%<sg%>%<nom%>: CLIT-NOM ; 
-%<n%>%<GD%>%<pl%>%<nom%>:%>заби CLIT-NOM ; 
+%<n%>%<m%>%<sg%>%<nom%>:ь CLIT-NOM ; 
+%<n%>%<m%>%<sg%>%<erg%>:ас CLIT ; 
+%<n%>%<m%>%<sg%>%<gen%>:асул CLIT ; 
+%<n%>%<m%>%<sg%>%<dat%>:асуле CLIT ; 
+%<n%>%<m%>%<sg%>:ас LOC-CASES ; 
+
+%<n%>%<m%>%<pl%>%<nom%>:ь%>заби CLIT-NOM ; 
+%<n%>%<m%>%<pl%>%<erg%>:ь%>забаз CLIT-NOM ; 
+%<n%>%<m%>%<pl%>%<gen%>:ь%>забазул CLIT-NOM ; 
+%<n%>%<m%>%<pl%>%<dat%>:ь%>забазе CLIT-NOM ; 
+%<n%>%<m%>%<pl%>:ь%>забаз LOC-CASES ; 
+
+LEXICON N-PREDSEDATEL
+
+%<n%>%<f%>%<sg%>%<nom%>:ь CLIT-NOM ; 
+%<n%>%<f%>%<sg%>%<erg%>:алъ CLIT ; 
+%<n%>%<f%>%<sg%>%<gen%>:алъул CLIT ; 
+%<n%>%<f%>%<sg%>%<dat%>:алъуле CLIT ; 
+%<n%>%<f%>%<sg%>:ал LOC-CASES ; 
+
+N-UCHITEL ; 
+
+
+LEXICON N-PREPODAVATEL
+
+%<n%>%<m%>%<sg%>%<nom%>:ь CLIT-NOM ; 
+%<n%>%<m%>%<sg%>%<erg%>:ас CLIT ; 
+%<n%>%<m%>%<sg%>%<gen%>:асул CLIT ; 
+%<n%>%<m%>%<sg%>%<dat%>:асуле CLIT ; 
+%<n%>%<m%>%<sg%>:ас LOC-CASES ; 
+%<n%>%<m%>%<pl%>%<nom%>:ал CLIT-NOM ; 
+%<n%>%<m%>%<pl%>%<nom%>:ьзаби CLIT-NOM ; ! Dir/LR ! Use/Sub
+%<n%>%<m%>%<pl%>%<erg%>:аз CLIT ; 
+%<n%>%<m%>%<pl%>%<erg%>:ьзабаз CLIT ; ! Dir/LR ! Use/Sub
+%<n%>%<m%>%<pl%>%<gen%>:азул CLIT ; 
+%<n%>%<m%>%<pl%>%<dat%>:азуле CLIT ; 
+%<n%>%<m%>%<sg%>:аз LOC-CASES ; 
 
 LEXICON N-MEGHER
 
@@ -1073,6 +1138,7 @@ LEXICON NP-ANT-F-MASHIDAT
 
 %<np%>%<ant%>%<f%>%<attr%>: # ; 
 %<np%>%<ant%>%<f%>%<nom%>: CLIT-NOM ; 
+%<np%>%<ant%>%<f%>%<erg%>:%>ица CLIT; 
 %<np%>%<ant%>%<f%>%<gen%>:%>ил CLIT ; 
 
 
@@ -1080,6 +1146,8 @@ LEXICON NP-ANT-F-ZAREMA
 
 %<np%>%<ant%>%<f%>%<attr%>: # ; 
 %<np%>%<ant%>%<f%>%<nom%>: CLIT-NOM ; 
+%<np%>%<ant%>%<f%>%<erg%>:%>ца CLIT ; 
+%<np%>%<ant%>%<f%>%<dat%>:%>е CLIT ; 
 
 LEXICON NP-COG-IN
 
@@ -1180,31 +1248,39 @@ LEXICON PRON-PERS-NUZH
 %<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ужее # ;
 %<prn%>%<pers%>%<p2%>%<pl%>:уже LOC-CASES ;
 
+LEXICON HEB-DEM-COMMON
+
+%<nt%>%<sg%>%<nom%>:%>б PRON-CLIT ;
+%<nt%>%<sg%>%<erg%>:%>лъ PRON-CLIT ;
+%<nt%>%<sg%>%<gen%>:%>лъул PRON-CLIT ;
+%<nt%>%<sg%>%<dat%>:%>лъие PRON-CLIT ;
+%<nt%>%<sg%>:%>л LOC-CASES ;
+
+%<m%>%<sg%>%<nom%>:%>в # ;
+%<m%>%<sg%>%<erg%>:%>с # ;
+%<m%>%<sg%>%<gen%>:%>сул PRON-CLIT;
+%<m%>%<sg%>%<dat%>:%>сие # ;
+%<m%>%<sg%>:%>с LOC-CASES ;
+
+%<f%>%<sg%>%<nom%>:%>й # ;
+%<f%>%<sg%>%<erg%>:%>лъ # ;
+%<f%>%<sg%>%<gen%>:%>лъул PRON-CLIT ;
+%<f%>%<sg%>%<dat%>:%>лъие # ;
+%<f%>%<sg%>:%>л LOC-CASES ;
+
+%<pl%>%<nom%>:%>л PRON-CLIT ;
+%<pl%>%<erg%>:%>з PRON-CLIT ;
+%<pl%>%<gen%>:%>зул PRON-CLIT ;
+%<pl%>%<dat%>:%>зие PRON-CLIT ;
+%<pl%>:%>з LOC-CASES ;
+
 LEXICON PRON-DEM-HEB
 
-%<prn%>%<dem%>%<nt%>%<sg%>%<nom%>:%>б PRON-CLIT ;
-%<prn%>%<dem%>%<nt%>%<sg%>%<erg%>:%>лъ PRON-CLIT ;
-%<prn%>%<dem%>%<nt%>%<sg%>%<gen%>:%>лъул PRON-CLIT ;
-%<prn%>%<dem%>%<nt%>%<sg%>%<dat%>:%>лъие PRON-CLIT ;
-%<prn%>%<dem%>%<nt%>%<sg%>:%>л LOC-CASES ;
+%<prn%>%<dem%>: HEB-DEM-COMMON ; 
 
-%<prn%>%<dem%>%<m%>%<sg%>%<nom%>:%>в # ;
-%<prn%>%<dem%>%<m%>%<sg%>%<erg%>:%>с # ;
-%<prn%>%<dem%>%<m%>%<sg%>%<gen%>:%>сул PRON-CLIT;
-%<prn%>%<dem%>%<m%>%<sg%>%<dat%>:%>сие # ;
-%<prn%>%<dem%>%<m%>%<sg%>:%>с LOC-CASES ;
+LEXICON DET-DEM-HEB
 
-%<prn%>%<dem%>%<f%>%<sg%>%<nom%>:%>й # ;
-%<prn%>%<dem%>%<f%>%<sg%>%<erg%>:%>лъ # ;
-%<prn%>%<dem%>%<f%>%<sg%>%<gen%>:%>лъул PRON-CLIT ;
-%<prn%>%<dem%>%<f%>%<sg%>%<dat%>:%>лъие # ;
-%<prn%>%<dem%>%<f%>%<sg%>:%>л LOC-CASES ;
-
-%<prn%>%<dem%>%<pl%>%<nom%>:%>л PRON-CLIT ;
-%<prn%>%<dem%>%<pl%>%<erg%>:%>з PRON-CLIT ;
-%<prn%>%<dem%>%<pl%>%<gen%>:%>зул PRON-CLIT ;
-%<prn%>%<dem%>%<pl%>%<dat%>:%>зие PRON-CLIT ;
-%<prn%>%<dem%>%<pl%>:%>з LOC-CASES ;
+%<det%>%<dem%>: HEB-DEM-COMMON ; 
 
 LEXICON PRON-REF-ZHIB
 
@@ -1258,33 +1334,39 @@ LEXICON PRON-ITG-SHIB
 щиб%<prn%>%<itg%>%<pl%>%<dat%>:сундуе PRON-CLIT ;
 щиб%<prn%>%<itg%>%<pl%>:сун LOC-CASES ;
 
+LEXICON KINAB-COMMON 
+
+%<nt%>%<sg%>%<nom%>:б PRON-CLIT ;
+%<nt%>%<sg%>%<erg%>:лъ PRON-CLIT ;
+%<nt%>%<sg%>%<gen%>:лъул PRON-CLIT ;
+%<nt%>%<sg%>%<dat%>:лъе PRON-CLIT ;
+%<nt%>%<sg%>:л LOC-CASES ;
+
+%<m%>%<sg%>%<nom%>:в PRON-CLIT ;
+%<m%>%<sg%>%<erg%>:с PRON-CLIT ;
+%<m%>%<sg%>%<gen%>:сул PRON-CLIT ;
+%<m%>%<sg%>%<dat%>:се PRON-CLIT ;
+%<m%>%<sg%>:с LOC-CASES ;
+
+%<f%>%<sg%>%<nom%>:й PRON-CLIT ;
+%<f%>%<sg%>%<erg%>:лъ PRON-CLIT ;
+%<f%>%<sg%>%<gen%>:лъул PRON-CLIT ;
+%<f%>%<sg%>%<dat%>:ле PRON-CLIT ;
+%<f%>%<sg%>:л LOC-CASES ;
+
+%<pl%>%<nom%>:л PRON-CLIT ;
+%<pl%>%<erg%>:з PRON-CLIT ;
+%<pl%>%<gen%>:зул PRON-CLIT ;
+%<pl%>%<dat%>:зе PRON-CLIT ;
+%<pl%>:з LOC-CASES ;
+
 LEXICON PRON-ITG-KINAB
 
-%<prn%>%<itg%>%<nt%>%<sg%>%<nom%>:б PRON-CLIT ;
-%<prn%>%<itg%>%<nt%>%<sg%>%<erg%>:лъ PRON-CLIT ;
-%<prn%>%<itg%>%<nt%>%<sg%>%<gen%>:лъул PRON-CLIT ;
-%<prn%>%<itg%>%<nt%>%<sg%>%<dat%>:лъе PRON-CLIT ;
-%<prn%>%<itg%>%<nt%>%<sg%>:л LOC-CASES ;
+%<prn%>%<itg%>: KINAB-COMMON ; 
 
-%<prn%>%<itg%>%<m%>%<sg%>%<nom%>:в PRON-CLIT ;
-%<prn%>%<itg%>%<m%>%<sg%>%<erg%>:с PRON-CLIT ;
-%<prn%>%<itg%>%<m%>%<sg%>%<gen%>:сул PRON-CLIT ;
-%<prn%>%<itg%>%<m%>%<sg%>%<dat%>:се PRON-CLIT ;
-%<prn%>%<itg%>%<m%>%<sg%>:с LOC-CASES ;
+LEXICON DET-ITG-KINAB
 
-%<prn%>%<itg%>%<f%>%<sg%>%<nom%>:й PRON-CLIT ;
-%<prn%>%<itg%>%<f%>%<sg%>%<erg%>:лъ PRON-CLIT ;
-%<prn%>%<itg%>%<f%>%<sg%>%<gen%>:лъул PRON-CLIT ;
-%<prn%>%<itg%>%<f%>%<sg%>%<dat%>:ле PRON-CLIT ;
-%<prn%>%<itg%>%<f%>%<sg%>:л LOC-CASES ;
-
-%<prn%>%<itg%>%<pl%>%<nom%>:л PRON-CLIT ;
-%<prn%>%<itg%>%<pl%>%<erg%>:з PRON-CLIT ;
-%<prn%>%<itg%>%<pl%>%<gen%>:зул PRON-CLIT ;
-%<prn%>%<itg%>%<pl%>%<dat%>:зе PRON-CLIT ;
-%<prn%>%<itg%>%<pl%>:з LOC-CASES ;
-
-
+%<det%>%<itg%>: KINAB-COMMON ; 
 
 LEXICON PRON-REL-BUGEB-NT
 
@@ -1326,7 +1408,7 @@ LEXICON V-GPR-DECL
 %<pl%>:%>л # ; 
 
 LEXICON V-INE
-
+! ине (уна, ина, ана, а)
 ине%<vblex%>%<mfn%>%<iv%>%<inf%>:ин # ;
 ине%<vblex%>%<mfn%>%<iv%>%<ger%>:ине # ;
 
@@ -1341,6 +1423,8 @@ LEXICON V-INE
 ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<gpr1%>:у%>наре V-GPR-DECL ;
 ине%<vblex%>%<mfn%>%<iv%>%<gpr2%>:а%>ра V-GPR-DECL ;
 ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
+
+ине%<vblex%>%<mfn%>%<iv%>%<gna2%>:у%>н  #  ; ! FIXME: Check
 
 LEXICON V-TIUBA-COMMON
 
@@ -1365,7 +1449,7 @@ LEXICON V-TIUBA-COMMON
 %<neg%>%<gna2%>:а%>чӀого  #  ;
 
 LEXICON V-BOS-COMMON
-
+! б/ос/изе (-ула, -ила, -ана, -е)
 %<inf%>:%>и V-INF-DECL-JA ;
 %<ger%>:и%>зе # ;
 
@@ -1390,7 +1474,7 @@ LEXICON V-BOS-COMMON
 %<neg%>%<gna2%>:и%>чӀого  #  ;
 
 LEXICON V-BACH-COMMON
-
+! б/ач/ине (-уна, -ина, -ана, -е)
 %<inf%>:%>ин V-INF-DECL-JA ;
 %<ger%>:и%>не # ;
 
@@ -1415,7 +1499,7 @@ LEXICON V-BACH-COMMON
 %<neg%>%<gna2%>:и%>нчӀого  #  ;
 
 LEXICON V-ABI-COMMON
-
+! аб/изе (-ула, -ила, -уна, -е)
 %<inf%>:%>и V-INF-DECL-JA ;
 %<ger%>:и%>зе # ;
 
@@ -1440,7 +1524,7 @@ LEXICON V-ABI-COMMON
 %<neg%>%<gna2%>:и%>чӀого  #  ;
 
 LEXICON V-CAL-COMMON
-
+! цIал/изе (-ула, -ила, -ана, -е)
 %<inf%>:%>и V-INF-DECL-JA ;
 %<ger%>:и%>зе # ;
 
@@ -1462,8 +1546,56 @@ LEXICON V-CAL-COMMON
 %<gna2%>:у%>н  #  ;
 %<neg%>%<gna2%>:и%>чӀого  #  ;
 
+LEXICON V-RAGI-COMMON
+! рагІ/изе (-ула, -ила, -ана, -а)
+
+%<inf%>:%>а V-INF-DECL-JA ;
+%<ger%>:и%>зе CLIT ;
+
+%<aor%>:и%>ла V-FIN-CLIT ;
+%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
+%<fut%>:у%>ла V-FIN-CLIT ;
+%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
+%<past%>:а%>на V-FIN-CLIT ;
+%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
+
+!%<gpr1%>:и%>ле V-GPR-DECL ;
+%<gpr1%>:у%>ле V-GPR-DECL ;
+%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
+%<gpr2%>:а%>ра V-GPR-DECL ;
+%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
+
+%<gna1%>:и%>зелъун #  ;
+%<neg%>%<gna1%>:и%>лареблъун # ;
+%<gna2%>:у%>н  #  ;
+%<neg%>%<gna2%>:и%>чӀого  #  ;
+
+LEXICON V-REQ-COMMON
+! рекъ/езе (-ола, -ела, -ана, -а)
+
+%<inf%>:%>а V-INF-DECL-JA ;
+%<ger%>:е%>зе # ;
+
+%<aor%>:е%>ла V-FIN-CLIT ;
+%<neg%>%<aor%>:е%>ларо V-FIN-CLIT ;
+%<fut%>:о%>ла V-FIN-CLIT ;
+%<neg%>%<fut%>:о%>ларо V-FIN-CLIT ;
+%<past%>:а%>на V-FIN-CLIT ;
+%<neg%>%<past%>:е%>чӀо V-FIN-CLIT ;
+
+%<gpr1%>:е%>ле V-GPR-DECL ;
+%<neg%>%<gpr1%>:е%>ларе V-GPR-DECL ;
+%<gpr2%>:а%>ра V-GPR-DECL ;
+%<neg%>%<gpr2%>:е%>чӀе V-GPR-DECL ;
+
+%<gna1%>:е%>зелъун #  ;
+%<neg%>%<gna1%>:е%>лареблъун # ;
+%<gna2%>:у%>н  #  ;
+%<neg%>%<gna2%>:е%>чӀого  #  ;
+
 LEXICON V-CEH-COMMON
 ! цIех/езе (-ола, -ела, -ана, -е)
+
 %<inf%>:%>е V-INF-DECL-JA ;
 %<ger%>:е%>зе # ;
 
@@ -1522,6 +1654,15 @@ LEXICON V-BUKIIN-F
 LEXICON V-BUKIIN-PL
 
 %<vblex%>%<pl%>:у V-BUKIIN-COMMON ;
+
+LEXICON V-HISABASI
+
+%<vblex%>%<iv%>%<mfn%>: V-BOS-COMMON ;
+%<vblex%>%<tv%>%<mfn%>: V-BOS-COMMON ;
+
+LEXICON V-HIADURL
+
+%<vblex%>%<iv%>%<mfn%>: V-BOS-COMMON ;
 
 LEXICON V-BOS-M
 
@@ -1589,10 +1730,21 @@ LEXICON V-BIC-PL
 %<vblex%>%<tv%>%<pl%>: V-BACH-COMMON ;
 
 
+LEXICON V-RIKIKI
+
+%<vblex%>%<tv%>%<mfn%>:  V-BACH-COMMON  ;
+
+LEXICON V-REQ
+
+%<vblex%>%<iv%>%<mfn%>:  V-REQ-COMMON  ;
+
 LEXICON V-CEH
 
 %<vblex%>%<tv%>%<mfn%>:  V-CEH-COMMON  ;
 
+LEXICON V-RAGI
+
+%<vblex%>%<tv%>%<mfn%>:  V-RAGI-COMMON  ;
 
 LEXICON V-CAL
 
@@ -1915,6 +2067,13 @@ PRON-ITG-SHIB ; ! "кто, что"
 
 кинаб:кина PRON-ITG-KINAB ; ! "какой"
 
+LEXICON Determiners
+
+кинаб:кина DET-ITG-KINAB ; ! "какой"
+гьаб:гьа DET-DEM-HEB ; ! "это"
+гьеб:гье DET-DEM-HEB ; ! "то"
+
+
 LEXICON Numerals 
 
 цо:цо NUM-CO ; ! "один"
@@ -1950,9 +2109,13 @@ LEXICON Nouns
 чи:ч N-CHI ; ! "человек"
 гӀадан:гӀада N-GIADAN ; ! "человек"
 мацӀ:мацӀ N-STOL ; ! "язык"
+батӀалъи:батӀалъи N-STOL ; ! "разница"
+чӀухӀи:чӀухӀи N-STOL ; ! "гордость"
 гъветӀ:гъветӀ N-STOL ; ! "дерево"
 газ:газ N-STOL ; ! "газ"
 суд:суд N-STOL ; ! "суд"
+медколледж:медколледж N-STOL ; ! "медколледж"
+колледж:колледж N-STOL ; ! "колледж"
 дунял:дунял N-STOL ; ! "мир, свет"
 ракь:ракь N-STOL ; ! "земля"
 анищ:анищ N-STOL ; ! "мечта, чаяние"
@@ -1971,6 +2134,10 @@ LEXICON Nouns
 цолъи:цолъ N-CHINKILLI ; ! "единство; сплочённость, целостность, спаянность; союз"
 черх:черх N-STOL ; ! "тело"
 сайт:сайт N-STOL ; ! "сайт"
+рищи:рищи N-STOL ; ! "выборы"
+бергьенлъи:бергьенлъи N-STOL ; ! "победа"
+бихьи:бихьи N-STOL ; ! "видимость"
+экзамен:экзамен N-STOL ; ! "экзамен"
 телескоп:телескоп N-STOL ; ! "телескоп"
 жо:ж N-ZHO ; ! "вещь, предмет"
 цӀад:цӀад N-CAD ; ! "дождь"
@@ -2004,6 +2171,7 @@ N-LIMER ; ! "ребёнок"
 бахӀарчи:бахӀарчи N-VAS ; ! "смельчак"
 хъизан:хъиза N-XIZAN ; ! "семья"
 къасд:къасд N-STOL ; ! "намерение, желание"
+класс:класс N-STOL ; ! "класс"
 
 квер:квер N-STOL ; ! "рука" !FIXME:paradig
 лъар:лъар N-STOL ; ! "река" !FIXME:paradig
@@ -2056,10 +2224,12 @@ N-LIMER ; ! "ребёнок"
 фольклорист:фольклорист N-AVTOR ; ! ""
 делегат:делегат N-AVTOR ; ! ""
 
+реформа:реформа N-MARHA ; ! "реформа"
 гӀуцӀи:гӀуцӀи N-MARHA ; ! "организация, учреждение"
 гӀарза:гӀарза N-MARHA ; ! "заявление; жалоба, прошение"
 мина:мина N-MARHA ; ! "дом, изба, здание, строение, постройка; жилище"
 прокуратура:прокуратура N-MARHA ; ! "прокуратура"
+кандидатура:кандидатура N-MARHA ; ! "кандидатура"
 масъала:масъала N-MARHA ; ! "задача"
 палата:палата N-MARHA ; ! "палата"
 багьа:багьа N-MARHA ; ! "цена"
@@ -2086,7 +2256,10 @@ N-LIMER ; ! "ребёнок"
 курхьен:курх N-BOSEN ; ! "браслет"
 рехъен:рехъ N-BOSEN ; ! "стадо"
 
-учитель:учитель N-UCHITEL ; ! "учитель"
+преподаватель:преподавател N-PREPODAVATEL ; ! "преподаватель"
+учитель:учител N-UCHITEL ; ! "учитель"
+председатель:председател N-PREDSEDATEL ; ! "председатель"
+заместитель:заместител N-PREDSEDATEL ; ! "заместитель"
 шагӀир:шагӀир N-SHAGIIR ; ! "поэт"
 имам:имам N-IMAM ; ! "имам"
 гӀалим:гӀалим N-IMAM ; ! "учёный"
@@ -2112,8 +2285,10 @@ N-LIMER ; ! "ребёнок"
 ноябрь:ноябр N-JANVAR ; ! ""
 декабрь:декабр N-JANVAR ; ! ""
 
+ахихъан:ахихъа N-AHIHAN ; ! "садовник и садовница; садовод"
 найихъан:найихъа N-NAJIXAN ; ! "пчеловод; пасечник"
 общество:обществ N-OBSHCHESTVO ; ! "общество"
+министерство:министерств N-OBSHCHESTVO ; ! "министерство"
 
 ралъад:ралъ N-RALAD ; ! "море"
 
@@ -2132,6 +2307,7 @@ N-LIMER ; ! "ребёнок"
 шагьар:шагьар N-SHAHAR ; ! "город"
 тахшагьар:тахшагьар N-SHAHAR ; ! "столица"
 
+комиссия:комиссия N-GEOGRAFIJA ; ! "комиссия"
 милиция:милиция N-GEOGRAFIJA ; ! "милиция"
 тарбия:тарбия N-GEOGRAFIJA ; ! "воспитание"
 география:география N-GEOGRAFIJA ; ! "география"
@@ -2189,6 +2365,7 @@ N-LIMER ; ! "ребёнок"
 
 сон:с N-SON ; ! "год"
 лъагӀел:лъагӀ N-LAGHEL ; ! "год"
+ретӀел:ретӀ N-RETIEL ; ! "одежда, платье, наряд"
 
 лага:л N-LAGA ; ! "орган"
 
@@ -2239,6 +2416,8 @@ N-LIMER ; ! "ребёнок"
 мажлис:мажлис N-STOL ; ! "собеседование"
 съезд:съезд N-STOL ; ! "съезд"
 
+реализм:реализм N-STOL ; ! ""
+романтизм:романтизм N-STOL ; ! ""
 суфизм:суфизм N-STOL ; ! ""
 буддизм:буддизм N-STOL ; ! ""
 фашизм:фашизм N-STOL ; ! ""
@@ -2423,6 +2602,8 @@ LEXICON ProperNouns
 
 
 Афгъанистан:Афгъанистан NP-TOP-DAGHISTAN ; ! ""
+Башкортостан:Башкортостан NP-TOP-DAGHISTAN ; ! ""
+Татарстан:Татарстан NP-TOP-DAGHISTAN ; ! ""
 Дагъистан:Дагъистан NP-TOP-DAGHISTAN ; ! ""
 ГӀарабистан:ГӀарабистан NP-TOP-DAGHISTAN ; ! ""
 МахӀачхъала:МахӀачхъала NP-TOP-DAGHISTAN ; ! ""
@@ -2486,11 +2667,13 @@ LEXICON ProperNouns
 Самара:Самара NP-TOP-DAGHISTAN ; ! ""
 Доналда% Ростов:Доналда% Ростов NP-TOP-DAGHISTAN ; ! ""
 Уфа:Уфа NP-TOP-DAGHISTAN ; ! ""
-
+Тува:Тува NP-TOP-DAGHISTAN ; ! ""
 
 Азия:Азия NP-TOP-ROSSIJA ; ! ""
 Евразия:Евразия NP-TOP-ROSSIJA ; ! ""
 
+Якутия:Якутия NP-TOP-ROSSIJA ; ! ""
+Грузия:Грузия NP-TOP-ROSSIJA ; ! ""
 Авария:Авария NP-TOP-ROSSIJA ; ! ""
 Латвия:Латвия NP-TOP-ROSSIJA ; ! ""
 Буртия:Буртия NP-TOP-ROSSIJA ; ! ""
@@ -2544,13 +2727,17 @@ LEXICON ProperNouns
 ЧИАССР:ЧИАССР NP-TOP-SSSR ; ! ""
 
 НКВД:НКВД NP-AL-NKVD ; ! ""
+МВД:МВД NP-AL-NKVD ; ! ""
+РДНТ:РДНТ NP-AL-NKVD ; ! ""
 ФСБ:ФСБ NP-AL-NKVD ; ! ""
 КПСС:КПСС NP-AL-KPSS ; ! ""
 
 
 Зарема:Зарема NP-ANT-F-ZAREMA ; ! ""
+Асма:Асма NP-ANT-F-ZAREMA ; ! ""
 !Зульфия:Зульфия ;
 Машидат:Машидат NP-ANT-F-MASHIDAT ; ! ""
+ПатӀимат:ПатӀимат NP-ANT-F-MASHIDAT ; ! ""
 
 ХӀусейнов:ХӀусейнов NP-COG-OV ; ! ""
 ГӀумаханов:ГӀумаханов NP-COG-OV ; ! ""
@@ -2583,10 +2770,18 @@ LEXICON ProperNouns
 ХӀасанов:ХӀасанов NP-COG-OV ; ! ""
 Сулейманов:Сулейманов NP-COG-OV ; ! ""
 Ибрагьимов:Ибрагьимов NP-COG-OV ; ! ""
+Магьдиев:Магьдиев NP-COG-OV ; ! ""
+ХӀажимурадов:ХӀажимурадов NP-COG-OV ; ! ""
 
 Хлопонин:Хлопонин NP-COG-IN ; ! ""
 Путин:Путин NP-COG-IN ; ! ""
 
+ГъазимухӀамад:ГъазимухӀамад NP-ANT-M ; ! ""
+
+ГӀабдула:ГӀабдула NP-ANT-M ; ! ""
+АхӀмад:АхӀмад NP-ANT-M ; ! ""
+Малачи:Малачи NP-ANT-M ; ! ""
+ХӀусен:ХӀусен NP-ANT-M ; ! ""
 ХӀамзат:ХӀамзат NP-ANT-M ; ! ""
 ГӀабдулхаликъ:ГӀабдулхаликъ NP-ANT-M ; ! ""
 МухӀамадхӀусен:МухӀамадхӀусен NP-ANT-M ; ! ""
@@ -2621,6 +2816,8 @@ LEXICON Adjectives
 
 тӀоцебесеб:тӀоце A-TIOCEBESEB ; ! "первый"
 
+нухмалъулеб:нухмалъуле A-KUDIJA ; ! "" FIXME:trad
+захӀматаб:захӀмата A-KUDIJA ; ! "трудный; сложный; затруднительный; тяжёлый"
 бахунеб:бахуне A-KUDIJA ; ! "заразный"
 хӀакъикъияб:хӀакъикъия A-KUDIJA ; ! "подлинный, документальный"
 бетӀераб:бетӀера A-KUDIJA ; ! "головной, главный"
@@ -2712,7 +2909,11 @@ LEXICON Adverbs
 кин:кин ADV5 ; ! "как"
 щай:щай ADV5 ; ! "почему"
 чан:чан ADV5 ; ! "сколько" ! FIXME: pos
+чанго:чанго ADV1 ; ! "сколько" ! FIXME: pos
 
+
+батӀайиса:батӀайисан ADV1 ; ! "по-другому"
+батӀайиса:батӀайиса ADV1 ; ! "по-другому" 
 кватӀичӀого:кватӀичӀого ADV1 ; ! "скоро"
 масала:масала ADV1 ; ! "например"
 тӀа%-тӀа:тӀа%-тӀа ADV1 ; ! "вновь, снова"
@@ -2728,8 +2929,8 @@ LEXICON Adverbs
 гьадинго:гьадинго ADV1 ; ! "просто так, без цели"
 гьечӀого:гьечӀого ADV1 ; ! "без, не имея" FIXME:cat
 цӀакъ:цӀакъ ADV1 ; ! "очень"
+цӀакъ:цӀакъго ADV1 ; ! "очень" ! Dir/LR
 гӀемер:гӀемер ADV1 ; ! "много"
-хекко:хекко ADV1 ; ! "быстро"
 жеги:жеги ADV1 ; ! "ещё"
 цадахъ:цадахъ ADV1 ; ! "вместе"
 нахъеги:нахъеги ADV1 ; ! "ещё раз"
@@ -2749,6 +2950,8 @@ LEXICON Adverbs
 мехалда:мехалда ADV1 ; ! "в то время, когда"
 мехалъ:мехалъ ADV1 ; ! "в то время, когда"
 
+хекко:хекко ADV3 ; ! "быстро, рано"
+радал:радал ADV3 ; ! "утром"
 къабул:къабул ADV3 ; ! "приемлимо, удовлетворительно, согласно"
 сах:сах ADV3 ; ! "в здравии, в здоровом состоянии"
 загьир:загьир ADV3 ; ! "явно, ясно, очевидно"
@@ -2780,6 +2983,11 @@ LEXICON Adverbs
 
 гьанже:гьанже ADV1 ; ! "теперь, сейчас"
 бащадго:бащадго ADV1 ; ! "одинаково, поровну"
+гьабсагӀат:гьабсагӀат ADV1 ; ! "сейчас"
+гьабсагӀат:гьабсагӀаталъ ADV1 ; ! "сейчас" ! Dir/LR
+гьабсагӀат:гьабсагӀаталда ADV1 ; ! "сейчас" ! Dir/LR
+
+эхеде:эхеде ADV1 ; ! "вверх; наверх"
 
 гуро:гуро ADV1 ; ! "не, нет"
 
@@ -2837,9 +3045,13 @@ V-INE ; ! "идти, ходить"
 цӀузе:цӀу V-LA ; ! "цедить, процеживать, сцеживать"
 чӀаразе:чӀара V-LA ; ! "полоть"
 цӀехезе:цӀех V-CEH ; ! "спрашивать,  спросить"
+рекъезе:рекъ V-REQ ; ! "приспосабливаться, приспособляться, приспособиться; подходить, подойти; подходить,  подойти"
 тезе:т V-CEH ; ! "оставлять, оставить"
+рикӀкӀине:рикӀкӀ V-RIKIKI ; ! "(со)считать, подсчитать; вычислять, вычислить; исчислять"
 
 гӀумру% гьабизе:гӀумру% гьа V-HABI-NT ; ! "жить"
+
+рагӀизе:рагӀ V-RAGI ; ! "слышать, услышать"
 
 ками:кам V-ABI ; ! "не хватать, не хватить"
 кьаби:кьаб V-ABI ; ! "(по)бить, избить, (по)колотить кого-л."
@@ -2855,6 +3067,19 @@ V-INE ; ! "идти, ходить"
 цӀезе:цӀ V-KJE ; ! "заполняться, заполниться" ! FIXME:iv
 
 байбихьи:байбихь V-CAL ; ! "начинаться, начаться" ! FIXME:iv
+хиса%-басизе:хиса%-бас V-HISABASI ; ! "произойти, меняться, перемениться, измениться, менять, переменить, изменить"
+хисизе:хис V-HISABASI ; ! "меняться, измениться, перемениться; менять,  изменить,  переменить"
+хIадурлъизе:хIадурлъ V-HIADURL ; ! "готовиться, подготовиться"
+
+бухӀизе:бухӀ V-BAQ-NT ; ! "гореть, сгорать, прогорать; загореться; разгореться"
+бухӀизе:вухӀ V-BAQ-M ; ! "гореть, сгорать, прогорать; загореться; разгореться"
+бухӀизе:йухӀ V-BAQ-F ; ! "гореть, сгорать, прогорать; загореться; разгореться"
+бухӀизе:рухӀ V-BAQ-PL ; ! "гореть, сгорать, прогорать; загореться; разгореться"
+
+бокьизе:бокь V-BOS-NT ; ! "хотеть, желать; любить, нравиться"
+бокьизе:вокь V-BOS-M ; ! "хотеть, желать; любить, нравиться"
+бокьизе:йокь V-BOS-F ; ! "хотеть, желать; любить, нравиться"
+бокьизе:рокь V-BOS-PL ; ! "хотеть, желать; любить, нравиться"
 
 боси:бос V-BOS-NT ; ! "брать, взять; получать, получить; принимать, принять"
 боси:вос V-BOS-M ; ! "брать, взять; получать, получить; принимать, принять"

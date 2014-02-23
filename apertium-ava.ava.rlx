@@ -1,16 +1,32 @@
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
-SUBREADINGS = LTR ; 
+#SUBREADINGS = LTR ; 
+SUBREADINGS = RTL ; 
 
 LIST N = n ; 
 LIST V = vblex ; 
 LIST A = adj ; 
+LIST Post = post ; 
+LIST Pron = prn ; 
+LIST Det = det ;
+
+LIST Nom = nom ; 
+LIST Erg = erg ; 
+LIST Gen = gen ; 
+LIST Dat = dat ; 
+
+LIST IV = iv "букӀин" ; 
+LIST TV = tv ; 
+
 LIST Top = top ; 
 LIST Cog = cog ; 
 LIST Ant = ant ; 
 LIST Place = "шагьар" ; 
 
 LIST Attr = attr ;
+
+LIST Class = m f nt pl ; 
+LIST Case = nom erg gen dat ; 
 
 SECTION
 
@@ -21,3 +37,23 @@ SELECT Attr IF (0 Ant) (1 Cog) ;
 SELECT A IF (0C A OR N) (1C N) ;
 
 SELECT N IF (0C V OR N) (1C V) ;
+
+REMOVE Post IF (0C N OR Post) (-1 V) ;   
+    ## Дун вукIине вуго ахихъан.
+
+SELECT Det IF (0C Det OR Pron) (0C $$Case) (1C N + $$Case) ; 
+    ## Кинаб батIалъи бугеб реализмалда ва романтизмалда гьоркьоб?
+
+REMOVE Pron + Nom IF (-1C Pron + Nom) (0C Det OR Pron) ;
+    ## Гьадинаб чIухIигун ана дов гьаб ракьалдаса.
+
+SECTION
+
+LIST @SUBJ→ = @SUBJ→ ; 
+LIST @←SUBJ = @←SUBJ ; 
+
+MAP @SUBJ→ TARGET Nom IF (1C IV) ;
+MAP @SUBJ→ TARGET Erg IF (1C TV) ;
+
+MAP @←SUBJ TARGET Nom IF (-1C IV) ;
+MAP @←SUBJ TARGET Erg IF (-1C TV) ;
