@@ -11,3 +11,6 @@ Rules
 
 "Unify apostrophe styles"
 a => _ ;
+
+!"Numeral 1"
+!%Ӏ:1 => [ х | т | к | ч | ц | г | Х | Т | К | Ч | Ц | Г ] _ ;
