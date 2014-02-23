@@ -1,9 +1,9 @@
 prefix=@prefix@
 exec_prefix=${prefix}
 libdir=@libdir@
-dir=@libdir@/apertium/apertium-kaz
-srcdir=@datarootdir@/apertium/apertium-kaz
+dir=@libdir@/apertium/apertium-ava
+srcdir=@datarootdir@/apertium/apertium-ava
 
-Name: apertium-kaz
-Description: Finite-state morphological transducer and constraint grammar for Kazakh
+Name: apertium-ava
+Description: Finite-state morphological transducer and constraint grammar for Avar
 Version: @VERSION@
