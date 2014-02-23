@@ -1400,6 +1400,15 @@ LEXICON PRON-REL-BUGEB-PL
 
 %<prn%>%<pl%>%<rel%>:уге A-DECL ; 
 
+LEXICON V-INF-DECL-J
+
+%<sg%>%<nom%>:%>й CLIT-NOM ; 
+%<sg%>%<erg%>:%>ялъ CLIT ; 
+%<sg%>%<gen%>:%>ялъул CLIT ; 
+%<sg%>%<dat%>:%>ялъе CLIT ; 
+%<sg%>:%>ял LOC-CASES ; 
+
+
 LEXICON V-INF-DECL-JA
 
 %<sg%>%<nom%>: CLIT-NOM ; 
@@ -1842,7 +1851,7 @@ LEXICON V-KIODOL
 
 LEXICON V-LA
 
-%<vblex%>%<tv%>%<mfn%>%<inf%>:%>й # ; ! FIXME:nodecl
+%<vblex%>%<tv%>%<mfn%>%<inf%>:%> V-INF-DECL-J ; 
 %<vblex%>%<tv%>%<mfn%>%<ger%>:%>зе # ;
 
 %<vblex%>%<tv%>%<mfn%>%<aor%>:%>ла V-FIN-CLIT ;
@@ -1864,7 +1873,7 @@ LEXICON V-LA
 
 LEXICON V-KKE
 
-%<vblex%>%<iv%>%<mfn%>%<inf%>:е%>й # ; ! FIXME:nodecl
+%<vblex%>%<iv%>%<mfn%>%<inf%>:е%> V-INF-DECL-J ; 
 %<vblex%>%<iv%>%<mfn%>%<ger%>:е%>зе # ;
 
 %<vblex%>%<iv%>%<mfn%>%<aor%>:о%>ла V-FIN-CLIT ;
@@ -1886,7 +1895,7 @@ LEXICON V-KKE
 
 LEXICON V-KJE
 
-%<vblex%>%<tv%>%<mfn%>%<inf%>:е%>й # ; ! FIXME:nodecl
+%<vblex%>%<tv%>%<mfn%>%<inf%>:е%> V-INF-DECL-J ; ! FIXME:nodecl
 %<vblex%>%<tv%>%<mfn%>%<ger%>:е%>зе # ;
 
 %<vblex%>%<tv%>%<mfn%>%<aor%>:о%>ла V-FIN-CLIT ;
@@ -2876,6 +2885,7 @@ LEXICON Adjectives
 
 тӀоцебесеб:тӀоце A-TIOCEBESEB ; ! "первый"
 
+гьечӀеб:гьечӀе A-KUDIJA ; ! "без- (бес-); гІадамал ~б бакІ = безлюдное место"
 цӀакъаб:цӀакъа A-KUDIJA ; ! "отличный, превосходный, великолепный; лучший; хороший, очень хороший"
 кутакаб:кутака A-KUDIJA ; ! "сильный, мощный, могучий"
 квешаб:квеша A-KUDIJA ; ! "плохой, дурной, дрянной, негодный; поганый"
