@@ -116,6 +116,7 @@ Punctuation ;
 
 LEXICON V-FIN-CLIT
 
+!%+ги%<cnjcoo%>:%>ги # ; 
 %+ни%<adv%>:%>ни # ; 
 %+ищ%<qst%>:%>%{и%}щ # ; 
 # ;
@@ -1310,7 +1311,7 @@ LEXICON A-KINABGO
 
 LEXICON PRON-PERS-DUN
 
-%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ун # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ун PRON-CLIT ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<erg%>:ица # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:ир PRON-CLIT ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ие # ;
@@ -1318,7 +1319,7 @@ LEXICON PRON-PERS-DUN
 
 LEXICON PRON-PERS-MUN
 
-мун%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:мун # ;
+мун%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:мун PRON-CLIT ;
 мун%<prn%>%<pers%>%<p2%>%<sg%>%<erg%>:дуца # ;
 мун%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:дур PRON-CLIT ;
 мун%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:дуе # ;
@@ -1326,7 +1327,7 @@ LEXICON PRON-PERS-MUN
 
 LEXICON PRON-PERS-NIZH
 
-%<prn%>%<pers%>%<p1x%>%<pl%>%<nom%>:иж # ;
+%<prn%>%<pers%>%<p1x%>%<pl%>%<nom%>:иж PRON-CLIT ;
 %<prn%>%<pers%>%<p1x%>%<pl%>%<erg%>:ижеца # ;
 %<prn%>%<pers%>%<p1x%>%<pl%>%<gen%>:ижер PRON-CLIT ;
 %<prn%>%<pers%>%<p1x%>%<pl%>%<dat%>:ижее # ;
@@ -1334,7 +1335,7 @@ LEXICON PRON-PERS-NIZH
 
 LEXICON PRON-PERS-NILW
 
-%<prn%>%<pers%>%<p1i%>%<pl%>%<nom%>:илъ # ;
+%<prn%>%<pers%>%<p1i%>%<pl%>%<nom%>:илъ PRON-CLIT ;
 %<prn%>%<pers%>%<p1i%>%<pl%>%<erg%>:илъеца # ;
 %<prn%>%<pers%>%<p1i%>%<pl%>%<gen%>:илъер PRON-CLIT ;
 %<prn%>%<pers%>%<p1i%>%<pl%>%<dat%>:илъее # ;
@@ -1342,7 +1343,7 @@ LEXICON PRON-PERS-NILW
 
 LEXICON PRON-PERS-NUZH
 
-%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:уж # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:уж PRON-CLIT ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<erg%>:ужеца # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:ужер PRON-CLIT ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ужее # ;
@@ -1596,7 +1597,8 @@ LEXICON V-BACH-COMMON
 
 %<gpr1%>:и%>не V-GPR-DECL ; ! Dir/LR
 %<neg%>%<gpr1%>:и%>наре V-GPR-DECL ; ! Dir/LR
-%<gpr1%>:у%>не V-GPR-DECL ;
+%<gpr1%>:у%>ле V-GPR-DECL ;
+!%<gpr1%>:у%>не V-GPR-DECL ;
 %<neg%>%<gpr1%>:у%>наре V-GPR-DECL ;
 %<gpr2%>:у%>ра V-GPR-DECL ; ! Dir/LR
 %<gpr2%>:а%>ра V-GPR-DECL ;
@@ -3400,9 +3402,12 @@ LEXICON Adverbs
 
 гьанже:гьанже ADV1 ; ! "теперь, сейчас"
 бащадго:бащадго ADV1 ; ! "одинаково, поровну"
+
 гьабсагӀат:гьабсагӀат ADV1 ; ! "сейчас"
 гьабсагӀат:гьабсагӀаталъ ADV1 ; ! "сейчас" ! Dir/LR
 гьабсагӀат:гьабсагӀаталда ADV1 ; ! "сейчас" ! Dir/LR
+гьабсагӀат:гьаб% сагӀаталда ADV1 ; ! "сейчас" ! Dir/LR
+гьабсагӀат:гьасагӀат ADV1 ; ! "сейчас" ! Dir/LR
 
 эхеде:эхеде ADV1 ; ! "вверх; наверх"
 
