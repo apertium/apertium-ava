@@ -128,6 +128,8 @@ LEXICON V-FIN-CLIT
 LEXICON CLIT 
 
 %+ги%<cnjcoo%>:%>ги # ; 
+%+гин%<adv%>:%>гин # ; 
+%+гун%<adv%>:%>гун # ; 
 # ;
 
 LEXICON PRON-CLIT
@@ -806,6 +808,23 @@ LEXICON N-SOBRANIJE
 %<n%>%<nt%>%<pl%>%<dat%>:%>язе CLIT ; 
 %<n%>%<nt%>%<pl%>:%>яз LOC-CASES ; 
 
+LEXICON N-KUC
+
+%<n%>%<nt%>%<sg%>%<nom%>:уц CLIT-NOM ; 
+%<n%>%<nt%>%<sg%>%<erg%>:уц%>алъ CLIT-NOM ; 
+%<n%>%<nt%>%<sg%>%<erg%>:оц%>оца CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>%<gen%>:уц%>алъул CLIT-NOM ; 
+%<n%>%<nt%>%<sg%>%<gen%>:оц%>ол CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>%<dat%>:уц%>але CLIT-NOM ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>оцоле CLIT ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>:уц%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:оц%>ол LOC-CASES ;  ! Dir/LR
+%<n%>%<nt%>%<pl%>%<nom%>:уц%>ал CLIT-NOM ; 
+%<n%>%<nt%>%<pl%>%<erg%>:уц%>аз CLIT ; 
+%<n%>%<nt%>%<pl%>%<gen%>:уц%>азул CLIT ; 
+%<n%>%<nt%>%<pl%>%<dat%>:уц%>азе CLIT ; 
+%<n%>%<nt%>%<pl%>:уц%>аз LOC-CASES ; 
+
 LEXICON N-KAJ
 
 %<n%>%<nt%>%<sg%>%<nom%>:й CLIT-NOM ; 
@@ -1160,7 +1179,7 @@ LEXICON NP-TOP-ROSSIJA
 
 %<np%>%<top%>%<sg%>%<attr%>: # ; 
 %<np%>%<top%>%<sg%>%<nom%>: CLIT-NOM ; 
-!%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
+%<np%>%<top%>%<sg%>%<erg%>:%>лъ CLIT ; 
 %<np%>%<top%>%<sg%>%<gen%>:%>лъул CLIT ; 
 %<np%>%<top%>%<sg%>%<dat%>:%>лъе CLIT ; 
 %<np%>%<top%>%<sg%>:%>л LOC-CASES ;
@@ -1169,7 +1188,7 @@ LEXICON NP-TOP-DAGHISTAN
 
 %<np%>%<top%>%<sg%>%<attr%>: # ; 
 %<np%>%<top%>%<sg%>%<nom%>: CLIT-NOM ; 
-!%<np%>%<top%>%<sg%>%<erg%>: CLIT ; 
+%<np%>%<top%>%<sg%>%<erg%>:%>%{a%}лъ CLIT ; 
 %<np%>%<top%>%<sg%>%<gen%>:%>%{a%}лъул CLIT ; 
 %<np%>%<top%>%<sg%>%<dat%>:%>%{a%}лъе CLIT ; 
 %<np%>%<top%>%<sg%>:%>%{a%}л LOC-CASES ;
@@ -1255,6 +1274,8 @@ LEXICON NP-AL
 
 %<np%>%<al%>%<nom%>: CLIT-NOM ; 
 %<np%>%<al%>%<gen%>:%>%{a%}лъул CLIT ; 
+%<np%>%<al%>%<dat%>:%>%{a%}ле CLIT ; 
+%<np%>%<al%>:%>%{a%}л LOC-CASES ; 
 
 LEXICON NP-ANT-M
 
@@ -1279,6 +1300,14 @@ LEXICON NP-ANT-F-ZAREMA
 %<np%>%<ant%>%<f%>%<nom%>: CLIT-NOM ; 
 %<np%>%<ant%>%<f%>%<erg%>:%>ца CLIT ; 
 %<np%>%<ant%>%<f%>%<dat%>:%>е CLIT ; 
+
+LEXICON NP-COG-DZE
+
+%<np%>%<cog%>%<mf%>%<sg%>%<nom%>: CLIT-NOM ; 
+%<np%>%<cog%>%<mf%>%<sg%>%<erg%>:%>ца CLIT ; 
+%<np%>%<cog%>%<mf%>%<sg%>%<gen%>:%>л CLIT ; 
+%<np%>%<cog%>%<mf%>%<sg%>%<dat%>:%>е CLIT ; 
+%<np%>%<cog%>%<mf%>%<sg%>:%> LOC-CASES ; 
 
 LEXICON NP-COG-IN
 
@@ -1782,19 +1811,19 @@ LEXICON V-BUKIIN-COMMON
 
 LEXICON V-BUKIIN-M
 
-%<vblex%>%<m%>:у V-BUKIIN-COMMON ;
+%<vblex%>%<iv%>%<m%>:у V-BUKIIN-COMMON ;
 
 LEXICON V-BUKIIN-NT
 
-%<vblex%>%<nt%>:у V-BUKIIN-COMMON ;
+%<vblex%>%<iv%>%<nt%>:у V-BUKIIN-COMMON ;
 
 LEXICON V-BUKIIN-F
 
-%<vblex%>%<f%>:и V-BUKIIN-COMMON ;
+%<vblex%>%<iv%>%<f%>:и V-BUKIIN-COMMON ;
 
 LEXICON V-BUKIIN-PL
 
-%<vblex%>%<pl%>:у V-BUKIIN-COMMON ;
+%<vblex%>%<iv%>%<pl%>:у V-BUKIIN-COMMON ;
 
 LEXICON V-HISABASI
 
@@ -1902,6 +1931,12 @@ LEXICON V-TIOBITI
 %<vblex%>%<iv%>%<f%>:йитӀ  V-CAL-COMMON  ;
 %<vblex%>%<iv%>%<nt%>:битӀ  V-CAL-COMMON  ;
 %<vblex%>%<iv%>%<pl%>:ритӀ  V-CAL-COMMON  ;
+
+%<vblex%>%<tv%>%<m%>:витӀ  V-CAL-COMMON  ;
+%<vblex%>%<tv%>%<f%>:йитӀ  V-CAL-COMMON  ;
+%<vblex%>%<tv%>%<nt%>:битӀ  V-CAL-COMMON  ;
+%<vblex%>%<tv%>%<pl%>:ритӀ  V-CAL-COMMON  ;
+
 
 LEXICON V-ABI
 
@@ -2320,6 +2355,7 @@ LEXICON Nouns
 нигӀмат:нигӀмат N-STOL ; ! "благо"
 адаб:адаб N-STOL ; ! "вежливость, учтивость; воспитанность"
 хӀурмат:хӀурмат N-STOL ; ! "почёт, почтение, уважение, авторитет; честь"
+шахмат:шахмат N-STOL ; ! ""
 чӀинкӀиллъи:чӀинкӀиллъ N-CHINKILLI ; ! "остров"
 къотӀи%-къай:къотӀи%-къа N-KAJ ; ! "договор, договорённость"
 собрание:собрани N-SOBRANIJE ; ! "собрание"
@@ -2384,6 +2420,7 @@ N-LIMER ; ! "ребёнок"
 квер:квер N-STOL ; ! "рука" !FIXME:paradig
 лъар:лъар N-STOL ; ! "река" !FIXME:paradig
 
+журналист:журналист N-AVTOR ; ! "журналист"
 автор:автор N-AVTOR ; ! "автор"
 мугӀалим:мугӀалим N-MUGHALIM ; ! "учитель, преподаватель"
 гьудул:гьудул N-MUGHALIM ; ! "друг, подруга; приятель, приятельница"
@@ -2453,6 +2490,7 @@ N-LIMER ; ! "ребёнок"
 гӀемерисел:гӀемерисе N-GIEMERISEL ; ! "многие" !FIXME:check POS
 къецал:къеца N-GIEMERISEL ; ! "соревнование, состязание"
 
+выставка:выставка N-MARHA ; ! "выставка"
 улка:улка N-MARHA ; ! "страна"
 кафедра:кафедра N-MARHA ; ! "кафедра"
 программа:программа N-MARHA ; ! "программа"
@@ -2560,6 +2598,8 @@ N-LIMER ; ! "ребёнок"
 тахшагьар:тахшагьар N-SHAHAR ; ! "столица"
 
 
+монополия:монополия N-GEOGRAFIJA ; ! ""
+энергия:энергия N-GEOGRAFIJA ; ! ""
 ревизия:ревизия N-GEOGRAFIJA ; ! ""
 дивизия:дивизия N-GEOGRAFIJA ; ! ""
 
@@ -2806,6 +2846,7 @@ N-LIMER ; ! "ребёнок"
 килограмм:килограмм N-STOL ; ! "килограмм"
 километр:километр N-STOL ; ! "километр"
 кинотеатр:кинотеатр N-STOL ; ! "кинотеатр"
+бизнес:бизнес N-STOL ; ! "бизнес"
 китаб:китаб N-STOL ; ! "писание, книга"
 колхоз:колхоз N-STOL ; ! "колхоз"
 комбайн:комбайн N-STOL ; ! "комбайн"
@@ -3208,6 +3249,7 @@ N-LIMER ; ! "ребёнок"
 шапакъат:шапакъат N-STOL ; ! "награда, вознаграждение"
 шартӀ:шартӀ N-STOL ; ! "условие, положение, шанс, цо"
 шарф:шарф N-STOL ; ! "шарф"
+медицина:медицина N-STOL ; ! "медицина"
 шаршав:шаршав N-STOL ; ! "простыня"
 шашликӀ:шашликӀ N-STOL ; ! "шашлык"
 шитил:шитил N-STOL ; ! "рассада"
@@ -3228,6 +3270,9 @@ N-LIMER ; ! "ребёнок"
 юргъан:юргъан N-STOL ; ! "стеганое одеяло"
 як:як N-STOL ; ! "як"
 ясбер:ясбер N-STOL ; ! "зрачок"
+такрар:такрар N-STOL ; ! "повтор"
+
+куц:к N-KUC ; ! "форма, образец; выкройка, колодка"
 
 балай:бала N-KAJ ; ! "любовь, увлечение"
 калий:кали N-KAJ ; ! "калий"
@@ -3237,6 +3282,10 @@ N-LIMER ; ! "ребёнок"
 натрий:натри N-KAJ ; ! "хим. натрий"
 пай:па N-KAJ ; ! "пай, часть, доля, гьелда гьоркьоб дирги"
 хӀалкъай:хӀалкъа N-KAJ ; ! "грусть, печаль, огорчение, горесть, горе, скорбь"
+
+рос%-лъади:рос%-лъади N-FIZIKA ; ! "муж с женой, супруги, супружеская чета"
+рос%-лъади:рослъади N-FIZIKA ; ! "муж с женой, супруги, супружеская чета" ! Dir/LR
+
 
 авараглъи:авараглъи N-FIZIKA ; ! "пророчество"
 авторлъи:авторлъи N-FIZIKA ; ! "авторство"
@@ -3351,7 +3400,7 @@ N-LIMER ; ! "ребёнок"
 пластмасса:пластмасса N-FIZIKA ; ! "пластмасса"
 политбюро:политбюро N-FIZIKA ; ! "политбюро"
 поэтика:поэтика N-FIZIKA ; ! "лит. поэтика"
-пресса:пресса N-FIZIKA ; ! "пресса, Россиялъул"
+пресса:пресса N-FIZIKA ; ! "пресса"
 проза:проза N-FIZIKA ; ! "проза, магІарулазул"
 психика:психика N-FIZIKA ; ! "психика"
 публицистика:публицистика N-FIZIKA ; ! "публицистика"
@@ -3469,6 +3518,7 @@ N-LIMER ; ! "ребёнок"
 LEXICON ProperNouns 
 
 
+Краснодар:Краснодар NP-TOP-DAGHISTAN ; ! ""
 Иран:Иран NP-TOP-DAGHISTAN ; ! ""
 Афгъанистан:Афгъанистан NP-TOP-DAGHISTAN ; ! ""
 Башкортостан:Башкортостан NP-TOP-DAGHISTAN ; ! ""
@@ -3518,6 +3568,7 @@ LEXICON ProperNouns
 Хасавюрт:Хасавюрт NP-TOP-DAGHISTAN ; ! ""
 Ростов:Ростов NP-TOP-DAGHISTAN ; ! ""
 
+Югалъулаб% Осетия:Югалъулаб% Осетия NP-TOP-ROSSIJA ; ! ""
 Европа:Европа NP-TOP-DAGHISTAN ; ! ""
 Европа:Европа NP-TOP-ROSSIJA ; ! "" ! Dir/LR ! Use/Sub
 Америка:Америка NP-TOP-DAGHISTAN ; ! ""
@@ -3577,6 +3628,7 @@ LEXICON ProperNouns
 Германия:Германия NP-TOP-ROSSIJA ; ! "" ! Use/Sub
 Ялова:Ялова NP-TOP-ROSSIJA ; ! ""
 Ялова:Ялова NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
+Чачан% Республика:Чачан% Республика NP-TOP-DAGHISTAN ; ! ""
 
 
 Буйнакск:Буйнакск NP-TOP-BUJNAKSK ; ! ""
@@ -3586,14 +3638,51 @@ LEXICON ProperNouns
 Минск:Минск NP-TOP-BUJNAKSK ; ! ""
 Каспийск:Каспийск NP-TOP-BUJNAKSK ; ! ""
 
-
-
 Америкаялъул% Цолъарал% Штатал:Америкаялъул% Цолъарал% Штатал NP-TOP-PL ; 
+
+Ставрополь:Ставрополь NP-TOP-DAGHISTAN ; ! ""
+Волгоград:Волгоград NP-TOP-DAGHISTAN ; ! ""
+Владикавказ:Владикавказ NP-TOP-DAGHISTAN ; ! ""
+
+ЦӀумада:ЦӀумада NP-TOP-DAGHISTAN ; ! ""
+ЧӀарада:ЧӀарада NP-TOP-DAGHISTAN ; ! ""
+Зехида:Зехида NP-TOP-DAGHISTAN ; ! ""
+Къорода:Къорода NP-TOP-DAGHISTAN ; ! ""
+Тарумовка:Тарумовка NP-TOP-DAGHISTAN ; ! ""
+Шамилхъала:Шамилхъала NP-TOP-DAGHISTAN ; ! ""
+Сергохъала:Сергохъала NP-TOP-DAGHISTAN ; ! ""
+Хумторхъала:Хумторхъала NP-TOP-DAGHISTAN ; ! ""
+ЛъаратӀа:ЛъаратӀа NP-TOP-DAGHISTAN ; ! ""
+ХинлъимитӀа:ХинлъимитӀа NP-TOP-DAGHISTAN ; ! ""
+СалтӀа:СалтӀа NP-TOP-DAGHISTAN ; ! ""
+Лаваша:Лаваша NP-TOP-DAGHISTAN ; ! ""
+ГӀахъуша:ГӀахъуша NP-TOP-DAGHISTAN ; ! ""
+МагӀлиб:МагӀлиб NP-TOP-DAGHISTAN ; ! ""
+Гъуниб:Гъуниб NP-TOP-DAGHISTAN ; ! ""
+КъахӀиб:КъахӀиб NP-TOP-DAGHISTAN ; ! ""
+ГӀаймаки:ГӀаймаки NP-TOP-DAGHISTAN ; ! ""
+Рихьуни:Рихьуни NP-TOP-DAGHISTAN ; ! ""
+Сочи:Сочи NP-TOP-DAGHISTAN ; ! ""
+МугӀрузул:МугӀрузул NP-TOP-DAGHISTAN ; ! ""
+Табасаран:Табасаран NP-TOP-DAGHISTAN ; ! ""
+ХӀасан:ХӀасан NP-TOP-DAGHISTAN ; ! ""
+Унсоколо:Унсоколо NP-TOP-DAGHISTAN ; ! ""
+Гъизляр:Гъизляр NP-TOP-DAGHISTAN ; ! ""
+Гумбет:Гумбет NP-TOP-DAGHISTAN ; ! ""
+МухӀарамкент:МухӀарамкент NP-TOP-DAGHISTAN ; ! ""
+Гъаякент:Гъаякент NP-TOP-DAGHISTAN ; ! ""
+Бабаюрт:Бабаюрт NP-TOP-DAGHISTAN ; ! ""
+Сугъралъ:Сугъралъ NP-TOP-DAGHISTAN ; ! ""
+ГӀахьвахъ:ГӀахьвахъ NP-TOP-DAGHISTAN ; ! ""
+Хунзахъ:Хунзахъ NP-TOP-DAGHISTAN ; ! ""
+Болъихъ:Болъихъ NP-TOP-DAGHISTAN ; ! ""
+Кьохъ:Кьохъ NP-TOP-DAGHISTAN ; ! ""
 
 
 
 
 АО:АО NP-TOP-ACSH ; ! ""
+ЮФО:ЮФО NP-TOP-ACSH ; ! ""
 АЦШ:АЦШ NP-TOP-ACSH ; ! ""
 СССР:СССР NP-TOP-SSSR ; ! ""
 ССР:ССР NP-TOP-SSSR ; ! ""
@@ -3604,25 +3693,62 @@ LEXICON ProperNouns
 Киргиз% ССР:Киргиз% ССР NP-TOP-SSSR ; ! ""
 ЧИАССР:ЧИАССР NP-TOP-SSSR ; ! ""
 
+СПИД:СПИД NP-AL-KPSS ; ! "" ! FIXME:checkPOS
+
 НКВД:НКВД NP-AL-NKVD ; ! ""
+ГИБДД:ГИБДД NP-AL-NKVD ; ! ""
 МВД:МВД NP-AL-NKVD ; ! ""
 РДНТ:РДНТ NP-AL-NKVD ; ! ""
 ФСБ:ФСБ NP-AL-NKVD ; ! ""
 КПСС:КПСС NP-AL-KPSS ; ! ""
+ДУМД:ДУМД NP-AL-KPSS ; ! ""
+ФОМС:ФОМС NP-AL-KPSS ; ! ""
+МЧС:МЧС NP-AL-KPSS ; ! ""
 ГЭС:ГЭС NP-AL-GES ; ! ""
+ДГУ:ДГУ NP-AL-NKVD ; ! ""
+ДГПУ:ДГПУ NP-AL-NKVD ; ! ""
+СПК:СПК NP-AL-NKVD ; ! ""
 ДнепроГЭС:ДнепроГЭС NP-AL-KPSS ; ! ""
 ЧӀикӀабГЭС:ЧӀикӀабГЭС NP-AL-KPSS ; ! ""
 КамАЗ:КамАЗ NP-AL-KPSS ; ! ""
 РусГидро:РусГидро NP-AL-NKVD ; ! ""
+ЕГЭ:ЕГЭ NP-AL-NKVD ; ! ""
+РОВД:РОВД NP-AL-NKVD ; ! ""
+МО:МО NP-AL-NKVD ; ! ""
+ДЮСШ:ДЮСШ NP-AL-NKVD ; ! ""
 
 
 Зарема:Зарема NP-ANT-F-ZAREMA ; ! ""
 Асма:Асма NP-ANT-F-ZAREMA ; ! ""
-!Зульфия:Зульфия ;
+Элеонора:Элеонора NP-ANT-F-ZAREMA ; ! ""
 Машидат:Машидат NP-ANT-F-MASHIDAT ; ! ""
 Марина:Марина NP-ANT-F-ZAREMA ; ! ""
 Перзият:Перзият NP-ANT-F-MASHIDAT ; ! ""
 ПатӀимат:ПатӀимат NP-ANT-F-MASHIDAT ; ! ""
+
+Людмила:Людмила NP-ANT-F-ZAREMA ; ! ""
+Алла:Алла NP-ANT-F-ZAREMA ; ! ""
+Светлана:Светлана NP-ANT-F-ZAREMA ; ! ""
+Мадина:Мадина NP-ANT-F-ZAREMA ; ! ""
+Екатерина:Екатерина NP-ANT-F-ZAREMA ; ! ""
+Гульнара:Гульнара NP-ANT-F-ZAREMA ; ! ""
+Надира:Надира NP-ANT-F-ZAREMA ; ! ""
+Зульфия:Зульфия NP-ANT-F-ZAREMA ; ! ""
+Фазу:Фазу NP-ANT-F-ZAREMA ; ! ""
+Залму:Залму NP-ANT-F-ZAREMA ; ! ""
+
+Зайнаб:Зайнаб NP-ANT-F-MASHIDAT ; ! ""
+Марьям:Марьям NP-ANT-F-MASHIDAT ; ! ""
+Хадижат:Хадижат NP-ANT-F-MASHIDAT ; ! ""
+Хадижат:Хадижат NP-ANT-F-MASHIDAT ; ! ""
+Аминат:Аминат NP-ANT-F-MASHIDAT ; ! ""
+Сидрат:Сидрат NP-ANT-F-MASHIDAT ; ! ""
+ГӀайшат:ГӀайшат NP-ANT-F-MASHIDAT ; ! ""
+ГӀайшат:ГӀайшат NP-ANT-F-MASHIDAT ; ! ""
+Марият:Марият NP-ANT-F-MASHIDAT ; ! ""
+Асият:Асият NP-ANT-F-MASHIDAT ; ! ""
+Шамсият:Шамсият NP-ANT-F-MASHIDAT ; ! ""
+
 
 ХӀусейнов:ХӀусейнов NP-COG-OV ; ! ""
 Ткачев:Ткачев NP-COG-OV ; ! ""
@@ -3713,11 +3839,27 @@ LEXICON ProperNouns
 Ющенков:Ющенков NP-COG-OV ; ! ""
 Шагьмурадов:Шагьмурадов NP-COG-OV ; ! ""
 
+АхӀмадилов:АхӀмадилов NP-COG-OV ; ! ""
+МухӀамадтӀагьиров:МухӀамадтӀагьиров NP-COG-OV ; ! ""
+АхӀмаднабиев:АхӀмаднабиев NP-COG-OV ; ! ""
+Зайналов:Зайналов NP-COG-OV ; ! ""
+МухӀамадтӀагьиров:МухӀамадтӀагьиров NP-COG-OV ; ! ""
+МахӀачев:МахӀачев NP-COG-OV ; ! ""
+Дарбишев:Дарбишев NP-COG-OV ; ! ""
+Даниялов:Даниялов NP-COG-OV ; ! ""
+Громов:Громов NP-COG-OV ; ! ""
+
+Собчак:Собчак NP-COG-OV ; ! ""
 Медински:Медински NP-COG-OV ; ! "" FIXME:check
 
+Крошкин:Крошкин NP-COG-IN ; ! ""
 Хлопонин:Хлопонин NP-COG-IN ; ! ""
 Путин:Путин NP-COG-IN ; ! ""
 Смолинин:Смолинин NP-COG-IN ; ! ""
+Ленин:Ленин NP-COG-IN ; ! ""
+Сталин:Сталин NP-COG-IN ; ! ""
+
+Тетрадзе:Тетрадзе NP-COG-DZE ; ! ""
 
 Султанмурад:Султанмурад NP-ANT-M ; ! ""
 МухӀамадмурад:МухӀамадмурад NP-ANT-M ; ! ""
@@ -3725,6 +3867,7 @@ LEXICON ProperNouns
 Умалат:Умалат NP-ANT-M ; ! ""
 Адам:Адам NP-ANT-M ; ! ""
 Айтемир:Айтемир NP-ANT-M ; ! ""
+Вячеслав:Вячеслав NP-ANT-M ; ! ""
 ХӀажимурад:ХӀажимурад NP-ANT-M ; ! ""
 Шамсудин:Шамсудин NP-ANT-M ; ! ""
 Тимур:Тимур NP-ANT-M ; ! ""
@@ -3778,12 +3921,111 @@ LEXICON ProperNouns
 Владимир:Владимир NP-ANT-M ; ! ""
 Александр:Александр NP-ANT-M ; ! ""
 
+ХӀайбула:ХӀайбула NP-ANT-M ; ! ""
+Зикрула:Зикрула NP-ANT-M ; ! ""
+ЦӀадаса:ЦӀадаса NP-ANT-M ; ! ""
+БежтӀаса:БежтӀаса NP-ANT-M ; ! ""
+Инхоса:Инхоса NP-ANT-M ; ! ""
+Муса:Муса NP-ANT-M ; ! ""
+Сайгидпаша:Сайгидпаша NP-ANT-M ; ! ""
+Хунзахъа:Хунзахъа NP-ANT-M ; ! ""
+Ражаб:Ражаб NP-ANT-M ; ! ""
+ГӀалиасхӀаб:ГӀалиасхӀаб NP-ANT-M ; ! ""
+ХӀабиб:ХӀабиб NP-ANT-M ; ! ""
+МухӀамадхӀабиб:МухӀамадхӀабиб NP-ANT-M ; ! ""
+Лев:Лев NP-ANT-M ; ! ""
+ХӀажияв:ХӀажияв NP-ANT-M ; ! ""
+ГӀалибег:ГӀалибег NP-ANT-M ; ! ""
+Анварбег:Анварбег NP-ANT-M ; ! ""
+КъурамухӀамад:КъурамухӀамад NP-ANT-M ; ! ""
+КъурбанмухӀамад:КъурбанмухӀамад NP-ANT-M ; ! ""
+СагӀид:СагӀид NP-ANT-M ; ! ""
+Сайгид:Сайгид NP-ANT-M ; ! ""
+ГӀабдулмажид:ГӀабдулмажид NP-ANT-M ; ! ""
+Рашид:Рашид NP-ANT-M ; ! ""
+Муртуз:Муртуз NP-ANT-M ; ! ""
+Наби:Наби NP-ANT-M ; ! ""
+МухӀамадхӀажи:МухӀамадхӀажи NP-ANT-M ; ! ""
+ХӀажи:ХӀажи NP-ANT-M ; ! ""
+МуртазагӀали:МуртазагӀали NP-ANT-M ; ! ""
+МухӀамадгӀали:МухӀамадгӀали NP-ANT-M ; ! ""
+Низами:Низами NP-ANT-M ; ! ""
+Закари:Закари NP-ANT-M ; ! ""
+Николай:Николай NP-ANT-M ; ! ""
+Андрей:Андрей NP-ANT-M ; ! ""
+ГӀадилгерей:ГӀадилгерей NP-ANT-M ; ! ""
+Алексей:Алексей NP-ANT-M ; ! ""
+Анатолий:Анатолий NP-ANT-M ; ! ""
+Евгений:Евгений NP-ANT-M ; ! ""
+Валерий:Валерий NP-ANT-M ; ! ""
+Дмитрий:Дмитрий NP-ANT-M ; ! ""
+Юрий:Юрий NP-ANT-M ; ! ""
+Малик:Малик NP-ANT-M ; ! ""
+Жамал:Жамал NP-ANT-M ; ! ""
+Михаил:Михаил NP-ANT-M ; ! ""
+ИсмагӀил:ИсмагӀил NP-ANT-M ; ! ""
+МухӀамадкамил:МухӀамадкамил NP-ANT-M ; ! ""
+Камил:Камил NP-ANT-M ; ! ""
+ГӀабасил:ГӀабасил NP-ANT-M ; ! ""
+МухӀамадрасул:МухӀамадрасул NP-ANT-M ; ! ""
+Даниял:Даниял NP-ANT-M ; ! ""
+МухӀамадсалам:МухӀамадсалам NP-ANT-M ; ! ""
+ГӀабдусалам:ГӀабдусалам NP-ANT-M ; ! ""
+Рустам:Рустам NP-ANT-M ; ! ""
+ГӀабдулхӀалим:ГӀабдулхӀалим NP-ANT-M ; ! ""
+Муслим:Муслим NP-ANT-M ; ! ""
+Максим:Максим NP-ANT-M ; ! ""
+Къурбан:Къурбан NP-ANT-M ; ! ""
+Ризван:Ризван NP-ANT-M ; ! ""
+Рамазан:Рамазан NP-ANT-M ; ! ""
+Рамзан:Рамзан NP-ANT-M ; ! ""
+Аслан:Аслан NP-ANT-M ; ! ""
+Нариман:Нариман NP-ANT-M ; ! ""
+ГӀусман:ГӀусман NP-ANT-M ; ! ""
+ГӀабдурахӀман:ГӀабдурахӀман NP-ANT-M ; ! ""
+СултӀан:СултӀан NP-ANT-M ; ! ""
+Султан:Султан NP-ANT-M ; ! ""
+МухӀамадхан:МухӀамадхан NP-ANT-M ; ! ""
+Арсен:Арсен NP-ANT-M ; ! ""
+Нажмудин:Нажмудин NP-ANT-M ; ! ""
+Зайнудин:Зайнудин NP-ANT-M ; ! ""
+ГӀарип:ГӀарип NP-ANT-M ; ! ""
+Юсуп:Юсуп NP-ANT-M ; ! ""
+Абакар:Абакар NP-ANT-M ; ! ""
+Закар:Закар NP-ANT-M ; ! ""
+ГӀумар:ГӀумар NP-ANT-M ; ! ""
+Жапар:Жапар NP-ANT-M ; ! ""
+МухӀамадр:МухӀамадр NP-ANT-M ; ! ""
+Надир:Надир NP-ANT-M ; ! ""
+Хидир:Хидир NP-ANT-M ; ! ""
+Закир:Закир NP-ANT-M ; ! ""
+Темир:Темир NP-ANT-M ; ! ""
+Башир:Башир NP-ANT-M ; ! ""
+МухӀамадтӀагьир:МухӀамадтӀагьир NP-ANT-M ; ! ""
+ТӀагьир:ТӀагьир NP-ANT-M ; ! ""
+Петр:Петр NP-ANT-M ; ! ""
+Заур:Заур NP-ANT-M ; ! ""
+Артур:Артур NP-ANT-M ; ! ""
+Бахтияр:Бахтияр NP-ANT-M ; ! ""
+Борис:Борис NP-ANT-M ; ! ""
+Иляс:Иляс NP-ANT-M ; ! ""
+Раисат:Раисат NP-ANT-M ; ! ""
+Альберт:Альберт NP-ANT-M ; ! ""
+Абу:Абу NP-ANT-M ; ! ""
+Даку:Даку NP-ANT-M ; ! ""
+МухӀу:МухӀу NP-ANT-M ; ! ""
+МахӀач:МахӀач NP-ANT-M ; ! ""
+Игорь:Игорь NP-ANT-M ; ! ""
+
+
 Википедия:Википедия NP-AL ; ! ""
 Дагестангазсервис:Дагестангазсервис NP-AL ; ! ""
 Дагъгаз:Дагъгаз NP-AL ; ! ""
 Спартак:Спартак NP-AL ; ! ""
 Динамо:Динамо NP-AL ; ! ""
 Анжи:Анжи NP-AL ; ! ""
+Роспотребнадзор:Роспотребнадзор NP-AL ; ! ""
+Россельхозбанк:Россельхозбанк NP-AL ; ! ""
 
 LEXICON Adjectives 
 
@@ -3813,6 +4055,7 @@ LEXICON Adjectives
 бигьаяб:бигьая A-KUDIJA ; ! "легкий; нетрудный"
 тӀокӀаб:тӀокӀа A-KUDIJA ; ! "излишний, лишний"
 экономикияб:экономикия A-KUDIJA ; ! ""
+генералияб:генералия A-KUDIJA ; ! ""
 пачалихъияб:пачалихъия A-KUDIJA ; ! ""
 муниципалияб:муниципалия A-KUDIJA ; ! ""
 гӀадатияб:гӀадатия A-KUDIJA ; ! "простой"
@@ -4353,6 +4596,7 @@ V-INE ; ! "идти, ходить"
 LEXICON Interjections 
 
 иншаАллагь:иншаАллагь INTERJ ; ! ""
+ассаламу% гӀалайкум:ассаламу% гӀалайкум INTERJ ; ! ""
 
 LEXICON Abbreviations
 

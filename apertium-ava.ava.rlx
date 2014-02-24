@@ -34,7 +34,7 @@ LIST TV = tv ;
 LIST Top = top ; 
 LIST Cog = cog ; 
 LIST Ant = ant ; 
-LIST Place = "шагьар" "район" ; 
+LIST Place = "шагьар" "район" "росу" ; 
 
 LIST Attr = attr ;
 
@@ -42,6 +42,8 @@ LIST Class = m f nt pl ;
 LIST Case = nom erg gen dat all abl tra ; 
 
 SET NOT-GEN-ERG = Case - (gen) ;
+
+SET CLB = (sent) ; 
 
 SECTION
 
@@ -68,7 +70,11 @@ REMOVE Pron + Nom IF (-1* Pron + Nom) (0C Det OR Pron) ;
 REMOVE Det IF (NOT 1 N OR A) ;
     ## ГьанжелъизегӀан гьев хӀалтӀулев вукӀун вуго гьеб гӀуцӀиялъул бетӀерав бухгалтерлъун.
 
+SELECT TV IF (1C* Erg BARRIER CLB) ; 
+    ## Къецал тӀоритӀана Россиялъул Грэпплингалъул федерациялъ
+
 SELECT Post IF (-1C Loc) (0C Adv OR Post); 
+
 
 SECTION
 
@@ -76,17 +82,16 @@ LIST @SUBJ→ = @SUBJ→ ;
 LIST @←SUBJ = @←SUBJ ; 
 
 MAP @SUBJ→ TARGET Nom IF (1C IV) (0C Pers) ;
-MAP @SUBJ→ TARGET Nom IF (1C IV) (0 $$Class) (1 $$Class) ;
 MAP @SUBJ→ TARGET Nom IF (1C IV) (0 Masc OR Fem OR Neut) (1 Mfn);
+MAP @←SUBJ TARGET Nom IF (1C IV)  (0 $$Class) (-1 $$Class);
 
 MAP @SUBJ→ TARGET Erg IF (1C TV) (0C Pers) ;
-MAP @SUBJ→ TARGET Erg IF (1C TV) (0 $$Class) (1 $$Class);
-MAP @SUBJ→ TARGET Erg IF (1C TV) (0 Masc OR Fem OR Neut) (1 Mfn);
 
 MAP @←SUBJ TARGET Nom IF (-1C IV) (0C Pers) ;
 MAP @←SUBJ TARGET Nom IF (-1C IV)  (0 $$Class) (-1 $$Class);
 MAP @←SUBJ TARGET Nom IF (-1C IV)  (0 Masc OR Fem OR Neut) (-1 Mfn);
 
 MAP @←SUBJ TARGET Erg IF (-1C TV) (0C Pers) ;
-MAP @←SUBJ TARGET Erg IF (-1C TV)  (0 $$Class) (-1 $$Class);
-MAP @←SUBJ TARGET Erg IF (-1C TV)  (0 Masc OR Fem OR Neut) (-1 Mfn);
+
+MAP @←SUBJ TARGET Erg IF (-1* TV BARRIER NOT-GEN-ERG) (0C Erg)  ;
+
