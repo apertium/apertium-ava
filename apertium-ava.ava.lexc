@@ -1597,8 +1597,8 @@ LEXICON V-BACH-COMMON
 
 %<gpr1%>:и%>не V-GPR-DECL ; ! Dir/LR
 %<neg%>%<gpr1%>:и%>наре V-GPR-DECL ; ! Dir/LR
-%<gpr1%>:у%>ле V-GPR-DECL ;
-!%<gpr1%>:у%>не V-GPR-DECL ;
+!%<gpr1%>:у%>ле V-GPR-DECL ;
+%<gpr1%>:у%>не V-GPR-DECL ;
 %<neg%>%<gpr1%>:у%>наре V-GPR-DECL ;
 %<gpr2%>:у%>ра V-GPR-DECL ; ! Dir/LR
 %<gpr2%>:а%>ра V-GPR-DECL ;
@@ -2521,6 +2521,7 @@ N-LIMER ; ! "ребёнок"
 тахшагьар:тахшагьар N-SHAHAR ; ! "столица"
 
 
+экспедиция:экспедиция N-GEOGRAFIJA ; ! ""
 инфекция:инфекция N-GEOGRAFIJA ; ! ""
 конференция:конференция N-GEOGRAFIJA ; ! ""
 инвестиция:инвестиция N-GEOGRAFIJA ; ! ""
@@ -2848,6 +2849,7 @@ N-LIMER ; ! "ребёнок"
 LEXICON ProperNouns 
 
 
+Иран:Иран NP-TOP-DAGHISTAN ; ! ""
 Афгъанистан:Афгъанистан NP-TOP-DAGHISTAN ; ! ""
 Башкортостан:Башкортостан NP-TOP-DAGHISTAN ; ! ""
 Татарстан:Татарстан NP-TOP-DAGHISTAN ; ! ""
