@@ -26,7 +26,7 @@ Multichar_Symbols
 %<f%>              ! Женский род (кл. II)
 %<nt%>             ! Срендий род (кл. III)
 %<pl%>             ! Множественное число (кл. IV)
-%<mfn%>
+%<mfn%>            ! Классный показател (I, II, III или IV)
 
 %>                 ! Граница морфемы
 
@@ -74,28 +74,16 @@ LEXICON V-BUDU-NA
 %<gpr3%>:%>не V-GPR-DECL ; 
 %<gpr3%>%<neg%>:%>наре V-GPR-DECL ; 
 
-LEXICON V-PROS-UNA
-! Прощедшее время 
-%<past%>:у%>на # ; 
-%<past%>%<neg%>:и%>чӀо # ; 
-
-%<gna2%>:у%>н # ; 
-
-LEXICON V-PROS-ANA
-! Прощедшее время 
-%<past%>:а%>на # ; 
-%<past%>%<neg%>:и%>чӀо # ; 
-%<gpr2%>:а%>ра V-GPR-DECL ; 
-%<gpr2%>%<neg%>:и%>чӀе V-GPR-DECL ; 
-%<gna2%>:а%>н # ; 
-
 LEXICON V-PROS-NA
 ! Прощедшее время 
 %<past%>:%>на # ; 
-%<past%>%<neg%>:%>чӀо # ; 
 %<gpr2%>:%>ра V-GPR-DECL ; 
-%<gpr2%>%<neg%>:%>чӀе V-GPR-DECL ; 
 %<gna2%>:%>н # ; 
+
+LEXICON V-PROS-NA-NEG
+! Отрицательная форма прощедшего времени
+%<past%>%<neg%>:%>чӀо # ; 
+%<gpr2%>%<neg%>:%>чӀе V-GPR-DECL ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -108,9 +96,8 @@ LEXICON V-IZE-ULA-ILA-UNA-E
 
 :и V-BUDU-LA ; 
 
-V-PROS-UNA ; 
-
-%<gna3%>:у%>н # ; 
+:у V-PROS-NA ; 
+:и V-PROS-NA-NEG ; 
 
 LEXICON V-IZE-ULA-ILA-ANA-E
 
@@ -121,7 +108,8 @@ LEXICON V-IZE-ULA-ILA-ANA-E
 
 :и V-BUDU-LA ; 
 
-V-PROS-ANA ; 
+:а V-PROS-NA ; 
+:и V-PROS-NA-NEG ; 
 
 LEXICON V-ZE-LA-LA-NA-J
 
@@ -133,6 +121,7 @@ V-OBSH-LA ;
 V-BUDU-LA ; 
 
 V-PROS-NA ; 
+:и V-PROS-NA ; 
 
 LEXICON V-INE-UNA-INA-ANA-E
 
@@ -143,7 +132,8 @@ LEXICON V-INE-UNA-INA-ANA-E
 
 :и V-BUDU-NA ; 
 
-V-PROS-ANA ; 
+:а V-PROS-NA ; 
+:ин V-PROS-NA-NEG ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
