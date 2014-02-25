@@ -14,7 +14,7 @@ Multichar_Symbols
 %<aor%>            ! Общее время
 %<fut%>            ! Будушее время
 %<past%>           ! Прощедшее время
-%<imp%>            ! 
+%<imp%>            ! Повелительное наклонение
 
 %<gpr1%>           ! Причастие общего времени
 %<gpr2%>           ! Причастие прощедшего времени
@@ -24,7 +24,7 @@ Multichar_Symbols
 %<gna2%>           ! Деепричастие прощедшего времени 
 %<gna3%>           ! Деепричастие будущего времени
 
-%<neg%>
+%<neg%>            ! Отрицательная форма
 
 %<m%>              ! Мужской род (кл. I)
 %<f%>              ! Женский род (кл. II)
@@ -99,7 +99,7 @@ LEXICON V-PROS-NA-GNA
 LEXICON V-IZE-ULA-ILA-UNA-E 
 
 %<inf%>:%>изе # ;
-%<ger%>:%>ей # ; ! Масдар (имя дйствия)
+%<ger%>:%>и # ; ! Масдар (имя дйствия)
 
 :у V-OBSH-LA ; 
 
@@ -115,7 +115,7 @@ LEXICON V-IZE-ULA-ILA-UNA-E
 LEXICON V-IZE-ULA-ILA-ANA-E
 
 %<inf%>:%>изе # ;
-%<ger%>:%>ей # ; ! Масдар (имя дйствия)
+%<ger%>:%>и # ; ! Масдар (имя дйствия)
 
 :у V-OBSH-LA ; 
 
@@ -144,10 +144,26 @@ V-PROS-NA-GNA ;
 %<imp%>:%>й # ;
 %<imp%>%<neg%>:%>ге # ;
 
+LEXICON V-INE-UNA-INA-ANA-A
+
+%<inf%>:%>ине # ;
+%<ger%>:%>ин # ; ! Масдар (имя дйствия)
+
+:у V-OBSH-NA ; 
+
+:и V-BUDU-NA ; 
+
+:а V-PROS-NA ; 
+:ин V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>а # ;
+%<imp%>%<neg%>:%>уге # ;
+
 LEXICON V-INE-UNA-INA-ANA-E
 
 %<inf%>:%>ине # ;
-%<ger%>:%>е # ; ! Масдар (имя дйствия)
+%<ger%>:%>ин # ; ! Масдар (имя дйствия)
 
 :у V-OBSH-NA ; 
 
@@ -160,6 +176,77 @@ LEXICON V-INE-UNA-INA-ANA-E
 %<imp%>:%>е # ;
 %<imp%>%<neg%>:%>уге # ;
 
+LEXICON V-EZE-OLA-ELA-UNA-E
+
+%<inf%>:%>езе # ;
+%<ger%>:%>ей # ; ! Масдар (имя дйствия)
+
+:о V-OBSH-LA ; 
+
+:е V-BUDU-LA ; 
+
+:у V-PROS-NA ; 
+:и V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-EZE-OLA-ELA-ANA-E
+
+%<inf%>:%>езе # ;
+%<ger%>:%>ей # ; ! Масдар (имя дйствия)
+
+:о V-OBSH-LA ; 
+
+:е V-BUDU-LA ; 
+
+:а V-PROS-NA ; 
+:а V-PROS-NA-NEG ; 
+:а V-PROS-NA-GNA ; 
+
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
+
+LEXICON V-EZE-OLA-ELA-ANA-A
+
+%<inf%>:%>езе # ;
+%<ger%>:%>ей # ; ! Масдар (имя дйствия)
+
+:о V-OBSH-LA ; 
+
+:е V-BUDU-LA ; 
+
+:а V-PROS-NA ; 
+:а V-PROS-NA-NEG ; 
+:а V-PROS-NA-GNA ; 
+
+%<imp%>:%>а # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-VEZE-OLA-VELA-UNA-E
+
+%<inf%>:%>везе # ;
+%<ger%>:%>ей # ; ! Масдар (имя дйствия)
+
+:о V-OBSH-LA ; 
+
+:ве V-BUDU-LA ; 
+
+:у V-PROS-NA ; 
+:е V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>ве # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-IZE-ULA-ILA-ANA-EA
+
+V-IZE-ULA-ILA-ANA-E ;
+
+%<imp%>:%>а # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON V-TV-CIALIZE-MFN
@@ -171,20 +258,45 @@ LEXICON V-IV-XIALTIIZE-MFN
 ! хӀалтӀизе: хӀалтӀ/изе (-ула, -ила, -ана, -е)
 %<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-ANA-E ; 
 
+LEXICON V-TV-XXEZE-MFN
+! ххезе	  хх/езе (-ола, -ела, -уна, -е)
+
+%<vblex%>%<tv%>%<mfn%>: V-EZE-OLA-ELA-UNA-E ; 
+
+LEXICON V-TV-TEZE-MFN
+! тезе: т/езе (-ола, -ела, -ана, -е)
+
+%<vblex%>%<tv%>%<mfn%>: V-EZE-OLA-ELA-ANA-E ; 
+
+LEXICON V-IV-KKEZE-MFN
+! ккезе: кк/езе (-ола, -ела, -ана, -а) 
+
+%<vblex%>%<iv%>%<mfn%>: V-EZE-OLA-ELA-ANA-A ; 
+
+LEXICON V-IV-KKVEZE-MFN
+! кквезе: кк/везе (-ола, -вела, -уна, -е)
+
+%<vblex%>%<iv%>%<mfn%>: V-VEZE-OLA-VELA-UNA-E ; 
+
 LEXICON V-TV-ABIZE-MFN
 ! абизе: аб/изе (-ула, -ила, -уна, -е) 
 
 %<vblex%>%<tv%>%<mfn%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-KAZE-MFN
+! къазе: къа/зе (-ла, -ла, -на, -й)
+
+%<vblex%>%<iv%>%<mfn%>: V-ZE-LA-LA-NA-J ; 
 
 LEXICON V-TV-XVAZE-MFN
 ! хъвазе: хъва/зе (-ла, -ла, -на, -й) 
 
 %<vblex%>%<tv%>%<mfn%>: V-ZE-LA-LA-NA-J ; 
 
-LEXICON V-IV-AXIIZE-MFN
-! ахІизе:  ахІ/изе (-ула, -ила, -ана, -е)
+LEXICON V-IV-LUHINE-MFN
+!лъугьине: лъугь/ине (-уна, -ина, -ана, -а)
 
-%<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<iv%>%<mfn%>: V-INE-UNA-INA-ANA-A ; 
 
 LEXICON V-TV-RETIINE-MFN
 ! ретӀине: ретІ/ине (-уна, -ина, -ана, -е) 
@@ -206,6 +318,22 @@ LEXICON V-TV-HABIZE-MFN
 %<vblex%>%<tv%>%<nt%>:б V-IZE-ULA-ILA-UNA-E ; 
 %<vblex%>%<tv%>%<pl%>:р V-IZE-ULA-ILA-UNA-E ; 
 
+LEXICON V-TV-TIOBITIIZE-MFN
+! тІобитІизе: тІо[б]итІ/изе (-ула, -ила, -уна, -е) 
+
+%<vblex%>%<tv%>%<m%>:витІ V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<f%>:йитІ V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<nt%>:битІ V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<pl%>:ритІ V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-TIUBAZE-MFN
+! тӀу[б]а/зе (-ла, -ла, -на,  -й)
+
+%<vblex%>%<tv%>%<m%>:ва V-ZE-LA-LA-NA-J ; 
+%<vblex%>%<tv%>%<f%>:я V-ZE-LA-LA-NA-J ; 
+%<vblex%>%<tv%>%<nt%>:ба V-ZE-LA-LA-NA-J ; 
+%<vblex%>%<tv%>%<pl%>:ра V-ZE-LA-LA-NA-J ; 
+
 LEXICON V-TV-BICINE-M 
 ! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
 
@@ -226,22 +354,133 @@ LEXICON V-TV-BICINE-PL
 
 %<vblex%>%<tv%>%<pl%>: V-INE-UNA-INA-ANA-E ; 
 
+LEXICON V-TV-BALAHIZE-M
+! балагьизе: [б]алагь/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<m%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-TV-BALAHIZE-F
+! балагьизе: [б]алагь/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<f%>: V-IZE-ULA-ILA-ANA-E ;
+
+LEXICON V-TV-BALAHIZE-NT
+! балагьизе: [б]алагь/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<nt%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-TV-BALAHIZE-PL
+! балагьизе: [б]алагь/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<pl%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-BAGHIZE-M
+! багъизе: [б]агъ/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<iv%>%<m%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-BAGHIZE-F
+! багъизе: [б]агъ/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<iv%>%<f%>: V-IZE-ULA-ILA-ANA-E ;
+
+LEXICON V-IV-BAGHIZE-NT
+! багъизе: [б]агъ/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<iv%>%<nt%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-BAGHIZE-PL
+! багъизе: [б]агъ/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<iv%>%<pl%>: V-IZE-ULA-ILA-ANA-E ; 
+
+
+LEXICON V-IV-BELANXIZE-M
+! белъанхъизе: б/елъанхъ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<m%>:в V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-BELANXIZE-F
+! белъанхъизе: б/елъанхъ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<f%>:й V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-BELANXIZE-NT
+! белъанхъизе: б/елъанхъ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<nt%>:б V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-BELANXIZE-PL
+! белъанхъизе: б/елъанхъ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<pl%>:р V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-TV-BOKIZE-M
+! бокьизе: б/окь/изе (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<tv%>%<m%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-TV-BOKIZE-F
+! бокьизе: б/окь/изе (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<tv%>%<f%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-TV-BOKIZE-NT
+! бокьизе: б/окь/изе (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<tv%>%<nt%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-TV-BOKIZE-PL
+! бокьизе: б/окь/изе (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<tv%>%<pl%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Verbs 
 
+
 абизе:аб V-TV-ABIZE-MFN ; ! "говорить, сказать"
 гӀунтӀизабизе:гӀунтӀизаб V-TV-ABIZE-MFN ; ! "доводить, довести; собщать, сообщить"
 лъазабизе:лъазаб V-TV-ABIZE-MFN ; ! "учить"
-
-ахІизе:ахІ V-IV-AXIIZE-MFN ; ! "кричать"
+хъамизе:хъам V-TV-ABIZE-MFN ; ! "уносить, унести"
+кьабизе:кьаби V-TV-ABIZE-MFN ; ! "бить, побить; избить; колотить, поколотить"
 
 цӀализе:цӀал V-TV-CIALIZE-MFN ; ! "читать, прочитать"
+хисизе:хис V-TV-CIALIZE-MFN ; ! "менять,  изменить,  переменить"
+байбихьизе:байбихь V-TV-CIALIZE-MFN ; ! "начинать, начать"
+гьикъизе:гьикъ V-TV-CIALIZE-MFN ; ! "спрашивать, спросить"
+малълъизе:малълъ V-TV-CIALIZE-MFN ; ! "учить, научить; обучать, обучить"
+
 хӀалтӀизе:хӀалтӀ V-IV-XIALTIIZE-MFN ; ! "работать, трудиться"
+хисизе:хис V-IV-XIALTIIZE-MFN ; ! "меняться, измениться, перемениться"
+ахІизе:ахІ V-IV-XIALTIIZE-MFN ; ! "кричать"
+байбихьизе:байбихь V-IV-XIALTIIZE-MFN ; ! "начинаться, начаться"
+бажаризе:бажар V-IV-XIALTIIZE-MFN ; ! "уметь, суметь; мочь, смочь"
+гаргадизе:гаргад V-IV-XIALTIIZE-MFN ; ! "говорить; переговариваться"
+гвангъизе:гвангъ V-IV-XIALTIIZE-MFN ; ! "блестеть, заблестеть; сиять, засиять"
 
 хъвазе:хъва V-TV-XVAZE-MFN ; ! "писать, написать"
 чӀвазе:чӀва V-TV-XVAZE-MFN ; ! "убивать, убить"
 лъазе:лъа V-TV-XVAZE-MFN ; ! "знать"
+хӀазе:хӀа V-TV-XVAZE-MFN ; ! "играть"
+хазе:ха V-TV-XVAZE-MFN ; ! "чесать, расчёсывать, причёсывать"
+цӀазе:цӀа V-TV-XVAZE-MFN ; ! "тянуть, потянуть; тащить, потащить"
+чӀаразе:чӀара V-TV-XVAZE-MFN ; ! "полоть, прополоть"
+дандбазе:дандба V-TV-XVAZE-MFN ; ! "собирать, собрать"
+цузе:цу V-TV-XVAZE-MFN ; ! "примыкать"
+щвазе:щва V-TV-XVAZE-MFN ; ! "сыпать, засыпать; посыпать"
+
+ххезе:ххе V-TV-XXEZE-MFN ; ! "вдевать, вдеть"
+сузе:су V-TV-XXEZE-MFN ; ! "срезать"
+
+къазе:къа V-IV-KAZE-MFN ; ! "закрываться, закрыться"
+рахазе:раха V-IV-KAZE-MFN ; ! "закрываться, закрыться"
+
+лъугьине:лъугь V-IV-LUHINE-MFN ; ! "входить, войти, выходить, выйти"
 
 ретӀине:ретӀ V-TV-RETIINE-MFN ; ! "одевать, одеть"
 
@@ -249,7 +488,79 @@ LEXICON Verbs
 
 гьабизе:гьа V-TV-HABIZE-MFN ; ! "делать, сделать"
 
+тӀубазе:тӀу V-IV-TIUBAZE-MFN ; ! "кончаться, окончиться;  завершаться,  завершиться"
+
+тІобитІизе:тІо V-TV-TIOBITIIZE-MFN ; ! "провожать, проводить"
+
+ккезе:кк V-IV-KKEZE-MFN ; ! "очутиться, оказаться"
+
+тезе:т V-TV-TEZE-MFN ; ! "оставлять, оставить"
+
+кквезе:кк V-IV-KKVEZE-MFN ; ! "держаться,  придерживаться"
+
 бицине:виц V-TV-BICINE-M ; ! "говорить, сказать"
 бицине:йиц V-TV-BICINE-F ; ! "говорить, сказать"
 бицине:биц V-TV-BICINE-NT ; ! "говорить, сказать"
 бицине:риц V-TV-BICINE-PL ; ! "говорить, сказать"
+
+бихьизе:вихь V-IV-BAGHIZE-M ; ! "виднеться"
+бихьизе:йихь V-IV-BAGHIZE-F ; ! "виднеться"
+бихьизе:бихь V-IV-BAGHIZE-NT ; ! "виднеться"
+бихьизе:рихь V-IV-BAGHIZE-PL ; ! "виднеться"
+
+бухІизе:вухІ V-IV-BAGHIZE-M ; ! "гореть, сгореть; сгорать, прогорать"
+бухІизе:йухІ V-IV-BAGHIZE-F ; ! "гореть, сгореть; сгорать, прогорать"
+бухІизе:бухІ V-IV-BAGHIZE-NT ; ! "гореть, сгореть; сгорать, прогорать"
+бухІизе:рухІ V-IV-BAGHIZE-PL ; ! "гореть, сгореть; сгорать, прогорать"
+
+батизе:ват V-IV-BAGHIZE-M ; ! "находиться,  найтись"
+батизе:ят V-IV-BAGHIZE-F ; ! "находиться,  найтись"
+батизе:бат V-IV-BAGHIZE-NT ; ! "находиться,  найтись"
+батизе:рат V-IV-BAGHIZE-PL ; ! "находиться,  найтись"
+
+бегизе:вег V-IV-BAGHIZE-M ; ! "лежать, полежать, лечь, ложиться"
+бегизе:йег V-IV-BAGHIZE-F ; ! "лежать, полежать, лечь, ложиться"
+бегизе:бег V-IV-BAGHIZE-NT ; ! "лежать, полежать, лечь, ложиться"
+бегизе:рег V-IV-BAGHIZE-PL ; ! "лежать, полежать, лечь, ложиться"
+
+багъизе:вагъ V-IV-BAGHIZE-M ; ! "драться"
+багъизе:ягъ V-IV-BAGHIZE-F ; ! "драться"
+багъизе:багъ V-IV-BAGHIZE-NT ; ! "драться"
+багъизе:рагъ V-IV-BAGHIZE-PL ; ! "драться"
+
+бахъизе:вахъ V-IV-BAGHIZE-M ; ! "получаться, получиться"
+бахъизе:яхъ V-IV-BAGHIZE-F ; ! "получаться, получиться"
+бахъизе:бахъ V-IV-BAGHIZE-NT ; ! "получаться, получиться"
+бахъизе:рахъ V-IV-BAGHIZE-PL ; ! "получаться, получиться"
+
+баккизе:вакк V-IV-BAGHIZE-M ; ! "появляться, появиться"
+баккизе:якк V-IV-BAGHIZE-F ; ! "появляться, появиться"
+баккизе:бакк V-IV-BAGHIZE-NT ; ! "появляться, появиться"
+баккизе:ракк V-IV-BAGHIZE-PL ; ! "появляться, появиться"
+
+балагьизе:валагь V-TV-BALAHIZE-M ; ! "смотреть, посмотреть; глядеть, поглядеть"
+балагьизе:ягь V-TV-BALAHIZE-F ; ! "смотреть, посмотреть; глядеть, поглядеть"
+балагьизе:балагь V-TV-BALAHIZE-NT ; ! "смотреть, посмотреть; глядеть, поглядеть"
+балагьизе:ралагь V-TV-BALAHIZE-PL ; ! "смотреть, посмотреть; глядеть, поглядеть"
+
+баччизе:вачч V-TV-BALAHIZE-M ; ! "везти, повезти"
+баччизе:ячч V-TV-BALAHIZE-F ; ! "везти, повезти"
+баччизе:бачч V-TV-BALAHIZE-NT ; ! "везти, повезти"
+баччизе:рачч V-TV-BALAHIZE-PL ; ! "везти, повезти"
+
+белъанхъизе:велъанхъ V-IV-BELANXIZE-M ; ! "смеяться, посмеяться"
+белъанхъизе:йелъанхъ V-IV-BELANXIZE-F ; ! "смеяться, посмеяться"
+белъанхъизе:белъанхъ V-IV-BELANXIZE-NT ; ! "смеяться, посмеяться"
+белъанхъизе:релъанхъ V-IV-BELANXIZE-PL ; ! "смеяться, посмеяться"
+
+бокьизе:вокь V-TV-BOKIZE-M ; ! "хотеть, захотеть; желать, пожелать"
+бокьизе:йокь V-TV-BOKIZE-F ; ! "хотеть, захотеть; желать, пожелать"
+бокьизе:бокь V-TV-BOKIZE-NT ; ! "хотеть, захотеть; желать, пожелать"
+бокьизе:рокь V-TV-BOKIZE-PL ; ! "хотеть, захотеть; желать, пожелать"
+
+босиизе:воси V-TV-BALAHIZE-M ; ! "брать, взять"
+босиизе:йоси V-TV-BALAHIZE-F ; ! "брать, взять"
+босиизе:боси V-TV-BALAHIZE-NT ; ! "брать, взять"
+босиизе:роси V-TV-BALAHIZE-PL ; ! "брать, взять"
+
+
