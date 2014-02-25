@@ -62,9 +62,9 @@ LEXICON V-BUDU-LA
 LEXICON V-OBSH-NA
 ! Общее время 
 %<aor%>:%>на # ; 
-%<aor%>%<neg%>:у%>наро # ; 
+%<aor%>%<neg%>:%>наро # ; 
 %<gpr1%>:%>не V-GPR-DECL ; 
-%<gpr1%>%<neg%>:%>наре V-GPR-DECL ; 
+%<gpr1%>%<neg%>:%>раре V-GPR-DECL ; 
 %<gna1%>:%>наго # ; 
 
 LEXICON V-BUDU-NA 
@@ -121,7 +121,7 @@ V-OBSH-LA ;
 V-BUDU-LA ; 
 
 V-PROS-NA ; 
-:и V-PROS-NA ; 
+V-PROS-NA-NEG ; 
 
 LEXICON V-INE-UNA-INA-ANA-E
 
