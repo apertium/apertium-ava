@@ -19,4 +19,6 @@ dev/spellrelax.twol -text
 dev/test-sentences.txt -text svneol=unset#application/octet-stream
 dev/verbs.derived -text
 dev/verbs.underived -text
+dev/verbs/Makefile -text
+dev/verbs/verbs.lexc -text
 /modes.xml -text
