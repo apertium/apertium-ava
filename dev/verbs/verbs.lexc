@@ -162,43 +162,43 @@ LEXICON V-INE-UNA-INA-ANA-E
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON V-TV-CIALIZE 
+LEXICON V-TV-CIALIZE-MFN
 ! цӀализе: цӀал/изе (-ула, -ила, -ана, -е)
 
 %<vblex%>%<tv%>%<mfn%>: V-IZE-ULA-ILA-ANA-E ; 
 
-LEXICON V-IV-XIALTIIZE
+LEXICON V-IV-XIALTIIZE-MFN
 ! хӀалтӀизе: хӀалтӀ/изе (-ула, -ила, -ана, -е)
 %<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-ANA-E ; 
 
-LEXICON V-TV-ABIZE
+LEXICON V-TV-ABIZE-MFN
 ! абизе: аб/изе (-ула, -ила, -уна, -е) 
 
 %<vblex%>%<tv%>%<mfn%>: V-IZE-ULA-ILA-UNA-E ; 
 
-LEXICON V-TV-XVAZE
+LEXICON V-TV-XVAZE-MFN
 ! хъвазе: хъва/зе (-ла, -ла, -на, -й) 
 
 %<vblex%>%<tv%>%<mfn%>: V-ZE-LA-LA-NA-J ; 
 
-LEXICON V-IV-AXIIZE
+LEXICON V-IV-AXIIZE-MFN
 ! ахІизе:  ахІ/изе (-ула, -ила, -ана, -е)
 
 %<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-UNA-E ; 
 
-LEXICON V-TV-RETIINE 
+LEXICON V-TV-RETIINE-MFN
 ! ретӀине: ретІ/ине (-уна, -ина, -ана, -е) 
 
 %<vblex%>%<tv%>%<mfn%>: V-INE-UNA-INA-ANA-E ; 
 
-LEXICON V-IV-CIALGIINE
+LEXICON V-IV-CIALGIINE-MFN
 ! чӀалгӀине: чӀалгӀ/ине (-уна, -ина, -ана, -е) 
 
 %<vblex%>%<iv%>%<mfn%>: V-INE-UNA-INA-ANA-E ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON V-TV-HABIZE
+LEXICON V-TV-HABIZE-MFN
 ! гьабизе: гьа[б]/изе (-ула, -ила, -уна, -е)
 
 %<vblex%>%<tv%>%<m%>:в V-IZE-ULA-ILA-UNA-E ; 
@@ -206,26 +206,50 @@ LEXICON V-TV-HABIZE
 %<vblex%>%<tv%>%<nt%>:б V-IZE-ULA-ILA-UNA-E ; 
 %<vblex%>%<tv%>%<pl%>:р V-IZE-ULA-ILA-UNA-E ; 
 
+LEXICON V-TV-BICINE-M 
+! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<m%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-TV-BICINE-F
+! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<f%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-TV-BICINE-NT
+! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<nt%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-TV-BICINE-PL
+! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<pl%>: V-INE-UNA-INA-ANA-E ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Verbs 
 
-абизе:аб V-TV-ABIZE ; ! "говорить, сказать"
-гӀунтӀизабизе:гӀунтӀизаб V-TV-ABIZE ; ! "доводить, довести; собщать, сообщить"
-лъазабизе:лъазаб V-TV-ABIZE ; ! "учить"
+абизе:аб V-TV-ABIZE-MFN ; ! "говорить, сказать"
+гӀунтӀизабизе:гӀунтӀизаб V-TV-ABIZE-MFN ; ! "доводить, довести; собщать, сообщить"
+лъазабизе:лъазаб V-TV-ABIZE-MFN ; ! "учить"
 
-ахІизе:ахІ V-IV-AXIIZE ; ! "кричать"
+ахІизе:ахІ V-IV-AXIIZE-MFN ; ! "кричать"
 
-цӀализе:цӀал V-TV-CIALIZE ; ! "читать, прочитать"
-хӀалтӀизе:хӀалтӀ V-IV-XIALTIIZE ; ! "работать, трудиться"
+цӀализе:цӀал V-TV-CIALIZE-MFN ; ! "читать, прочитать"
+хӀалтӀизе:хӀалтӀ V-IV-XIALTIIZE-MFN ; ! "работать, трудиться"
 
-хъвазе:хъва V-TV-XVAZE ; ! "писать, написать"
-чӀвазе:чӀва V-TV-XVAZE ; ! "убивать, убить"
-лъазе:лъа V-TV-XVAZE ; ! "знать"
+хъвазе:хъва V-TV-XVAZE-MFN ; ! "писать, написать"
+чӀвазе:чӀва V-TV-XVAZE-MFN ; ! "убивать, убить"
+лъазе:лъа V-TV-XVAZE-MFN ; ! "знать"
 
-ретӀине:ретӀ V-TV-RETIINE ; ! "одевать, одеть"
+ретӀине:ретӀ V-TV-RETIINE-MFN ; ! "одевать, одеть"
 
-чӀалгӀине:чӀалгӀ V-IV-CIALGIINE ; ! "скучать"
+чӀалгӀине:чӀалгӀ V-IV-CIALGIINE-MFN ; ! "скучать"
 
-гьабизе:гьа V-TV-HABIZE ; ! "делать, сделать"
+гьабизе:гьа V-TV-HABIZE-MFN ; ! "делать, сделать"
+
+бицине:виц V-TV-BICINE-M ; ! "говорить, сказать"
+бицине:йиц V-TV-BICINE-F ; ! "говорить, сказать"
+бицине:биц V-TV-BICINE-NT ; ! "говорить, сказать"
+бицине:риц V-TV-BICINE-PL ; ! "говорить, сказать"
