@@ -22,6 +22,9 @@ LIST All = all ;
 LIST Abl = abl ; 
 LIST Tra = tra ; 
 
+LIST Aor = aor ; 
+LIST Fut = fut ;
+
 LIST Masc = m ; 
 LIST Fem = f ; 
 LIST Neut = nt ; 
@@ -71,7 +74,10 @@ REMOVE Det IF (NOT 1 N OR A) ;
     ## ГьанжелъизегӀан гьев хӀалтӀулев вукӀун вуго гьеб гӀуцӀиялъул бетӀерав бухгалтерлъун.
 
 SELECT TV IF (1C* Erg BARRIER CLB) ; 
-    ## Къецал тӀоритӀана Россиялъул Грэпплингалъул федерациялъ
+    ## Къецал тӀоритӀана Россиялъул Грэпплингалъул федерациялъ.
+
+SELECT Fut IF (0C Aor OR Fut) ; 
+    ##  Лъаларо, бажарила духъа гьеб хIалтIи гьабун.
 
 SELECT Post IF (-1C Loc) (0C Adv OR Post); 
 
