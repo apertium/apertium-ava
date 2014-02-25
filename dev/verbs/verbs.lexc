@@ -46,8 +46,8 @@ LEXICON V-GPR-DECL
 
 LEXICON V-OBSH-LA
 ! Общее время 
-%<past%>:%>ла # ; 
-%<past%>%<neg%>:у%>ларо # ; 
+%<aor%>:%>ла # ; 
+%<aor%>%<neg%>:%>ларо # ; 
 %<gpr1%>:%>ле V-GPR-DECL ; 
 %<gpr1%>%<neg%>:%>ларе V-GPR-DECL ; 
 %<gna1%>:%>лаго # ; 
@@ -60,12 +60,19 @@ LEXICON V-BUDU-LA
 %<gpr3%>%<neg%>:%>ларе V-GPR-DECL ; 
 
 LEXICON V-OBSH-NA
-
-# ;
+! Общее время 
+%<aor%>:%>на # ; 
+%<aor%>%<neg%>:у%>наро # ; 
+%<gpr1%>:%>не V-GPR-DECL ; 
+%<gpr1%>%<neg%>:%>наре V-GPR-DECL ; 
+%<gna1%>:%>наго # ; 
 
 LEXICON V-BUDU-NA 
-
-# ;
+! Будущее время
+%<fut%>:%>на # ; 
+%<fut%>%<neg%>:%>наро # ; 
+%<gpr3%>:%>не V-GPR-DECL ; 
+%<gpr3%>%<neg%>:%>наре V-GPR-DECL ; 
 
 LEXICON V-PROS-UNA
 ! Прощедшее время 
