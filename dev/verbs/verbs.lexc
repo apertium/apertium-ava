@@ -43,12 +43,21 @@ LEXICON V-GPR-DECL
 %<f%>:%>й # ;  
 %<pl%>:%>л # ;
 
-LEXICON V-BUDU-ILA 
+
+LEXICON V-OBSH-LA
+! Общое время 
+%<past%>:%>ла # ; 
+%<past%>%<neg%>:у%>ларо # ; 
+%<gpr1%>:%>ле V-GPR-DECL ; 
+%<gpr1%>%<neg%>:%>ларе V-GPR-DECL ; 
+%<gna1%>:%>лаго # ; 
+
+LEXICON V-BUDU-LA 
 ! Будущее время
-%<fut%>:и%>ла # ; 
-%<fut%>%<neg%>:и%>ларо # ; 
-%<gpr3%>:и%>ле V-GPR-DECL ; 
-%<gpr3%>%<neg%>:и%>ларе V-GPR-DECL ; 
+%<fut%>:%>ла # ; 
+%<fut%>%<neg%>:%>ларо # ; 
+%<gpr3%>:%>ле V-GPR-DECL ; 
+%<gpr3%>%<neg%>:%>ларе V-GPR-DECL ; 
 
 LEXICON V-PROS-UNA
 ! Прощедшое время 
@@ -65,13 +74,13 @@ LEXICON V-PROS-ANA
 %<gpr2%>%<neg%>:и%>чӀе V-GPR-DECL ; 
 %<gna2%>:а%>н # ; 
 
-LEXICON V-OBSH-ULA
-! Общое время 
-%<past%>:у%>ла # ; 
-%<past%>%<neg%>:у%>ларо # ; 
-%<gpr1%>:у%>ле V-GPR-DECL ; 
-%<gpr1%>%<neg%>:у%>ларе V-GPR-DECL ; 
-%<gna1%>:у%>лаго # ; 
+LEXICON V-PROS-NA
+! Прощедшое время 
+%<past%>:%>на # ; 
+%<past%>%<neg%>:%>чӀо # ; 
+%<gpr2%>:%>ра V-GPR-DECL ; 
+%<gpr2%>%<neg%>:%>чӀе V-GPR-DECL ; 
+%<gna2%>:%>н # ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -80,9 +89,9 @@ LEXICON V-IZE-ULA-ILA-UNA-E
 %<inf%>:%>изе # ;
 %<ger%>:%>ей # ; ! Масдар (имя дйствия)
 
-V-BUDU-ILA ; 
+:и V-BUDU-LA ; 
 
-V-OBSH-ULA ; 
+:у V-OBSH-LA ; 
 
 V-PROS-UNA ; 
 
@@ -93,11 +102,22 @@ LEXICON V-IZE-ULA-ILA-ANA-E
 %<inf%>:%>изе # ;
 %<ger%>:%>ей # ; ! Масдар (имя дйствия)
 
-V-BUDU-ILA ; 
+:и V-BUDU-LA ; 
 
-V-OBSH-ULA ; 
+:у V-OBSH-LA ; 
 
 V-PROS-ANA ; 
+
+LEXICON V-ZE-LA-LA-NA-J
+
+%<inf%>:%>зе # ;
+%<ger%>:%>й # ; ! Масдар (имя дйствия)
+
+V-BUDU-LA ; 
+
+V-OBSH-LA ; 
+
+V-PROS-NA ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -110,6 +130,12 @@ LEXICON V-TV-ABIZE
 ! абизе: аб/изе (-ула, -ила, -уна, -е) 
 
 %<vblex%>%<tv%>%<mfn%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-TV-XVAZE
+! хъвазе: хъва/зе (-ла, -ла, -на, -й) 
+
+%<vblex%>%<tv%>%<mfn%>: V-ZE-LA-LA-NA-J ; 
+
 
 LEXICON V-IV-AXIIZE
 ! ахІизе:  ахІ/изе (-ула, -ила, -ана, -е)
@@ -128,3 +154,4 @@ LEXICON Verbs
 
 цӀализе:цӀал V-TV-CIALIZE ; ! "читать, прочитать"
 
+хъвазе:хъва V-TV-XVAZE ; ! "писать, написать"
