@@ -5,12 +5,16 @@ Multichar_Symbols
 %<iv%>             ! Непереходный
 %<tv%>             ! Переходный
 
+%<caus%>           ! 
+%<freq%>           !  
+
 %<inf%>            ! Инфинитив
 %<ger%>            ! Масдар
 
 %<aor%>            ! Общее время
 %<fut%>            ! Будушее время
 %<past%>           ! Прощедшее время
+%<imp%>            ! 
 
 %<gpr1%>           ! Причастие общего времени
 %<gpr2%>           ! Причастие прощедшего времени
@@ -105,6 +109,9 @@ LEXICON V-IZE-ULA-ILA-UNA-E
 :и V-PROS-NA-NEG ; 
 :у V-PROS-NA-GNA ; 
 
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
 LEXICON V-IZE-ULA-ILA-ANA-E
 
 %<inf%>:%>изе # ;
@@ -117,6 +124,9 @@ LEXICON V-IZE-ULA-ILA-ANA-E
 :а V-PROS-NA ; 
 :и V-PROS-NA-NEG ; 
 :у V-PROS-NA-GNA ; 
+
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
 
 LEXICON V-ZE-LA-LA-NA-J
 
@@ -131,6 +141,9 @@ V-PROS-NA ;
 V-PROS-NA-NEG ; 
 V-PROS-NA-GNA ; 
 
+%<imp%>:%>й # ;
+%<imp%>%<neg%>:%>ге # ;
+
 LEXICON V-INE-UNA-INA-ANA-E
 
 %<inf%>:%>ине # ;
@@ -144,12 +157,19 @@ LEXICON V-INE-UNA-INA-ANA-E
 :ин V-PROS-NA-NEG ; 
 :у V-PROS-NA-GNA ; 
 
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON V-TV-CIALIZE 
 ! цӀализе: цӀал/изе (-ула, -ила, -ана, -е)
 
 %<vblex%>%<tv%>%<mfn%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-XIALTIIZE
+! хӀалтӀизе: хӀалтӀ/изе (-ула, -ила, -ана, -е)
+%<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-ANA-E ; 
 
 LEXICON V-TV-ABIZE
 ! абизе: аб/изе (-ула, -ила, -уна, -е) 
@@ -178,6 +198,17 @@ LEXICON V-IV-CIALGIINE
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON V-TV-HABIZE
+! гьабизе: гьа[б]/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<tv%>%<m%>:в V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<f%>:й V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<nt%>:б V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<pl%>:р V-IZE-ULA-ILA-UNA-E ; 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON Verbs 
 
 абизе:аб V-TV-ABIZE ; ! "говорить, сказать"
@@ -187,6 +218,7 @@ LEXICON Verbs
 ахІизе:ахІ V-IV-AXIIZE ; ! "кричать"
 
 цӀализе:цӀал V-TV-CIALIZE ; ! "читать, прочитать"
+хӀалтӀизе:хӀалтӀ V-IV-XIALTIIZE ; ! "работать, трудиться"
 
 хъвазе:хъва V-TV-XVAZE ; ! "писать, написать"
 чӀвазе:чӀва V-TV-XVAZE ; ! "убивать, убить"
@@ -195,3 +227,5 @@ LEXICON Verbs
 ретӀине:ретӀ V-TV-RETIINE ; ! "одевать, одеть"
 
 чӀалгӀине:чӀалгӀ V-IV-CIALGIINE ; ! "скучать"
+
+гьабизе:гьа V-TV-HABIZE ; ! "делать, сделать"
