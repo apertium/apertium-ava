@@ -8,9 +8,9 @@ Multichar_Symbols
 %<inf%>            ! Инфинитив
 %<ger%>            ! Масдар
 
-%<aor%>            ! Общое время
+%<aor%>            ! Общее время
 %<fut%>            ! Будушее время
-%<past%>           ! Прошедшее время
+%<past%>           ! Прощедшее время
 
 %<gpr1%>           ! Причастие общего времени
 %<gpr2%>           ! Причастие прошедшего времени
@@ -45,7 +45,7 @@ LEXICON V-GPR-DECL
 
 
 LEXICON V-OBSH-LA
-! Общое время 
+! Общее время 
 %<past%>:%>ла # ; 
 %<past%>%<neg%>:у%>ларо # ; 
 %<gpr1%>:%>ле V-GPR-DECL ; 
@@ -59,15 +59,23 @@ LEXICON V-BUDU-LA
 %<gpr3%>:%>ле V-GPR-DECL ; 
 %<gpr3%>%<neg%>:%>ларе V-GPR-DECL ; 
 
+LEXICON V-OBSH-NA
+
+# ;
+
+LEXICON V-BUDU-NA 
+
+# ;
+
 LEXICON V-PROS-UNA
-! Прощедшое время 
+! Прощедшее время 
 %<past%>:у%>на # ; 
 %<past%>%<neg%>:и%>чӀо # ; 
 
 %<gna2%>:у%>н # ; 
 
 LEXICON V-PROS-ANA
-! Прощедшое время 
+! Прощедшее время 
 %<past%>:а%>на # ; 
 %<past%>%<neg%>:и%>чӀо # ; 
 %<gpr2%>:а%>ра V-GPR-DECL ; 
@@ -75,7 +83,7 @@ LEXICON V-PROS-ANA
 %<gna2%>:а%>н # ; 
 
 LEXICON V-PROS-NA
-! Прощедшое время 
+! Прощедшее время 
 %<past%>:%>на # ; 
 %<past%>%<neg%>:%>чӀо # ; 
 %<gpr2%>:%>ра V-GPR-DECL ; 
@@ -89,9 +97,9 @@ LEXICON V-IZE-ULA-ILA-UNA-E
 %<inf%>:%>изе # ;
 %<ger%>:%>ей # ; ! Масдар (имя дйствия)
 
-:и V-BUDU-LA ; 
-
 :у V-OBSH-LA ; 
+
+:и V-BUDU-LA ; 
 
 V-PROS-UNA ; 
 
@@ -102,9 +110,9 @@ LEXICON V-IZE-ULA-ILA-ANA-E
 %<inf%>:%>изе # ;
 %<ger%>:%>ей # ; ! Масдар (имя дйствия)
 
-:и V-BUDU-LA ; 
-
 :у V-OBSH-LA ; 
+
+:и V-BUDU-LA ; 
 
 V-PROS-ANA ; 
 
@@ -113,11 +121,22 @@ LEXICON V-ZE-LA-LA-NA-J
 %<inf%>:%>зе # ;
 %<ger%>:%>й # ; ! Масдар (имя дйствия)
 
-V-BUDU-LA ; 
-
 V-OBSH-LA ; 
 
+V-BUDU-LA ; 
+
 V-PROS-NA ; 
+
+LEXICON V-INE-UNA-INA-ANA-E
+
+%<inf%>:%>ине # ;
+%<ger%>:%>е # ; ! Масдар (имя дйствия)
+
+:у V-OBSH-NA ; 
+
+:и V-BUDU-NA ; 
+
+V-PROS-ANA ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -136,11 +155,15 @@ LEXICON V-TV-XVAZE
 
 %<vblex%>%<tv%>%<mfn%>: V-ZE-LA-LA-NA-J ; 
 
-
 LEXICON V-IV-AXIIZE
 ! ахІизе:  ахІ/изе (-ула, -ила, -ана, -е)
 
 %<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-TV-RETIINE 
+! ретӀине: ретІ/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<mfn%>: V-INE-UNA-INA-ANA-E ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -155,3 +178,9 @@ LEXICON Verbs
 цӀализе:цӀал V-TV-CIALIZE ; ! "читать, прочитать"
 
 хъвазе:хъва V-TV-XVAZE ; ! "писать, написать"
+чӀвазе:чӀва V-TV-XVAZE ; ! "убивать, убить"
+лъазе:лъа V-TV-XVAZE ; ! "знать"
+
+ретӀине:ретӀ V-TV-RETIINE ; ! "одевать, одеть"
+
+
