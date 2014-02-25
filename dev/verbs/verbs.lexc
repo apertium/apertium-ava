@@ -171,6 +171,11 @@ LEXICON V-TV-RETIINE
 
 %<vblex%>%<tv%>%<mfn%>: V-INE-UNA-INA-ANA-E ; 
 
+LEXICON V-IV-CIALGIINE
+! чӀалгӀине: чӀалгӀ/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<iv%>%<mfn%>: V-INE-UNA-INA-ANA-E ; 
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Verbs 
@@ -189,4 +194,4 @@ LEXICON Verbs
 
 ретӀине:ретӀ V-TV-RETIINE ; ! "одевать, одеть"
 
-
+чӀалгӀине:чӀалгӀ V-IV-CIALGIINE ; ! "скучать"
