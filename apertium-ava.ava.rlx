@@ -44,6 +44,8 @@ LIST Attr = attr ;
 LIST Class = m f nt pl ; 
 LIST Case = nom erg gen dat all abl tra ; 
 
+SET LOC-CASES = Loc | Abl | All | Tra ; 
+
 SET NOT-GEN-ERG = Case - (gen) ;
 
 SET CLB = (sent) ; 
@@ -81,6 +83,7 @@ SELECT Fut IF (0C Aor OR Fut) ;
 
 SELECT Post IF (-1C Loc) (0C Adv OR Post); 
 
+SELECT Neut IF (0C Pron) (0C Fem OR Neut) (0C LOC-CASES) ;
 
 SECTION
 
