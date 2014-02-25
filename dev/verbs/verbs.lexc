@@ -51,6 +51,7 @@ LEXICON V-OBSH-LA
 %<gpr1%>:%>ле V-GPR-DECL ; 
 %<gpr1%>%<neg%>:%>ларе V-GPR-DECL ; 
 %<gna1%>:%>лаго # ; 
+%<gna1%>%<neg%>:%>ларого # ; 
 
 LEXICON V-BUDU-LA 
 ! Будущее время
@@ -66,6 +67,7 @@ LEXICON V-OBSH-NA
 %<gpr1%>:%>не V-GPR-DECL ; 
 %<gpr1%>%<neg%>:%>раре V-GPR-DECL ; 
 %<gna1%>:%>наго # ; 
+%<gna1%>%<neg%>:%>нарого # ; 
 
 LEXICON V-BUDU-NA 
 ! Будущее время
@@ -78,12 +80,15 @@ LEXICON V-PROS-NA
 ! Прощедшее время 
 %<past%>:%>на # ; 
 %<gpr2%>:%>ра V-GPR-DECL ; 
-%<gna2%>:%>н # ; 
 
 LEXICON V-PROS-NA-NEG
 ! Отрицательная форма прощедшего времени
 %<past%>%<neg%>:%>чӀо # ; 
 %<gpr2%>%<neg%>:%>чӀе V-GPR-DECL ; 
+
+LEXICON V-PROS-NA-GNA
+! Деепричастие прощедшего времени
+%<gna2%>:%>н # ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -98,6 +103,7 @@ LEXICON V-IZE-ULA-ILA-UNA-E
 
 :у V-PROS-NA ; 
 :и V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
 
 LEXICON V-IZE-ULA-ILA-ANA-E
 
@@ -110,6 +116,7 @@ LEXICON V-IZE-ULA-ILA-ANA-E
 
 :а V-PROS-NA ; 
 :и V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
 
 LEXICON V-ZE-LA-LA-NA-J
 
@@ -122,6 +129,7 @@ V-BUDU-LA ;
 
 V-PROS-NA ; 
 V-PROS-NA-NEG ; 
+V-PROS-NA-GNA ; 
 
 LEXICON V-INE-UNA-INA-ANA-E
 
@@ -134,6 +142,7 @@ LEXICON V-INE-UNA-INA-ANA-E
 
 :а V-PROS-NA ; 
 :ин V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
