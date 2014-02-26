@@ -5,100 +5,109 @@
 
 Multichar_Symbols
 
-%<n%>                   !
-%<adj%>                 ! 
-%<adv%>                 ! 
-%<prn%>                 ! 
-%<num%>                 ! 
-%<np%>                  ! 
-%<vblex%>               ! 
-%<cnjcoo%>              ! 
-%<cnjsub%>              ! 
-%<cnjadv%>              ! 
-%<ij%>                  ! 
-%<post%>                ! 
-%<abbr%>                ! 
 
-%<qst%>                 ! 
-%<emph%>                ! 
+%<vblex%>          ! Глагол
+%<n%>              !
+%<adj%>            ! 
+%<adv%>            ! 
+%<prn%>            ! 
+%<num%>            ! 
+%<np%>             ! 
+%<cnjcoo%>         ! 
+%<cnjsub%>         ! 
+%<cnjadv%>         ! 
+%<ij%>             ! 
+%<post%>           ! 
+%<abbr%>           ! 
+%<qst%>            ! 
+%<emph%>           ! 
 
-%<m%>                   !
-%<f%>                   !
-%<mf%>                  !
-%<nt%>                  !
-%<mfn%>                 !
+%<iv%>             ! Непереходный
+%<tv%>             ! Переходный
 
-%<nom%>                 ! 
-%<obl%>                 ! 
+%<caus%>           ! 
+%<freq%>           !  
 
-%<gen%>                 ! 
-%<erg%>                 ! 
-%<dat%>                 ! 
+%<inf%>            ! Инфинитив
+%<ger%>            ! Масдар (имя действия)
 
-%<loc%>                 !
-%<all%>                 !
-%<abl%>                 !
-%<tra%>                 !
+%<aor%>            ! Общее время
+%<fut%>            ! Будушее время
+%<past%>           ! Прошедшее время
+%<imp%>            ! Повелительное наклонение
 
-%<sg%>                  !
-%<pl%>                  !
+%<gpr1%>           ! Причастие общего времени
+%<gpr2%>           ! Причастие прошедшего времени
+%<gpr3%>           ! Причастие будущего времени
 
-%<p1%>                  !
-%<p1i%>                 !
-%<p1x%>                 !
-%<p2%>                  !
-%<p3%>                  !
+%<gna1%>           ! Деепричастие общего времени
+%<gna2%>           ! Деепричастие прошедшего времени 
+%<gna3%>           ! Деепричастие будущего времени
 
-%<neg%>                 !
+%<neg%>            ! Отрицательная форма
 
-%<pers%>                !
-%<rel%>                 !
-%<ref%>                 !
-%<itg%>                 !
-%<dem%>                 !
-%<ord%>                 !
+%<m%>              ! Мужской род (кл. I)
+%<f%>              ! Женский род (кл. II)
+%<nt%>             ! Срендий род (кл. III)
+%<pl%>             ! Множественное число (кл. IV)
+%<mfn%>            ! Классный показател (кл. I, II, III, или IV)
 
-%<top%>                 ! 
-%<ant%>                 ! 
-%<cog%>                 ! 
-%<al%>                  !
+%<nom%>            ! Именительный падеж
+%<erg%>            ! Ергативный падеж
+%<gen%>            ! Родительный падеж
+%<dat%>            ! Дательный падеж
+%<obl%>            ! 
 
-%<tv%>                  ! 
-%<iv%>                  ! 
+%<loc%>            !
+%<all%>            !
+%<abl%>            !
+%<tra%>            !
 
-%<attr%>                !
+%<sg%>             !
+%<pl%>             !
 
-%<aor%>                 !
-%<ger%>                 !
-%<inf%>                 !
-%<past%>                !
-%<fut%>                 !
-%<pres%>                 !
-%<gpr1%>                !
-%<gpr2%>                !
-%<gna1%>                ! Деепричастие будущего времени
-%<gna2%>                ! Деепричастие прощедшего времени
-%<gna3%>                ! Деепричастие общего времени
+%<p1%>             !
+%<p1i%>            !
+%<p1x%>            !
+%<p2%>             !
+%<p3%>             !
+
+%<pers%>           !
+%<rel%>            !
+%<ref%>            !
+%<itg%>            !
+%<dem%>            !
+%<ord%>            !
+
+%<top%>            ! 
+%<ant%>            ! 
+%<cog%>            ! 
+%<al%>             !
+
+%<attr%>           !
+
+%<pres%>           !
 
 %<GD%>
 
-%<percent%>             !
-%<sent%>                !
-%<guio%>                !
-%<lpar%>                !
-%<rpar%>                !
-%<cm%>                  !
+%<percent%>        !
+%<sent%>           !
+%<guio%>           !
+%<lpar%>           !
+%<rpar%>           !
+%<cm%>             !
 
-%{u%}                   ! 
-%{a%}                   ! 
-%{a²%}                  ! 
-%{a³%}                  ! 
-%{и%}                   !
+%{и%}              !
+%{й%}              !
+%{u%}              ! 
+%{a%}              ! 
+%{a²%}             ! 
+%{a³%}             ! 
 
-%>
-%-
-%+
-% 
+%>                 !
+%-                 ! 
+%+                 ! 
+%                  !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -121,12 +130,52 @@ Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+!LEXICON CLIT-A
+!
+!:%>хун # ;
+!:%>ха # ;
+!:%>гӀан # ;
+!:%>гӀанаб # ;
+!
+!LEXICON CLIT-B
+!
+!:%>го # ; 
+!:%>цин # ; 
+!:%>ги # ; 
+!:%>ни # ; 
+!:%>ин # ; 
+!
+!LEXICON CLIT-V
+!
+!%+ищ%<qst%>:%>%{й%}ищ # ; ! FIXME: бугищ
+!%+дай%<qst%>:%>дай # ; 
+!
+!LEXICON CLIT-G
+!
+!:%>гун # ;
+!:%>гин # ;
+!
+!LEXICON CLIT-D
+!
+!:%>%{a%}н # ;
+!:%>%{a%}ли # ;
+!:%>%{й%}илан # ;
+!
+!LEXICON CLIT-E 
+!
+!:%>у # ;
+!:%>хӀа # ;
+!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON V-FIN-CLIT
 
 !%+ги%<cnjcoo%>:%>ги # ; 
 %+го%<cnjadv%>:%>го # ;  ! Отношение одновременности
 %+ни%<adv%>:%>ни # ; 
 %+ищ%<qst%>:%>%{и%}щ # ; 
+%+дай%<qst%>:%>дай # ; 
 # ;
 
 LEXICON V-NFIN-CLIT
@@ -1578,552 +1627,6 @@ LEXICON PRON-REL-BUGEB-PL
 
 %<prn%>%<pl%>%<rel%>:уге A-DECL ; 
 
-LEXICON V-INF-DECL-J
-
-%<sg%>%<nom%>:%>й CLIT-NOM ; 
-%<sg%>%<erg%>:%>ялъ CLIT ; 
-%<sg%>%<gen%>:%>ялъул CLIT ; 
-%<sg%>%<dat%>:%>ялъе CLIT ; 
-%<sg%>:%>ял LOC-CASES ; 
-
-
-LEXICON V-INF-DECL-JA
-
-%<sg%>%<nom%>: CLIT-NOM ; 
-%<sg%>%<erg%>:%>ялъ CLIT ; 
-%<sg%>%<gen%>:%>ялъул CLIT ; 
-%<sg%>%<dat%>:%>ялъе CLIT ; 
-%<sg%>:%>ял LOC-CASES ; 
-
-LEXICON V-INF-DECL-A
-
-%<sg%>%<nom%>: CLIT-NOM ; 
-%<sg%>%<erg%>:%>алъ CLIT ; 
-%<sg%>%<gen%>:%>алъул CLIT ; 
-%<sg%>%<dat%>:%>алъе CLIT ; 
-%<sg%>:%>ал LOC-CASES ; 
-
-LEXICON V-GPR-DECL
-
-%<nt%>%<sg%>:%>б # ; 
-%<m%>%<sg%>:%>в # ; 
-%<f%>%<sg%>:%>й # ; 
-%<pl%>:%>л # ; 
-
-LEXICON V-INE
-! ине (уна, ина, ана, а)
-ине%<vblex%>%<mfn%>%<iv%>%<inf%>:ин # ;
-ине%<vblex%>%<mfn%>%<iv%>%<ger%>:ине  V-NFIN-CLIT ;
-
-ине%<vblex%>%<mfn%>%<iv%>%<aor%>:уна V-FIN-CLIT ;
-ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<aor%>:унаро V-FIN-CLIT ;
-ине%<vblex%>%<mfn%>%<iv%>%<fut%>:ина V-FIN-CLIT ;
-ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<fut%>:инаро V-FIN-CLIT ;
-ине%<vblex%>%<mfn%>%<iv%>%<past%>:ана V-FIN-CLIT ;
-ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<fut%>:инчӀо V-FIN-CLIT ;
-
-ине%<vblex%>%<mfn%>%<iv%>%<gpr1%>:у%>не V-GPR-DECL ;
-ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<gpr1%>:у%>наре V-GPR-DECL ;
-ине%<vblex%>%<mfn%>%<iv%>%<gpr2%>:а%>ра V-GPR-DECL ;
-ине%<vblex%>%<mfn%>%<iv%>%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
-
-ине%<vblex%>%<mfn%>%<iv%>%<gna2%>:у%>н  #  ; ! FIXME: Check
-
-LEXICON V-TIUBA-COMMON
-
-%<inf%>:%>а # ; ! FIXME:nodecl
-%<ger%>:а%>зе  V-NFIN-CLIT ;
-
-%<aor%>:а%>ла V-FIN-CLIT ;
-%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
-%<fut%>:а%>ла V-FIN-CLIT ;
-%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
-%<past%>:а%>на V-FIN-CLIT ;
-%<neg%>%<past%>:а%>чӀо V-FIN-CLIT ;
-
-%<gpr1%>:а%>ле V-GPR-DECL ;
-%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
-%<gpr2%>:а%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
-
-%<gna1%>:а%>зелъун #  ;
-%<neg%>%<gna1%>:а%>лареблъун # ;
-%<gna2%>:а%>н  #  ;
-%<neg%>%<gna2%>:а%>чӀого  #  ;
-
-LEXICON V-BOS-COMMON
-! б/ос/изе (-ула, -ила, -ана, -е)
-%<inf%>:%>и V-INF-DECL-JA ;
-%<ger%>:и%>зе  V-NFIN-CLIT ;
-%<aor%>:и%>ла V-FIN-CLIT ;
-%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
-%<fut%>:у%>ла V-FIN-CLIT ;
-%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
-%<past%>:а%>на V-FIN-CLIT ;
-%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
-
-%<gpr1%>:и%>ле V-GPR-DECL ; ! Dir/LR
-%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ; ! Dir/LR
-%<gpr1%>:у%>ле V-GPR-DECL ;
-%<neg%>%<gpr1%>:у%>ларе V-GPR-DECL ;
-%<gpr2%>:у%>ра V-GPR-DECL ; ! Dir/LR
-%<gpr2%>:а%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
-
-%<gna1%>:и%>зелъун #  ;
-%<neg%>%<gna1%>:и%>лареблъун # ;
-%<gna2%>:у%>н  #  ;
-%<neg%>%<gna2%>:и%>чӀого  #  ;
-
-LEXICON V-BACH-COMMON
-! б/ач/ине (-уна, -ина, -ана, -е)
-%<inf%>:%>ин V-INF-DECL-JA ;
-%<ger%>:и%>не  V-NFIN-CLIT ;
-
-%<aor%>:и%>на V-FIN-CLIT ;
-%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
-%<fut%>:у%>на V-FIN-CLIT ;
-%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
-%<past%>:а%>на V-FIN-CLIT ;
-%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
-
-%<gpr1%>:и%>не V-GPR-DECL ; ! Dir/LR
-%<neg%>%<gpr1%>:и%>наре V-GPR-DECL ; ! Dir/LR
-!%<gpr1%>:у%>ле V-GPR-DECL ;
-%<gpr1%>:у%>не V-GPR-DECL ;
-%<neg%>%<gpr1%>:у%>наре V-GPR-DECL ;
-%<gpr2%>:у%>ра V-GPR-DECL ; ! Dir/LR
-%<gpr2%>:а%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:и%>нчӀе V-GPR-DECL ;
-
-%<gna1%>:и%>зелъун #  ;
-%<neg%>%<gna1%>:и%>лареблъун # ;
-%<gna2%>:у%>н  #  ;
-%<neg%>%<gna2%>:и%>нчӀого  #  ;
-
-LEXICON V-ABI-COMMON
-! аб/изе (-ула, -ила, -уна, -е)
-%<inf%>:%>и V-INF-DECL-JA ;
-%<ger%>:и%>зе  V-NFIN-CLIT ;
-
-%<aor%>:и%>ла V-FIN-CLIT ;
-%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
-%<fut%>:у%>ла V-FIN-CLIT ;
-%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
-%<past%>:у%>на V-FIN-CLIT ;
-%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
-
-%<gpr1%>:и%>ле V-GPR-DECL ; ! Dir/LR
-%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ; ! Dir/LR
-%<gpr1%>:у%>ле V-GPR-DECL ;
-%<neg%>%<gpr1%>:у%>ларе V-GPR-DECL ;
-%<gpr2%>:у%>ра V-GPR-DECL ; ! Dir/LR
-%<gpr2%>:а%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
-
-%<gna1%>:и%>зелъун #  ; ! Деепричастие будущего времени
-%<neg%>%<gna1%>:и%>лареблъун # ;
-%<gna2%>:у%>н  #  ; ! Деепричастие прощедшего времени
-%<neg%>%<gna2%>:и%>чӀого  #  ;
-%<gna3%>:у%>лаго # ; ! Деепричастие общего времени
-%<neg%>%<gna3%>:у%>ларого  #  ;
-
-LEXICON V-CAL-COMMON
-! цIал/изе (-ула, -ила, -ана, -е)
-%<inf%>:%>и V-INF-DECL-JA ;
-%<ger%>:и%>зе  V-NFIN-CLIT ;
-
-%<aor%>:и%>ла V-FIN-CLIT ;
-%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
-%<fut%>:у%>ла V-FIN-CLIT ;
-%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
-%<past%>:а%>на V-FIN-CLIT ;
-%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
-
-!%<gpr1%>:и%>ле V-GPR-DECL ;
-%<gpr1%>:у%>ле V-GPR-DECL ;
-%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
-%<gpr2%>:а%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
-
-%<gna1%>:и%>зелъун #  ;
-%<neg%>%<gna1%>:и%>лареблъун # ;
-%<gna2%>:у%>н  #  ;
-%<neg%>%<gna2%>:и%>чӀого  #  ;
-
-LEXICON V-RAGI-COMMON
-! рагІ/изе (-ула, -ила, -ана, -а)
-
-%<inf%>:%>а V-INF-DECL-JA ;
-%<ger%>:и%>зе  V-NFIN-CLIT CLIT ;
-
-%<aor%>:и%>ла V-FIN-CLIT ;
-%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
-%<fut%>:у%>ла V-FIN-CLIT ;
-%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
-%<past%>:а%>на V-FIN-CLIT ;
-%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
-
-!%<gpr1%>:и%>ле V-GPR-DECL ;
-%<gpr1%>:у%>ле V-GPR-DECL ;
-%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
-%<gpr2%>:а%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
-
-%<gna1%>:и%>зелъун #  ;
-%<neg%>%<gna1%>:и%>лареблъун # ;
-%<gna2%>:у%>н  #  ;
-%<neg%>%<gna2%>:и%>чӀого  #  ;
-
-LEXICON V-REQ-COMMON
-! рекъ/езе (-ола, -ела, -ана, -а)
-
-%<inf%>:%>а V-INF-DECL-JA ;
-%<ger%>:е%>зе  V-NFIN-CLIT ;
-
-%<aor%>:е%>ла V-FIN-CLIT ;
-%<neg%>%<aor%>:е%>ларо V-FIN-CLIT ;
-%<fut%>:о%>ла V-FIN-CLIT ;
-%<neg%>%<fut%>:о%>ларо V-FIN-CLIT ;
-%<past%>:а%>на V-FIN-CLIT ;
-%<neg%>%<past%>:е%>чӀо V-FIN-CLIT ;
-
-%<gpr1%>:е%>ле V-GPR-DECL ;
-%<neg%>%<gpr1%>:е%>ларе V-GPR-DECL ;
-%<gpr2%>:а%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:е%>чӀе V-GPR-DECL ;
-
-%<gna1%>:е%>зелъун #  ;
-%<neg%>%<gna1%>:е%>лареблъун # ;
-%<gna2%>:у%>н  #  ;
-%<neg%>%<gna2%>:е%>чӀого  #  ;
-
-LEXICON V-CEH-COMMON
-! цIех/езе (-ола, -ела, -ана, -е)
-
-%<inf%>:%>е V-INF-DECL-JA ;
-%<ger%>:е%>зе  V-NFIN-CLIT ;
-
-%<aor%>:е%>ла V-FIN-CLIT ;
-%<neg%>%<aor%>:е%>ларо V-FIN-CLIT ;
-%<fut%>:о%>ла V-FIN-CLIT ;
-%<neg%>%<fut%>:о%>ларо V-FIN-CLIT ;
-%<past%>:а%>на V-FIN-CLIT ;
-%<neg%>%<past%>:е%>чӀо V-FIN-CLIT ;
-
-%<gpr1%>:е%>ле V-GPR-DECL ;
-%<neg%>%<gpr1%>:е%>ларе V-GPR-DECL ;
-%<gpr2%>:а%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:е%>чӀе V-GPR-DECL ;
-
-%<gna1%>:е%>зелъун #  ;
-%<neg%>%<gna1%>:е%>лареблъун # ;
-%<gna2%>:у%>н  #  ;
-%<neg%>%<gna2%>:е%>чӀого  #  ;
-
-LEXICON V-BUKIIN-COMMON
-
-%<inf%>:кӀин N-STOL-DECL ;
-%<ger%>:кӀине # ; ! FIXME:nodecl
-
-%<pres%>:го V-FIN-CLIT ;
-%<fut%>:кӀина V-FIN-CLIT ;
-%<neg%>%<fut%>:кӀинаро V-FIN-CLIT ;
-%<aor%>:кӀуна V-FIN-CLIT ;
-%<neg%>%<aor%>:кӀунаро V-FIN-CLIT ;
-%<past%>:кӀана V-FIN-CLIT ;
-%<neg%>%<past%>:кӀинчӀо V-FIN-CLIT ;
-
-%<gpr1%>:кӀи%>не V-GPR-DECL ;
-%<neg%>%<gpr1%>:и%>наре V-GPR-DECL ;
-%<gpr2%>:кӀа%>ра V-GPR-DECL ;
-%<neg%>%<gpr2%>:кӀин%>чӀе V-GPR-DECL ;
-%<gpr3%>:кӀу%>не V-GPR-DECL ;
-%<neg%>%<gpr3%>:кӀу%>наре V-GPR-DECL ;
-
-%<gna2%>:кӀу%>н  #  ;
-%<neg%>%<gna2%>:кӀин%>чӀого  #  ;
-
-LEXICON V-BUKIIN-M
-
-%<vblex%>%<iv%>%<m%>:у V-BUKIIN-COMMON ;
-
-LEXICON V-BUKIIN-NT
-
-%<vblex%>%<iv%>%<nt%>:у V-BUKIIN-COMMON ;
-
-LEXICON V-BUKIIN-F
-
-%<vblex%>%<iv%>%<f%>:и V-BUKIIN-COMMON ;
-
-LEXICON V-BUKIIN-PL
-
-%<vblex%>%<iv%>%<pl%>:у V-BUKIIN-COMMON ;
-
-LEXICON V-HISABASI
-
-%<vblex%>%<iv%>%<mfn%>: V-BOS-COMMON ;
-%<vblex%>%<tv%>%<mfn%>: V-BOS-COMMON ;
-
-LEXICON V-HIADURL
-
-%<vblex%>%<iv%>%<mfn%>: V-BOS-COMMON ;
-
-LEXICON V-BOS-M
-
-%<vblex%>%<tv%>%<m%>: V-BOS-COMMON ;
-
-LEXICON V-BOS-NT
-
-%<vblex%>%<tv%>%<nt%>: V-BOS-COMMON ;
-
-LEXICON V-BOS-F
-
-%<vblex%>%<tv%>%<f%>: V-BOS-COMMON ;
-
-LEXICON V-BOS-PL
-
-%<vblex%>%<tv%>%<pl%>: V-BOS-COMMON ;
-
-LEXICON V-BAQ-M
-
-%<vblex%>%<iv%>%<m%>: V-BOS-COMMON ;
-
-LEXICON V-BAQ-NT
-
-%<vblex%>%<iv%>%<nt%>: V-BOS-COMMON ;
-
-LEXICON V-BAQ-F
-
-%<vblex%>%<iv%>%<f%>: V-BOS-COMMON ;
-
-LEXICON V-BAQ-PL
-
-%<vblex%>%<iv%>%<pl%>: V-BOS-COMMON ;
-
-LEXICON V-BACH-M
-
-%<vblex%>%<iv%>%<m%>: V-BACH-COMMON ;
-
-LEXICON V-BACH-NT
-
-%<vblex%>%<iv%>%<nt%>: V-BACH-COMMON ;
-
-LEXICON V-BACH-F
-
-%<vblex%>%<iv%>%<f%>: V-BACH-COMMON ;
-
-LEXICON V-BACH-PL
-
-%<vblex%>%<iv%>%<pl%>: V-BACH-COMMON ;
-
-
-LEXICON V-BIC-M
-
-%<vblex%>%<tv%>%<m%>: V-BACH-COMMON ;
-
-LEXICON V-BIC-NT
-
-%<vblex%>%<tv%>%<nt%>: V-BACH-COMMON ;
-
-LEXICON V-BIC-F
-
-%<vblex%>%<tv%>%<f%>: V-BACH-COMMON ;
-
-LEXICON V-BIC-PL
-
-%<vblex%>%<tv%>%<pl%>: V-BACH-COMMON ;
-
-LEXICON V-BELANH-NT
-
-%<vblex%>%<iv%>%<nt%>:  V-ABI-COMMON  ;
-
-LEXICON V-BELANH-M
-
-%<vblex%>%<iv%>%<m%>:  V-ABI-COMMON  ;
-
-LEXICON V-BELANH-F
-
-%<vblex%>%<iv%>%<f%>:  V-ABI-COMMON  ;
-
-LEXICON V-BELANH-PL
-
-%<vblex%>%<iv%>%<pl%>:  V-ABI-COMMON  ;
-
-LEXICON V-RIKIKI
-
-%<vblex%>%<tv%>%<mfn%>:  V-BACH-COMMON  ;
-
-LEXICON V-REQ
-
-%<vblex%>%<iv%>%<mfn%>:  V-REQ-COMMON  ;
-
-LEXICON V-CEH
-
-%<vblex%>%<tv%>%<mfn%>:  V-CEH-COMMON  ;
-
-LEXICON V-RAGI
-
-%<vblex%>%<tv%>%<mfn%>:  V-RAGI-COMMON  ;
-
-LEXICON V-CAL
-
-%<vblex%>%<tv%>%<mfn%>:  V-CAL-COMMON  ;
-
-LEXICON V-HIALTI 
-
-%<vblex%>%<iv%>%<mfn%>:  V-CAL-COMMON  ;
-
-LEXICON V-TIOBITI
-!тІо(б)итІ/изе (-ула, -ила, -уна, -е)
-
-%<vblex%>%<iv%>%<m%>:витӀ  V-CAL-COMMON  ;
-%<vblex%>%<iv%>%<f%>:йитӀ  V-CAL-COMMON  ;
-%<vblex%>%<iv%>%<nt%>:битӀ  V-CAL-COMMON  ;
-%<vblex%>%<iv%>%<pl%>:ритӀ  V-CAL-COMMON  ;
-
-%<vblex%>%<tv%>%<m%>:витӀ  V-CAL-COMMON  ;
-%<vblex%>%<tv%>%<f%>:йитӀ  V-CAL-COMMON  ;
-%<vblex%>%<tv%>%<nt%>:битӀ  V-CAL-COMMON  ;
-%<vblex%>%<tv%>%<pl%>:ритӀ  V-CAL-COMMON  ;
-
-
-LEXICON V-ABI
-
-%<vblex%>%<tv%>%<mfn%>:  V-ABI-COMMON  ;
-
-
-LEXICON V-HABI-NT 
-
-%<vblex%>%<tv%>%<nt%>:б  V-ABI-COMMON  ;
-
-LEXICON V-HABI
-
-%<vblex%>%<tv%>%<nt%>:б  V-ABI-COMMON  ;
-%<vblex%>%<tv%>%<m%>:в  V-ABI-COMMON  ;
-%<vblex%>%<tv%>%<f%>:й  V-ABI-COMMON  ;
-%<vblex%>%<tv%>%<pl%>:р  V-ABI-COMMON  ;
-
-LEXICON V-TIUBA
-
-%<vblex%>%<iv%>%<nt%>:б  V-TIUBA-COMMON  ;
-%<vblex%>%<iv%>%<m%>:в  V-TIUBA-COMMON  ;
-%<vblex%>%<iv%>%<f%>:й  V-TIUBA-COMMON  ;
-%<vblex%>%<iv%>%<pl%>:р  V-TIUBA-COMMON  ;
-
-
-LEXICON V-LUH
-
-%<vblex%>%<iv%>%<mfn%>%<inf%>:%>ин V-INF-DECL-A ; 
-%<vblex%>%<iv%>%<mfn%>%<ger%>:и%>не  V-NFIN-CLIT ;
-
-%<vblex%>%<iv%>%<mfn%>%<aor%>:у%>на V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:и%>наро V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<fut%>:и%>на V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:у%>наро V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
-
-%<vblex%>%<iv%>%<mfn%>%<gpr1%>:у%>ле V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<gpr2%>:а%>ра V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
-
-%<vblex%>%<iv%>%<mfn%>%<gna1%>:и%>зелъун #  ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gna1%>:и%>лареблъун # ;
-%<vblex%>%<iv%>%<mfn%>%<gna2%>:у%>н  #  ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gna2%>:и%>чӀого  #  ;
-
-LEXICON V-KIODOL
-
-%<vblex%>%<iv%>%<mfn%>%<inf%>:%>и V-INF-DECL-JA ;
-%<vblex%>%<iv%>%<mfn%>%<ger%>:и%>зе  V-NFIN-CLIT ;
-
-%<vblex%>%<iv%>%<mfn%>%<aor%>:и%>ла V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:и%>ларо V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<fut%>:у%>ла V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:у%>ларо V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:и%>чӀо V-FIN-CLIT ;
-
-%<vblex%>%<iv%>%<mfn%>%<gpr1%>:у%>ле V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr1%>:и%>ларе V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<gpr2%>:а%>ра V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr2%>:и%>чӀе V-GPR-DECL ;
-
-%<vblex%>%<iv%>%<mfn%>%<gna1%>:и%>зелъун #  ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gna1%>:и%>лареблъун # ;
-%<vblex%>%<iv%>%<mfn%>%<gna2%>:у%>н  #  ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gna2%>:и%>чӀого  #  ;
-
-
-
-LEXICON V-LA
-
-%<vblex%>%<tv%>%<mfn%>%<inf%>:%> V-INF-DECL-J ; 
-%<vblex%>%<tv%>%<mfn%>%<ger%>:%>зе  V-NFIN-CLIT ;
-
-%<vblex%>%<tv%>%<mfn%>%<aor%>:%>ла V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<aor%>:%>ларо V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<fut%>:%>ла V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<fut%>:%>ларо V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<past%>:%>на V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<past%>:%>чӀо V-FIN-CLIT ;
-
-%<vblex%>%<tv%>%<mfn%>%<gpr1%>:%>ле V-GPR-DECL ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<gpr1%>:%>ларе V-GPR-DECL ;
-%<vblex%>%<tv%>%<mfn%>%<gpr2%>:%>ра V-GPR-DECL ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<gpr2%>:%>чӀе V-GPR-DECL ;
-
-%<vblex%>%<tv%>%<mfn%>%<gna1%>:%>зелъун #  ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<gna1%>:%>лареблъун # ;
-%<vblex%>%<tv%>%<mfn%>%<gna2%>:%>н  #  ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<gna2%>:%>чӀого  #  ;
-
-LEXICON V-KKE
-
-%<vblex%>%<iv%>%<mfn%>%<inf%>:е%> V-INF-DECL-J ; 
-%<vblex%>%<iv%>%<mfn%>%<ger%>:е%>зе  V-NFIN-CLIT ;
-
-%<vblex%>%<iv%>%<mfn%>%<aor%>:о%>ла V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<aor%>:о%>ларо V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<fut%>:о%>ла V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<fut%>:о%>ларо V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<past%>:а%>на V-FIN-CLIT ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<past%>:е%>чӀо V-FIN-CLIT ;
-
-%<vblex%>%<iv%>%<mfn%>%<gpr1%>:о%>ле V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr1%>:о%>ларе V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<gpr2%>:а%>ра V-GPR-DECL ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gpr2%>:е%>чӀе V-GPR-DECL ;
-
-!%<vblex%>%<iv%>%<mfn%>%<gna1%>:%>зелъун #  ;
-!%<vblex%>%<iv%>%<mfn%>%<neg%>%<gna1%>:%>лареблъун # ;
-%<vblex%>%<iv%>%<mfn%>%<gna2%>:а%>н  #  ;
-%<vblex%>%<iv%>%<mfn%>%<neg%>%<gna2%>:е%>чӀого  #  ;
-
-LEXICON V-KJE
-
-%<vblex%>%<tv%>%<mfn%>%<inf%>:е%> V-INF-DECL-J ; ! FIXME:nodecl
-%<vblex%>%<tv%>%<mfn%>%<ger%>:е%>зе  V-NFIN-CLIT ;
-
-%<vblex%>%<tv%>%<mfn%>%<aor%>:о%>ла V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<aor%>:о%>ларо V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<fut%>:е%>ла V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<fut%>:о%>ларо V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<past%>:у%>на V-FIN-CLIT ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<past%>:е%>чӀо V-FIN-CLIT ;
-
-%<vblex%>%<tv%>%<mfn%>%<gpr1%>:о%>ле V-GPR-DECL ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<gpr1%>:о%>ларе V-GPR-DECL ;
-%<vblex%>%<tv%>%<mfn%>%<gpr2%>:у%>ра V-GPR-DECL ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<gpr2%>:е%>чӀе V-GPR-DECL ;
-
-!%<vblex%>%<tv%>%<mfn%>%<gna1%>:%>зелъун #  ;
-!%<vblex%>%<tv%>%<mfn%>%<neg%>%<gna1%>:%>лареблъун # ;
-%<vblex%>%<tv%>%<mfn%>%<gna2%>:у%>н  #  ;
-%<vblex%>%<tv%>%<mfn%>%<neg%>%<gna2%>:е%>чӀого  #  ;
-
 LEXICON NUM-CO
 ! цо 1) при конкр. счёте один, одно, одна
 ! цоя/л (-з, -зул) мн. одни
@@ -2140,6 +1643,571 @@ LEXICON NUM
 %<num%>%<ord%>:%>абиле A-DECL ;
 %<num%>%<dist%>:%>%{a%}бго # ; ! FIXME:check
 %<num%>%<subst%>:го%>я A-DECL ; ! FIXME:missing cases
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON V-GPR-DECL
+
+%<nt%>:%>б # ; 
+%<m%>:%>в # ; 
+%<f%>:%>й # ;  
+%<pl%>:%>л # ;
+
+LEXICON V-GER-DECL-N
+
+%<nom%>: # ;
+%<erg%>:%>алъ # ;
+%<gen%>:%>алъул # ;
+%<dat%>:%>алъе # ;
+:%>ал LOC-CASES ;
+
+LEXICON V-GER-DECL-J
+
+%<nom%>:й # ;
+%<erg%>:%>ялъ # ;
+%<gen%>:%>ялъул # ;
+%<dat%>:%>ялъе # ;
+:%>ял LOC-CASES ;
+
+LEXICON V-GER-DECL-I
+
+%<nom%>: # ;
+%<erg%>:%>ялъ # ;
+%<gen%>:%>ялъул # ;
+%<dat%>:%>ялъе # ;
+:%>ял LOC-CASES ;
+
+LEXICON V-OBSH-LA
+! Общее время 
+%<aor%>:%>ла # ; 
+%<aor%>%<neg%>:%>ларо # ; 
+%<gpr1%>:%>ле V-GPR-DECL ; 
+%<gpr1%>%<neg%>:%>ларе V-GPR-DECL ; 
+%<gna1%>:%>лаго # ; 
+%<gna1%>%<neg%>:%>ларого # ; 
+
+LEXICON V-BUDU-LA 
+! Будущее время
+%<fut%>:%>ла # ; 
+%<fut%>%<neg%>:%>ларо # ; 
+%<gpr3%>:%>ле V-GPR-DECL ; 
+%<gpr3%>%<neg%>:%>ларе V-GPR-DECL ; 
+
+LEXICON V-OBSH-NA
+! Общее время 
+%<aor%>:%>на # ; 
+%<aor%>%<neg%>:%>наро # ; 
+%<gpr1%>:%>не V-GPR-DECL ; 
+%<gpr1%>%<neg%>:%>наре V-GPR-DECL ; 
+%<gna1%>:%>наго # ; 
+%<gna1%>%<neg%>:%>нарого # ; 
+
+LEXICON V-BUDU-NA 
+! Будущее время
+%<fut%>:%>на # ; 
+%<fut%>%<neg%>:%>наро # ; 
+%<gpr3%>:%>не V-GPR-DECL ; 
+%<gpr3%>%<neg%>:%>наре V-GPR-DECL ; 
+
+LEXICON V-PROS-NA
+! Прошедшее время 
+%<past%>:%>на # ; 
+%<gpr2%>:%>ра V-GPR-DECL ; 
+
+LEXICON V-PROS-NA-NEG
+! Отрицательная форма прошедшего времени
+%<past%>%<neg%>:%>чӀо # ; 
+%<gna2%>%<neg%>:%>чӀого # ; 
+%<gpr2%>%<neg%>:%>чӀе V-GPR-DECL ; 
+
+LEXICON V-PROS-NA-GNA
+! Деепричастие прошедшего времени
+%<gna2%>:%>н # ; 
+
+LEXICON V-IZE-ULA-ILA-UNA-E 
+
+%<inf%>:%>изе # ;
+%<ger%>:%>и V-GER-DECL-I ; 
+
+:у V-OBSH-LA ; 
+
+:и V-BUDU-LA ; 
+
+:у V-PROS-NA ; 
+:и V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-IZE-ULA-ILA-ANA-A
+
+%<inf%>:%>изе # ;
+%<ger%>:%>и V-GER-DECL-I ; 
+
+:у V-OBSH-LA ; 
+
+:и V-BUDU-LA ; 
+
+:а V-PROS-NA ; 
+:и V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>а # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-IZE-ULA-ILA-ANA-E
+
+%<inf%>:%>изе # ;
+%<ger%>:%>и V-GER-DECL-I ; 
+
+:у V-OBSH-LA ; 
+
+:и V-BUDU-LA ; 
+
+:а V-PROS-NA ; 
+:и V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-ZE-LA-LA-NA-J
+
+%<inf%>:%>зе # ;
+%<ger%>:%> V-GER-DECL-J ; 
+
+V-OBSH-LA ; 
+
+V-BUDU-LA ; 
+
+V-PROS-NA ; 
+V-PROS-NA-NEG ; 
+V-PROS-NA-GNA ; 
+
+%<imp%>:%>й # ;
+%<imp%>%<neg%>:%>ге # ;
+
+LEXICON V-INE-UNA-INA-ANA-A
+
+%<inf%>:%>ине # ;
+%<ger%>:%>ин V-GER-DECL-N ; 
+
+:у V-OBSH-NA ; 
+
+:и V-BUDU-NA ; 
+
+:а V-PROS-NA ; 
+:ин V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>а # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-INE-UNA-INA-ANA-E
+
+%<inf%>:%>ине # ;
+%<ger%>:%>ин V-GER-DECL-N ; 
+
+:у V-OBSH-NA ; 
+
+:и V-BUDU-NA ; 
+
+:а V-PROS-NA ; 
+:ин V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-EZE-OLA-ELA-UNA-E
+
+%<inf%>:%>езе # ;
+%<ger%>:%>е V-GER-DECL-J ; 
+
+:о V-OBSH-LA ; 
+
+:е V-BUDU-LA ; 
+
+:у V-PROS-NA ; 
+:е V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-EZE-OLA-ELA-ANA-E
+
+%<inf%>:%>езе # ;
+%<ger%>:%>е V-GER-DECL-J ; 
+
+:о V-OBSH-LA ; 
+
+:е V-BUDU-LA ; 
+
+:а V-PROS-NA ; 
+:е V-PROS-NA-NEG ; 
+:а V-PROS-NA-GNA ; 
+
+%<imp%>:%>е # ;
+%<imp%>%<neg%>:%>уге # ;
+
+
+LEXICON V-EZE-OLA-ELA-ANA-A
+
+%<inf%>:%>езе # ;
+%<ger%>:%>е V-GER-DECL-J ; 
+
+:о V-OBSH-LA ; 
+
+:е V-BUDU-LA ; 
+
+:а V-PROS-NA ; 
+:е V-PROS-NA-NEG ; 
+:а V-PROS-NA-GNA ; 
+
+%<imp%>:%>а # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-VEZE-OLA-VELA-UNA-E
+
+%<inf%>:%>везе # ;
+%<ger%>:%>е V-GER-DECL-J ; 
+
+:о V-OBSH-LA ; 
+
+:ве V-BUDU-LA ; 
+
+:у V-PROS-NA ; 
+:е V-PROS-NA-NEG ; 
+:у V-PROS-NA-GNA ; 
+
+%<imp%>:%>ве # ;
+%<imp%>%<neg%>:%>уге # ;
+
+LEXICON V-IZE-ULA-ILA-ANA-AE
+
+V-IZE-ULA-ILA-ANA-A ;
+
+%<imp%>:%>е # ;
+
+LEXICON V-IZE-ULA-ILA-ANA-EA
+
+V-IZE-ULA-ILA-ANA-E ;
+
+%<imp%>:%>а # ;
+
+LEXICON V-TV-CIALIZE-MFN
+! цӀализе: цӀал/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<mfn%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-XUTIIZE-MFN
+! хутӀизе: хутӀ/изе (-ула, -ила, -ана, -а)
+%<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-ANA-A ; 
+
+LEXICON V-IV-XIALTIIZE-MFN
+! хӀалтӀизе: хӀалтӀ/изе (-ула, -ила, -ана, -е)
+%<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-CIEZE-MFN
+! цӀезе: цӀ/езе (-ола, -ела, -уна, -е) 
+
+%<vblex%>%<iv%>%<mfn%>: V-EZE-OLA-ELA-UNA-E ; 
+
+LEXICON V-TV-XXEZE-MFN
+! ххезе	  хх/езе (-ола, -ела, -уна, -е)
+
+%<vblex%>%<tv%>%<mfn%>: V-EZE-OLA-ELA-UNA-E ; 
+
+LEXICON V-TV-TEZE-MFN
+! тезе: т/езе (-ола, -ела, -ана, -е)
+
+%<vblex%>%<tv%>%<mfn%>: V-EZE-OLA-ELA-ANA-E ; 
+
+LEXICON V-IV-KKEZE-MFN
+! ккезе: кк/езе (-ола, -ела, -ана, -а) 
+
+%<vblex%>%<iv%>%<mfn%>: V-EZE-OLA-ELA-ANA-A ; 
+
+LEXICON V-IV-KKVEZE-MFN
+! кквезе: кк/везе (-ола, -вела, -уна, -е)
+
+%<vblex%>%<iv%>%<mfn%>: V-VEZE-OLA-VELA-UNA-E ; 
+
+LEXICON V-IV-KAMIZE-MFN
+! камизе: кам/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<mfn%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-TV-ABIZE-MFN
+! абизе: аб/изе (-ула, -ила, -уна, -е) 
+
+%<vblex%>%<tv%>%<mfn%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-KAZE-MFN
+! къазе: къа/зе (-ла, -ла, -на, -й)
+
+%<vblex%>%<iv%>%<mfn%>: V-ZE-LA-LA-NA-J ; 
+
+LEXICON V-TV-XVAZE-MFN
+! хъвазе: хъва/зе (-ла, -ла, -на, -й) 
+
+%<vblex%>%<tv%>%<mfn%>: V-ZE-LA-LA-NA-J ; 
+
+LEXICON V-IV-LUHINE-MFN
+! лъугьине: лъугь/ине (-уна, -ина, -ана, -а)
+
+%<vblex%>%<iv%>%<mfn%>: V-INE-UNA-INA-ANA-A ; 
+
+LEXICON V-IV-INE-MFN
+! ине: /ине (-уна, -ина, -ана, -а)
+
+ине%<vblex%>%<iv%>%<mfn%>%<inf%>:ине # ;
+ине%<vblex%>%<iv%>%<mfn%>%<ger%>:ин V-GER-DECL-N ; 
+ине%<vblex%>%<iv%>%<mfn%>:у V-OBSH-NA ; 
+ине%<vblex%>%<iv%>%<mfn%>:и V-BUDU-NA ; 
+ине%<vblex%>%<iv%>%<mfn%>:а V-PROS-NA ; 
+ине%<vblex%>%<iv%>%<mfn%>:ин V-PROS-NA-NEG ; 
+ине%<vblex%>%<iv%>%<mfn%>:у V-PROS-NA-GNA ; 
+!ине%<vblex%>%<iv%>%<mfn%>%<imp%>:а # ; ! FIXME:check
+ине%<vblex%>%<iv%>%<mfn%>%<imp%>%<neg%>:уге # ;
+
+LEXICON V-TV-RETIINE-MFN
+! ретӀине: ретӀ/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<mfn%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-IV-CIALGIINE-MFN
+! чӀалгӀине: чӀалгӀ/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<iv%>%<mfn%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-TV-HABIZE-MFN
+! гьабизе: гьа[б]/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<tv%>%<m%>:в V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<f%>:й V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<nt%>:б V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<pl%>:р V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-TV-TIOBITIIZE-MFN
+! тӀобитӀизе: тӀо[б]итӀ/изе (-ула, -ила, -уна, -е) 
+
+%<vblex%>%<tv%>%<m%>:витӀ V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<f%>:йитӀ V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<nt%>:битӀ V-IZE-ULA-ILA-UNA-E ; 
+%<vblex%>%<tv%>%<pl%>:ритӀ V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-TIUBAZE-MFN
+! тӀу[б]а/зе (-ла, -ла, -на, -й)
+
+%<vblex%>%<tv%>%<m%>:ва V-ZE-LA-LA-NA-J ; 
+%<vblex%>%<tv%>%<f%>:я V-ZE-LA-LA-NA-J ; 
+%<vblex%>%<tv%>%<nt%>:ба V-ZE-LA-LA-NA-J ; 
+%<vblex%>%<tv%>%<pl%>:ра V-ZE-LA-LA-NA-J ; 
+
+LEXICON V-TV-BICINE-M 
+! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<m%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-TV-BICINE-F
+! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<f%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-TV-BICINE-NT
+! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<nt%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-TV-BICINE-PL
+! бицине: [б]иц/ине (-уна, -ина, -ана, -е) 
+
+%<vblex%>%<tv%>%<pl%>: V-INE-UNA-INA-ANA-E ; 
+
+LEXICON V-TV-BALAHIZE-M
+! балагьизе: [б]алагь/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<m%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-TV-BALAHIZE-F
+! балагьизе: [б]алагь/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<f%>: V-IZE-ULA-ILA-ANA-E ;
+
+LEXICON V-TV-BALAHIZE-NT
+! балагьизе: [б]алагь/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<nt%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-TV-BALAHIZE-PL
+! балагьизе: [б]алагь/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<tv%>%<pl%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-BAGHIZE-M
+! багъизе: [б]агъ/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<iv%>%<m%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-BAGHIZE-F
+! багъизе: [б]агъ/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<iv%>%<f%>: V-IZE-ULA-ILA-ANA-E ;
+
+LEXICON V-IV-BAGHIZE-NT
+! багъизе: [б]агъ/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<iv%>%<nt%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-BAGHIZE-PL
+! багъизе: [б]агъ/изе (-ула, -ила, -ана, -е)
+
+%<vblex%>%<iv%>%<pl%>: V-IZE-ULA-ILA-ANA-E ; 
+
+LEXICON V-IV-BICCAZE-M
+! биччазе: [б]ичч/азе (-ла, -ла, -на, -й)
+
+%<vblex%>%<iv%>%<m%>: V-ZE-LA-LA-NA-J ; 
+
+LEXICON V-IV-BICCAZE-F
+! биччазе: [б]ичч/азе (-ла, -ла, -на, -й)
+
+%<vblex%>%<iv%>%<f%>: V-ZE-LA-LA-NA-J ; 
+
+LEXICON V-IV-BICCAZE-NT
+! биччазе: [б]ичч/азе (-ла, -ла, -на, -й)
+
+%<vblex%>%<iv%>%<nt%>: V-ZE-LA-LA-NA-J ; 
+
+LEXICON V-IV-BICCAZE-PL
+! биччазе: [б]ичч/азе (-ла, -ла, -на, -й)
+
+%<vblex%>%<iv%>%<pl%>: V-ZE-LA-LA-NA-J ; 
+
+LEXICON V-IV-BELANXIZE-M
+! белъанхъизе: [б]елъанхъ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<m%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-BELANXIZE-F
+! белъанхъизе: [б]елъанхъ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<f%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-BELANXIZE-NT
+! белъанхъизе: [б]елъанхъ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<nt%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-IV-BELANXIZE-PL
+! белъанхъизе: [б]елъанхъ/изе (-ула, -ила, -уна, -е)
+
+%<vblex%>%<iv%>%<pl%>: V-IZE-ULA-ILA-UNA-E ; 
+
+LEXICON V-TV-BOKIZE-M
+! бокьизе: [б]окь/изе (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<tv%>%<m%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-TV-BOKIZE-F
+! бокьизе: [б]окь/изе (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<tv%>%<f%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-TV-BOKIZE-NT
+! бокьизе: [б]окь/изе (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<tv%>%<nt%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-TV-BOKIZE-PL
+! бокьизе: [б]окь/изе (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<tv%>%<pl%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-IV-BILLINE-M
+! билълъине: [б]илълъ/ине (-уна, -ина, -ана, -а) 
+
+%<vblex%>%<iv%>%<m%>: V-INE-UNA-INA-ANA-A ; 
+
+LEXICON V-IV-BILLINE-F
+! билълъине: [б]илълъ/ине (-уна, -ина, -ана, -а) 
+
+%<vblex%>%<iv%>%<f%>: V-INE-UNA-INA-ANA-A ; 
+
+LEXICON V-IV-BILLINE-NT
+! билълъине: [б]илълъ/ине (-уна, -ина, -ана, -а) 
+
+%<vblex%>%<iv%>%<nt%>: V-INE-UNA-INA-ANA-A ; 
+
+LEXICON V-IV-BILLINE-PL
+! билълъине: [б]илълъ/ине (-уна, -ина, -ана, -а) 
+
+%<vblex%>%<iv%>%<pl%>: V-INE-UNA-INA-ANA-A ; 
+
+LEXICON V-IV-BEHIZE-M
+! бегьизе: [б]егь/изе¹ (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<iv%>%<m%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-IV-BEHIZE-F
+! бегьизе: [б]егь/изе¹ (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<iv%>%<f%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-IV-BEHIZE-NT
+! бегьизе: [б]егь/изе¹ (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<iv%>%<nt%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-IV-BEHIZE-PL
+! бегьизе: [б]егь/изе¹ (-ула, -ила, -ана, -е//-а)
+
+%<vblex%>%<iv%>%<pl%>: V-IZE-ULA-ILA-ANA-EA ; 
+
+LEXICON V-TV-BIXXIZE-M
+! биххизе: [б]ихх/изе (-ула, -ила, -ана, -а//-е)
+%<vblex%>%<tv%>%<m%>: V-IZE-ULA-ILA-ANA-AE ; 
+
+LEXICON V-TV-BIXXIZE-F
+! биххизе: [б]ихх/изе (-ула, -ила, -ана, -а//-е)
+%<vblex%>%<tv%>%<f%>: V-IZE-ULA-ILA-ANA-AE ; 
+
+LEXICON V-TV-BIXXIZE-NT
+! биххизе: [б]ихх/изе (-ула, -ила, -ана, -а//-е)
+%<vblex%>%<tv%>%<nt%>: V-IZE-ULA-ILA-ANA-AE ; 
+
+LEXICON V-TV-BIXXIZE-PL
+! биххизе: [б]ихх/изе (-ула, -ила, -ана, -а//-е)
+%<vblex%>%<tv%>%<pl%>: V-IZE-ULA-ILA-ANA-AE ; 
+
+LEXICON V-IV-BUKIINE-M
+! букӀине: [б]укӀ/ине (-уна, -ина, буго, -а)
+
+%<vblex%>%<iv%>%<m%>:кӀ V-INE-UNA-INA-ANA-E ; 
+%<vblex%>%<iv%>%<m%>%<pres%>:го # ;
+
+LEXICON V-IV-BUKIINE-F
+! букӀине: [б]укӀ/ине (-уна, -ина, буго, -а)
+
+%<vblex%>%<iv%>%<f%>:кӀ V-INE-UNA-INA-ANA-E ; 
+%<vblex%>%<iv%>%<f%>%<pres%>:го # ;
+
+LEXICON V-IV-BUKIINE-NT
+! букӀине: [б]укӀ/ине (-уна, -ина, буго, -а)
+
+%<vblex%>%<iv%>%<nt%>:кӀ V-INE-UNA-INA-ANA-E ; 
+%<vblex%>%<iv%>%<nt%>%<pres%>:го # ;
+
+LEXICON V-IV-BUKIINE-PL
+! букӀине: [б]укӀ/ине (-уна, -ина, буго, -а)
+
+%<vblex%>%<iv%>%<pl%>:кӀ V-INE-UNA-INA-ANA-E ; 
+%<vblex%>%<iv%>%<pl%>%<pres%>:го # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON ADV1 
 
@@ -2237,6 +2305,8 @@ LEXICON ADV5
 
 %<adv%>%<itg%>: # ;
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON POST
 
 %<post%>: # ;
@@ -2260,7 +2330,6 @@ LEXICON ABBR
 LEXICON INTERJ
 
 %<ij%>: # ; 
-
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -4491,207 +4560,260 @@ LEXICON Adverbs
 
 LEXICON Verbs 
 
-букӀин:б V-BUKIIN-NT ; ! "быть"
-букӀин:в V-BUKIIN-M ; ! "быть"
-букӀин:й V-BUKIIN-F ; ! "быть"
-букӀин:р V-BUKIIN-PL ; ! "быть"
-букӀин%<vblex%>%<mfn%>%<neg%>:гьечӀо # ; ! "нет"
+букӀине:ву V-IV-BUKIINE-M ; ! "быть"
+букӀине:йи V-IV-BUKIINE-F ; ! "быть"
+букӀине:бу V-IV-BUKIINE-NT ; ! "быть"
+букӀине:ру V-IV-BUKIINE-PL ; ! "быть"
+букӀине%<vblex%>%<mfn%>%<pres%>%<neg%>:гьечӀо # ; ! "нет"
 
-V-INE ; ! "идти, ходить"
+абизе:аб V-TV-ABIZE-MFN ; ! "говорить, сказать"
+гӀунтӀизабизе:гӀунтӀизаб V-TV-ABIZE-MFN ; ! "доводить, довести; собщать, сообщить"
+лъазабизе:лъазаб V-TV-ABIZE-MFN ; ! "учить"
+хъамизе:хъам V-TV-ABIZE-MFN ; ! "уносить, унести"
+кьабизе:кьаб V-TV-ABIZE-MFN ; ! "бить, побить; избить; колотить, поколотить"
+чӀамизе:чӀам V-TV-ABIZE-MFN ; ! "жевать, разжевать; разжёвывать"
+сверизабизе:сверизаб V-TV-ABIZE-MFN ; ! "вертеть; крутить; кружить; вращать; поворачивать"
 
-лъазе:лъа V-LA ; ! "знать"
-тӀадецузе:тӀадецу V-LA ; ! "напирать, давить"
-хъвазе:хъва V-LA ; ! "писать"
-кӀалъазе:кӀалъа V-LA ; ! ""
-кке:кк V-KKE ; ! "оказываться"
-цӀали:цӀал V-CAL ; ! "читать"
-гӀуцӀизе:гӀуцӀ V-CAL ; ! "организовывать,  организовать;  образовывать,  образовать;  создавать,  создать;  учреждать,  учредить"
-хьихьизе:хьихь V-CAL ; ! "содержать; выращивать, вырастить"
-малъизе:малъ V-CAL ; ! ""
-нухмалълъизе:нухмалъ V-HIALTI ; ! ""
-байбихьизе:байбихь V-HIALTI ; ! "начинаться, начаться"
-гаргади:гаргад V-CAL ; ! "сказать"
-абизе:аб V-ABI ; ! "сказать"
-гӀунтӀизабизе:гӀунтӀизаб V-ABI ; ! "доводить, довести; собщать, сообщить"
-лъазаби:лъазаб V-ABI ; ! "учить"
-гьикъи:гьикъ V-CAL ; ! ""
-гвангъи:гвангъ V-CAL ; ! "сиять"
-гьабизе:гьа V-HABI ; ! "делать"
-кӀодолъ:кӀодолъ V-KIODOL ; ! "увеличиваться"
-лъугьи:лъугь V-LUH ; ! "входить"
-хутӀи:хутӀ V-KIODOL ; ! "оставаться"
-цӀуни:цӀун V-CAL ; ! "беречь, берегать, хранить, сохранять"
-щвазе:щва V-LA ; ! "(за)сыпать, засыпать, посыпать, посыпать"
+камизе:кам V-IV-KAMIZE-MFN ; ! "не хватать, не хватить"
 
-хӀалтӀизе:хӀалтӀ V-HIALTI ; ! "работать, трудиться"
+цӀализе:цӀал V-TV-CIALIZE-MFN ; ! "читать, прочитать"
+хисизе:хис V-TV-CIALIZE-MFN ; ! "менять, изменить, переменить"
+байбихьизе:байбихь V-TV-CIALIZE-MFN ; ! "начинать, начать"
+гьикъизе:гьикъ V-TV-CIALIZE-MFN ; ! "спрашивать, спросить"
+нухмалълъизе:нухмалъ V-TV-CIALIZE-MFN ; ! ""
+малълъизе:малъ V-TV-CIALIZE-MFN ; ! "учить, научить; обучать, обучить"
+цӀунизе:цӀун V-TV-CIALIZE-MFN ; ! "беречь, сберечь; сберегать"
+хьихьизе:хьихь V-TV-CIALIZE-MFN ; ! "содержать"
+гӀуцӀизе:гӀуцӀ V-TV-CIALIZE-MFN ; ! "организовывать,  организовать"
+эхетизе:эхет V-TV-CIALIZE-MFN ; ! "занимать"
+къотӀизе:къотӀ V-TV-CIALIZE-MFN ; ! "резать, отрезать; разрезать, порезать, срезать, вырезать"
+рехизе:рех V-TV-CIALIZE-MFN ; ! "бросать, бросить, набросать"
+гӀенеккизе:гӀенекк V-TV-CIALIZE-MFN ; ! "слушать, послушать; выслушивать, выслушить"
+гьукъизе:гьукъ V-TV-CIALIZE-MFN ; ! "воспрещать, запрещать, запретить"
+хӀалбихьизе:хӀалбихь V-TV-CIALIZE-MFN ; ! "пробовать, попробовать; опробовать"
+кьуризе:кьур V-TV-CIALIZE-MFN ; ! "крутить, вращать"
+чуризе:чур V-TV-CIALIZE-MFN ; ! "мыть, помыть; вымыть"
 
-тӀобитӀизе:тӀо V-TIOBITI ; ! "проводиться" FIXME:(b)
+хутӀизе:хутӀ V-IV-XUTIIZE-MFN ; ! "оставаться, остаться"
+рагӀизе:рагӀ V-IV-XUTIIZE-MFN ; ! "слышать, услышать"
 
+хӀалтӀизе:хӀалтӀ V-IV-XIALTIIZE-MFN ; ! "работать, трудиться"
+хисизе:хис V-IV-XIALTIIZE-MFN ; ! "меняться, измениться, перемениться"
+ахӀизе:ахӀ V-IV-XIALTIIZE-MFN ; ! "кричать"
+байбихьизе:байбихь V-IV-XIALTIIZE-MFN ; ! "начинаться, начаться"
+бажаризе:бажар V-IV-XIALTIIZE-MFN ; ! "уметь, суметь; мочь, смочь"
+гаргадизе:гаргад V-IV-XIALTIIZE-MFN ; ! "говорить; переговариваться"
+гвангъизе:гвангъ V-IV-XIALTIIZE-MFN ; ! "блестеть, заблестеть; сиять, засиять"
+хиса%-басизе:хиса%-бас V-IV-XIALTIIZE-MFN ; ! "произойти"
+хIадурлъизе:хIадурлъ V-IV-XIALTIIZE-MFN ; ! "готовиться,  подготовляться;  приготовляться,  приготовиться"
+кӀодолъизе:кӀодолъ V-IV-XIALTIIZE-MFN ; ! "увеличиваться, увеличиться"
+рагьизе:рагь V-IV-XIALTIIZE-MFN ; ! "открываться, раскрываться, раскрыться"
+ругьунлъизе:ругьунлъ V-IV-XIALTIIZE-MFN ; ! "привыкать, привыкнуть"
+сверизе:свер V-IV-XIALTIIZE-MFN ; ! "вертеться, завертеться; крутиться, закрутиться"
+хьвадизе:хьвад V-IV-XIALTIIZE-MFN ; ! "ходить"
+хӀинкъизе:хӀинкъ V-IV-XIALTIIZE-MFN ; ! "бояться; пугаться, испугаться"
+чӀухӀизе:чӀухӀ V-IV-XIALTIIZE-MFN ; ! "гордиться"
+разилъизе:разилъ V-IV-XIALTIIZE-MFN ; ! "соглашаться, согласиться"
+бечелъизе:бечелъ V-IV-XIALTIIZE-MFN ; ! "богатеть, разбогатеть"
+речӀчӀизе:речӀчӀ V-IV-XIALTIIZE-MFN ; ! "бросаться, броситься, кидаться, кинуться"
+чӀунтизе:чӀунт V-IV-XIALTIIZE-MFN ; ! "рушиться, разрушиться; разрушаться, обрушиться"
+гӀажаиблъизе:гӀажаиблъ V-IV-XIALTIIZE-MFN ; ! "удивляться, удивиться"
 
-!бах²:бах XX ; ! "мазать"
+хъвазе:хъва V-TV-XVAZE-MFN ; ! "писать, написать"
+чӀвазе:чӀва V-TV-XVAZE-MFN ; ! "убивать, убить"
+лъазе:лъа V-TV-XVAZE-MFN ; ! "знать"
+хӀазе:хӀа V-TV-XVAZE-MFN ; ! "играть"
+хазе:ха V-TV-XVAZE-MFN ; ! "чесать, расчёсывать, причёсывать"
+цӀазе:цӀа V-TV-XVAZE-MFN ; ! "тянуть, потянуть; тащить, потащить"
+чӀаразе:чӀара V-TV-XVAZE-MFN ; ! "полоть, прополоть"
+дандбазе:дандба V-TV-XVAZE-MFN ; ! "собирать, собрать"
+цузе:цу V-TV-XVAZE-MFN ; ! "примыкать"
+щвазе:щва V-TV-XVAZE-MFN ; ! "сыпать, засыпать; посыпать"
+цӀузе:цӀу V-TV-XVAZE-MFN ; ! "цедить, процедить; процеживать, сцеживать"
+куцазе:куца V-TV-XVAZE-MFN ; ! "приучать, приучить"
+кваназе:квана V-TV-XVAZE-MFN ; ! "есть, поесть; кушать, покушать"
+кӀалъазе:кӀалъа V-TV-XVAZE-MFN ; ! "говорить, поговорить; разговарвать"
+къачӀазе:къачӀа V-TV-XVAZE-MFN ; ! "чинить, починить"
 
-тӀуба:тӀу V-TIUBA ; ! "кончаться"
+цӀезе:цӀ V-IV-CIEZE-MFN ; ! "заполняться, заполниться"
 
-квачазе:квача V-LA ; ! "охлаждаться, остужатьтся" FIXME:iv
-къазе:къа V-LA ; ! "закрываться, закрыться" FIXME:iv
-хагазе:хага V-LA ; ! "быть, стать бесчувственным" FIXME:iv
+ххезе:хх V-TV-XXEZE-MFN ; ! "вдевать, вдеть"
+сузе:с V-TV-XXEZE-MFN ; ! "срезать"
+тӀезе:тӀ V-TV-XXEZE-MFN ; ! "рвать, отрывать, оторвать, обрывать, оборвать, срывать,  сорвать"
+лъезе:лъ V-TV-XXEZE-MFN ; ! "складывть, класть, ложить"
+кьезе:кь V-TV-XXEZE-MFN ; ! "давать, дать"
 
-дандбазе:дандба V-LA ; ! "собирать, собрать"
-кваназе:квана V-LA ; ! "есть, кушать"
-куцазе:куца V-LA ; ! "приучать, приучить"
-рахазе:раха V-LA ; ! " "
-сузе:су V-LA ; ! "срезать, срезать"
-хазе:ха V-LA ; ! "чесать, расчёсывать, причёсывать"
-хӀазе:хӀа V-LA ; ! "играть"
-чӀвазе:чӀва V-LA ; ! "убивать, убить"
-цузе:цу V-LA ; ! "примыкать"
-цӀазе:цӀа V-LA ; ! "тянуть, тащить, вытащить"
-цӀорозе:цӀоро V-LA ; ! "холодеть, мёрзнуть, замёрзнуть"
-цӀузе:цӀу V-LA ; ! "цедить, процеживать, сцеживать"
-чӀаразе:чӀара V-LA ; ! "полоть"
-цӀехезе:цӀех V-CEH ; ! "спрашивать,  спросить"
-рекъезе:рекъ V-REQ ; ! "приспосабливаться, приспособляться, приспособиться; подходить, подойти; подходить,  подойти"
-тезе:т V-CEH ; ! "оставлять, оставить"
-рикӀкӀине:рикӀкӀ V-RIKIKI ; ! "(со)считать, подсчитать; вычислять, вычислить; исчислять"
+къазе:къа V-IV-KAZE-MFN ; ! "закрываться, закрыться"
+рахазе:раха V-IV-KAZE-MFN ; ! "закрываться, закрыться"
+цӀорозе:цӀоро V-IV-KAZE-MFN ; ! "холодеть, похолодеть"
+хагазе:хага V-IV-KAZE-MFN ; ! "быть, стать бесчувственным"
+квачазе:квача V-IV-KAZE-MFN ; ! "охлаждаться, остужатьтся"
+дандчӀвазе:дандчӀва V-IV-KAZE-MFN ; ! "видеться, встречаться, встретиться"
 
-гӀумру% гьабизе:гӀумру% гьа V-HABI-NT ; ! "жить"
+лъугьине:лъугь V-IV-LUHINE-MFN ; ! "входить, войти, выходить, выйти"
+V-IV-INE-MFN ; ! "идти, ходить"
 
-рагӀизе:рагӀ V-RAGI ; ! "слышать, услышать"
+ретӀине:ретӀ V-TV-RETIINE-MFN ; ! "одевать, одеть"
+рикӀкӀине:рикӀкӀ V-TV-RETIINE-MFN ; ! "подсчитать"
 
-ками:кам V-ABI ; ! "не хватать, не хватить"
-кьаби:кьаб V-ABI ; ! "(по)бить, избить, (по)колотить кого-л."
-сверизаби:сверизаб V-ABI ; ! "(за)вертеть, (за)крутить"
-хъами:хъам V-ABI ; ! "уносить, унести"
-чӀами:чӀам V-ABI ; ! "(раз)жевать, разжёвывать"
+чӀалгӀине:чӀалгӀ V-IV-CIALGIINE-MFN ; ! "скучать"
+рикӀкӀине:рикӀкӀ V-IV-CIALGIINE-MFN ; ! "считать, сосчитать"
 
-кӀвар% кьезе:кӀвар% кь V-KJE ; ! "придавать значение" ! Use/MT
-кьезе:кь V-KJE ; ! "давать, дать"
-лъезе:лъ V-KJE ; ! "складывть, класть, (по)ложить, уложить"
-тӀезе:тӀ V-KJE ; ! "(со)рвать, отрывать"
-ххезе:хх V-KJE ; ! "вдевать, вдеть"
-цӀезе:цӀ V-KJE ; ! "заполняться, заполниться" ! FIXME:iv
+гьабизе:гьа V-TV-HABIZE-MFN ; ! "делать, сделать"
 
-хиса%-басизе:хиса%-бас V-HISABASI ; ! "произойти, меняться, перемениться, измениться, менять, переменить, изменить"
-хисизе:хис V-HISABASI ; ! "меняться, измениться, перемениться; менять,  изменить,  переменить"
-хIадурлъизе:хIадурлъ V-HIADURL ; ! "готовиться, подготовиться"
-бажаризе:бажар V-HIADURL ; ! "(с)уметь, (с)мочь"
+тӀубазе:тӀу V-IV-TIUBAZE-MFN ; ! "кончаться, окончиться;  завершаться, завершиться"
+базе: V-IV-TIUBAZE-MFN ; ! "висеть"
+жубазе:жу V-IV-TIUBAZE-MFN ; ! "смешиваться, смешаться, перемешиваться, перемешаться"
 
-бухӀизе:бухӀ V-BAQ-NT ; ! "гореть, сгорать, прогорать; загореться; разгореться"
-бухӀизе:вухӀ V-BAQ-M ; ! "гореть, сгорать, прогорать; загореться; разгореться"
-бухӀизе:йухӀ V-BAQ-F ; ! "гореть, сгорать, прогорать; загореться; разгореться"
-бухӀизе:рухӀ V-BAQ-PL ; ! "гореть, сгорать, прогорать; загореться; разгореться"
+тӀобитӀизе:тӀо V-TV-TIOBITIIZE-MFN ; ! "провожать, проводить"
 
-бокьизе:бокь V-BOS-NT ; ! "хотеть, желать; любить, нравиться"
-бокьизе:вокь V-BOS-M ; ! "хотеть, желать; любить, нравиться"
-бокьизе:йокь V-BOS-F ; ! "хотеть, желать; любить, нравиться"
-бокьизе:рокь V-BOS-PL ; ! "хотеть, желать; любить, нравиться"
+ккезе:кк V-IV-KKEZE-MFN ; ! "очутиться, оказаться"
+рекъезе:рекъ V-IV-KKEZE-MFN ; ! "приспосабливаться, приспособляться, приспособиться"
 
-боси:бос V-BOS-NT ; ! "брать, взять; получать, получить; принимать, принять"
-боси:вос V-BOS-M ; ! "брать, взять; получать, получить; принимать, принять"
-боси:йос V-BOS-F ; ! "брать, взять; получать, получить; принимать, принять"
-боси:рос V-BOS-PL ; ! "брать, взять; получать, получить; принимать, принять"
+тезе:т V-TV-TEZE-MFN ; ! "оставлять, оставить"
+цӀехезе:цӀех V-TV-TEZE-MFN ; ! "спрашивать, спросить"
 
-буголъизе:буголъ V-BOS-NT ; ! "быть, существовать"
-буголъизе:вуголъ V-BOS-M ; ! "быть, существовать"
-буголъизе:йуголъ V-BOS-F ; ! "быть, существовать"
-буголъизе:руголъ V-BOS-PL ; ! "быть, существовать"
+кквезе:кк V-IV-KKVEZE-MFN ; ! "держаться, придерживаться"
 
-бичӀчӀизе:бичӀчӀ V-BOS-NT ; ! "понимать, понять; осознавать, осознать; воспринимать, воспринять, достигать"
-бичӀчӀизе:вичӀчӀ V-BOS-M ; ! "понимать, понять; осознавать, осознать; воспринимать, воспринять, достигать"
-бичӀчӀизе:йичӀчӀ V-BOS-F ; ! "понимать, понять; осознавать, осознать; воспринимать, воспринять, достигать"
-бичӀчӀизе:ричӀчӀ V-BOS-PL ; ! "понимать, понять; осознавать, осознать; воспринимать, воспринять, достигать"
+бицине:виц V-TV-BICINE-M ; ! "говорить, сказать"
+бицине:йиц V-TV-BICINE-F ; ! "говорить, сказать"
+бицине:биц V-TV-BICINE-NT ; ! "говорить, сказать"
+бицине:риц V-TV-BICINE-PL ; ! "говорить, сказать"
 
-бахъи:бахъ V-BAQ-NT ; ! "получаться, получиться; выходить, выйти"
-бахъи:вахъ V-BAQ-M ; ! "получаться, получиться; выходить, выйти"
-бахъи:яхъ V-BAQ-F ; ! "получаться, получиться; выходить, выйти"
-бахъи:рахъ V-BAQ-PL ; ! "получаться, получиться; выходить, выйти"
+буголъизе:вуголъ V-IV-BAGHIZE-M ; ! "быть, существовать"
+буголъизе:йуголъ V-IV-BAGHIZE-F ; ! "быть, существовать" ! FIXME: ю/йи?
+буголъизе:буголъ V-IV-BAGHIZE-NT ; ! "быть, существовать"
+буголъизе:руголъ V-IV-BAGHIZE-PL ; ! "быть, существовать"
 
-тӀаде% бахъи:тӀаде% бахъ V-BAQ-NT ; ! "вставать, встать"
-тӀаде% бахъи:тӀаде% вахъ V-BAQ-M ; ! "вставать, встать"
-тӀаде% бахъи:тӀаде% яхъ V-BAQ-F ; ! "вставать, встать"
-тӀаде% бахъи:тӀаде% рахъ V-BAQ-PL ; ! "вставать, встать"
+бикьизе:викь V-IV-BAGHIZE-M ; ! "делиться"
+бикьизе:йикь V-IV-BAGHIZE-F ; ! "делиться"
+бикьизе:бикь V-IV-BAGHIZE-NT ; ! "делиться"
+бикьизе:рикь V-IV-BAGHIZE-PL ; ! "делиться"
 
-белъанхъизе:белъанхъ V-BELANH-NT ; ! "смеяться"
-белъанхъизе:велъанхъ V-BELANH-M ; ! "смеяться"
-белъанхъизе:йелъанхъ V-BELANH-F ; ! "смеяться"
-белъанхъизе:релъанхъ V-BELANH-PL ; ! "смеяться"
+борхизе:ворх V-IV-BAGHIZE-M ; ! "подниматься, подняться"
+борхизе:йорх V-IV-BAGHIZE-F ; ! "подниматься, подняться"
+борхизе:борх V-IV-BAGHIZE-NT ; ! "подниматься, подняться"
+борхизе:рорх V-IV-BAGHIZE-PL ; ! "подниматься, подняться"
 
-багъи:багъ V-BAQ-NT ; ! "драться"
-багъи:вагъ V-BAQ-M ; ! "драться"
-багъи:ягъ V-BAQ-F ; ! "драться"
-багъи:рагъ V-BAQ-PL ; ! "драться"
+бихьизе:вихь V-IV-BAGHIZE-M ; ! "виднеться"
+бихьизе:йихь V-IV-BAGHIZE-F ; ! "виднеться"
+бихьизе:бихь V-IV-BAGHIZE-NT ; ! "виднеться"
+бихьизе:рихь V-IV-BAGHIZE-PL ; ! "виднеться"
 
-балагьи:балагь V-BOS-NT ; ! "смотреть, глядеть"
-балагьи:валагь V-BOS-M ; ! "смотреть, глядеть"
-балагьи:ялагь V-BOS-F ; ! "смотреть, глядеть"
-балагьи:ралагь V-BOS-PL ; ! "смотреть, глядеть"
+бухӀизе:вухӀ V-IV-BAGHIZE-M ; ! "гореть, сгореть; сгорать, прогорать"
+бухӀизе:йухӀ V-IV-BAGHIZE-F ; ! "гореть, сгореть; сгорать, прогорать"
+бухӀизе:бухӀ V-IV-BAGHIZE-NT ; ! "гореть, сгореть; сгорать, прогорать"
+бухӀизе:рухӀ V-IV-BAGHIZE-PL ; ! "гореть, сгореть; сгорать, прогорать"
 
-борхи:борх V-BAQ-NT ; ! "подниматься, подняться"
-борхи:ворх V-BAQ-M ; ! "подниматься, подняться"
-борхи:йорх V-BAQ-F ; ! "подниматься, подняться"
-борхи:рорх V-BAQ-PL ; ! "подниматься, подняться"
+батизе:ват V-IV-BAGHIZE-M ; ! "находиться, найтись"
+батизе:ят V-IV-BAGHIZE-F ; ! "находиться, найтись"
+батизе:бат V-IV-BAGHIZE-NT ; ! "находиться, найтись"
+батизе:рат V-IV-BAGHIZE-PL ; ! "находиться, найтись"
 
-бихьи:бихь V-BAQ-NT ; ! "виднеться, быть видным"
-бихьи:вихь V-BAQ-M ; ! "виднеться, быть видным"
-бихьи:йихь V-BAQ-F ; ! "виднеться, быть видным"
-бихьи:рихь V-BAQ-PL ; ! "виднеться, быть видным"
+бегизе:вег V-IV-BAGHIZE-M ; ! "лежать, полежать, лечь, ложиться"
+бегизе:йег V-IV-BAGHIZE-F ; ! "лежать, полежать, лечь, ложиться"
+бегизе:бег V-IV-BAGHIZE-NT ; ! "лежать, полежать, лечь, ложиться"
+бегизе:рег V-IV-BAGHIZE-PL ; ! "лежать, полежать, лечь, ложиться"
 
-биххи:бихх V-BAQ-NT ; ! "рушиться, разрушаться, разрушиться"
-биххи:вихх V-BAQ-M ; ! "рушиться, разрушаться, разрушиться"
-биххи:йихх V-BAQ-F ; ! "рушиться, разрушаться, разрушиться"
-биххи:рихх V-BAQ-PL ; ! "рушиться, разрушаться, разрушиться"
+багъизе:вагъ V-IV-BAGHIZE-M ; ! "драться"
+багъизе:ягъ V-IV-BAGHIZE-F ; ! "драться"
+багъизе:багъ V-IV-BAGHIZE-NT ; ! "драться"
+багъизе:рагъ V-IV-BAGHIZE-PL ; ! "драться"
 
-баччи:бачч V-BOS-NT ; ! "вести"
-баччи:вачч V-BOS-M ; ! "вести"
-баччи:ячч V-BOS-F ; ! "вести"
-баччи:рачч V-BOS-PL ; ! "вести"
+тӀаде% бахъизе:тӀаде% вахъ V-IV-BAGHIZE-M ; ! "вставать, встать; встать на ноги"
+тӀаде% бахъизе:тӀаде% яхъ V-IV-BAGHIZE-F ; ! "вставать, встать; встать на ноги"
+тӀаде% бахъизе:тӀаде% бахъ V-IV-BAGHIZE-NT ; ! "вставать, встать; встать на ноги"
+тӀаде% бахъизе:тӀаде% рахъ V-IV-BAGHIZE-PL ; ! "вставать, встать; встать на ноги"
 
-!бачи:бач V- ; ! "вести, водить"
+бахъизе:вахъ V-IV-BAGHIZE-M ; ! "получаться, получиться"
+бахъизе:яхъ V-IV-BAGHIZE-F ; ! "получаться, получиться"
+бахъизе:бахъ V-IV-BAGHIZE-NT ; ! "получаться, получиться"
+бахъизе:рахъ V-IV-BAGHIZE-PL ; ! "получаться, получиться"
 
-бегьи:бегь V-BOS-NT ; ! "быть, стать вероятным"
-бегьи:вегь V-BOS-M ; ! "быть, стать вероятным"
-бегьи:йегь V-BOS-F ; ! "быть, стать вероятным"
-бегьи:регь V-BOS-PL ; ! "быть, стать вероятным"
+баккизе:вакк V-IV-BAGHIZE-M ; ! "появляться, появиться"
+баккизе:якк V-IV-BAGHIZE-F ; ! "появляться, появиться"
+баккизе:бакк V-IV-BAGHIZE-NT ; ! "появляться, появиться"
+баккизе:ракк V-IV-BAGHIZE-PL ; ! "появляться, появиться"
 
-бакки:бакк V-BOS-NT ; ! "часто появляться, показываться"
-бакки:вакк V-BOS-M ; ! "часто появляться, показываться"
-бакки:якк V-BOS-F ; ! "часто появляться, показываться"
-бакки:ракк V-BOS-PL ; ! "часто появляться, показываться"
+бухъизе:вухъ V-TV-BALAHIZE-M ; ! "копать, выкопать; копнуть, откопать, раскопать"
+бухъизе:йухъ V-TV-BALAHIZE-F ; ! "копать, выкопать; копнуть, откопать, раскопать"
+бухъизе:бухъ V-TV-BALAHIZE-NT ; ! "копать, выкопать; копнуть, откопать, раскопать"
+бухъизе:рухъ V-TV-BALAHIZE-PL ; ! "копать, выкопать; копнуть, откопать, раскопать"
 
-бищи:бищ V-BOS-NT ; ! "выбирать, выбрать"
-бищи:вищ V-BOS-M ; ! "выбирать, выбрать"
-бищи:йищ V-BOS-F ; ! "выбирать, выбрать"
-бищи:рищ V-BOS-PL ; ! "выбирать, выбрать"
+бекьизе:векь V-TV-BALAHIZE-M ; ! "пахать, вспахать; вспахивать"
+бекьизе:йекь V-TV-BALAHIZE-F ; ! "пахать, вспахать; вспахивать"
+бекьизе:бекь V-TV-BALAHIZE-NT ; ! "пахать, вспахать; вспахивать"
+бекьизе:рекь V-TV-BALAHIZE-PL ; ! "пахать, вспахать; вспахивать"
 
-бати:бат V-BAQ-NT ; ! "находиться,  найтись"
-бати:ват V-BAQ-M ; ! "находиться,  найтись"
-бати:ят V-BAQ-F ; ! "находиться,  найтись"
-бати:рат V-BAQ-PL ; ! "находиться,  найтись"
+битӀизе:витӀ V-TV-BALAHIZE-M ; ! "отправлять, отправить"
+битӀизе:йитӀ V-TV-BALAHIZE-F ; ! "отправлять, отправить"
+битӀизе:битӀ V-TV-BALAHIZE-NT ; ! "отправлять, отправить"
+битӀизе:ритӀ V-TV-BALAHIZE-PL ; ! "отправлять, отправить"
 
-беги:бег V-BAQ-NT  ; ! "лежать, лечь, ложиться"
-беги:вег V-BAQ-M  ; ! "лежать, лечь, ложиться"
-беги:йег V-BAQ-F  ; ! "лежать, лечь, ложиться"
-беги:рег V-BAQ-PL ; ! "лежать, лечь, ложиться"
+бичӀчӀизе:вичӀчӀ V-TV-BALAHIZE-M ; ! "понимать, понять"
+бичӀчӀизе:йичӀчӀ V-TV-BALAHIZE-F ; ! "понимать, понять"
+бичӀчӀизе:бичӀчӀ V-TV-BALAHIZE-NT ; ! "понимать, понять"
+бичӀчӀизе:ричӀчӀ V-TV-BALAHIZE-PL ; ! "понимать, понять"
 
-бецӀи:бецӀ V-BAQ-NT  ; ! "гасить, погашать; возмещать, возместить"
-бецӀи:вецӀ V-BAQ-M  ; ! "гасить, погашать; возмещать, возместить"
-бецӀи:йецӀ V-BAQ-F  ; ! "гасить, погашать; возмещать, возместить"
-бецӀи:рецӀ V-BAQ-PL ; ! "гасить, погашать; возмещать, возместить"
+бищизе:вищ V-TV-BALAHIZE-M ; ! "выбирать, выбрать"
+бищизе:йищ V-TV-BALAHIZE-F ; ! "выбирать, выбрать"
+бищизе:бищ V-TV-BALAHIZE-NT ; ! "выбирать, выбрать"
+бищизе:рищ V-TV-BALAHIZE-PL ; ! "выбирать, выбрать"
 
-билълъине:билълъ V-BACH-NT ; ! "ходить; идти"
-билълъине:вилълъ V-BACH-M ; ! "ходить; идти"
-билълъине:йилълъ V-BACH-F ; ! "ходить; идти"
-билълъине:рилълъ V-BACH-PL ; ! "ходить; идти"
+балагьизе:валагь V-TV-BALAHIZE-M ; ! "смотреть, посмотреть; глядеть, поглядеть"
+балагьизе:ялагь V-TV-BALAHIZE-F ; ! "смотреть, посмотреть; глядеть, поглядеть"
+балагьизе:балагь V-TV-BALAHIZE-NT ; ! "смотреть, посмотреть; глядеть, поглядеть"
+балагьизе:ралагь V-TV-BALAHIZE-PL ; ! "смотреть, посмотреть; глядеть, поглядеть"
 
-бачӀи:бачӀ V-BACH-NT ; ! "приходить"
-бачӀи:вачӀ V-BACH-M ; ! "приходить"
-бачӀи:ячӀ V-BACH-F ; ! "приходить"
-бачӀи:рачӀ V-BACH-PL ; ! "приходить"
+баччизе:вачч V-TV-BALAHIZE-M ; ! "везти, повезти"
+баччизе:ячч V-TV-BALAHIZE-F ; ! "везти, повезти"
+баччизе:бачч V-TV-BALAHIZE-NT ; ! "везти, повезти"
+баччизе:рачч V-TV-BALAHIZE-PL ; ! "везти, повезти"
 
-бицине:биц V-BIC-NT ; ! "говорить, сказать"
-бицине:виц V-BIC-M ; ! "говорить, сказать"
-бицине:йиц V-BIC-F ; ! "говорить, сказать"
-бицине:риц V-BIC-PL ; ! "говорить, сказать"
+белъанхъизе:велъанхъ V-IV-BELANXIZE-M ; ! "смеяться, посмеяться"
+белъанхъизе:йелъанхъ V-IV-BELANXIZE-F ; ! "смеяться, посмеяться"
+белъанхъизе:белъанхъ V-IV-BELANXIZE-NT ; ! "смеяться, посмеяться"
+белъанхъизе:релъанхъ V-IV-BELANXIZE-PL ; ! "смеяться, посмеяться"
+
+бокьизе:вокь V-TV-BOKIZE-M ; ! "хотеть, захотеть; желать, пожелать"
+бокьизе:йокь V-TV-BOKIZE-F ; ! "хотеть, захотеть; желать, пожелать"
+бокьизе:бокь V-TV-BOKIZE-NT ; ! "хотеть, захотеть; желать, пожелать"
+бокьизе:рокь V-TV-BOKIZE-PL ; ! "хотеть, захотеть; желать, пожелать"
+
+босизе:вос V-TV-BALAHIZE-M ; ! "брать, взять"
+босизе:йос V-TV-BALAHIZE-F ; ! "брать, взять"
+босизе:бос V-TV-BALAHIZE-NT ; ! "брать, взять"
+босизе:рос V-TV-BALAHIZE-PL ; ! "брать, взять"
+
+билълъине:вилълъ V-IV-BILLINE-M ; ! "ходить"
+билълъине:йилълъ V-IV-BILLINE-F ; ! "ходить"
+билълъине:билълъ V-IV-BILLINE-NT ; ! "ходить"
+билълъине:рилълъ V-IV-BILLINE-PL ; ! "ходить"
+
+бецӀизе:вецӀ V-TV-BALAHIZE-M ; ! "гасить, погашать"
+бецӀизе:йецӀ V-TV-BALAHIZE-F ; ! "гасить, погашать"
+бецӀизе:бецӀ V-TV-BALAHIZE-NT ; ! "гасить, погашать"
+бецӀизе:рецӀ V-TV-BALAHIZE-PL ; ! "гасить, погашать"
+
+бегьизе:вегь V-IV-BEHIZE-M ; ! "быть, стать вероятным"
+бегьизе:йегь V-IV-BEHIZE-F ; ! "быть, стать вероятным"
+бегьизе:бегь V-IV-BEHIZE-NT ; ! "быть, стать вероятным"
+бегьизе:регь V-IV-BEHIZE-PL ; ! "быть, стать вероятным"
+
+бачӀине:вачӀ V-IV-BILLINE-M ; ! "приходить, прийти"
+бачӀине:ячӀ V-IV-BILLINE-F ; ! "приходить, прийти"
+бачӀине:бачӀ V-IV-BILLINE-NT ; ! "приходить, прийти"
+бачӀине:рачӀ V-IV-BILLINE-PL ; ! "приходить, прийти"
+
+биххизе:вихх V-TV-BIXXIZE-M ; ! "приходить, прийти"
+биххизе:йихх V-TV-BIXXIZE-F ; ! "приходить, прийти"
+биххизе:бихх V-TV-BIXXIZE-NT ; ! "приходить, прийти"
+биххизе:рихх V-TV-BIXXIZE-PL ; ! "приходить, прийти"
+
+биччазе:вичч V-IV-BICCAZE-M ; ! "освобождаться, освободиться"
+биччазе:йичч V-IV-BICCAZE-F ; ! "освобождаться, освободиться"
+биччазе:бичч V-IV-BICCAZE-NT ; ! "освобождаться, освободиться"
+биччазе:ричч V-IV-BICCAZE-PL ; ! "освобождаться, освободиться"
 
 LEXICON Interjections 
 
