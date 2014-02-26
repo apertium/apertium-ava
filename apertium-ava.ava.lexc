@@ -215,6 +215,15 @@ LEXICON CLIT-SUBST-I
 
 CLIT-V-II ; 
 
+LEXICON CLIT-ADJEC-I
+
+%+ги%<cnjcoo%>:%>ги CLIT-V-II ; 
+%+го%<emph%>:%>го # ; 
+!%+гин%<adv%>:%>гин # ; 
+!%+гун%<adv%>:%>гун # ; 
+
+CLIT-V-II ; 
+
 LEXICON CLIT-SUBST-II 
 
 %+лъун%<post%>:%>лъун # ;
@@ -1487,10 +1496,10 @@ LEXICON NP-COG-OV
 
 LEXICON A-DECL 
 
-%<nt%>:%>б CLIT-SUBST-I ; 
-%<m%>:%>в CLIT-SUBST-I ; 
-%<f%>:%>й CLIT-SUBST-I ; 
-%<pl%>:%>л CLIT-SUBST-I ; 
+%<nt%>:%>б CLIT-ADJEC-I ; 
+%<m%>:%>в CLIT-ADJEC-I ; 
+%<f%>:%>й CLIT-ADJEC-I ; 
+%<pl%>:%>л CLIT-ADJEC-I ; 
 
 LEXICON A-GHARAB
 
