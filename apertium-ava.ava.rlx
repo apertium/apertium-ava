@@ -3,6 +3,9 @@ SOFT-DELIMITERS = "<,>" ;
 SUBREADINGS = LTR ; 
 #SUBREADINGS = RTL ; 
 
+LIST EOS = (>>>) sent ; 
+LIST BOS = (<<<) sent ; 
+
 LIST N = n ; 
 LIST V = vblex ; 
 LIST A = adj ; 
@@ -12,6 +15,7 @@ LIST Pron = prn ;
 LIST Det = det ;
 
 LIST Pers = pers ; 
+LIST Dem = dem ; 
 
 LIST Nom = nom ; 
 LIST Erg = erg ; 
@@ -84,6 +88,12 @@ SELECT Fut IF (0C Aor OR Fut) ;
 SELECT Post IF (-1C Loc) (0C Adv OR Post); 
 
 SELECT Neut IF (0C Pron) (0C Fem OR Neut) (0C LOC-CASES) ;
+
+SELECT N IF (0C N OR V) (-1 Gen) (1 EOS) ; 
+    ## Масала, ЦӀунтӀа районалда вищизе вуго районалъул нухмалъулев.
+
+REMOVE Dem + Nom IF (1C* Nom BARRIER CLB) ;
+    ## Гьеб хъулухъалде кандидатура лъун буго микьго чияс.
 
 SECTION
 
