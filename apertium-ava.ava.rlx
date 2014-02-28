@@ -79,7 +79,7 @@ SELECT TV IF (1C* Erg BARRIER CLB) ;
     ## Къецал тӀоритӀана Россиялъул Грэпплингалъул федерациялъ.
 
 SELECT Fut IF (0C Aor OR Fut) ; 
-    ##  Лъаларо, бажариладай духъа гьеб хIалтIи гьабун.
+    ##  Лъаларо, бажариладай дуда гьеб хIалтIи гьабун.
 
 SELECT Post IF (-1C Loc) (0C Adv OR Post); 
 
