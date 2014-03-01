@@ -10,8 +10,9 @@ BASENAME=apertium-$(LANG1)
 TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 	$(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-        $(LANG1).prob \
         $(LANG1).rlx.bin
+
+#        $(LANG1).prob 
 
 # Use this goal for creating .deps, otherwise make -j2 will give problems:
 .deps/.d:

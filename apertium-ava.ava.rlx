@@ -35,18 +35,23 @@ LIST Neut = nt ;
 LIST Mfn = mfn ; 
 LIST Pl = pl ; 
 
-LIST IV = iv "букӀин" ; 
+LIST IV = iv "букӀине" ; 
 LIST TV = tv ; 
 
 LIST Top = top ; 
 LIST Cog = cog ; 
 LIST Ant = ant ; 
+
 LIST Place = "шагьар" "район" "росу" ; 
 
 LIST Attr = attr ;
 
 LIST Class = m f nt pl ; 
 LIST Case = nom erg gen dat all abl tra ; 
+
+LIST LocPost = "цебе" "нахъа" "жаниб" "хадуб" "цадахъ" ;
+LIST AblPost = "хадуб" "нахъе" 
+LIST GenPost = "хӀакъалъулъ" ;
 
 SET LOC-CASES = Loc | Abl | All | Tra ; 
 
@@ -94,6 +99,9 @@ SELECT N IF (0C N OR V) (-1 Gen) (1 EOS) ;
 
 REMOVE Dem + Nom IF (1C* Nom BARRIER CLB) ;
     ## Гьеб хъулухъалде кандидатура лъун буго микьго чияс.
+
+SELECT $$Class (0C N) (0C Masc OR Fem) (1 Ant + $$Class) (2 Cog + $$Class) ;
+    ## Гьал къояз «Дагъгазалъул» директорзабазул советалъ хӀукму гьабун буго жидерго директорлъун ГӀабдулхаликъ Ражабов вищизе.
 
 SECTION
 
