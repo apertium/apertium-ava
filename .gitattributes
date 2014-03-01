@@ -24,3 +24,7 @@ dev/verbs/Makefile -text
 dev/verbs/existing.txt -text svneol=unset#application/octet-stream
 dev/verbs/verbs.lexc -text
 /modes.xml -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
