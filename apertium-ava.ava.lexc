@@ -1540,6 +1540,10 @@ LEXICON NP-AL
 %<np%>%<al%>%<dat%>:%>%{a%}ле CLIT-SUBST-I ; 
 %<np%>%<al%>:%>%{a%}л LOC-CASES ; 
 
+LEXICON NP-ANT-INIT
+
+%<np%>%<ant%>%<mf%>%<attr%>: # ; 
+
 LEXICON NP-ANT-M
 
 %<np%>%<ant%>%<m%>%<attr%>: # ; 
@@ -1555,7 +1559,6 @@ LEXICON NP-ANT-F-MASHIDAT
 %<np%>%<ant%>%<f%>%<nom%>: CLIT-SUBST-II ; 
 %<np%>%<ant%>%<f%>%<erg%>:%>ица CLIT-SUBST-I ; 
 %<np%>%<ant%>%<f%>%<gen%>:%>ил CLIT-SUBST-I ; 
-
 
 LEXICON NP-ANT-F-ZAREMA
 
@@ -4788,6 +4791,8 @@ LEXICON ProperNouns
 Анжи:Анжи NP-AL ; ! ""
 Роспотребнадзор:Роспотребнадзор NP-AL ; ! ""
 Россельхозбанк:Россельхозбанк NP-AL ; ! ""
+
+М%.:М%. NP-ANT-INIT ;
 
 LEXICON Adjectives 
 
