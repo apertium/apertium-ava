@@ -49,7 +49,7 @@ LIST Attr = attr ;
 LIST Class = m f nt pl ; 
 LIST Case = nom erg gen dat all abl tra ; 
 
-LIST LocPost = "цебе" "нахъа" "жаниб" "хадуб" "цадахъ" ;
+LIST LocPost = "цебе" "нахъа" "жаниб" "хадуб" "цадахъ" "данде" ;
 LIST AblPost = "хадуб" "нахъе" 
 LIST GenPost = "хӀакъалъулъ" ;
 
