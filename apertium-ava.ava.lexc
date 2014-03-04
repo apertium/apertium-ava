@@ -1579,6 +1579,9 @@ LEXICON N-GIEMERISEL
 %<n%>%<mf%>%<pl%>%<gen%>:%>зе CLIT-SUBST-I ; 
 %<n%>%<mf%>%<pl%>:%>з LOC-CASES ; 
 
+LEXICON NP-TOP-LENINSKIJ
+
+%<np%>%<top%>%<sg%>%<attr%>: # ; 
 
 LEXICON NP-TOP-ROSSIJA
 
@@ -4050,6 +4053,7 @@ N-MAJDAN ; ! "майдан, площадь"
 боцӏи%-рикъзи:боцӏи%-рикъзи N-FIZIKA ; ! "богатство"
 
 ахӀи%-хӀур:ахӀи%-хӀур N-TAMIXI ; ! "шум и гам, крики"
+туберкулёз:туберкулёз N-TAMIXI ; ! "туберкулёз"
 
 боцӏи:боцӏ N-BOCI ; ! "скот, скотина"
 
@@ -4894,6 +4898,7 @@ LEXICON ProperNouns
 
 Буйнакск:Буйнакск NP-TOP-BUJNAKSK ; ! ""
 Омск:Омск NP-TOP-BUJNAKSK ; ! ""
+Кисловодск:Кисловодск NP-TOP-BUJNAKSK ; ! ""
 Новосибирск:Новосибирск NP-TOP-BUJNAKSK ; ! ""
 Челябинск:Челябинск NP-TOP-BUJNAKSK ; ! ""
 Минск:Минск NP-TOP-BUJNAKSK ; ! ""
@@ -4938,8 +4943,6 @@ LEXICON ProperNouns
 Хунзахъ:Хунзахъ NP-TOP-DAGHISTAN ; ! ""
 Болъихъ:Болъихъ NP-TOP-DAGHISTAN ; ! ""
 Кьохъ:Кьохъ NP-TOP-DAGHISTAN ; ! ""
-
-
 
 
 АО:АО NP-TOP-ACSH ; ! ""
@@ -5018,8 +5021,15 @@ LEXICON ProperNouns
 
 
 ХӀусейнов:ХӀусейнов NP-COG-OV ; ! ""
+Кандаров:Кандаров NP-COG-OV ; ! ""
 Шамилов:Шамилов NP-COG-OV ; ! ""
 Ткачев:Ткачев NP-COG-OV ; ! ""
+МухӀамаев:МухӀамаев NP-COG-OV ; ! ""
+Илясов:Илясов NP-COG-OV ; ! ""
+ГӀабдуразакъов:ГӀабдуразакъов NP-COG-OV ; ! ""
+Цораев:Цораев NP-COG-OV ; ! ""
+Къурачев:Къурачев NP-COG-OV ; ! ""
+Даганов:Даганов NP-COG-OV ; ! ""
 ГӀумаханов:ГӀумаханов NP-COG-OV ; ! ""
 Патахӏов:Патахӏов NP-COG-OV ; ! ""
 ГӀумаров:ГӀумаров NP-COG-OV ; ! ""
@@ -5302,7 +5312,10 @@ LEXICON ProperNouns
 Юрий:Юрий NP-ANT-M ; ! ""
 
 
-
+Черновик:Черновик NP-AL ; ! ""
+ХӀакъикъат:ХӀакъикъат NP-AL ; ! ""
+РИА% Дагестан:РИА% Дагестан NP-AL ; ! ""
+Новое% дело:Новое% дело NP-AL ; ! ""
 Новая% газета:Новая% газета NP-AL ; ! ""
 Газпром:Газпром NP-AL ; ! ""
 Единая% Россия:Единая% Россия NP-AL ; ! ""
@@ -5322,6 +5335,12 @@ LEXICON ProperNouns
 Дагъмединститут:Дагъмединститут NP-AL ; ! ""
 
 М%.:М%. NP-ANT-INIT ;
+
+Ленинский:Ленинский  NP-TOP-LENINSKIJ ; ! ""
+Советский:Советский NP-TOP-LENINSKIJ ; ! ""
+Кировский:Кировский NP-TOP-LENINSKIJ ; ! ""
+Майданское:Майданское NP-TOP-LENINSKIJ ; ! ""
+Комсомольское:Комсомольское NP-TOP-LENINSKIJ ; ! ""
 
 LEXICON Adjectives 
 
