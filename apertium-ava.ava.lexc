@@ -1334,20 +1334,25 @@ LEXICON N-CIA
 %<n%>%<nt%>%<pl%>:а%>з LOC-CASES ; 
 
 LEXICON N-ROSU
+! рос/у (-даца, -дал, -аби)
+
+! Note: *росабалъ
 
 %<n%>%<nt%>%<sg%>%<nom%>:у CLIT-SUBST-II ; 
-%<n%>%<nt%>%<sg%>%<erg%>:у%>лъ CLIT-SUBST-I ; ! Dir/LR 
 %<n%>%<nt%>%<sg%>%<erg%>:даца CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>%<gen%>:у%>лъул CLIT-SUBST-I ; ! Dir/LR 
 %<n%>%<nt%>%<sg%>%<gen%>:%>дал CLIT-SUBST-I ;  
-%<n%>%<nt%>%<sg%>%<dat%>:у%>лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>да LOC-CASES ; ! Dir/LR
-%<n%>%<nt%>%<sg%>:%>%{a³%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>дае CLIT-SUBST-I ;  
+%<n%>%<nt%>%<sg%>:%>да LOC-CASES ; 
+
+%<n%>%<nt%>%<sg%>%<erg%>:у%>лъ CLIT-SUBST-I ; ! Dir/LR 
+%<n%>%<nt%>%<sg%>%<gen%>:у%>лъул CLIT-SUBST-I ; ! Dir/LR 
+%<n%>%<nt%>%<sg%>%<dat%>:у%>лъе CLIT-SUBST-I ; ! Dir/LR
+
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a²%}базул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<dat%>:%>%{a²%}базе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<pl%>:%>баз LOC-CASES ; 
+%<n%>%<nt%>%<pl%>:%>%{a²%}баз LOC-CASES ; 
 
 LEXICON N-SCENA 
 ! сцена (-ялъ, -ялъул, -би)
