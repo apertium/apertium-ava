@@ -35,7 +35,7 @@ LIST Neut = nt ;
 LIST Mfn = mfn ; 
 LIST Pl = pl ; 
 
-LIST IV = iv "букӀине" ; 
+LIST IV = iv "букӏине" ; 
 LIST TV = tv ; 
 
 LIST Top = top ; 
@@ -51,7 +51,9 @@ LIST Case = nom erg gen dat all abl tra ;
 
 LIST LocPost = "цебе" "нахъа" "жаниб" "хадуб" "цадахъ" "данде" ;
 LIST AblPost = "хадуб" "нахъе" 
-LIST GenPost = "хӀакъалъулъ" ;
+LIST GenPost = "хӏакъалъулъ" ;
+
+LIST LocSubj = "кӏезе" ;
 
 SET LOC-CASES = Loc | Abl | All | Tra ; 
 
@@ -113,6 +115,7 @@ MAP @SUBJ→ TARGET Nom IF (1C IV) (0 Masc OR Fem OR Neut) (1 Mfn);
 MAP @←SUBJ TARGET Nom IF (1C IV)  (0 $$Class) (-1 $$Class);
 
 MAP @SUBJ→ TARGET Erg IF (1C TV) (0C Pers) ;
+MAP @SUBJ→ TARGET Loc IF (1C IV) (1C LocSubj) (0C Pers) (0C Loc);
 
 MAP @←SUBJ TARGET Nom IF (-1C IV) (0C Pers) ;
 MAP @←SUBJ TARGET Nom IF (-1C IV)  (0 $$Class) (-1 $$Class);
