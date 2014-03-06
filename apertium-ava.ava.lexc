@@ -4038,6 +4038,7 @@ N-LIMER ; ! "ребёнок"
 керен:к N-KEREN ; ! "грудь"
 
 мазгар:мазгар N-MAZGAR ; ! "бронза"
+чакар:чакар N-MAZGAR ; ! "сахар"
 
 пихъ:пихъ N-MESED ; ! "плод и плоды; фрукт и фрукты"
 месед:месед N-MESED ; ! "золото"
@@ -5757,6 +5758,7 @@ LEXICON ProperNouns
 Тува:Тува NP-TOP-DAGHISTAN ; ! ""
 
 Азия:Азия NP-TOP-ROSSIJA ; ! ""
+Нигерия:Нигерия NP-TOP-ROSSIJA ; ! ""
 Алания:Алания NP-TOP-ROSSIJA ; ! ""
 Осетия:Осетия NP-TOP-ROSSIJA ; ! ""
 Швеция:Швеция NP-TOP-ROSSIJA ; ! ""
