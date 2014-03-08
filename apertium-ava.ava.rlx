@@ -74,7 +74,7 @@ SELECT N IF (0C V OR N) (1C V) ;
 REMOVE Post IF (0C N OR Post) (-1 V) ;   
     ## Дун вукIине вуго ахихъан.
 
-SELECT Det IF (0C Det OR Pron) (0C $$Case) (1C N + $$Case) ; 
+SELECT Det IF (0C Det OR Pron) (0C $$Class) (1C N + $$Class) ; 
     ## Кинаб батIалъи бугеб реализмалда ва романтизмалда гьоркьоб?
 
 REMOVE Pron + Nom IF (-1C Pron + Nom) (0C Det OR Pron) ;
