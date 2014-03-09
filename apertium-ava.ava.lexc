@@ -1489,9 +1489,10 @@ LEXICON N-ROSU
 %<n%>%<nt%>%<sg%>%<dat%>:%>дае CLIT-SUBST-I ;  
 %<n%>%<nt%>%<sg%>:%>да LOC-CASES ; 
 
-%<n%>%<nt%>%<sg%>%<erg%>:у%>лъ CLIT-SUBST-I ; ! Dir/LR 
-%<n%>%<nt%>%<sg%>%<gen%>:у%>лъул CLIT-SUBST-I ; ! Dir/LR 
-%<n%>%<nt%>%<sg%>%<dat%>:у%>лъе CLIT-SUBST-I ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<obl%>%+лъ%<post%>%<loc%>:у%>лъ CLIT-SUBST-I ; ! Dir/LR 
+!%<n%>%<nt%>%<sg%>%<gen%>:у%>лъул CLIT-SUBST-I ; ! Dir/LR 
+%<n%>%<nt%>%<sg%>%<obl%>%+лъ%<post%>%<all%>:у%>лъе CLIT-SUBST-I ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<obl%>%+лъ%<post%>%<abl%>:у%>лъа CLIT-SUBST-I ; ! Dir/LR
 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баз CLIT-SUBST-I ; 
