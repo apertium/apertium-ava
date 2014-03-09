@@ -9,6 +9,7 @@ Alphabet
   %{a³%}:а
   %{и%}:и
   %{й%}:0
+  %{ъ%}:0
 
   %+
   % 
@@ -27,6 +28,9 @@ Rules
 
 "Delete {u} after stem final vowel"
 %{u%}:0 <=> :Vow %>: _ ; 
+
+"Surface {ъ}"
+%{ъ%}:ъ <=> _ %>: %{u%}: ;
 
 "Delete {a³} after stem final vowel"
 %{a³%}:0 <=> :Vx %>: _ ; 

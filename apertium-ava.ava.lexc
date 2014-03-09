@@ -106,7 +106,8 @@ Multichar_Symbols
 %{a%}              ! 
 %{a²%}             ! 
 %{a³%}             ! 
-
+%{ъ%}              !
+ 
 %>                 !
 %-                 ! 
 %+                 ! 
@@ -139,6 +140,7 @@ LEXICON CLIT-A
 !:%>хун # ;
 %+ха%<emph%>:%>ха # ;
 %+гӏан%<adv%>:%>гӏан # ;
+%+гӏан%<adv%>%+ги%<cnjcoo%>:%>гӏан%>ги # ;
 !:%>гӏанаб # ;
 # ;
 
@@ -272,6 +274,8 @@ LEXICON CLIT-ADV-I
 %+лъун%<post%>:%>лъун # ;
 %+лъун%<post%>%+ги%<cnjcoo%>:%>лъунги # ;
 # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON LOC-CASES 
 
@@ -440,7 +444,7 @@ LEXICON N-JAS-SG
 %<n%>%<f%>%<sg%>%<erg%>:%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<f%>%<sg%>%<gen%>:%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<f%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<f%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<f%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 
 LEXICON N-JAS-PL
 
@@ -463,7 +467,7 @@ LEXICON N-KIODO
 %<n%>%<f%>%<sg%>%<erg%>:%>ца CLIT-SUBST-I ;
 %<n%>%<f%>%<sg%>%<gen%>:%>л CLIT-SUBST-I ;
 %<n%>%<f%>%<sg%>%<dat%>:%>ле CLIT-SUBST-I ;
-%<n%>%<f%>%<sg%>:%>л LOC-CASES ;
+%<n%>%<f%>%<sg%>:%>л%{ъ%} LOC-CASES ;
 
 N-JAS-PL ; 
 
@@ -473,14 +477,14 @@ LEXICON N-GEOGRAFIJA-SG
 %<erg%>:%>лъ CLIT-SUBST-I ; 
 %<gen%>:%>лъул CLIT-SUBST-I ; 
 %<dat%>:%>лъе CLIT-SUBST-I ; 
-:%>л LOC-CASES ; 
+:%>л%{ъ%} LOC-CASES ; 
 
 LEXICON N-GEOGRAFIJA
 ! география (-лъ, -лъул)
 
 %<n%>%<nt%>%<sg%>: N-GEOGRAFIJA-SG ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>л CLIT-SUBST-II ; 
-%<n%>%<nt%>%<pl%>%<erg%>:%>ца CLIT-SUBST-I ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>з CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>зул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<dat%>:%>зе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>:%>з LOC-CASES ; 
@@ -509,7 +513,7 @@ LEXICON N-CIAJI
 %<n%>%<nt%>%<sg%>%<gen%>:йи%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:в%>ул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:йи%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:йи%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:йи%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:йи%>ял CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:йи%>яз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:йи%>язул CLIT-SUBST-I ; 
@@ -522,7 +526,7 @@ LEXICON N-SPEKTAKL
 %<n%>%<nt%>%<sg%>%<erg%>:%>ялъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>ял CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>яца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>язул CLIT-SUBST-I ; 
@@ -538,7 +542,7 @@ LEXICON N-BUSEN
 %<n%>%<nt%>%<sg%>%<gen%>:ен%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>адул CLIT-SUBST-I ;  ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ен%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>аби CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>абаз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>абазул CLIT-SUBST-I ; 
@@ -552,7 +556,7 @@ LEXICON N-KALENDAR
 %<n%>%<nt%>%<sg%>%<erg%>:%>алъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>аца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>азул CLIT-SUBST-I ; 
@@ -567,7 +571,7 @@ LEXICON N-CHERX
 %<n%>%<nt%>%<sg%>%<gen%>:ерх%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:орх%>ол CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:орх%>олъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:ерх%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ерх%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:урх%>дул CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:урх%>дуз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:урх%>дузул CLIT-SUBST-I ; 
@@ -581,7 +585,7 @@ LEXICON N-ROCEN
 %<n%>%<nt%>%<sg%>%<gen%>:ен%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:а%>дул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ан%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:ен%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ен%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ен%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:ен%>аз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:ен%>азул CLIT-SUBST-I ; 
@@ -597,7 +601,7 @@ LEXICON N-HVEL
 %<n%>%<nt%>%<sg%>%<gen%>:ал%>ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ал%>алъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:ал%>ие CLIT-SUBST-I ; ! Dir/LR
-%<n%>%<nt%>%<sg%>:ел%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ел%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<sg%>:ал%>и LOC-CASES ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<nom%>:ел%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:ел%>аз CLIT-SUBST-I ; 
@@ -613,7 +617,7 @@ LEXICON N-KECH
 %<n%>%<nt%>%<sg%>%<gen%>:ечӏ%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:очӏ%>ол CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ечӏ%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:ечӏ%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ечӏ%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<sg%>:очӏ%>ол LOC-CASES ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<nom%>:учӏ%>дул CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:учӏ%>дуз CLIT-SUBST-I ; 
@@ -629,7 +633,7 @@ LEXICON N-KUCH
 %<n%>%<nt%>%<sg%>%<gen%>:учӏ%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:очӏ%>ол CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:учӏ%>але CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:учӏ%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:учӏ%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<sg%>:очӏ%>ол LOC-CASES ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<nom%>:учӏ%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:учӏ%>аз CLIT-SUBST-I ; 
@@ -645,7 +649,7 @@ LEXICON N-GIOR
 %<n%>%<nt%>%<sg%>%<gen%>:ор%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:ур%>ул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ор%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:ор%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ор%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ор%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:ор%>аз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:ор%>азул CLIT-SUBST-I ; 
@@ -659,7 +663,7 @@ LEXICON N-LEL
 %<n%>%<nt%>%<sg%>%<gen%>:ел%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:ал%>ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ел%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ел LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ел%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ул%>дул CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:ул%>дуз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:ул%>дузул CLIT-SUBST-I ; 
@@ -673,7 +677,7 @@ LEXICON N-MAGINA
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>дул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>би CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>бица CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>базул CLIT-SUBST-I ; 
@@ -687,7 +691,7 @@ LEXICON N-GIAKLU
 %<n%>%<nt%>%<sg%>%<erg%>:у%>ялъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:у%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:у%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:у%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:у%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>аби CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>абаз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>абазул CLIT-SUBST-I ; 
@@ -703,7 +707,7 @@ LEXICON N-XIUKMU
 %<n%>%<nt%>%<sg%>%<gen%>:у%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:у%>дул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:у%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:у%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:у%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>аби CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>абаз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>абазул CLIT-SUBST-I ; 
@@ -731,7 +735,7 @@ LEXICON N-GIELMU
 %<n%>%<nt%>%<sg%>%<erg%>:у%>ялъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:у%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:у%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:у%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:у%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>аби CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>абица CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>абазул CLIT-SUBST-I ; 
@@ -745,7 +749,7 @@ LEXICON N-STOL-DECL-SG
 %<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT-SUBST-I ; 
 %<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT-SUBST-I ; 
 %<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
-%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 
 LEXICON N-STOL-DECL
 
@@ -792,7 +796,7 @@ LEXICON N-AHIHAN
 %<n%>%<f%>%<sg%>%<erg%>:н%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<f%>%<sg%>%<gen%>:н%>%{a%}лъу CLIT-SUBST-I ;  ! check
 %<n%>%<f%>%<sg%>%<dat%>:н%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<f%>%<sg%>:н%>%{a%}л LOC-CASES ; 
+%<n%>%<f%>%<sg%>:н%>%{a%}л%{ъ%} LOC-CASES ; 
 
 %<n%>%<mf%>: N-NAJIXAN-DECL-PL ;
 
@@ -805,7 +809,7 @@ LEXICON N-XVADARUXAN
 %<n%>%<f%>%<sg%>%<erg%>:н%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<f%>%<sg%>%<gen%>:н%>%{a%}лъул CLIT-SUBST-I ;
 %<n%>%<f%>%<sg%>%<dat%>:н%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<f%>%<sg%>:н%>%{a%}л LOC-CASES ; 
+%<n%>%<f%>%<sg%>:н%>%{a%}л%{ъ%} LOC-CASES ; 
 
 %<n%>%<mf%>: N-NAJIXAN-DECL-PL ;
 
@@ -816,7 +820,7 @@ LEXICON N-OBSHCHESTVO
 %<n%>%<nt%>%<sg%>%<erg%>:о%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:о%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:о%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:о%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:о%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:а%>би CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:а%>баз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:а%>базул CLIT-SUBST-I ; 
@@ -834,7 +838,7 @@ LEXICON N-GIOLILAV-DECL
 %<f%>%<sg%>%<erg%>:%>лъ CLIT-SUBST-I ; 
 %<f%>%<sg%>%<gen%>:%>лъул CLIT-SUBST-I ; 
 %<f%>%<sg%>%<dat%>:%>лъе CLIT-SUBST-I ; 
-%<f%>%<sg%>:%>л LOC-CASES ; 
+%<f%>%<sg%>:%>л%{ъ%} LOC-CASES ; 
 %<mf%>%<pl%>%<nom%>:%>л CLIT-SUBST-II ; 
 %<mf%>%<pl%>%<erg%>:%>з CLIT-SUBST-I ; 
 %<mf%>%<pl%>%<gen%>:%>зул CLIT-SUBST-I ; 
@@ -875,6 +879,7 @@ LEXICON N-RAKI
 %<n%>%<nt%>%<sg%>%<erg%>:%>екӏеца CLIT-SUBST-I ;  ! Dir/LR
 %<n%>%<nt%>%<sg%>%<gen%>:%>екӏел CLIT-SUBST-I ;  ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>екӏее CLIT-SUBST-I ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>:%>екӏе LOC-CASES ;  ! Dir/LR
 
 LEXICON N-ROH
 ! рохь (-алъ, -ил, -ал)
@@ -883,7 +888,7 @@ LEXICON N-ROH
 %<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ил CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}ца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT-SUBST-I ; 
@@ -931,7 +936,7 @@ LEXICON N-GIALAX
 %<n%>%<nt%>%<sg%>%<gen%>:ах%>%{a%}лъул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>хуле CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:ах%>%{a%}лъе CLIT-SUBST-I ; ! Dir/LR
-%<n%>%<nt%>%<sg%>:ах%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ах%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>хал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>хаца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>хазул CLIT-SUBST-I ; 
@@ -981,7 +986,7 @@ LEXICON N-QVATI
 %<n%>%<nt%>%<sg%>%<gen%>:%>ул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>уле CLIT-SUBST-I ;  ! Dir/LR
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}з CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT-SUBST-I ; 
@@ -997,7 +1002,7 @@ LEXICON N-MAZGAR
 %<n%>%<nt%>%<sg%>%<gen%>:%>ул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>уле CLIT-SUBST-I ;  ! Dir/LR
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 
 LEXICON N-MESED
 ! месед¹ (-алъ, -алъул//-ил)
@@ -1007,7 +1012,7 @@ LEXICON N-MESED
 %<n%>%<nt%>%<sg%>%<gen%>:%>ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>иле CLIT-SUBST-I ;  ! Dir/LR
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT-SUBST-II ; 
 !%<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}ца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}з CLIT-SUBST-I ; 
@@ -1023,7 +1028,7 @@ LEXICON N-SHAL
 %<n%>%<nt%>%<sg%>%<gen%>:%>ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>иле CLIT-SUBST-I ;  ! Dir/LR
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}з CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT-SUBST-I ; 
@@ -1050,7 +1055,7 @@ LEXICON N-GIECH
 %<n%>%<nt%>%<sg%>%<gen%>:%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>уле CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<sg%>:%>ул LOC-CASES ; ! Dir/LR
 
 LEXICON N-RAK 
@@ -1062,7 +1067,7 @@ LEXICON N-RAK
 %<n%>%<nt%>%<sg%>%<gen%>:%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>уле CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<sg%>:%>ул LOC-CASES ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}з CLIT-SUBST-I ; 
@@ -1078,7 +1083,7 @@ LEXICON N-KANLI
 %<n%>%<nt%>%<sg%>%<gen%>:и%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:и%>ялъе CLIT-SUBST-I ;  
-%<n%>%<nt%>%<sg%>:и%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:и%>ял%{ъ%} LOC-CASES ; 
 
 LEXICON N-GIORXI
 ! гӏорхъ/и (-иялъ, -иялъул//-идул, -аби)
@@ -1088,7 +1093,7 @@ LEXICON N-GIORXI
 %<n%>%<nt%>%<sg%>%<gen%>:и%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:и%>дул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:и%>яле CLIT-SUBST-I ;  
-%<n%>%<nt%>%<sg%>:и%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:и%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>аби CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>абаз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>абазул CLIT-SUBST-I ; 
@@ -1117,7 +1122,7 @@ LEXICON N-RAGH
 %<n%>%<nt%>%<sg%>%<erg%>:%>уца CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<gen%>:%>ул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>уле CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<sg%>:%>ул LOC-CASES ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}з CLIT-SUBST-I ; 
@@ -1177,7 +1182,7 @@ LEXICON N-DARAN
 %<n%>%<m%>%<sg%>%<gen%>:ан%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<m%>%<sg%>%<gen%>:м%>ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<m%>%<sg%>%<dat%>:ан%>%{a%}ле CLIT-SUBST-I ; 
-%<n%>%<m%>%<sg%>:ан%>%{a%}л LOC-CASES ; 
+%<n%>%<m%>%<sg%>:ан%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<m%>%<pl%>%<nom%>:м%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<m%>%<pl%>%<erg%>:м%>%{a%}з CLIT-SUBST-I ; 
 %<n%>%<m%>%<pl%>%<gen%>:м%>%{a%}зул CLIT-SUBST-I ; 
@@ -1205,7 +1210,7 @@ LEXICON N-XIZAN
 %<n%>%<nt%>%<sg%>%<erg%>:м%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:м%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:м%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:м%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:м%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:м%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:м%>%{a%}ца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:м%>%{a%}зул CLIT-SUBST-I ; 
@@ -1216,7 +1221,7 @@ LEXICON N-XIZAN
 %<n%>%<nt%>%<sg%>%<erg%>:н%>%{a%}лъ CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<gen%>:н%>%{a%}лъул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:н%>%{a%}лъе CLIT-SUBST-I ; ! Dir/LR
-%<n%>%<nt%>%<sg%>:н%>%{a%}л LOC-CASES ; ! Dir/LR
+%<n%>%<nt%>%<sg%>:н%>%{a%}л%{ъ%} LOC-CASES ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<nom%>:н%>%{a%}л CLIT-SUBST-II ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<erg%>:н%>%{a%}ца CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<gen%>:н%>%{a%}зул CLIT-SUBST-I ; ! Dir/LR
@@ -1231,7 +1236,7 @@ LEXICON N-KAGHAT
 %<n%>%<nt%>%<sg%>%<gen%>:т%>ил CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:т%>иле CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>:т%>и LOC-CASES ; 
-%<n%>%<nt%>%<sg%>:ат%>ал LOC-CASES ; ! Dir/LR ! Use/Sub
+%<n%>%<nt%>%<sg%>:ат%>ал%{ъ%} LOC-CASES ; ! Dir/LR ! Use/Sub
 %<n%>%<nt%>%<pl%>%<nom%>:т%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:т%>аз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:т%>азул CLIT-SUBST-I ; 
@@ -1273,7 +1278,7 @@ LEXICON N-LAGHEL
 %<n%>%<nt%>%<sg%>%<gen%>:ал%>ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ел%>%{a%}лъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:ал%>иле CLIT-SUBST-I ; ! Dir/LR
-%<n%>%<nt%>%<sg%>:ел%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ел%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ел%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:ел%>%{a%}з CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:ел%>%{a%}зул CLIT-SUBST-I ; 
@@ -1289,7 +1294,7 @@ LEXICON N-RALAD
 %<n%>%<nt%>%<sg%>%<gen%>:д%>%{a%}лъул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ад%>%{a%}лъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:д%>%{a%}лъе CLIT-SUBST-I ; ! Dir/LR
-%<n%>%<nt%>%<sg%>:ад%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ад%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ад%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:ад%>%{a%}ца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:ад%>%{a%}зул CLIT-SUBST-I ; 
@@ -1325,12 +1330,15 @@ LEXICON N-GHURUSH
 %<n%>%<nt%>%<pl%>:щ%>%{a%}з LOC-CASES ; 
 
 LEXICON N-CAD
+! цӀад (-аца, -ал, -ал) 
 
 %<n%>%<nt%>%<sg%>%<nom%>: CLIT-SUBST-II ; 
 %<n%>%<nt%>%<sg%>%<erg%>:%>аца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ал CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>ле CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
+
+! *цӀадакь
 
 LEXICON N-ZHO
 ! жо (-ялъ, -ялъул, жал)
@@ -1338,7 +1346,7 @@ LEXICON N-ZHO
 %<n%>%<nt%>%<sg%>%<erg%>:о%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:о%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:о%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:о%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:о%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:а%>ца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:а%>зул CLIT-SUBST-I ; 
@@ -1354,7 +1362,7 @@ LEXICON N-LAGA
 %<n%>%<nt%>%<sg%>%<gen%>:ог%>ол CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ага%>%{a%}лъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:ог%>оле CLIT-SUBST-I ; ! Dir/LR 
-%<n%>%<nt%>%<sg%>:ага%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ага%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<sg%>:ог%>ол LOC-CASES ; ! Dir/LR 
 %<n%>%<nt%>%<pl%>%<nom%>:уг%>би CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:уг%>би%>ца CLIT-SUBST-I ; 
@@ -1368,7 +1376,7 @@ LEXICON N-SOBRANIJE
 %<n%>%<nt%>%<sg%>%<erg%>:%>ялъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>ял CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>яз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>язул CLIT-SUBST-I ; 
@@ -1433,7 +1441,7 @@ LEXICON N-MUZEJ
 %<n%>%<nt%>%<sg%>%<erg%>:%>ялъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ял CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>яз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>язул CLIT-SUBST-I ; 
@@ -1446,7 +1454,7 @@ LEXICON N-KAJ
 %<n%>%<nt%>%<sg%>%<erg%>:%>ялъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ял%{ъ%} LOC-CASES ; 
 
 LEXICON N-CHINKILLI
 
@@ -1454,7 +1462,7 @@ LEXICON N-CHINKILLI
 %<n%>%<nt%>%<sg%>%<erg%>:и%>ялъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:и%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:и%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a²%}базул CLIT-SUBST-I ; 
@@ -1484,7 +1492,7 @@ LEXICON N-CIA
 %<n%>%<nt%>%<sg%>%<gen%>:а%>дул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<gen%>:е%>л CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:а%>%{a³%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:а%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:а%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:а%>%{a%}л CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:а%>%{a%}з CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:а%>%{a%}зул CLIT-SUBST-I ; 
@@ -1535,7 +1543,7 @@ LEXICON N-ZULMU
 %<n%>%<nt%>%<sg%>%<erg%>:у%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:у%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:у%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:у%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:у%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a²%}базул CLIT-SUBST-I ; 
@@ -1551,7 +1559,7 @@ LEXICON N-GIASRU
 %<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:у%>%{a%}лъул CLIT-SUBST-I ;  ! Dir/LR ! Use/Sub
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a²%}базул CLIT-SUBST-I ; 
@@ -1565,7 +1573,7 @@ LEXICON N-SCENA
 %<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a²%}базул CLIT-SUBST-I ; 
@@ -1579,7 +1587,7 @@ LEXICON N-MARHA
 %<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>%дул CLIT-SUBST-I ;  ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>%{a²%}би CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>%{a²%}баз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>%{a²%}базул CLIT-SUBST-I ; 
@@ -1716,7 +1724,7 @@ LEXICON N-EBEL
 эбел%<n%>%<f%>%<sg%>%<erg%>:эбел%>%{a%}лъ CLIT-SUBST-I ; 
 эбел%<n%>%<f%>%<sg%>%<gen%>:эбел%>%{a%}лъул CLIT-SUBST-I ; 
 эбел%<n%>%<f%>%<sg%>%<dat%>:эбел%>%{a%}лъе CLIT-SUBST-I ; 
-эбел%<n%>%<f%>%<sg%>:эбел%>%{a%}л LOC-CASES ; 
+эбел%<n%>%<f%>%<sg%>:эбел%>%{a%}л%{ъ%} LOC-CASES ; 
 эбел%<n%>%<f%>%<pl%>%<nom%>:улбул CLIT-SUBST-II ; 
 эбел%<n%>%<f%>%<pl%>%<erg%>:улбуз CLIT-SUBST-I ; 
 эбел%<n%>%<f%>%<pl%>%<gen%>:улбузул CLIT-SUBST-I ; 
@@ -1772,7 +1780,7 @@ LEXICON N-RUQ
 %<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>%{a%}л LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>зал CLIT-SUBST-II ; 
 
 LEXICON N-SORDO
@@ -1784,7 +1792,7 @@ LEXICON N-SORDO
 %<n%>%<nt%>%<sg%>%<gen%>:ордо%>ялъул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<gen%>:ард%>ил CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:ордо%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:ордо%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ордо%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ард%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:ард%>ал CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:ард%>азул CLIT-SUBST-I ; 
@@ -1800,7 +1808,7 @@ LEXICON N-XABAR
 %<n%>%<nt%>%<sg%>%<gen%>:бар%>алъул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<gen%>:рб%>ил CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:бар%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:бар%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:бар%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:бар%>ал CLIT-SUBST-II ; ! Dir/LR 
 %<n%>%<nt%>%<pl%>%<nom%>:рб%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:рб%>ал CLIT-SUBST-I ; 
@@ -1817,7 +1825,7 @@ LEXICON N-KAPEK
 %<n%>%<nt%>%<sg%>%<gen%>:апек%>алъул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<gen%>:апк%>ил CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:апек%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:епек%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:епек%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:епк%>ал CLIT-SUBST-II ; ! Dir/LR 
 %<n%>%<nt%>%<pl%>%<nom%>:епк%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:епк%>ал CLIT-SUBST-I ; 
@@ -1833,7 +1841,7 @@ LEXICON N-HUMER
 %<n%>%<nt%>%<sg%>%<gen%>:рм%>ал CLIT-SUBST-I ;  ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:мер%>алъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:рм%>але CLIT-SUBST-I ;  ! Dir/LR
-%<n%>%<nt%>%<sg%>:мер%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:мер%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:рм%>ал CLIT-SUBST-II ; 
 !%<n%>%<nt%>%<pl%>%<erg%>:%>ица CLIT-SUBST-I ; 
 
@@ -1862,7 +1870,7 @@ LEXICON N-PREDSEDATEL
 %<n%>%<f%>%<sg%>%<erg%>:алъ CLIT-SUBST-I ; 
 %<n%>%<f%>%<sg%>%<gen%>:алъул CLIT-SUBST-I ; 
 %<n%>%<f%>%<sg%>%<dat%>:алъуле CLIT-SUBST-I ; 
-%<n%>%<f%>%<sg%>:ал LOC-CASES ; 
+%<n%>%<f%>%<sg%>:ал%{ъ%} LOC-CASES ; 
 
 N-UCHITEL ; 
 
@@ -1920,7 +1928,7 @@ LEXICON N-TIALA
 %<n%>%<nt%>%<sg%>%<gen%>:ала%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:ала%>дул CLIT-SUBST-I ; ! Dir/LR 
 %<n%>%<nt%>%<sg%>%<dat%>:ала%>яле CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:ала%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ала%>ял%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:ул%>би CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:ул%>баз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:ул%>базул CLIT-SUBST-I ; 
@@ -1938,7 +1946,7 @@ LEXICON N-NART
 %<n%>%<nt%>%<sg%>%<gen%>:алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 
 
 LEXICON N-TAMIXI
@@ -1948,7 +1956,7 @@ LEXICON N-TAMIXI
 %<n%>%<nt%>%<sg%>%<erg%>:алъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 
 LEXICON N-KVEN
 ! квен¹ (кваница, кванил)
@@ -1965,7 +1973,7 @@ LEXICON N-HAN
 %<n%>%<nt%>%<sg%>%<erg%>:%>аца CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ал CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>але CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 
 LEXICON N-GHIRA
 ! гъира (-ялъ, -ялъул//-дул)
@@ -1976,7 +1984,7 @@ LEXICON N-GHIRA
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>дул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ял%{ъ%} LOC-CASES ; 
 
 LEXICON N-BASI
 ! баси (-ялъ, -ялъул//-дул, бусби)
@@ -2004,7 +2012,7 @@ LEXICON N-OC
 %<n%>%<nt%>%<sg%>%<gen%>:%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ол CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>ал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>аз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>азул CLIT-SUBST-I ; 
@@ -2027,7 +2035,7 @@ LEXICON N-FIZIKA
 %<n%>%<nt%>%<sg%>%<erg%>:%>ялъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ял LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ял%{ъ%} LOC-CASES ; 
 
 LEXICON N-BOCI
 ! боцӏ/и (-уца, -ул)
@@ -2053,7 +2061,7 @@ LEXICON N-BETIER
 %<n%>%<f%>%<sg%>%<erg%>:етӏералъ CLIT-SUBST-I ; 
 %<n%>%<f%>%<sg%>%<gen%>:етӏералъул CLIT-SUBST-I ; 
 %<n%>%<f%>%<sg%>%<dat%>:етӏрале CLIT-SUBST-I ;  
-%<n%>%<f%>%<sg%>:етӏерал LOC-CASES ; 
+%<n%>%<f%>%<sg%>:етӏерал%{ъ%} LOC-CASES ; 
 
 %<n%>%<mf%>%<pl%>%<nom%>:утӏ%>рул CLIT-SUBST-II ; 
 %<n%>%<mf%>%<pl%>%<erg%>:утӏ%>руз CLIT-SUBST-I ; 
@@ -2081,7 +2089,7 @@ LEXICON N-JANVAR
 %<n%>%<nt%>%<sg%>%<erg%>:алъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:алъул CLIT-SUBST-I ; 
 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 
 LEXICON N-FINANSAL
 ! финанса/л (-з, -зул)
@@ -2123,7 +2131,7 @@ LEXICON N-HARAK
 %<n%>%<nt%>%<sg%>%<gen%>:акь%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:кь%>ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:акь%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:акь%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:акь%>ал%{ъ%} LOC-CASES ; 
 %<nt%>%<pl%>%<nom%>:кь%>%{a%}л CLIT-SUBST-II ; 
 %<nt%>%<pl%>%<erg%>:кь%>%{a%}з CLIT-SUBST-I ; 
 %<nt%>%<pl%>%<gen%>:кь%>%{a%}зул CLIT-SUBST-I ; 
@@ -2139,7 +2147,7 @@ LEXICON N-IRGA
 %<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>дул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
 %<nt%>%<pl%>%<nom%>:%>би CLIT-SUBST-II ; 
 %<nt%>%<pl%>%<erg%>:%>баз CLIT-SUBST-I ; 
 %<nt%>%<pl%>%<gen%>:%>базул CLIT-SUBST-I ; 
@@ -2154,7 +2162,7 @@ LEXICON N-XER
 %<n%>%<nt%>%<sg%>%<gen%>:ар%>ил CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:ер%>алъул CLIT-SUBST-I ; ! Dir/LR ! Use/Sub
 %<n%>%<nt%>%<sg%>%<dat%>:ар%>иле CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:ар%>ил LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:ар%>ил%{ъ%} LOC-CASES ; 
 %<nt%>%<pl%>%<nom%>:ур%>дул CLIT-SUBST-II ; 
 !%<nt%>%<pl%>%<erg%>:ер%>%{a%}з CLIT-SUBST-I ; 
 !%<nt%>%<pl%>%<gen%>:ер%>%{a%}зул CLIT-SUBST-I ; 
@@ -2206,7 +2214,7 @@ LEXICON N-XIARP
 %<n%>%<nt%>%<sg%>%<gen%>:арп%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:арп%>ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:арп%>але CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:арп%>ал LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:арп%>ал%{ъ%} LOC-CASES ; 
 
 %<n%>%<nt%>%<pl%>%<nom%>:арпал CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:арп%>аз CLIT-SUBST-I ; 
@@ -2296,11 +2304,11 @@ LEXICON N-HOBOL
 %<n%>%<m%>%<sg%>%<dat%>:оболе CLIT-SUBST-I ; 
 %<n%>%<m%>%<sg%>:оболас LOC-CASES ; 
 
-%<n%>%<m%>%<sg%>%<nom%>:обол CLIT-SUBST-II ; 
-%<n%>%<m%>%<sg%>%<erg%>:оболалъ CLIT-SUBST-I ; 
-%<n%>%<m%>%<sg%>%<gen%>:оболалъул CLIT-SUBST-I ; 
-%<n%>%<m%>%<sg%>%<dat%>:оболалъе CLIT-SUBST-I ; 
-%<n%>%<m%>%<sg%>:оболал LOC-CASES ; 
+%<n%>%<f%>%<sg%>%<nom%>:обол CLIT-SUBST-II ; 
+%<n%>%<f%>%<sg%>%<erg%>:оболалъ CLIT-SUBST-I ; 
+%<n%>%<f%>%<sg%>%<gen%>:оболалъул CLIT-SUBST-I ; 
+%<n%>%<f%>%<sg%>%<dat%>:оболалъе CLIT-SUBST-I ; 
+%<n%>%<f%>%<sg%>:оболал%{ъ%} LOC-CASES ; 
 
 %<n%>%<mf%>%<pl%>%<nom%>:албал CLIT-SUBST-II ; 
 %<n%>%<mf%>%<pl%>%<erg%>:алба%>дерица CLIT-SUBST-I ; 
@@ -2464,7 +2472,7 @@ LEXICON N-CHCHUGIA
 %<n%>%<nt%>%<sg%>%<gen%>:аялъул CLIT-SUBST-I ;  
 %<n%>%<nt%>%<sg%>%<gen%>:ил CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ие CLIT-SUBST-I ;  
-%<n%>%<nt%>%<sg%>:аял LOC-CASES ;  
+%<n%>%<nt%>%<sg%>:аял%{ъ%} LOC-CASES ;  
 
 %<n%>%<nt%>%<pl%>%<nom%>:аби CLIT-SUBST-II ;
 %<n%>%<nt%>%<pl%>%<erg%>:абаз CLIT-SUBST-I ;
@@ -2513,7 +2521,7 @@ LEXICON N-BO
 %<n%>%<nt%>%<sg%>%<gen%>:л CLIT-SUBST-I ;  
 %<n%>%<nt%>%<sg%>%<gen%>:дул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:е CLIT-SUBST-I ;  
-%<n%>%<nt%>%<sg%>:л LOC-CASES ;  
+%<n%>%<nt%>%<sg%>:л%{ъ%} LOC-CASES ;  
 
 %<n%>%<nt%>%<pl%>%<nom%>:ял CLIT-SUBST-II ;
 %<n%>%<nt%>%<pl%>%<erg%>:яз CLIT-SUBST-I ;
@@ -2528,7 +2536,7 @@ LEXICON N-CHED
 %<n%>%<nt%>%<sg%>%<erg%>:адица CLIT-SUBST-I ;  
 %<n%>%<nt%>%<sg%>%<gen%>:адил CLIT-SUBST-I ;  
 %<n%>%<nt%>%<sg%>%<dat%>:адие CLIT-SUBST-I ;  
-%<n%>%<nt%>%<sg%>:адал LOC-CASES ;  
+%<n%>%<nt%>%<sg%>:адал%{ъ%} LOC-CASES ;  
 
 %<n%>%<nt%>%<pl%>%<nom%>:адал CLIT-SUBST-II ;
 %<n%>%<nt%>%<pl%>%<erg%>:адаз CLIT-SUBST-I ;
@@ -2637,6 +2645,38 @@ LEXICON N-KURDI
 %<n%>%<nt%>%<pl%>%<dat%>:абазе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>:абаз LOC-CASES ; 
 
+LEXICON N-BECHED 
+! бечед (бичас, бичасул)
+
+%<n%>%<nt%>%<sg%>%<nom%>:ечед CLIT-SUBST-II ;
+%<n%>%<nt%>%<sg%>%<erg%>:ичас CLIT-SUBST-I ;  
+%<n%>%<nt%>%<sg%>%<gen%>:ичасул CLIT-SUBST-I ;  
+%<n%>%<nt%>%<sg%>%<dat%>:ичасе CLIT-SUBST-I ;  
+%<n%>%<nt%>%<sg%>:ичас LOC-CASES ;  
+
+%<n%>%<nt%>%<pl%>%<nom%>:ечедал CLIT-SUBST-II ;
+%<n%>%<nt%>%<pl%>%<erg%>:ечедаз CLIT-SUBST-I ;  
+%<n%>%<nt%>%<pl%>%<gen%>:ечедазул CLIT-SUBST-I ;  
+%<n%>%<nt%>%<pl%>%<dat%>:ечедазе CLIT-SUBST-I ;  
+%<n%>%<nt%>%<pl%>:ечедаз LOC-CASES ;  
+
+LEXICON N-TUKEN
+! тукен (-алъ//тукаца, -алъул//тукадул, тукаби)
+
+%<n%>%<nt%>%<sg%>%<nom%>:ен CLIT-SUBST-II ;
+%<n%>%<nt%>%<sg%>%<erg%>:еналъ CLIT-SUBST-I ;  
+%<n%>%<nt%>%<sg%>%<erg%>:аца CLIT-SUBST-I ;  ! Dir/LR
+%<n%>%<nt%>%<sg%>%<gen%>:еналъул CLIT-SUBST-I ;  
+%<n%>%<nt%>%<sg%>%<gen%>:адул CLIT-SUBST-I ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<dat%>:еналъе CLIT-SUBST-I ;  
+%<n%>%<nt%>%<sg%>:енал%{ъ%} LOC-CASES ;  
+
+%<n%>%<nt%>%<pl%>%<nom%>:аби CLIT-SUBST-II ;
+%<n%>%<nt%>%<pl%>%<erg%>:абаз CLIT-SUBST-I ;  
+%<n%>%<nt%>%<pl%>%<gen%>:абазул CLIT-SUBST-I ;  
+%<n%>%<nt%>%<pl%>%<dat%>:абазе CLIT-SUBST-I ;  
+%<n%>%<nt%>%<pl%>:абаз LOC-CASES ;  
+
 LEXICON NP-TOP-LENINSKIJ
 
 %<np%>%<top%>%<sg%>%<attr%>: # ; 
@@ -2742,7 +2782,7 @@ LEXICON NP-AL-EDINAJA-ROSSIJA
 
 %<np%>%<al%>%<nom%>: CLIT-SUBST-II ; 
 %<np%>%<al%>%<erg%>:%>лъ CLIT-SUBST-II ; 
-%<np%>%<al%>%<gen%>:%>ъул CLIT-SUBST-I ; 
+%<np%>%<al%>%<gen%>:%>лъул CLIT-SUBST-I ; 
 %<np%>%<al%>%<dat%>:%>лъе CLIT-SUBST-I ; 
 %<np%>%<al%>:%>л LOC-CASES ; 
 
@@ -2788,6 +2828,7 @@ LEXICON NP-ANT-F-ZAREMA
 %<np%>%<ant%>%<f%>%<attr%>: # ; 
 %<np%>%<ant%>%<f%>%<nom%>: CLIT-SUBST-II ; 
 %<np%>%<ant%>%<f%>%<erg%>:%>ца CLIT-SUBST-I ; 
+%<np%>%<ant%>%<f%>%<gen%>:%>л CLIT-SUBST-I ; 
 %<np%>%<ant%>%<f%>%<dat%>:%>е CLIT-SUBST-I ; 
 
 LEXICON NP-COG-DZE
@@ -3198,16 +3239,21 @@ LEXICON NUM
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON V-GPR-CLIT
+
+%+ани%<mod%>:%>ани # ; 
+# ;
+
 LEXICON V-GPR-DECL
 
-%<nt%>:%>б # ; 
-%<m%>:%>в # ; 
-%<f%>:%>й # ;  
-%<pl%>:%>л # ;
+%<nt%>:%>б V-GPR-CLIT ; 
+%<m%>:%>в V-GPR-CLIT ; 
+%<f%>:%>й V-GPR-CLIT ;  
+%<pl%>:%>л V-GPR-CLIT ;
 
 LEXICON V-GER-DECL-N
 
-%<nom%>: CLIT-SUBST-I ;
+%<nom%>: CLIT-SUBST-II ;
 %<erg%>:%>алъ CLIT-SUBST-I ;
 %<gen%>:%>алъул CLIT-SUBST-I ;
 %<dat%>:%>алъе CLIT-SUBST-I ;
@@ -3215,7 +3261,7 @@ LEXICON V-GER-DECL-N
 
 LEXICON V-GER-DECL-J
 
-%<nom%>:й CLIT-SUBST-I ;
+%<nom%>:й CLIT-SUBST-II ;
 %<erg%>:%>ялъ CLIT-SUBST-I ;
 %<gen%>:%>ялъул CLIT-SUBST-I ;
 %<dat%>:%>ялъе CLIT-SUBST-I ;
@@ -3223,7 +3269,7 @@ LEXICON V-GER-DECL-J
 
 LEXICON V-GER-DECL-I
 
-%<nom%>: CLIT-SUBST-I ;
+%<nom%>: CLIT-SUBST-II ;
 %<erg%>:%>ялъ CLIT-SUBST-I ;
 %<gen%>:%>ялъул CLIT-SUBST-I ;
 %<dat%>:%>ялъе CLIT-SUBST-I ;
@@ -3264,6 +3310,7 @@ LEXICON V-BUDU-NA
 LEXICON V-PROS-NA
 ! Прошедшее время 
 %<past%>:%>на CLIT-FINIT-I ; 
+%<past%>%+ни%<mod%>:%>ни # ; 
 %<gpr2%>:%>ра V-GPR-DECL ; 
 
 LEXICON V-PROS-NA-NEG
@@ -4322,6 +4369,8 @@ LEXICON Postpositions
 гӏебеде:гӏебеде POST ; ! "вдоль"
 рахъалдехун:рахъалдехун POST ; ! " по направлению"
 
+щвезегӀан:щвезегӀан POST ; ! "до"
+
 LEXICON Pronouns
 
 дун:д PRON-PERS-DUN ; 
@@ -4431,6 +4480,9 @@ LEXICON Nouns
 Аллагь:Аллагь N-VAS ; ! "Бог"
 террорист:террорист N-VAS ; ! "террорист"
 партизан:партизан N-VAS ; ! ""
+терапевт:терапевт N-VAS ; ! ""
+психотерапевт:психотерапевт N-VAS ; ! ""
+
 фашист:фашист N-VAS ; ! ""
 музыкант:музыкант N-VAS ; ! "музыкант"
 поэт:поэт N-VAS ; ! ""
@@ -4439,6 +4491,7 @@ LEXICON Nouns
 муфти:муфти N-VAS ; ! ""
 мэр:мэр N-VAS ; ! ""
 дурц:дурц N-VAS ; ! ""
+сенатор:сенатор N-VAS ; ! ""
 милиционер:милиционер N-VAS ; ! ""
 бетӏергьанчи:бетӏергьанчи N-VAS ; ! ""
 инсан:инсан N-VAS ; ! "человек"
@@ -4656,6 +4709,7 @@ N-LIMER ; ! "ребёнок"
 фоторепортёр:фоторепортёр N-AVTOR ; ! ""
 электромонтёр:электромонтёр N-VAS ; ! ""
 шофёр:шофёр N-MUGHALIM ; ! ""
+устар:устар N-MUGHALIM ; ! ""
 ремонтёр:ремонтёр N-MUGHALIM ; ! ""
 
 декан:декан N-AVTOR ; ! ""
@@ -4707,7 +4761,6 @@ N-LIMER ; ! "ребёнок"
 редактор:редактор N-AVTOR ; ! ""
 технолог:технолог N-AVTOR ; ! ""
 тушман:тушман N-AVTOR ; ! ""
-устар:устар N-AVTOR ; ! ""
 философ:философ N-AVTOR ; ! ""
 делегат:делегат N-AVTOR ; ! ""
 
@@ -6750,6 +6803,12 @@ N-MAJDAN ; ! "майдан, площадь"
 
 сун%-суни:сун%-суни N-FIZIKA ; ! "сопение"
 
+бечед:б N-BECHED ; ! "бог, творец"
+
+тукен:тук N-TUKEN ; ! "магазин, лавка, ларёк"
+
+кколеблъи:кколеблъи N-FIZIKA ; ! ""
+
 LEXICON ProperNouns 
 
 
@@ -7044,6 +7103,8 @@ LEXICON ProperNouns
 
 
 Фатима:Фатима NP-ANT-F-ZAREMA ; ! ""
+Ума:Ума NP-ANT-F-ZAREMA ; ! ""
+Эльмира:Эльмира NP-ANT-F-ZAREMA ; ! ""
 Оксана:Оксана NP-ANT-F-ZAREMA ; ! ""
 Татьяна:Татьяна NP-ANT-F-ZAREMA ; ! ""
 Заира:Заира NP-ANT-F-ZAREMA ; ! ""
@@ -7052,6 +7113,7 @@ LEXICON ProperNouns
 Асма:Асма NP-ANT-F-ZAREMA ; ! ""
 Элеонора:Элеонора NP-ANT-F-ZAREMA ; ! ""
 Машидат:Машидат NP-ANT-F-MASHIDAT ; ! ""
+Сапият:Сапият NP-ANT-F-MASHIDAT ; ! ""
 Марьян:Марьян NP-ANT-F-MASHIDAT ; ! ""
 Маржанат:Маржанат NP-ANT-F-MASHIDAT ; ! ""
 Гулжанат:Гулжанат NP-ANT-F-MASHIDAT ; ! ""
@@ -7610,6 +7672,7 @@ LEXICON ProperNouns
 Зиявудин:Зиявудин NP-ANT-M ; ! ""
 Шамхал:Шамхал NP-ANT-M ; ! ""
 ГӀусман:ГӀусман NP-ANT-M ; ! ""
+ТӀалхӀат:ТӀалхӀат NP-ANT-M ; ! ""
 Султанмурад:Султанмурад NP-ANT-M ; ! ""
 ГӀабдулнасир:ГӀабдулнасир NP-ANT-M ; ! ""
 Абутӏалиб:Абутӏалиб NP-ANT-M ; ! ""
@@ -7777,6 +7840,7 @@ LEXICON ProperNouns
 Роберт:Роберт NP-ANT-M ; ! ""
 Махӏач:Махӏач NP-ANT-M ; ! ""
 Игорь:Игорь NP-ANT-M ; ! ""
+Давид:Давид NP-ANT-M ; ! ""
 
 ГӀумар%-хӏажи:ГӀумар%-хӏажи NP-ANT-M-DAKU ; ! ""
 Абу:Абу NP-ANT-M-DAKU ; ! ""
@@ -7800,6 +7864,7 @@ LEXICON ProperNouns
 Юрий:Юрий NP-ANT-M ; ! ""
 
 
+Олимпия:Олимпия NP-AL-EDINAJA-ROSSIJA ; ! ""
 Батасуна:Батасуна NP-AL ; ! ""
 Черновик:Черновик NP-AL ; ! ""
 ХӀакъикъат:ХӀакъикъат NP-AL ; ! ""
@@ -7827,10 +7892,23 @@ LEXICON ProperNouns
 Дакул:Дакул NP-AL ; ! "" FIXME:cog?
 Дагъэнерго:Дагъэнерго NP-AL ; ! ""
 Дагъсельхозинститут:Дагъсельхозинститут NP-AL ; ! ""
+Дагъэлектроавтомат:Дагъэлектроавтомат NP-AL ; ! ""
+Дагъпотребсоюз:Дагъпотребсоюз NP-AL ; ! ""
 Дагестанская% правда:Дагестанская% правда NP-AL ; ! ""
 Дагъмединститут:Дагъмединститут NP-AL ; ! ""
 Дагестанская% энергосбытовая% компания:Дагестанская% энергосбытовая% компания NP-AL-EDINAJA-ROSSIJA ; ! ""
 
+А%.:А%. NP-ANT-INIT ; ! ""
+Ш%.:Ш%. NP-ANT-INIT ; ! ""
+С%.:С%. NP-ANT-INIT ; ! ""
+Р%.:Р%. NP-ANT-INIT ; ! ""
+Д%.:Д%. NP-ANT-INIT ; ! ""
+Н%.:Н%. NP-ANT-INIT ; ! ""
+П%.:П%. NP-ANT-INIT ; ! ""
+В%.:В%. NP-ANT-INIT ; ! ""
+Б%.:Б%. NP-ANT-INIT ; ! ""
+З%.:З%. NP-ANT-INIT ; ! ""
+ХӀ%.:ХӀ%. NP-ANT-INIT ; ! ""
 М%.:М%. NP-ANT-INIT ; ! ""
 ГӀ%.:ГӀ%. NP-ANT-INIT ; ! ""
 
@@ -8365,7 +8443,213 @@ A-BAKIAB ; ! ""
 нажасаб:нажаса A-KUDIJA ; ! "поганый, скверный, гадкий, дрянной, негодный, злой"
 загьираб:загьира A-KUDIJA ; ! "явный, ясный, очевидный; выдимый; открытый"
 
-
+абсолютияб:абсолютия A-KUDIJA ; ! ""
+авалияб:авалия A-KUDIJA ; ! ""
+авиаремонтнияб:авиаремонтния A-KUDIJA ; ! ""
+автодорожнияб:автодорожния A-KUDIJA ; ! ""
+автоматикияб:автоматикия A-KUDIJA ; ! ""
+авторитарияб:авторитария A-KUDIJA ; ! ""
+аграрияб:агрария A-KUDIJA ; ! ""
+академическияб:академическия A-KUDIJA ; ! ""
+академияб:академия A-KUDIJA ; ! ""
+актовияб:актовия A-KUDIJA ; ! ""
+акционерияб:акционерия A-KUDIJA ; ! ""
+алкоголияб:алкоголия A-KUDIJA ; ! ""
+аналитикияб:аналитикия A-KUDIJA ; ! ""
+антимонополияб:антимонополия A-KUDIJA ; ! ""
+археологияб:археология A-KUDIJA ; ! ""
+асалияб:асалия A-KUDIJA ; ! ""
+ахирияб:ахирия A-KUDIJA ; ! ""
+базиснияб:базисния A-KUDIJA ; ! ""
+базовияб:базовия A-KUDIJA ; ! ""
+биометрикияб:биометрикия A-KUDIJA ; ! ""
+битӏияб:битӏия A-KUDIJA ; ! ""
+больничнияб:больничния A-KUDIJA ; ! ""
+бронхиалияб:бронхиалия A-KUDIJA ; ! ""
+бурияб:бурия A-KUDIJA ; ! ""
+валовияб:валовия A-KUDIJA ; ! ""
+веернияб:веерния A-KUDIJA ; ! ""
+верховнияб:верховния A-KUDIJA ; ! ""
+вневедомственнияб:вневедомственния A-KUDIJA ; ! ""
+гӏадлияб:гӏадлия A-KUDIJA ; ! ""
+гӏайибияб:гӏайибия A-KUDIJA ; ! ""
+гӏаксияб:гӏаксия A-KUDIJA ; ! ""
+гальваникияб:гальваникия A-KUDIJA ; ! ""
+геморрогияб:геморрогия A-KUDIJA ; ! ""
+гендернияб:гендерния A-KUDIJA ; ! ""
+генетикияб:генетикия A-KUDIJA ; ! ""
+геополитикияб:геополитикия A-KUDIJA ; ! ""
+геофизическияб:геофизическия A-KUDIJA ; ! ""
+гуманитарияб:гуманитария A-KUDIJA ; ! ""
+гъоркьияб:гъоркьия A-KUDIJA ; ! ""
+гьабгонияб:гьабгония A-KUDIJA ; ! ""
+гьабгунияб:гьабгуния A-KUDIJA ; ! ""
+гьелъиекӏудияб:гьелъиекӏудия A-KUDIJA ; ! ""
+гьижрияб:гьижрия A-KUDIJA ; ! ""
+дежурнияб:дежурния A-KUDIJA ; ! ""
+демографияб:демография A-KUDIJA ; ! ""
+диагностикияб:диагностикия A-KUDIJA ; ! ""
+диалектияб:диалектия A-KUDIJA ; ! ""
+дидактикияб:дидактикия A-KUDIJA ; ! ""
+дидактияб:дидактия A-KUDIJA ; ! ""
+дистанционнияб:дистанционния A-KUDIJA ; ! ""
+дисциплинарияб:дисциплинария A-KUDIJA ; ! ""
+дифузияб:дифузия A-KUDIJA ; ! ""
+дияб:дия A-KUDIJA ; ! ""
+документалияб:документалия A-KUDIJA ; ! ""
+загьирияб:загьирия A-KUDIJA ; ! ""
+законнияб:законния A-KUDIJA ; ! ""
+законодательнияб:законодательния A-KUDIJA ; ! ""
+замгьарияб:замгьария A-KUDIJA ; ! ""
+занонияб:занония A-KUDIJA ; ! ""
+заочнияб:заочния A-KUDIJA ; ! ""
+зооветеринарияб:зооветеринария A-KUDIJA ; ! ""
+идеологияб:идеология A-KUDIJA ; ! ""
+изобразительнияб:изобразительния A-KUDIJA ; ! ""
+иллагьияб:иллагьия A-KUDIJA ; ! ""
+иммуноферментнияб:иммуноферментния A-KUDIJA ; ! ""
+инвестиционнияб:инвестиционния A-KUDIJA ; ! ""
+индустриалияб:индустриалия A-KUDIJA ; ! ""
+интеллектуалияб:интеллектуалия A-KUDIJA ; ! ""
+интерактивияб:интерактивия A-KUDIJA ; ! ""
+интернационалияб:интернационалия A-KUDIJA ; ! ""
+исполнительнияб:исполнительния A-KUDIJA ; ! ""
+истребительнияб:истребительния A-KUDIJA ; ! ""
+кадастровияб:кадастровия A-KUDIJA ; ! ""
+капиталияб:капиталия A-KUDIJA ; ! ""
+качественнияб:качественния A-KUDIJA ; ! ""
+квадратнияб:квадратния A-KUDIJA ; ! ""
+кияб:кия A-KUDIJA ; ! ""
+классическияб:классическия A-KUDIJA ; ! ""
+коллективияб:коллективия A-KUDIJA ; ! ""
+колониалияб:колониалия A-KUDIJA ; ! ""
+коммунистияб:коммунистия A-KUDIJA ; ! ""
+комплекснияб:комплексния A-KUDIJA ; ! ""
+конституционнияб:конституционния A-KUDIJA ; ! ""
+консультативияб:консультативия A-KUDIJA ; ! ""
+контролияб:контролия A-KUDIJA ; ! ""
+кооперативияб:кооперативия A-KUDIJA ; ! ""
+коррупцияб:коррупция A-KUDIJA ; ! ""
+криминалияб:криминалия A-KUDIJA ; ! ""
+критикияб:критикия A-KUDIJA ; ! ""
+кубическияб:кубическия A-KUDIJA ; ! ""
+кулинарияб:кулинария A-KUDIJA ; ! ""
+къанунияб:къануния A-KUDIJA ; ! ""
+къуддусияб:къуддусия A-KUDIJA ; ! ""
+лабораторияб:лаборатория A-KUDIJA ; ! ""
+лингвистикияб:лингвистикия A-KUDIJA ; ! ""
+линейнияб:линейния A-KUDIJA ; ! ""
+лирикияб:лирикия A-KUDIJA ; ! ""
+лъамияб:лъамия A-KUDIJA ; ! ""
+магистралияб:магистралия A-KUDIJA ; ! ""
+маданияб:мадания A-KUDIJA ; ! ""
+маршрутнияб:маршрутния A-KUDIJA ; ! ""
+массовияб:массовия A-KUDIJA ; ! ""
+матияб:матия A-KUDIJA ; ! ""
+маточнияб:маточния A-KUDIJA ; ! ""
+медикияб:медикия A-KUDIJA ; ! ""
+мекъияб:мекъия A-KUDIJA ; ! ""
+мелиоративияб:мелиоративия A-KUDIJA ; ! ""
+мемориалияб:мемориалия A-KUDIJA ; ! ""
+минералияб:минералия A-KUDIJA ; ! ""
+мобильнияб:мобильния A-KUDIJA ; ! ""
+можаритарнияб:можаритарния A-KUDIJA ; ! ""
+молекулярияб:молекулярия A-KUDIJA ; ! ""
+монографияб:монография A-KUDIJA ; ! ""
+монополияб:монополия A-KUDIJA ; ! ""
+моралияб:моралия A-KUDIJA ; ! ""
+мотострелковияб:мотострелковия A-KUDIJA ; ! ""
+мунициалияб:мунициалия A-KUDIJA ; ! ""
+муниципиалияб:муниципиалия A-KUDIJA ; ! ""
+мурадияб:мурадия A-KUDIJA ; ! ""
+накъшубандияб:накъшубандия A-KUDIJA ; ! ""
+наркологияб:наркология A-KUDIJA ; ! ""
+насранияб:насрания A-KUDIJA ; ! ""
+нотариалияб:нотариалия A-KUDIJA ; ! ""
+онкологияб:онкология A-KUDIJA ; ! ""
+опорнияб:опорния A-KUDIJA ; ! ""
+оптовияб:оптовия A-KUDIJA ; ! ""
+органикияб:органикия A-KUDIJA ; ! ""
+орфографияб:орфография A-KUDIJA ; ! ""
+патриотикияб:патриотикия A-KUDIJA ; ! ""
+патриотияб:патриотия A-KUDIJA ; ! ""
+педагогияб:педагогия A-KUDIJA ; ! ""
+пневматикияб:пневматикия A-KUDIJA ; ! ""
+пожарнияб:пожарния A-KUDIJA ; ! ""
+политехникияб:политехникия A-KUDIJA ; ! ""
+постиндустриалияб:постиндустриалия A-KUDIJA ; ! ""
+правовияб:правовия A-KUDIJA ; ! ""
+практикияб:практикия A-KUDIJA ; ! ""
+предметнияб:предметния A-KUDIJA ; ! ""
+предстательнияб:предстательния A-KUDIJA ; ! ""
+прикладнияб:прикладния A-KUDIJA ; ! ""
+профильнияб:профильния A-KUDIJA ; ! ""
+психологияб:психология A-KUDIJA ; ! ""
+ракӏразияб:ракӏразия A-KUDIJA ; ! ""
+ралияб:ралия A-KUDIJA ; ! ""
+распределительнияб:распределительния A-KUDIJA ; ! ""
+реалияб:реалия A-KUDIJA ; ! ""
+рейтинговияб:рейтинговия A-KUDIJA ; ! ""
+рекреационнияб:рекреационния A-KUDIJA ; ! ""
+реликтовияб:реликтовия A-KUDIJA ; ! ""
+светияб:светия A-KUDIJA ; ! ""
+своднияб:сводния A-KUDIJA ; ! ""
+сексуалияб:сексуалия A-KUDIJA ; ! ""
+сотовияб:сотовия A-KUDIJA ; ! ""
+союзияб:союзия A-KUDIJA ; ! ""
+стипендиалияб:стипендиалия A-KUDIJA ; ! ""
+стоматологияб:стоматология A-KUDIJA ; ! ""
+стратегическияб:стратегическия A-KUDIJA ; ! ""
+страховияб:страховия A-KUDIJA ; ! ""
+суалияб:суалия A-KUDIJA ; ! ""
+сурмияб:сурмия A-KUDIJA ; ! ""
+такъсирияб:такъсирия A-KUDIJA ; ! ""
+таможеннияб:таможенния A-KUDIJA ; ! ""
+творческияб:творческия A-KUDIJA ; ! ""
+театрализованнияб:театрализованния A-KUDIJA ; ! ""
+театралияб:театралия A-KUDIJA ; ! ""
+территориалияб:территориалия A-KUDIJA ; ! ""
+техническияб:техническия A-KUDIJA ; ! ""
+технологияб:технология A-KUDIJA ; ! ""
+тӏибигӏияб:тӏибигӏия A-KUDIJA ; ! ""
+титульнияб:титульния A-KUDIJA ; ! ""
+травматикияб:травматикия A-KUDIJA ; ! ""
+травматологияб:травматология A-KUDIJA ; ! ""
+тушманияб:тушмания A-KUDIJA ; ! ""
+узловияб:узловия A-KUDIJA ; ! ""
+унитарияб:унитария A-KUDIJA ; ! ""
+урологияб:урология A-KUDIJA ; ! ""
+условнияб:условния A-KUDIJA ; ! ""
+фаризияб:фаризия A-KUDIJA ; ! ""
+фармацевтикияб:фармацевтикия A-KUDIJA ; ! ""
+феодалияб:феодалия A-KUDIJA ; ! ""
+физиотерапевтияб:физиотерапевтия A-KUDIJA ; ! ""
+физкультурияб:физкультурия A-KUDIJA ; ! ""
+финансовияб:финансовия A-KUDIJA ; ! ""
+фолиевияб:фолиевия A-KUDIJA ; ! ""
+фольклорияб:фольклория A-KUDIJA ; ! ""
+хайирияб:хайирия A-KUDIJA ; ! ""
+хӏасилияб:хӏасилия A-KUDIJA ; ! ""
+хӏияб:хӏия A-KUDIJA ; ! ""
+художествияб:художествия A-KUDIJA ; ! ""
+церебралияб:церебралия A-KUDIJA ; ! ""
+шапигӏияб:шапигӏия A-KUDIJA ; ! ""
+шаргӏияб:шаргӏия A-KUDIJA ; ! ""
+шартӏияб:шартӏия A-KUDIJA ; ! ""
+эволюционнияб:эволюционния A-KUDIJA ; ! ""
+экологияб:экология A-KUDIJA ; ! ""
+экспертнияб:экспертния A-KUDIJA ; ! ""
+экстремалияб:экстремалия A-KUDIJA ; ! ""
+электрикияб:электрикия A-KUDIJA ; ! ""
+электромеханикияб:электромеханикия A-KUDIJA ; ! ""
+электроннияб:электронния A-KUDIJA ; ! ""
+эндокринологияб:эндокринология A-KUDIJA ; ! ""
+энергетикияб:энергетикия A-KUDIJA ; ! ""
+энциклопедияб:энциклопедия A-KUDIJA ; ! ""
+этимологияб:этимология A-KUDIJA ; ! ""
+этнокультурияб:этнокультурия A-KUDIJA ; ! ""
+юмористикияб:юмористикия A-KUDIJA ; ! ""
+ярдернияб:ярдерния A-KUDIJA ; ! ""
 
 LEXICON Adverbs 
 
@@ -8447,6 +8731,8 @@ LEXICON Adverbs
 риидал:риидал ADV1 ; ! ""
 кинго:кинго ADV1 ; ! ""
 хадубккун:хадубккун ADV1 ; ! ""
+бечед:бечед ADV3 ; ! "богато, состоятельно, зажиточно"
+хӀакъир:хӀакъир ADV3 ; ! "презрительно, оскорбительно"
 къойил:къойил ADV3 ; ! "ежедневно"
 авадан:авадан ADV3 ; ! "весело"
 балъго:балъго ADV3 ; ! "тайно, скрыто, скрытно; тайком; нелегально"
