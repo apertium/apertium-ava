@@ -26,6 +26,11 @@ LIST All = all ;
 LIST Abl = abl ; 
 LIST Tra = tra ; 
 
+LIST PrcPrf = gpr1 ;
+LIST PrcFut = gpr3 ;
+
+LIST Past = past ; 
+
 LIST Aor = aor ; 
 LIST Fut = fut ;
 
@@ -107,6 +112,11 @@ SELECT $$Class (0C N) (0C Masc OR Fem) (1 Ant + $$Class) (2 Cog + $$Class) ;
 
 SELECT Top IF (0C N OR Top) (0 ("<[А-ЯӀI][а-яӀI].*>"r));
     ## Батасуна Испаниялда бугеб Басказул улкаялда 1978 соналда, диктатор Франко хун хадуб гӀуцӀцӀун букӀана.
+
+SELECT ("рагӏал") IF (0C ("рагӏ") OR ("рагӏал")) (0C All) ;
+    ## Жеги рагIалде бахъун гьечIо дунялалъул тарихчагIаз гьел «бищунго талихIал гIадамазул» хIакъикъияб история лъазелъун гьебулеб цIех-рех.
+
+SELECT PrcPrf IF (0C PrcPrf OR PrcFut) (1 Past) ; 
 
 SECTION
 

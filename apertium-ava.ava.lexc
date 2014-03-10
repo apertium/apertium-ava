@@ -2691,6 +2691,21 @@ LEXICON N-TUKEN
 %<n%>%<nt%>%<pl%>%<dat%>:абазе CLIT-SUBST-I ;  
 %<n%>%<nt%>%<pl%>:абаз LOC-CASES ;  
 
+LEXICON N-RAGIAL
+
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT-SUBST-II ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT-SUBST-I ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT-SUBST-I ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
+%<n%>%<nt%>%<sg%>:%> LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; ! Dir/LR
+
+%<n%>%<nt%>%<pl%>%<nom%>:%>%{a%}л CLIT-SUBST-II ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>%{a%}з CLIT-SUBST-I ; 
+%<n%>%<nt%>%<pl%>%<gen%>:%>%{a%}зул CLIT-SUBST-I ; 
+%<n%>%<nt%>%<pl%>%<dat%>:%>%{a%}зе CLIT-SUBST-I ; 
+%<n%>%<nt%>%<pl%>:%>%{a%}з LOC-CASES ; 
+
 LEXICON NP-TOP-LENINSKIJ
 
 %<np%>%<top%>%<sg%>%<attr%>: # ; 
@@ -6323,7 +6338,6 @@ N-MAJDAN ; ! "майдан, площадь"
 рузман:рузман N-STOL ; ! "пятница"
 лахӏзат:лахӏзат N-STOL ; ! "миг, мгновение; момент"
 рагӏад:рагӏад N-STOL ; ! "тень, защищённое от солнца место"
-рагӏал:рагӏал N-STOL ; ! "край, конец, оконечность, окраина"
 рагӏ:рагӏ N-STOL ; ! "сосуд"
 диск:диск N-STOL ; ! "диск"
 нур:нур N-STOL ; ! "свет, луч; сияние; блеск"
@@ -6834,6 +6848,9 @@ N-MAJDAN ; ! "майдан, площадь"
 кколеблъи:кколеблъи N-FIZIKA ; ! ""
 
 пил:пил N-PIL ; ! "слон"
+
+!рагӏал:рагӏал N-STOL ; ! "край, конец, оконечность, окраина"
+рагӏал:рагӏал N-RAGIAL ; ! "край, конец, оконечность, окраина"
 
 LEXICON ProperNouns 
 
@@ -8681,6 +8698,9 @@ A-BAKIAB ; ! ""
 
 талихӏаб:талихӏа A-KUDIJA ; ! ""
 гениалияб:гениалия A-KUDIJA ; ! ""
+
+прогрессалъулаб:прогрессалъула A-KUDIJA ; ! ""
+гармониялъулаб:гармониялъула A-KUDIJA ;  ! ""
 
 LEXICON Adverbs 
 
