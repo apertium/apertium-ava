@@ -1434,6 +1434,20 @@ N-MUZEJ ;
 
 %<n%>%<nt%>%<sg%>%<gen%>:й%>дул CLIT-SUBST-I ; ! Dir/LR
 
+LEXICON N-PIL
+! пил (-ялъ, -ялъул, -ал)
+
+%<n%>%<nt%>%<sg%>%<nom%>: CLIT-SUBST-II ; 
+%<n%>%<nt%>%<sg%>%<erg%>:%>ялъ CLIT-SUBST-I ; 
+%<n%>%<nt%>%<sg%>%<gen%>:%>ялъул CLIT-SUBST-I ; 
+%<n%>%<nt%>%<sg%>%<dat%>:%>ялъе CLIT-SUBST-I ; 
+%<n%>%<nt%>%<sg%>:%>ял%{ъ%} LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:ал CLIT-SUBST-II ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>аз CLIT-SUBST-I ; 
+%<n%>%<nt%>%<pl%>%<gen%>:%>азул CLIT-SUBST-I ; 
+%<n%>%<nt%>%<pl%>%<dat%>:%>азе CLIT-SUBST-I ; 
+%<n%>%<nt%>%<pl%>:%>аз LOC-CASES ; 
+
 LEXICON N-MUZEJ
 ! музе/й (-ялъ, -ялъул, -ял)
 
@@ -3242,6 +3256,7 @@ LEXICON NUM
 LEXICON V-GPR-CLIT
 
 %+ани%<mod%>:%>ани # ; 
+%+ги%<cnjcoo%>:%>ги # ; 
 # ;
 
 LEXICON V-GPR-DECL
@@ -5499,6 +5514,7 @@ N-MAJDAN ; ! "майдан, площадь"
 кавказияв:кавказия N-GIOLILAV ; ! "кавказец"
 даргияв:даргия N-GIOLILAV ; ! "даргинец"
 азербайжанав:азербайжана N-GIOLILAV ; ! "азербайджанец"
+азербайжанав:азарбижана N-GIOLILAV ; ! "азербайджанец" ! Dir/LR ! Use/Sub
 немцав:немца N-GIOLILAV ; ! "немец"
 иранав:ирана N-GIOLILAV ; ! "иранец"
 чачанав:чачана N-GIOLILAV ; ! "чеченец"
@@ -6814,6 +6830,8 @@ N-MAJDAN ; ! "майдан, площадь"
 
 кколеблъи:кколеблъи N-FIZIKA ; ! ""
 
+пил:пил N-PIL ; ! "слон"
+
 LEXICON ProperNouns 
 
 
@@ -6856,9 +6874,9 @@ LEXICON ProperNouns
 Ставропол:Ставропол NP-TOP-DAGHISTAN ; ! ""
 Стамбул:Стамбул NP-TOP-DAGHISTAN ; ! ""
 
-Азарбайжан:Азарбайжан NP-TOP-DAGHISTAN ; ! ""
-Азарбайжан:Азербижан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
-Азарбайжан:Азербейджан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
+Азербайжан:Азербайжан NP-TOP-DAGHISTAN ; ! ""
+Азербайжан:Азербижан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
+Азербайжан:Азербейджан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
 
 Къазан:Къазан NP-TOP-DAGHISTAN ; ! ""
 Къазан:Казань NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
@@ -6932,6 +6950,7 @@ LEXICON ProperNouns
 Адыгея:Адыгея NP-TOP-ROSSIJA ; ! ""
 
 Кабардино%-Балкария:Кабардино%-Балкария NP-TOP-ROSSIJA ; ! ""
+Болгария:Болгария NP-TOP-ROSSIJA ! ""
 Евразия:Евразия NP-TOP-ROSSIJA ; ! ""
 
 Якутия:Якутия NP-TOP-ROSSIJA ; ! ""
@@ -9249,6 +9268,7 @@ V-IV-INE-MFN ; ! "идти, ходить"
 хал% гьабизе:халгьа V-TV-HABIZE-MFN ; ! "проверить" ! Dir/LR
 тасдикъ% гьабизе:тасдикъ% гьа V-TV-HABIZE-MFN ; ! "утверждать, утвердить; подтверждать; ратифицировать"
 гӏагар% гьабизе:гӏагар% гьа V-TV-HABIZE-MFN ; ! "приблизить, сблизить"
+гӏумру% гьабизе:гӏумру% гьа V-TV-HABIZE-MFN ; ! "жить" ! Use/MT
 
 тӏубазе:тӏу V-IV-TIUBAZE-MFN ; ! "кончаться, окончиться;  завершаться, завершиться"
 V-IV-BAZE-MFN ; ! "висеть"
@@ -9640,6 +9660,7 @@ LEXICON Abbreviations
 км:км ABBR ; ! ""
 см:см ABBR ; ! ""
 млн:млн ABBR ; ! ""
+кв% км:кв% км ABBR ; ! ""
 млрд:млрд ABBR ; ! ""
 
 LEXICON Punctuation
@@ -9676,6 +9697,9 @@ LEXICON DIGITLEX
 
 %<num%>: # ; 
 %<num%>%+гӀанасеб%<post%>:%-гӀанасе A-DECL-NOCLIT ; 
+%<num%>%<ord%>:%-абиле A-DECL-NOCLIT ;
+%<num%>%+гун%<post%>:%-гун # ;
+%<num%>%+гӏан%<adv%>:%-гӏан # ;
 %<num%>%<percent%>:%% # ;  
 
 !LEXICON Testing
