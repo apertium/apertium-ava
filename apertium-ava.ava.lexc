@@ -6856,9 +6856,9 @@ LEXICON ProperNouns
 Ставропол:Ставропол NP-TOP-DAGHISTAN ; ! ""
 Стамбул:Стамбул NP-TOP-DAGHISTAN ; ! ""
 
-Азарбижан:Азарбижан NP-TOP-DAGHISTAN ; ! ""
-Азарбижан:Азербайжан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
-Азарбижан:Азербейджан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
+Азарбайжан:Азарбайжан NP-TOP-DAGHISTAN ; ! ""
+Азарбайжан:Азербижан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
+Азарбайжан:Азербейджан NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
 
 Къазан:Къазан NP-TOP-DAGHISTAN ; ! ""
 Къазан:Казань NP-TOP-DAGHISTAN ; ! "" ! Dir/LR ! Use/Sub
@@ -6948,7 +6948,7 @@ LEXICON ProperNouns
 Монголия:Монголия NP-TOP-ROSSIJA ; ! ""
 Россия:Россия NP-TOP-ROSSIJA ; ! ""
 Сирия:Сирия NP-TOP-ROSSIJA ; ! ""
-Туркея:Туркея NP-TOP-ROSSIJA ; ! "" ! Use/Sub
+Туркия:Туркея NP-TOP-ROSSIJA ; ! "" ! Dir/LR ! Use/Sub
 Туркия:Туркия NP-TOP-ROSSIJA ; ! ""
 Турция:Турция NP-TOP-ROSSIJA ; ! ""
 Чехословакия:Чехословакия NP-TOP-ROSSIJA ; ! ""
