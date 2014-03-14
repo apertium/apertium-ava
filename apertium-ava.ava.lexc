@@ -6959,8 +6959,8 @@ LEXICON ProperNouns
 
 Азия:Азия NP-TOP-ROSSIJA ; ! ""
 Нигерия:Нигерия NP-TOP-ROSSIJA ; ! ""
-Эритрея:Эритрея  NP-TOP-ROSSIJA ; ! ""
-Корея:Корея  NP-TOP-ROSSIJA ; ! ""
+Эритрея:Эритрея NP-TOP-ROSSIJA ; ! ""
+Корея:Корея NP-TOP-ROSSIJA ; ! ""
 Шималияб% Корея:Шималияб% Корея NP-TOP-ROSSIJA ; ! ""
 
 Алания:Алания NP-TOP-ROSSIJA ; ! ""
@@ -6970,7 +6970,7 @@ LEXICON ProperNouns
 Адыгея:Адыгея NP-TOP-ROSSIJA ; ! ""
 
 Кабардино%-Балкария:Кабардино%-Балкария NP-TOP-ROSSIJA ; ! ""
-Болгария:Болгария NP-TOP-ROSSIJA ! ""
+Болгария:Болгария NP-TOP-ROSSIJA ; ! ""
 Евразия:Евразия NP-TOP-ROSSIJA ; ! ""
 
 Якутия:Якутия NP-TOP-ROSSIJA ; ! ""
@@ -6996,7 +6996,7 @@ LEXICON ProperNouns
 Черкесия:Черкесия NP-TOP-ROSSIJA ; ! ""
 Карачаево%-Черкесия:Карачаево%-Черкесия NP-TOP-ROSSIJA ; ! ""
 Норвегия:Норвегия NP-TOP-ROSSIJA ; ! ""
-Эфиопия:Эфиопия  NP-TOP-ROSSIJA ; ! ""
+Эфиопия:Эфиопия NP-TOP-ROSSIJA ; ! ""
 Япония:Япония NP-TOP-ROSSIJA ; ! ""
 Алмания:Алмания NP-TOP-ROSSIJA ; ! ""
 ГӀарабия:ГӀарабия NP-TOP-ROSSIJA ; ! ""
