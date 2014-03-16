@@ -27,8 +27,10 @@ LIST Abl = abl ;
 LIST Tra = tra ; 
 
 LIST PrcPrf = gpr1 ;
+LIST PrcPres = gpr2 ;
 LIST PrcFut = gpr3 ;
 
+LIST Pres = pres ; 
 LIST Past = past ; 
 
 LIST Aor = aor ; 
@@ -117,6 +119,9 @@ SELECT ("рагӏал") IF (0C ("рагӏ") OR ("рагӏал")) (0C All) ;
     ## Жеги рагIалде бахъун гьечIо дунялалъул тарихчагIаз гьел «бищунго талихIал гIадамазул» хIакъикъияб история лъазелъун гьебулеб цIех-рех.
 
 SELECT PrcPrf IF (0C PrcPrf OR PrcFut) (1 Past) ; 
+
+SELECT PrcPrf IF (0C PrcPrf OR PrcFut) (1 Pres) ; 
+    ## "Россиялъул Федерациялъул №131 законалда рекъон, гьанже росабазул администрациязде гӀарац биччалеб буго гьелъул ракьалда гӀумру гьабулел гӀадамазул ва школалде хьвадулел цӀалдохъабазул къадаралъухъ балагьун.
 
 SECTION
 

@@ -7208,6 +7208,7 @@ LEXICON ProperNouns
 Абулайсов:Абулайсов NP-COG-OV ; ! ""
 Атаев:Атаев NP-COG-OV ; ! ""
 Дахӏадаев:Дахӏадаев NP-COG-OV ; ! ""
+Къебедхӏажиев:Къебедхӏажиев NP-COG-OV ; ! ""
 Сергеев:Сергеев NP-COG-OV ; ! ""
 Гьиматов:Гьиматов NP-COG-OV ; ! ""
 Мавраев:Мавраев NP-COG-OV ; ! ""
@@ -7221,6 +7222,7 @@ LEXICON ProperNouns
 Султангӏалиев:Султангӏалиев NP-COG-OV ; ! ""
 Кандаров:Кандаров NP-COG-OV ; ! ""
 Шамилов:Шамилов NP-COG-OV ; ! ""
+Никӏамухӏамадов:Никӏамухӏамадов  NP-COG-OV ; ! ""
 Гъазимухӏамадов:Гъазимухӏамадов NP-COG-OV ; ! ""
 Белетов:Белетов NP-COG-OV ; ! ""
 Ткачев:Ткачев NP-COG-OV ; ! ""
@@ -9735,6 +9737,7 @@ LEXICON Punctuation
 
 ! Temporary numeral lexicon
 <[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+<№[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+> DIGITLEX ; ! Use/Circ
 
 LEXICON DIGITLEX
 
