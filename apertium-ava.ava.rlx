@@ -30,6 +30,8 @@ LIST PrcPrf = gpr1 ;
 LIST PrcPres = gpr2 ;
 LIST PrcFut = gpr3 ;
 
+LIST Ger = ger ; 
+
 LIST Pres = pres ; 
 LIST Past = past ; 
 
@@ -122,6 +124,9 @@ SELECT PrcPrf IF (0C PrcPrf OR PrcFut) (1 Past) ;
 
 SELECT PrcPrf IF (0C PrcPrf OR PrcFut) (1 Pres) ; 
     ## "Россиялъул Федерациялъул №131 законалда рекъон, гьанже росабазул администрациязде гӀарац биччалеб буго гьелъул ракьалда гӀумру гьабулел гӀадамазул ва школалде хьвадулел цӀалдохъабазул къадаралъухъ балагьун.
+
+SELECT N IF (0C N OR Ger) ;
+    ## Кинаб батIалъи бугеб реализмалда ва романтизмалда гьоркьоб?
 
 SECTION
 
