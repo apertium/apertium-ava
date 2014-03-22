@@ -4170,7 +4170,8 @@ LEXICON ADV-SINT
 %<pl%>%<loc%>:р CLIT-ADV-I ; 
 %<nt%>%<all%>:бе # ; 
 %<m%>%<all%>:ве # ; 
-%<f%>%<all%>:йе # ; 
+!%<f%>%<all%>:йе # ; 
+%<f%>%<all%>:е # ; 
 %<pl%>%<all%>:ре # ; 
 %<abl%>:са # ;
 %<tra%>:сан # ;
