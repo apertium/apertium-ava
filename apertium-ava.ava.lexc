@@ -1799,7 +1799,13 @@ LEXICON N-RUQ
 %<n%>%<nt%>%<pl%>%<erg%>:%>заз CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>зазул CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<dat%>:%>зазе CLIT-SUBST-II ; 
-%<n%>%<nt%>%<pl%>:%>заз CLIT-SUBST-II ; 
+%<n%>%<nt%>%<pl%>:%>заз LOC-CASES ; 
+%<n%>%<nt%>%<pl%>%<nom%>:%>заби CLIT-SUBST-II ;  ! Dir/LR
+%<n%>%<nt%>%<pl%>%<erg%>:%>забаз CLIT-SUBST-II ;  ! Dir/LR
+%<n%>%<nt%>%<pl%>%<gen%>:%>забазул CLIT-SUBST-II ;  ! Dir/LR
+%<n%>%<nt%>%<pl%>%<dat%>:%>забазе CLIT-SUBST-II ;  ! Dir/LR
+%<n%>%<nt%>%<pl%>:%>забаз LOC-CASES ;  ! Dir/LR
+
 
 LEXICON N-SORDO
 ! сордо (-ялъ//сардица, -ялъул//сардил, сардал)
