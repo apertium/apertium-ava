@@ -1789,13 +1789,17 @@ LEXICON N-AX
 %<n%>%<nt%>%<pl%>:%>аз LOC-CASES ; 
 
 LEXICON N-RUQ
-
+! рукъ (-алъ, -алъул, -зал) 
 %<n%>%<nt%>%<sg%>%<nom%>: CLIT-SUBST-II ; 
 %<n%>%<nt%>%<sg%>%<erg%>:%>%{a%}лъ CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>%{a%}лъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<dat%>:%>%{a%}лъе CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>:%>%{a%}л%{ъ%} LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>зал CLIT-SUBST-II ; 
+%<n%>%<nt%>%<pl%>%<erg%>:%>заз CLIT-SUBST-II ; 
+%<n%>%<nt%>%<pl%>%<gen%>:%>зазул CLIT-SUBST-II ; 
+%<n%>%<nt%>%<pl%>%<dat%>:%>зазе CLIT-SUBST-II ; 
+%<n%>%<nt%>%<pl%>:%>заз CLIT-SUBST-II ; 
 
 LEXICON N-SORDO
 ! сордо (-ялъ//сардица, -ялъул//сардил, сардал)
