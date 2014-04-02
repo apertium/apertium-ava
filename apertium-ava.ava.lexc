@@ -173,6 +173,7 @@ LEXICON CLIT-V-II
 
 LEXICON CLIT-G
 !
+! FIXME: гьечӏогунищ might happen to be гьечӏого+нищ
 %+гун%<post%>:%>гун CLIT-V-I ; ! Гьеб щай, эбел-эмен рокъор гьечӏогунищ?
 # ;
 !:%>гин # ;
