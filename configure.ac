@@ -20,7 +20,7 @@ AS_IF([test x$hfstospell = xyes], [
 AM_CONDITIONAL([HAVE_HFSTOSPELL], [test x$hfstospell = xyes])
 
 
-m4_define([required_apertium_version], [3.2.0])
+m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
                           
 
@@ -66,5 +66,6 @@ fi
 
 
 
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile apertium-ava.pc])
