@@ -292,22 +292,22 @@ LEXICON LOC-CASES
 %<tra%>:%>дасан CLIT-SUBST-I ; 
 
 ! 2 серия
-%<obl%>%+хъ%<post%>%<loc%>:%>%{u%}хъ  #  ;
-%<obl%>%+хъ%<post%>%<all%>:%>%{u%}хъе  #  ;
-%<obl%>%+хъ%<post%>%<abl%>:%>%{u%}хъан  #  ;
-%<obl%>%+хъ%<post%>%<tra%>:%>%{u%}хъан  #  ; 
+%<obl%>%+хъ%<post%>%<loc%>:%>%{u%}хъ  CLIT-SUBST-I  ;
+%<obl%>%+хъ%<post%>%<all%>:%>%{u%}хъе  CLIT-SUBST-I  ;
+%<obl%>%+хъ%<post%>%<abl%>:%>%{u%}хъан  CLIT-SUBST-I  ;
+%<obl%>%+хъ%<post%>%<tra%>:%>%{u%}хъан  CLIT-SUBST-I  ; 
 
 ! 3 серия
-%<obl%>%+лъ%<post%>%<loc%>:%>%{u%}лъ  #  ;
-%<obl%>%+лъ%<post%>%<all%>:%>%{u%}лъе  #  ;
-%<obl%>%+лъ%<post%>%<abl%>:%>%{u%}лъа  #  ;
-%<obl%>%+лъ%<post%>%<tra%>:%>%{u%}лъан  #  ; 
+%<obl%>%+лъ%<post%>%<loc%>:%>%{u%}лъ  CLIT-SUBST-I  ;
+%<obl%>%+лъ%<post%>%<all%>:%>%{u%}лъе  CLIT-SUBST-I  ;
+%<obl%>%+лъ%<post%>%<abl%>:%>%{u%}лъа  CLIT-SUBST-I  ;
+%<obl%>%+лъ%<post%>%<tra%>:%>%{u%}лъан  CLIT-SUBST-I  ; 
 
 ! 4 серия
-%<obl%>%+кь%<post%>%<loc%>:%>%{u%}кь  #  ;
-%<obl%>%+кь%<post%>%<all%>:%>%{u%}кье  #  ;
-%<obl%>%+кь%<post%>%<abl%>:%>%{u%}кьа  #  ;
-%<obl%>%+кь%<post%>%<tra%>:%>%{u%}кьан  #  ; 
+%<obl%>%+кь%<post%>%<loc%>:%>%{u%}кь  CLIT-SUBST-I  ;
+%<obl%>%+кь%<post%>%<all%>:%>%{u%}кье  CLIT-SUBST-I  ;
+%<obl%>%+кь%<post%>%<abl%>:%>%{u%}кьа  CLIT-SUBST-I  ;
+%<obl%>%+кь%<post%>%<tra%>:%>%{u%}кьан  CLIT-SUBST-I  ; 
 
 ! 5 серия
 !%<obl%>%+б%<post%>%<m%>%<loc%>:%>%{u%}в # ;
@@ -388,24 +388,24 @@ LEXICON N-TIEH
 
 %<n%>%<nt%>%<sg%>%<nom%>:ехь CLIT-SUBST-II ; 
 %<n%>%<nt%>%<sg%>%<erg%>:ехь%>алъ CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>%<erg%>:охь%>оца CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<gen%>:ехь%>алъул CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>%<gen%>:охь%>ол CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ехь%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>%<dat%>:охь%>ое CLIT-SUBST-I ; ! Dir/LR
-%<n%>%<nt%>%<sg%>:охь%>о LOC-CASES ; 
-%<n%>%<nt%>%<sg%>:ехь%>ал LOC-CASES ; ! Dir/LR
+%<n%>%<nt%>%<sg%>:ехь%>ал%{ъ%} LOC-CASES ;
 %<n%>%<nt%>%<pl%>%<nom%>:ахь%>ал CLIT-SUBST-II ; 
-%<n%>%<nt%>%<pl%>%<nom%>:ухь%>дул CLIT-SUBST-II ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<erg%>:ахь%>аз CLIT-SUBST-I ; 
-!%<n%>%<nt%>%<pl%>%<erg%>:охь%>оз CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<gen%>:ахь%>азул CLIT-SUBST-I ; 
-!%<n%>%<nt%>%<pl%>%<gen%>:охь%>озул CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<pl%>%<dat%>:ахь%>азе CLIT-SUBST-I ; 
-!%<n%>%<nt%>%<pl%>%<dat%>:охь%>озе CLIT-SUBST-I ; ! Dir/LR
 %<n%>%<nt%>%<pl%>:ахь%>аз LOC-CASES ; 
-!%<n%>%<nt%>%<pl%>:охь%>оз LOC-CASES ; ! Dir/LR
 
+%<n%>%<nt%>%<sg%>%<erg%>:охь%>оца CLIT-SUBST-I ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<gen%>:охь%>ол CLIT-SUBST-I ; ! Dir/LR
+%<n%>%<nt%>%<sg%>%<dat%>:охь%>ое CLIT-SUBST-I ; ! Dir/LR
+%<n%>%<nt%>%<sg%>:охь%>о LOC-CASES ; ! Dir/LR
+%<n%>%<nt%>%<pl%>%<nom%>:ухь%>дул CLIT-SUBST-II ; ! Dir/LR
+!%<n%>%<nt%>%<pl%>%<erg%>:охь%>оз CLIT-SUBST-I ; ! Dir/LR
+!%<n%>%<nt%>%<pl%>%<gen%>:охь%>озул CLIT-SUBST-I ; ! Dir/LR
+!%<n%>%<nt%>%<pl%>%<dat%>:охь%>озе CLIT-SUBST-I ; ! Dir/LR
+!%<n%>%<nt%>%<pl%>:охь%>оз LOC-CASES ; ! Dir/LR
 
 LEXICON N-CHIUZHUGIADAN
 ! чӏужугӏада/н (-малъ, -малъул, руччаби)
@@ -543,7 +543,8 @@ LEXICON N-BUSEN
 %<n%>%<nt%>%<sg%>%<gen%>:ен%>алъул CLIT-SUBST-I ; 
 %<n%>%<nt%>%<sg%>%<gen%>:%>адул CLIT-SUBST-I ;  ! Dir/LR
 %<n%>%<nt%>%<sg%>%<dat%>:ен%>алъе CLIT-SUBST-I ; 
-%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
+!%<n%>%<nt%>%<sg%>:%>ал%{ъ%} LOC-CASES ; 
+%<n%>%<nt%>%<sg%>:%>а LOC-CASES ; 
 %<n%>%<nt%>%<pl%>%<nom%>:%>аби CLIT-SUBST-II ; 
 %<n%>%<nt%>%<pl%>%<erg%>:%>абаз CLIT-SUBST-I ; 
 %<n%>%<nt%>%<pl%>%<gen%>:%>абазул CLIT-SUBST-I ; 
@@ -4872,6 +4873,7 @@ N-LIMER ; ! "ребёнок"
 агьлу:агьл N-ZULMU ; ! "семья; родня, родные; родственники"
 магӏу²:магӏ N-ZULMU ; ! "плач"
 магӏу:магӏ N-MAGIU; ! "слеза, слёзы"
+макьу:макь N-MAGIU ; ! "сон"
 кини:кин N-KINI ; ! "колыбель, люлька"
 бигьалъи:бигьалъи N-FIZIKA ; ! "легкость"
 
