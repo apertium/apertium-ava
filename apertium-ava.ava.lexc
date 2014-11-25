@@ -3541,22 +3541,6 @@ LEXICON V-EZE-OLA-ELA-UNA-E
 %<imp%>:%>е CLIT-IMPER-I ;
 %<imp%>%<neg%>:%>уге # ;
 
-LEXICON V-EZE-OLA-ELA-UNA-E
-
-%<inf%>:%>езе CLIT-INFIN-I ;
-%<ger%>:%>е V-GER-DECL-J ; 
-
-:о V-OBSH-LA ; 
-
-:е V-BUDU-LA ; 
-
-:у V-PROS-NA ; 
-:е V-PROS-NA-NEG ; 
-:у V-PROS-NA-GNA ; 
-
-%<imp%>:%>е CLIT-IMPER-I ;
-%<imp%>%<neg%>:%>уге # ;
-
 LEXICON V-EZE-OLA-ELA-ANA-EJ
 
 %<inf%>:%>езе CLIT-INFIN-I ;
