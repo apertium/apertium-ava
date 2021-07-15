@@ -1,0 +1,6 @@
+# from https://wiki.apertium.org/wiki/Avar_and_Russian/Pending_tests
+Гьев вукIана
+Гьей йикIана
+Гьеб букIана
+Гьев зодове шагьаралдаса вачIана.
+Чан чи вачIарав?

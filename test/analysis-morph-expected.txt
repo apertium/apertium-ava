@@ -1,0 +1,10 @@
+[KAVMqAoJ_csK#0] ^Гьев/гьеб<prn><dem><m><sg><nom>/гьеб\<det\><dem><m>$ ^зодове/зодиб<adv><m><all>$ ^шагьаралдаса/шагьар<n><nt><sg><abl>$ ^вачIана/бачӏине<vblex><iv><m><past>$^./.<sent>$
+[/KAVMqAoJ_csK]
+[NnDUqcAHLACX#0] ^Гьей/гьеб<prn><dem><f><sg><nom>/гьеб\<det\><dem><f>$ ^йикIана/букӏине<vblex><iv><f><past>$
+[/NnDUqcAHLACX]
+[Pfj3K7MjnJz_#0] ^Чан/чан<adv><itg>$ ^чи/чи<n><m><sg><nom>$ ^вачIарав/бачӏине<vblex><iv><m><gpr2><m>$^?/?<sent>$
+[/Pfj3K7MjnJz_]
+[Qgvp01PdEOjm#0] ^Гьев/гьеб<prn><dem><m><sg><nom>/гьеб\<det\><dem><m>$ ^вукIана/букӏине<vblex><iv><m><past>$
+[/Qgvp01PdEOjm]
+[_QzP9f-SN2cI#0] ^Гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^букIана/букӏине<vblex><iv><nt><past>$
+[/_QzP9f-SN2cI]
