@@ -137,7 +137,9 @@ if HAVE_HFSTOSPELL
 EXTRA_TARGETS += $(LANG1).zhfst
 endif # HAVE_HFSTOSPELL
 
-apertium_ava_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS)
+apertium_ava_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) \
+	$(BASENAME).$(LANG1).lexc $(BASENAME).$(LANG1).twol \
+	$(BASENAME).$(LANG1).rlx $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -145,11 +147,6 @@ pkgconfig_DATA = $(BASENAME).pc
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_ava_srcdir) || mkdir -p $(DESTDIR)$(apertium_ava_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_ava_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_ava_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_ava_srcdir)
-	$(INSTALL_DATA) $(LANG1).prob $(DESTDIR)$(apertium_ava_srcdir)
 
 ###############################################################################
 ## Cleanup

@@ -19,3 +19,6 @@
 /config
 /test/*-output.txt
 /*.hfst
+/*.zhfst
+/.DS_Store
+/*-*.prob
